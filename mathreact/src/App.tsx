@@ -2,8 +2,6 @@ import { useEffect, useMemo, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
-import { useAuth } from './contexts/AuthContext'
-import LoginModal from './components/LoginModal'
 
 type ChapterNode = {
   id: number
@@ -360,8 +358,6 @@ function buildChapterTree(nodes: ChapterNode[], selectableLeafIds: Set<number>):
 }
 
 function App() {
-  const { user, logout } = useAuth()
-  const [showLogin, setShowLogin] = useState(false)
   const [themeMode, setThemeMode] = useState<ThemeMode>(() => loadTheme())
   const [viewMode, setViewMode] = useState<ViewMode>('chapter')
   const [chapters, setChapters] = useState<UiChapter[]>([])
@@ -407,7 +403,7 @@ function App() {
     const run = async () => {
       try {
         setError('')
-        const res = await fetch('/data/mathreact_chapter_tree.json')
+        const res = await fetch('/data/meta/neumathe_chapter_tree.json')
         if (!res.ok) {
           throw new Error('目录树文件读取失败')
         }
@@ -425,7 +421,7 @@ function App() {
           setChapterId(leafChapters[0].id)
         }
       } catch {
-        setError('加载目录失败，请确认 public/data 下有 mathreact_chapter_tree.json')
+        setError('加载目录失败，请确认 public/data/meta 下有 neumathe_chapter_tree.json')
       }
     }
 
@@ -441,7 +437,7 @@ function App() {
       try {
         setLoading(true)
         setError('')
-        const res = await fetch(`/data/mathreact_chapter_${chapterId}_raw.json`)
+        const res = await fetch(`/data/chapters/neumathe_chapter_${chapterId}_raw.json`)
         if (!res.ok) {
           throw new Error('章节题库读取失败')
         }
@@ -480,7 +476,7 @@ function App() {
         const batches = await Promise.all(
           chapters.map(async (chapter) => {
             try {
-              const res = await fetch(`/data/mathreact_chapter_${chapter.id}_raw.json`)
+              const res = await fetch(`/data/chapters/neumathe_chapter_${chapter.id}_raw.json`)
               if (!res.ok) {
                 return [] as RawQuestion[]
               }

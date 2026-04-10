@@ -1,0 +1,2367 @@
+{
+    "code": 200,
+    "message": "OK",
+    "data": {
+        "total": 169,
+        "data": [
+            {
+                "id": 254,
+                "subject_id": 3,
+                "chapter_id": "1",
+                "chapter_name": "第1章 随机事件与概率",
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 386
+            },
+            {
+                "id": 255,
+                "subject_id": 3,
+                "chapter_id": "2",
+                "chapter_name": "1.1 随机事件",
+                "parent_id": 254,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 49
+            },
+            {
+                "id": 256,
+                "subject_id": 3,
+                "chapter_id": "3",
+                "chapter_name": "1.1.1 随机事件的概念",
+                "parent_id": 255,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 12
+            },
+            {
+                "id": 257,
+                "subject_id": 3,
+                "chapter_id": "4",
+                "chapter_name": "1.1.2 随机事件的关系",
+                "parent_id": 255,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 9
+            },
+            {
+                "id": 258,
+                "subject_id": 3,
+                "chapter_id": "5",
+                "chapter_name": "1.1.3 随机事件的运算",
+                "parent_id": 255,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 18
+            },
+            {
+                "id": 259,
+                "subject_id": 3,
+                "chapter_id": "9",
+                "chapter_name": "1.1.4 随机事件间的运算表示",
+                "parent_id": 255,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 10
+            },
+            {
+                "id": 260,
+                "subject_id": 3,
+                "chapter_id": "10",
+                "chapter_name": "1.2 随机事件的概率",
+                "parent_id": 254,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 54
+            },
+            {
+                "id": 261,
+                "subject_id": 3,
+                "chapter_id": "12",
+                "chapter_name": "1.2.1 概率的定义与性质",
+                "parent_id": 260,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 22
+            },
+            {
+                "id": 262,
+                "subject_id": 3,
+                "chapter_id": "13",
+                "chapter_name": "1.2.1.1 概率的定义、判断与证明",
+                "parent_id": 261,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 14
+            },
+            {
+                "id": 263,
+                "subject_id": 3,
+                "chapter_id": "14",
+                "chapter_name": "1.2.1.2 概率性质的应用",
+                "parent_id": 261,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 8
+            },
+            {
+                "id": 264,
+                "subject_id": 3,
+                "chapter_id": "15",
+                "chapter_name": "1.2.2 随机事件的概率计算",
+                "parent_id": 260,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 32
+            },
+            {
+                "id": 265,
+                "subject_id": 3,
+                "chapter_id": "16",
+                "chapter_name": "1.2.2.1 两个事件的概率计算",
+                "parent_id": 264,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 22
+            },
+            {
+                "id": 266,
+                "subject_id": 3,
+                "chapter_id": "17",
+                "chapter_name": "1.2.2.2 多个事件的概率计算",
+                "parent_id": 264,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 10
+            },
+            {
+                "id": 267,
+                "subject_id": 3,
+                "chapter_id": "18",
+                "chapter_name": "1.3 古典概型和几何概型",
+                "parent_id": 254,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 101
+            },
+            {
+                "id": 268,
+                "subject_id": 3,
+                "chapter_id": "19",
+                "chapter_name": "1.3.1 排列组合计算",
+                "parent_id": 267,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 10
+            },
+            {
+                "id": 269,
+                "subject_id": 3,
+                "chapter_id": "20",
+                "chapter_name": "1.3.2 古典概型的概率计算",
+                "parent_id": 267,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 86
+            },
+            {
+                "id": 270,
+                "subject_id": 3,
+                "chapter_id": "21",
+                "chapter_name": "1.3.2.1 古典概型之数字排列、骰子与扑克",
+                "parent_id": 269,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 21
+            },
+            {
+                "id": 271,
+                "subject_id": 3,
+                "chapter_id": "22",
+                "chapter_name": "1.3.2.2 古典概型之球的分配",
+                "parent_id": 269,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 30
+            },
+            {
+                "id": 272,
+                "subject_id": 3,
+                "chapter_id": "23",
+                "chapter_name": "1.3.2.3 古典概型之人员分配、产品抽样及其它模型",
+                "parent_id": 269,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 35
+            },
+            {
+                "id": 273,
+                "subject_id": 3,
+                "chapter_id": "24",
+                "chapter_name": "1.3.3 几何概型的概率计算",
+                "parent_id": 267,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 5
+            },
+            {
+                "id": 274,
+                "subject_id": 3,
+                "chapter_id": "25",
+                "chapter_name": "1.4 条件概率",
+                "parent_id": 254,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 62
+            },
+            {
+                "id": 275,
+                "subject_id": 3,
+                "chapter_id": "26",
+                "chapter_name": "1.4.1 条件概率的定义与性质",
+                "parent_id": 274,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 19
+            },
+            {
+                "id": 276,
+                "subject_id": 3,
+                "chapter_id": "27",
+                "chapter_name": "1.4.2 条件概率的计算",
+                "parent_id": 274,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 43
+            },
+            {
+                "id": 277,
+                "subject_id": 3,
+                "chapter_id": "28",
+                "chapter_name": "1.4.2.1 条件概率的定义计算",
+                "parent_id": 276,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 18
+            },
+            {
+                "id": 278,
+                "subject_id": 3,
+                "chapter_id": "29",
+                "chapter_name": "1.4.2.2 条件概率的应用计算",
+                "parent_id": 276,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 25
+            },
+            {
+                "id": 279,
+                "subject_id": 3,
+                "chapter_id": "30",
+                "chapter_name": "1.5 全概率公式与贝叶斯公式",
+                "parent_id": 254,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 29
+            },
+            {
+                "id": 280,
+                "subject_id": 3,
+                "chapter_id": "31",
+                "chapter_name": "1.5.1 全概率公式",
+                "parent_id": 279,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 23
+            },
+            {
+                "id": 281,
+                "subject_id": 3,
+                "chapter_id": "32",
+                "chapter_name": "1.5.2 贝叶斯公式",
+                "parent_id": 279,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 6
+            },
+            {
+                "id": 282,
+                "subject_id": 3,
+                "chapter_id": "33",
+                "chapter_name": "1.6 事件的独立性",
+                "parent_id": 254,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 91
+            },
+            {
+                "id": 283,
+                "subject_id": 3,
+                "chapter_id": "34",
+                "chapter_name": "1.6.1 两个事件的独立性",
+                "parent_id": 282,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 19
+            },
+            {
+                "id": 284,
+                "subject_id": 3,
+                "chapter_id": "36",
+                "chapter_name": "1.6.3 事件的独立性应用",
+                "parent_id": 282,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 31
+            },
+            {
+                "id": 285,
+                "subject_id": 3,
+                "chapter_id": "35",
+                "chapter_name": "1.6.2 多个事件的独立性",
+                "parent_id": 282,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 12
+            },
+            {
+                "id": 286,
+                "subject_id": 3,
+                "chapter_id": "37",
+                "chapter_name": "1.6.4 伯努利概型",
+                "parent_id": 282,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 29
+            },
+            {
+                "id": 287,
+                "subject_id": 3,
+                "chapter_id": "6",
+                "chapter_name": "第2章 随机变量及其分布",
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 280
+            },
+            {
+                "id": 288,
+                "subject_id": 3,
+                "chapter_id": "38",
+                "chapter_name": "2.1 离散型随机变量及其分布",
+                "parent_id": 287,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 83
+            },
+            {
+                "id": 289,
+                "subject_id": 3,
+                "chapter_id": "39",
+                "chapter_name": "2.1.1 分布律及其性质",
+                "parent_id": 288,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 34
+            },
+            {
+                "id": 290,
+                "subject_id": 3,
+                "chapter_id": "41",
+                "chapter_name": "2.1.2 离散型随机变量的概率计算",
+                "parent_id": 288,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 49
+            },
+            {
+                "id": 291,
+                "subject_id": 3,
+                "chapter_id": "42",
+                "chapter_name": "2.1.2.1 常见的离散型随机变量的概率计算",
+                "parent_id": 290,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 41
+            },
+            {
+                "id": 292,
+                "subject_id": 3,
+                "chapter_id": "43",
+                "chapter_name": "2.1.2.1.1 二项分布（0-1分布）",
+                "parent_id": 291,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 28
+            },
+            {
+                "id": 293,
+                "subject_id": 3,
+                "chapter_id": "44",
+                "chapter_name": "2.1.2.1.2 泊松分布、超几何分布和几何分布",
+                "parent_id": 291,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 13
+            },
+            {
+                "id": 294,
+                "subject_id": 3,
+                "chapter_id": "45",
+                "chapter_name": "2.1.2.2 一般离散型随机变量的概率计算",
+                "parent_id": 290,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 8
+            },
+            {
+                "id": 295,
+                "subject_id": 3,
+                "chapter_id": "46",
+                "chapter_name": "2.2 连续型随机变量及其分布",
+                "parent_id": 287,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 112
+            },
+            {
+                "id": 296,
+                "subject_id": 3,
+                "chapter_id": "47",
+                "chapter_name": "2.2.1 概率密度及其性质",
+                "parent_id": 295,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 23
+            },
+            {
+                "id": 297,
+                "subject_id": 3,
+                "chapter_id": "50",
+                "chapter_name": "2.2.4 连续型随机变量的概率计算",
+                "parent_id": 295,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 58
+            },
+            {
+                "id": 298,
+                "subject_id": 3,
+                "chapter_id": "51",
+                "chapter_name": "2.2.4.1 常见连续型随机变量的概率计算",
+                "parent_id": 297,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 31
+            },
+            {
+                "id": 299,
+                "subject_id": 3,
+                "chapter_id": "52",
+                "chapter_name": "2.2.4.1.1 均匀分布与指数分布",
+                "parent_id": 298,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 17
+            },
+            {
+                "id": 300,
+                "subject_id": 3,
+                "chapter_id": "54",
+                "chapter_name": "2.2.4.1.2 正态分布",
+                "parent_id": 298,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 14
+            },
+            {
+                "id": 301,
+                "subject_id": 3,
+                "chapter_id": "55",
+                "chapter_name": "2.2.4.2 一般连续型随机变量事件的概率计算",
+                "parent_id": 297,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 27
+            },
+            {
+                "id": 302,
+                "subject_id": 3,
+                "chapter_id": "68",
+                "chapter_name": "2.2.2 正态分布及其性质",
+                "parent_id": 295,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 10
+            },
+            {
+                "id": 303,
+                "subject_id": 3,
+                "chapter_id": "110",
+                "chapter_name": "2.2.3 正态分布标准化与应用",
+                "parent_id": 295,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 21
+            },
+            {
+                "id": 304,
+                "subject_id": 3,
+                "chapter_id": "57",
+                "chapter_name": "2.3 随机变量的分布函数",
+                "parent_id": 287,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 40
+            },
+            {
+                "id": 305,
+                "subject_id": 3,
+                "chapter_id": "58",
+                "chapter_name": "2.3.1 分布函数及其性质",
+                "parent_id": 304,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 0
+            },
+            {
+                "id": 306,
+                "subject_id": 3,
+                "chapter_id": "59",
+                "chapter_name": "2.3.2 分布函数与分布律",
+                "parent_id": 304,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 15
+            },
+            {
+                "id": 307,
+                "subject_id": 3,
+                "chapter_id": "60",
+                "chapter_name": "2.3.3 分布函数与概率密度",
+                "parent_id": 304,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 12
+            },
+            {
+                "id": 308,
+                "subject_id": 3,
+                "chapter_id": "62",
+                "chapter_name": "2.3.4 分布函数与概率计算",
+                "parent_id": 304,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 13
+            },
+            {
+                "id": 309,
+                "subject_id": 3,
+                "chapter_id": "63",
+                "chapter_name": "2.4 随机变量的函数的分布",
+                "parent_id": 287,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 45
+            },
+            {
+                "id": 310,
+                "subject_id": 3,
+                "chapter_id": "64",
+                "chapter_name": "2.4.1 离散型随机变量的函数的分布",
+                "parent_id": 309,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 7
+            },
+            {
+                "id": 311,
+                "subject_id": 3,
+                "chapter_id": "65",
+                "chapter_name": "2.4.2 连续型随机变量的函数的分布",
+                "parent_id": 309,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 38
+            },
+            {
+                "id": 312,
+                "subject_id": 3,
+                "chapter_id": "66",
+                "chapter_name": "2.4.2.1 连续函数情形",
+                "parent_id": 311,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 38
+            },
+            {
+                "id": 313,
+                "subject_id": 3,
+                "chapter_id": "67",
+                "chapter_name": "2.4.2.2 非连续函数情形",
+                "parent_id": 311,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 0
+            },
+            {
+                "id": 314,
+                "subject_id": 3,
+                "chapter_id": "56",
+                "chapter_name": "第3章 多维随机变量及其分布",
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 189
+            },
+            {
+                "id": 315,
+                "subject_id": 3,
+                "chapter_id": "69",
+                "chapter_name": "3.1 二维随机变量及其分布的概念",
+                "parent_id": 314,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 0
+            },
+            {
+                "id": 316,
+                "subject_id": 3,
+                "chapter_id": "73",
+                "chapter_name": "3.2 二维离散型随机变量及其分布",
+                "parent_id": 314,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 22
+            },
+            {
+                "id": 317,
+                "subject_id": 3,
+                "chapter_id": "74",
+                "chapter_name": "3.2.1 联合、边缘、条件分布律",
+                "parent_id": 316,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 15
+            },
+            {
+                "id": 318,
+                "subject_id": 3,
+                "chapter_id": "78",
+                "chapter_name": "3.2.2 二维离散型随机变量的概率计算",
+                "parent_id": 316,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 7
+            },
+            {
+                "id": 319,
+                "subject_id": 3,
+                "chapter_id": "82",
+                "chapter_name": "3.3 二维连续型随机变量及其分布",
+                "parent_id": 314,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 67
+            },
+            {
+                "id": 320,
+                "subject_id": 3,
+                "chapter_id": "83",
+                "chapter_name": "3.3.1 联合、边缘、条件概率密度",
+                "parent_id": 319,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 32
+            },
+            {
+                "id": 321,
+                "subject_id": 3,
+                "chapter_id": "87",
+                "chapter_name": "3.3.2 常见的二维连续型随机变量及其分布",
+                "parent_id": 319,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 17
+            },
+            {
+                "id": 322,
+                "subject_id": 3,
+                "chapter_id": "90",
+                "chapter_name": "3.3.3 二维连续型随机变量的概率计算",
+                "parent_id": 319,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 18
+            },
+            {
+                "id": 323,
+                "subject_id": 3,
+                "chapter_id": "91",
+                "chapter_name": "3.4 二维随机变量的分布函数",
+                "parent_id": 314,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 20
+            },
+            {
+                "id": 324,
+                "subject_id": 3,
+                "chapter_id": "92",
+                "chapter_name": "3.4.1 联合、边缘、条件分布函数及性质",
+                "parent_id": 323,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 10
+            },
+            {
+                "id": 325,
+                "subject_id": 3,
+                "chapter_id": "160",
+                "chapter_name": "3.4.2 分布函数的应用",
+                "parent_id": 323,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 10
+            },
+            {
+                "id": 326,
+                "subject_id": 3,
+                "chapter_id": "94",
+                "chapter_name": "3.5 随机变量的独立性",
+                "parent_id": 314,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 32
+            },
+            {
+                "id": 327,
+                "subject_id": 3,
+                "chapter_id": "95",
+                "chapter_name": "3.5.1 二维随机变量相互独立的概念",
+                "parent_id": 326,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 0
+            },
+            {
+                "id": 328,
+                "subject_id": 3,
+                "chapter_id": "96",
+                "chapter_name": "3.5.2 离散型随机变量的独立性",
+                "parent_id": 326,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 14
+            },
+            {
+                "id": 329,
+                "subject_id": 3,
+                "chapter_id": "97",
+                "chapter_name": "3.5.3 连续型随机变量的独立性",
+                "parent_id": 326,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 8
+            },
+            {
+                "id": 330,
+                "subject_id": 3,
+                "chapter_id": "b79806e47c044f89b25a28f310e8a629",
+                "chapter_name": "3.5.4 常见随机变量的独立性",
+                "parent_id": 326,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 10
+            },
+            {
+                "id": 331,
+                "subject_id": 3,
+                "chapter_id": "103",
+                "chapter_name": "3.5.5 n维随机变量的独立性",
+                "parent_id": 326,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 0
+            },
+            {
+                "id": 332,
+                "subject_id": 3,
+                "chapter_id": "104",
+                "chapter_name": "3.6 多维随机变量的函数的分布",
+                "parent_id": 314,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 48
+            },
+            {
+                "id": 333,
+                "subject_id": 3,
+                "chapter_id": "105",
+                "chapter_name": "3.6.1 二维离散型随机变量的函数的分布",
+                "parent_id": 332,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 9
+            },
+            {
+                "id": 334,
+                "subject_id": 3,
+                "chapter_id": "106",
+                "chapter_name": "3.6.2 二维连续型随机变量的函数的分布",
+                "parent_id": 332,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 18
+            },
+            {
+                "id": 335,
+                "subject_id": 3,
+                "chapter_id": "107",
+                "chapter_name": "3.6.3 最大、最小函数的分布",
+                "parent_id": 332,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 16
+            },
+            {
+                "id": 336,
+                "subject_id": 3,
+                "chapter_id": "108",
+                "chapter_name": "3.6.4 离散型与连续型随机变量的函数的分布",
+                "parent_id": 332,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 0
+            },
+            {
+                "id": 337,
+                "subject_id": 3,
+                "chapter_id": "109",
+                "chapter_name": "3.6.5 n维随机变量的函数的分布",
+                "parent_id": 332,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863178
+                },
+                "count": 5
+            },
+            {
+                "id": 338,
+                "subject_id": 3,
+                "chapter_id": "111",
+                "chapter_name": "第4章 随机变量的数字特征",
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 254
+            },
+            {
+                "id": 339,
+                "subject_id": 3,
+                "chapter_id": "112",
+                "chapter_name": "4.1 数学期望",
+                "parent_id": 338,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 97
+            },
+            {
+                "id": 340,
+                "subject_id": 3,
+                "chapter_id": "113",
+                "chapter_name": "4.1.1 数学期望的概念与性质",
+                "parent_id": 339,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 33
+            },
+            {
+                "id": 341,
+                "subject_id": 3,
+                "chapter_id": "115",
+                "chapter_name": "4.1.2 期望计算",
+                "parent_id": 339,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 30
+            },
+            {
+                "id": 342,
+                "subject_id": 3,
+                "chapter_id": "116",
+                "chapter_name": "4.1.2.1 离散型随机变量的期望",
+                "parent_id": 341,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 17
+            },
+            {
+                "id": 343,
+                "subject_id": 3,
+                "chapter_id": "117",
+                "chapter_name": "4.1.2.2 连续型随机变量的期望",
+                "parent_id": 341,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 13
+            },
+            {
+                "id": 344,
+                "subject_id": 3,
+                "chapter_id": "122",
+                "chapter_name": "4.1.4 期望应用",
+                "parent_id": 339,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 0
+            },
+            {
+                "id": 345,
+                "subject_id": 3,
+                "chapter_id": "161",
+                "chapter_name": "4.1.3 随机变量函数的期望",
+                "parent_id": 339,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 34
+            },
+            {
+                "id": 346,
+                "subject_id": 3,
+                "chapter_id": "162",
+                "chapter_name": "4.1.3.1 一维随机变量的函数的期望",
+                "parent_id": 345,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 22
+            },
+            {
+                "id": 347,
+                "subject_id": 3,
+                "chapter_id": "164",
+                "chapter_name": "4.1.3.2 二维随机变量的函数的期望",
+                "parent_id": 345,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 12
+            },
+            {
+                "id": 348,
+                "subject_id": 3,
+                "chapter_id": "123",
+                "chapter_name": "4.2 方差",
+                "parent_id": 338,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 70
+            },
+            {
+                "id": 349,
+                "subject_id": 3,
+                "chapter_id": "124",
+                "chapter_name": "4.2.1 方差的概念与性质",
+                "parent_id": 348,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 27
+            },
+            {
+                "id": 350,
+                "subject_id": 3,
+                "chapter_id": "126",
+                "chapter_name": "4.2.2 方差计算",
+                "parent_id": 348,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 18
+            },
+            {
+                "id": 351,
+                "subject_id": 3,
+                "chapter_id": "136",
+                "chapter_name": "4.2.3 切比雪夫不等式",
+                "parent_id": 348,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 25
+            },
+            {
+                "id": 352,
+                "subject_id": 3,
+                "chapter_id": "138",
+                "chapter_name": "4.4 协方差与相关系数",
+                "parent_id": 338,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 43
+            },
+            {
+                "id": 353,
+                "subject_id": 3,
+                "chapter_id": "139",
+                "chapter_name": "4.4.1 协方差的概念与性质",
+                "parent_id": 352,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 8
+            },
+            {
+                "id": 354,
+                "subject_id": 3,
+                "chapter_id": "140",
+                "chapter_name": "4.4.2 协方差计算",
+                "parent_id": 352,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 0
+            },
+            {
+                "id": 355,
+                "subject_id": 3,
+                "chapter_id": "141",
+                "chapter_name": "4.4.3 相关系数的概念与性质",
+                "parent_id": 352,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 4
+            },
+            {
+                "id": 356,
+                "subject_id": 3,
+                "chapter_id": "142",
+                "chapter_name": "4.4.4 相关系数计算",
+                "parent_id": 352,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 23
+            },
+            {
+                "id": 357,
+                "subject_id": 3,
+                "chapter_id": "143",
+                "chapter_name": "4.4.5 随机变量的不相关性",
+                "parent_id": 352,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 8
+            },
+            {
+                "id": 358,
+                "subject_id": 3,
+                "chapter_id": "146",
+                "chapter_name": "4.5 矩",
+                "parent_id": 338,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 5
+            },
+            {
+                "id": 359,
+                "subject_id": 3,
+                "chapter_id": "147",
+                "chapter_name": "4.5.1 矩的概念",
+                "parent_id": 358,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 5
+            },
+            {
+                "id": 360,
+                "subject_id": 3,
+                "chapter_id": "148",
+                "chapter_name": "4.5.2 矩计算",
+                "parent_id": 358,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 0
+            },
+            {
+                "id": 361,
+                "subject_id": 3,
+                "chapter_id": "166",
+                "chapter_name": "4.3 期望与方差计算",
+                "parent_id": 338,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 39
+            },
+            {
+                "id": 362,
+                "subject_id": 3,
+                "chapter_id": "167",
+                "chapter_name": "4.3.1 常见分布的期望与方差",
+                "parent_id": 361,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 22
+            },
+            {
+                "id": 363,
+                "subject_id": 3,
+                "chapter_id": "170",
+                "chapter_name": "4.3.2 一般离散型分布的期望与方差",
+                "parent_id": 361,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 6
+            },
+            {
+                "id": 364,
+                "subject_id": 3,
+                "chapter_id": "173",
+                "chapter_name": "4.3.3 一般连续型分布的期望与方差",
+                "parent_id": 361,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 11
+            },
+            {
+                "id": 365,
+                "subject_id": 3,
+                "chapter_id": "149",
+                "chapter_name": "第5章 大数定理与中心极限定理",
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 30
+            },
+            {
+                "id": 366,
+                "subject_id": 3,
+                "chapter_id": "150",
+                "chapter_name": "5.1 大数定理",
+                "parent_id": 365,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 5
+            },
+            {
+                "id": 367,
+                "subject_id": 3,
+                "chapter_id": "155",
+                "chapter_name": "5.1.1 依概率收敛",
+                "parent_id": 366,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 0
+            },
+            {
+                "id": 368,
+                "subject_id": 3,
+                "chapter_id": "156",
+                "chapter_name": "5.1.2 三个大数定理",
+                "parent_id": 366,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 5
+            },
+            {
+                "id": 369,
+                "subject_id": 3,
+                "chapter_id": "153",
+                "chapter_name": "5.2 中心极限定理",
+                "parent_id": 365,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 25
+            },
+            {
+                "id": 370,
+                "subject_id": 3,
+                "chapter_id": "157",
+                "chapter_name": "5.2.1 两个中心极限定理",
+                "parent_id": 369,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 9
+            },
+            {
+                "id": 371,
+                "subject_id": 3,
+                "chapter_id": "158",
+                "chapter_name": "5.2.2 两个中心极限定理的应用",
+                "parent_id": 369,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 16
+            },
+            {
+                "id": 372,
+                "subject_id": 3,
+                "chapter_id": "176",
+                "chapter_name": "第6章 样本与抽样分布",
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 147
+            },
+            {
+                "id": 373,
+                "subject_id": 3,
+                "chapter_id": "177",
+                "chapter_name": "6.1 总体与样本",
+                "parent_id": 372,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 13
+            },
+            {
+                "id": 374,
+                "subject_id": 3,
+                "chapter_id": "178",
+                "chapter_name": "6.1.1 简单随机样本与样本的联合分布",
+                "parent_id": 373,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 7
+            },
+            {
+                "id": 375,
+                "subject_id": 3,
+                "chapter_id": "179",
+                "chapter_name": "6.1.2 直方图、条形图及经验分布函数",
+                "parent_id": 373,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 6
+            },
+            {
+                "id": 376,
+                "subject_id": 3,
+                "chapter_id": "180",
+                "chapter_name": "6.2 样本的数字特征",
+                "parent_id": 372,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 24
+            },
+            {
+                "id": 377,
+                "subject_id": 3,
+                "chapter_id": "181",
+                "chapter_name": "6.2.1 基本数字特征",
+                "parent_id": 376,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 19
+            },
+            {
+                "id": 378,
+                "subject_id": 3,
+                "chapter_id": "182",
+                "chapter_name": "6.2.2 简易数字特征",
+                "parent_id": 376,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 5
+            },
+            {
+                "id": 379,
+                "subject_id": 3,
+                "chapter_id": "183",
+                "chapter_name": "6.3 三个常用的抽样分布",
+                "parent_id": 372,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 23
+            },
+            {
+                "id": 380,
+                "subject_id": 3,
+                "chapter_id": "184",
+                "chapter_name": "6.3.1 分位数",
+                "parent_id": 379,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 0
+            },
+            {
+                "id": 381,
+                "subject_id": 3,
+                "chapter_id": "185",
+                "chapter_name": "6.3.2 χ2分布、t分布和F分布",
+                "parent_id": 379,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 23
+            },
+            {
+                "id": 382,
+                "subject_id": 3,
+                "chapter_id": "186",
+                "chapter_name": "6.4 常用统计量及其分布",
+                "parent_id": 372,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 87
+            },
+            {
+                "id": 383,
+                "subject_id": 3,
+                "chapter_id": "187",
+                "chapter_name": "6.4.1 统计量的概念",
+                "parent_id": 382,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 4
+            },
+            {
+                "id": 384,
+                "subject_id": 3,
+                "chapter_id": "188",
+                "chapter_name": "6.4.2 单个正态总体的抽样分布",
+                "parent_id": 382,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 46
+            },
+            {
+                "id": 385,
+                "subject_id": 3,
+                "chapter_id": "189",
+                "chapter_name": "6.4.2.1 单个正态总体的抽样分布定理",
+                "parent_id": 384,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 28
+            },
+            {
+                "id": 386,
+                "subject_id": 3,
+                "chapter_id": "190",
+                "chapter_name": "6.4.2.2 单个正态总体的抽样应用",
+                "parent_id": 384,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 18
+            },
+            {
+                "id": 387,
+                "subject_id": 3,
+                "chapter_id": "191",
+                "chapter_name": "6.4.3 两个正态总体的抽样分布",
+                "parent_id": 382,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 21
+            },
+            {
+                "id": 388,
+                "subject_id": 3,
+                "chapter_id": "192",
+                "chapter_name": "6.4.3.1 两个正态总体的抽样分布定理",
+                "parent_id": 387,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 12
+            },
+            {
+                "id": 389,
+                "subject_id": 3,
+                "chapter_id": "193",
+                "chapter_name": "6.4.3.2 两个正态总体的抽样应用",
+                "parent_id": 387,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 9
+            },
+            {
+                "id": 390,
+                "subject_id": 3,
+                "chapter_id": "194",
+                "chapter_name": "6.4.4 一般总体的抽样分布",
+                "parent_id": 382,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 16
+            },
+            {
+                "id": 391,
+                "subject_id": 3,
+                "chapter_id": "196",
+                "chapter_name": "第7章 参数估计",
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 155
+            },
+            {
+                "id": 392,
+                "subject_id": 3,
+                "chapter_id": "197",
+                "chapter_name": "7.1 参数估计的概念",
+                "parent_id": 391,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 28
+            },
+            {
+                "id": 393,
+                "subject_id": 3,
+                "chapter_id": "198",
+                "chapter_name": "7.1.1 点估计与区间估计的概念",
+                "parent_id": 392,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 10
+            },
+            {
+                "id": 394,
+                "subject_id": 3,
+                "chapter_id": "199",
+                "chapter_name": "7.1.2 估计量",
+                "parent_id": 392,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 18
+            },
+            {
+                "id": 395,
+                "subject_id": 3,
+                "chapter_id": "200",
+                "chapter_name": "7.2 点估计",
+                "parent_id": 391,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 75
+            },
+            {
+                "id": 396,
+                "subject_id": 3,
+                "chapter_id": "201",
+                "chapter_name": "7.2.1 点估计的方法",
+                "parent_id": 395,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 34
+            },
+            {
+                "id": 397,
+                "subject_id": 3,
+                "chapter_id": "202",
+                "chapter_name": "7.2.1.1 矩估计法",
+                "parent_id": 396,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 21
+            },
+            {
+                "id": 398,
+                "subject_id": 3,
+                "chapter_id": "203",
+                "chapter_name": "7.2.1.2 最大似然估计法",
+                "parent_id": 396,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 13
+            },
+            {
+                "id": 399,
+                "subject_id": 3,
+                "chapter_id": "204",
+                "chapter_name": "7.2.2 点估计量的评价准则",
+                "parent_id": 395,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 41
+            },
+            {
+                "id": 400,
+                "subject_id": 3,
+                "chapter_id": "205",
+                "chapter_name": "7.2.2.1 无偏性",
+                "parent_id": 399,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 28
+            },
+            {
+                "id": 401,
+                "subject_id": 3,
+                "chapter_id": "206",
+                "chapter_name": "7.2.2.2 有效性和相合性",
+                "parent_id": 399,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 13
+            },
+            {
+                "id": 402,
+                "subject_id": 3,
+                "chapter_id": "208",
+                "chapter_name": "7.3 区间估计",
+                "parent_id": 391,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 52
+            },
+            {
+                "id": 403,
+                "subject_id": 3,
+                "chapter_id": "209",
+                "chapter_name": "7.3.1 单个正态总体均值与方差的区间估计",
+                "parent_id": 402,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 31
+            },
+            {
+                "id": 404,
+                "subject_id": 3,
+                "chapter_id": "210",
+                "chapter_name": "7.3.1.1 均值的区间估计",
+                "parent_id": 403,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 23
+            },
+            {
+                "id": 405,
+                "subject_id": 3,
+                "chapter_id": "211",
+                "chapter_name": "7.3.1.2 方差的区间估计",
+                "parent_id": 403,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 8
+            },
+            {
+                "id": 406,
+                "subject_id": 3,
+                "chapter_id": "212",
+                "chapter_name": "7.3.2 两个正态总体均值差与方差比的区间估计",
+                "parent_id": 402,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 10
+            },
+            {
+                "id": 407,
+                "subject_id": 3,
+                "chapter_id": "213",
+                "chapter_name": "7.3.2.1 均值差的区间估计",
+                "parent_id": 406,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 6
+            },
+            {
+                "id": 408,
+                "subject_id": 3,
+                "chapter_id": "214",
+                "chapter_name": "7.3.2.2 方差比的区间估计",
+                "parent_id": 406,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 4
+            },
+            {
+                "id": 409,
+                "subject_id": 3,
+                "chapter_id": "215",
+                "chapter_name": "7.3.3 一般总体参数的区间估计",
+                "parent_id": 402,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 11
+            },
+            {
+                "id": 410,
+                "subject_id": 3,
+                "chapter_id": "216",
+                "chapter_name": "第8章 假设检验",
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 144
+            },
+            {
+                "id": 411,
+                "subject_id": 3,
+                "chapter_id": "217",
+                "chapter_name": "8.1 假设检验的基本概念",
+                "parent_id": 410,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 24
+            },
+            {
+                "id": 412,
+                "subject_id": 3,
+                "chapter_id": "220",
+                "chapter_name": "8.1.1 假设检验问题",
+                "parent_id": 411,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 9
+            },
+            {
+                "id": 413,
+                "subject_id": 3,
+                "chapter_id": "221",
+                "chapter_name": "8.1.2 假设检验中的两类错误",
+                "parent_id": 411,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 15
+            },
+            {
+                "id": 414,
+                "subject_id": 3,
+                "chapter_id": "218",
+                "chapter_name": "8.2 正态总体参数的假设检验",
+                "parent_id": 410,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 91
+            },
+            {
+                "id": 415,
+                "subject_id": 3,
+                "chapter_id": "222",
+                "chapter_name": "8.2.1 单个正态总体参数的假设检验",
+                "parent_id": 414,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 53
+            },
+            {
+                "id": 416,
+                "subject_id": 3,
+                "chapter_id": "224",
+                "chapter_name": "8.2.1.1 均值检验",
+                "parent_id": 415,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 33
+            },
+            {
+                "id": 417,
+                "subject_id": 3,
+                "chapter_id": "225",
+                "chapter_name": "8.2.1.2 方差检验",
+                "parent_id": 415,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 20
+            },
+            {
+                "id": 418,
+                "subject_id": 3,
+                "chapter_id": "223",
+                "chapter_name": "8.2.2 两个正态总体参数的假设检验",
+                "parent_id": 414,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 38
+            },
+            {
+                "id": 419,
+                "subject_id": 3,
+                "chapter_id": "226",
+                "chapter_name": "8.2.2.1 均值差检验",
+                "parent_id": 418,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 27
+            },
+            {
+                "id": 420,
+                "subject_id": 3,
+                "chapter_id": "227",
+                "chapter_name": "8.2.2.2 方差比检验",
+                "parent_id": 418,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 11
+            },
+            {
+                "id": 421,
+                "subject_id": 3,
+                "chapter_id": "228",
+                "chapter_name": "8.3 一般总体参数的假设检验",
+                "parent_id": 410,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 17
+            },
+            {
+                "id": 422,
+                "subject_id": 3,
+                "chapter_id": "229",
+                "chapter_name": "8.4 总体分布的假设检验",
+                "parent_id": 410,
+                "created_at": {
+                    "seconds": 1735079691
+                },
+                "updated_at": {
+                    "seconds": 1735863177
+                },
+                "count": 12
+            }
+        ]
+    }
+}
