@@ -382,6 +382,7 @@ function App() {
   const [loading, setLoading] = useState(false)
   const [favoritesLoading, setFavoritesLoading] = useState(false)
   const [error, setError] = useState<string>('')
+  const [isSettingsOpen, setIsSettingsOpen] = useState(false)
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', themeMode)
@@ -606,6 +607,19 @@ function App() {
     setPageIndex(nextPage)
   }
 
+  const hasNextChapter = useMemo(() => {
+    if (viewMode !== 'chapter' || chapterId == null) return false
+    const idx = chapters.findIndex(c => c.id === chapterId)
+    return idx >= 0 && idx < chapters.length - 1
+  }, [viewMode, chapterId, chapters])
+
+  const goToNextChapter = () => {
+    if (!hasNextChapter) return
+    const idx = chapters.findIndex(c => c.id === chapterId)
+    setChapterId(chapters[idx + 1].id)
+    setPageIndex(0)
+  }
+
   const toggleTreeNode = (id: number) => {
     setExpandedIds((prev) => ({
       ...prev,
@@ -658,11 +672,15 @@ function App() {
       </header>
 
       <main className="layout">
-        <section className="panel settings-panel">
-          <h2>练习设置</h2>
+        <section className={`panel settings-panel ${isSettingsOpen ? 'is-open' : ''}`}>
+          <h2 onClick={() => window.innerWidth <= 900 && setIsSettingsOpen(!isSettingsOpen)}>
+            <span>练习设置</span>
+            <span className="mobile-toggle">{isSettingsOpen ? '▴' : '▾'}</span>
+          </h2>
 
-          <label className="checkbox-row">
-            <input
+          <div className="settings-content">
+            <label className="checkbox-row">
+              <input
               type="checkbox"
               checked={allAnalysisOpen}
               onChange={(e) => setAllAnalysisOpen(e.target.checked)}
@@ -799,6 +817,7 @@ function App() {
             <div>每页题量：{QUESTIONS_PER_PAGE}</div>
             {selectedChapterLabel && <div>当前章节：{selectedChapterLabel}</div>}
           </div>
+          </div>
         </section>
 
         <section className="panel question-panel">
@@ -821,13 +840,19 @@ function App() {
                 <button type="button" onClick={() => movePage(-1)} disabled={pageIndex === 0}>
                   上一页
                 </button>
-                <button
-                  type="button"
-                  onClick={() => movePage(1)}
-                  disabled={pageIndex === totalPages - 1}
-                >
-                  下一页
-                </button>
+                {pageIndex < totalPages - 1 ? (
+                  <button type="button" onClick={() => movePage(1)}>
+                    下一页
+                  </button>
+                ) : hasNextChapter ? (
+                  <button type="button" onClick={goToNextChapter}>
+                    下一章
+                  </button>
+                ) : (
+                  <button type="button" disabled>
+                    下一页
+                  </button>
+                )}
               </div>
 
               <div className="question-list">
@@ -991,13 +1016,19 @@ function App() {
                 <button type="button" onClick={() => movePage(-1)} disabled={pageIndex === 0}>
                   上一页
                 </button>
-                <button
-                  type="button"
-                  onClick={() => movePage(1)}
-                  disabled={pageIndex === totalPages - 1}
-                >
-                  下一页
-                </button>
+                {pageIndex < totalPages - 1 ? (
+                  <button type="button" onClick={() => movePage(1)}>
+                    下一页
+                  </button>
+                ) : hasNextChapter ? (
+                  <button type="button" onClick={goToNextChapter}>
+                    下一章
+                  </button>
+                ) : (
+                  <button type="button" disabled>
+                    下一页
+                  </button>
+                )}
               </div>
             </>
           )}
