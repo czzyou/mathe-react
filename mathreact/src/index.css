@@ -122,27 +122,9 @@ p {
 }
 
 .settings-panel {
-  display: block;
-  align-content: start;
-}
-
-.settings-panel h2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 0 0.9rem 0;
-  cursor: default;
-}
-
-.settings-content {
   display: grid;
   gap: 0.9rem;
-}
-
-.mobile-toggle {
-  display: none;
-  font-size: 1.2rem;
-  color: var(--muted);
+  align-content: start;
 }
 
 .folder-switch {
@@ -876,27 +858,6 @@ button:disabled {
 
   .layout {
     grid-template-columns: 1fr;
-  }
-
-  .settings-panel h2 {
-    cursor: pointer;
-    margin-bottom: 0;
-  }
-
-  .settings-panel.is-open h2 {
-    margin-bottom: 0.9rem;
-  }
-
-  .mobile-toggle {
-    display: inline-block;
-  }
-
-  .settings-content {
-    display: none;
-  }
-
-  .settings-panel.is-open .settings-content {
-    display: grid;
   }
 
   .chapter-tree-wrap {
