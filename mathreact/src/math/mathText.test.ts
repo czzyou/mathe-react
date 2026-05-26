@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import {
+  analyzeMathFailure,
   normalizeMathMarkdown,
   renderMathHtml,
   sanitizeMathSource,
@@ -99,6 +100,15 @@ describe("renderMathHtml", () => {
     }
   });
 
+  it("renders probability formulas with escaped braces and right delimiters", () => {
+    const result = renderMathHtml(
+      "P\\{X_i=0\\}=\\left(\\frac{14}{15}\\right)^{10}, \\quad P\\{X_i=1\\}=1-P\\{X_i=0\\}=1-\\left(\\frac{14}{15}\\right)^{10}",
+      false,
+    );
+
+    expect(result.ok).toBe(true);
+  });
+
   it("returns an error result for invalid math", () => {
     const result = renderMathHtml("\\definitelyUnknownCommand", false);
 
@@ -107,6 +117,14 @@ describe("renderMathHtml", () => {
       expect(result.source).toBe("\\definitelyUnknownCommand");
       expect(result.message.length).toBeGreaterThan(0);
     }
+  });
+});
+
+describe("analyzeMathFailure", () => {
+  it("flags tokens that still contain math delimiters as boundary problems", () => {
+    expect(
+      analyzeMathFailure("$x$", "Expected 'EOF'", "single-dollar").reason,
+    ).toContain("token");
   });
 });
 

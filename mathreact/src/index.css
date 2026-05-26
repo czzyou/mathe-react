@@ -863,6 +863,91 @@ button:disabled {
     white-space: pre-wrap;
 }
 
+.math-render-error small {
+    display: block;
+    margin-top: 0.25rem;
+    color: var(--bad);
+    font-size: 0.85rem;
+}
+
+.math-failure-panel {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 20;
+    width: min(460px, calc(100vw - 2rem));
+    font-size: 0.9rem;
+}
+
+.math-failure-toggle {
+    float: right;
+    min-width: 0;
+    border-color: rgba(191, 45, 45, 0.55);
+    background: #fff2f0;
+    color: #8f1f1f;
+}
+
+.math-failure-body {
+    clear: both;
+    max-height: 55vh;
+    overflow: auto;
+    margin-top: 0.55rem;
+    border: 1px solid rgba(191, 45, 45, 0.35);
+    border-radius: 8px;
+    background: var(--panel);
+    box-shadow: var(--shadow);
+    padding: 0.8rem;
+}
+
+.math-failure-actions {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+    margin-bottom: 0.6rem;
+}
+
+.math-failure-actions button {
+    min-width: 0;
+    padding: 0.4rem 0.65rem;
+}
+
+.math-failure-body ol {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.math-failure-body li {
+    margin-bottom: 0.75rem;
+}
+
+.math-failure-body li > div {
+    display: grid;
+    gap: 0.1rem;
+    margin-bottom: 0.25rem;
+}
+
+.math-failure-body span {
+    color: var(--muted);
+    font-size: 0.78rem;
+    word-break: break-all;
+}
+
+.math-failure-body code {
+    display: block;
+    max-height: 7rem;
+    overflow: auto;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.06);
+    padding: 0.45rem;
+    white-space: pre-wrap;
+}
+
+.math-failure-body p {
+    margin: 0.25rem 0 0;
+    color: var(--muted);
+    line-height: 1.45;
+}
+
 .analysis.markdown-body p,
 .analysis.markdown-body li {
     overflow-wrap: anywhere;

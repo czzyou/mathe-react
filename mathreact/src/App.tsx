@@ -1,7 +1,8 @@
 import type { ReactNode } from "react";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import {
+  analyzeMathFailure,
   normalizeMathMarkdown,
   renderMathHtml,
   tokenizeMathText,
@@ -78,6 +79,7 @@ const QUESTIONS_PER_PAGE = 10;
 const FAVORITES_STORAGE_KEY = "mathreact:favorites";
 const THEME_STORAGE_KEY = "mathreact:theme";
 const PROGRESS_STORAGE_KEY = "mathreact:progress";
+const MATH_FAILURES_STORAGE_KEY = "mathreact:mathFailures";
 const LOW_ACCURACY_THRESHOLD = 0.67;
 const LONG_TIME_THRESHOLD = 121711;
 const HIGH_DIFFICULTY_THRESHOLD = 0.43;
@@ -91,6 +93,36 @@ const HARD_TAG_META: Record<HardTag, { label: string; chipClass: string }> = {
   high: { label: "L3 高难题", chipClass: "hard-high" },
 };
 const HARD_TAG_ORDER: HardTag[] = ["mistake", "slow", "high"];
+
+type MathRenderContext = {
+  chapterId?: number;
+  questionId?: string;
+  field: "question" | "choice" | "answer" | "analysis";
+  label?: string;
+  originalText?: string;
+};
+
+type MathFailureRecord = {
+  id: string;
+  at: string;
+  chapterId?: number;
+  questionId?: string;
+  field: MathRenderContext["field"];
+  label?: string;
+  sourceKind: string;
+  displayMode: boolean;
+  source: string;
+  message: string;
+  reason: string;
+  suggestion: string;
+  originalText?: string;
+};
+
+declare global {
+  interface Window {
+    __MATHREACT_MATH_FAILURES__?: MathFailureRecord[];
+  }
+}
 
 function loadTheme(): ThemeMode {
   if (typeof window === "undefined") {
@@ -136,6 +168,102 @@ function loadProgress(): { chapterId: number | null; pageIndex: number } {
   }
 }
 
+function loadMathFailures(): MathFailureRecord[] {
+  if (typeof window === "undefined") return [];
+
+  try {
+    const raw = localStorage.getItem(MATH_FAILURES_STORAGE_KEY);
+    if (!raw) return [];
+
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveMathFailures(records: MathFailureRecord[]): void {
+  if (typeof window === "undefined") return;
+
+  window.__MATHREACT_MATH_FAILURES__ = records;
+  localStorage.setItem(MATH_FAILURES_STORAGE_KEY, JSON.stringify(records));
+}
+
+function clearStoredMathFailures(): void {
+  if (typeof window === "undefined") return;
+
+  window.__MATHREACT_MATH_FAILURES__ = [];
+  localStorage.removeItem(MATH_FAILURES_STORAGE_KEY);
+}
+
+function hashText(text: string): string {
+  let hash = 0;
+
+  for (let i = 0; i < text.length; i++) {
+    hash = (hash * 31 + text.charCodeAt(i)) | 0;
+  }
+
+  return Math.abs(hash).toString(36);
+}
+
+function createMathFailureRecord(
+  token: Extract<MathTextToken, { type: "math" }>,
+  message: string,
+  context?: MathRenderContext,
+): MathFailureRecord {
+  const analysis = analyzeMathFailure(token.value, message, token.sourceKind);
+  const identity = [
+    context?.chapterId ?? "",
+    context?.questionId ?? "",
+    context?.field ?? "",
+    context?.label ?? "",
+    token.sourceKind,
+    token.displayMode ? "display" : "inline",
+    token.value,
+    message,
+  ].join("|");
+
+  return {
+    id: hashText(identity),
+    at: new Date().toISOString(),
+    chapterId: context?.chapterId,
+    questionId: context?.questionId,
+    field: context?.field ?? "question",
+    label: context?.label,
+    sourceKind: token.sourceKind,
+    displayMode: token.displayMode,
+    source: token.value,
+    message,
+    reason: analysis.reason,
+    suggestion: analysis.suggestion,
+    originalText: context?.originalText,
+  };
+}
+
+function formatMathFailureReport(records: MathFailureRecord[]): string {
+  return records
+    .map((record, index) =>
+      [
+        `#${index + 1}`,
+        `chapterId: ${record.chapterId ?? ""}`,
+        `questionId: ${record.questionId ?? ""}`,
+        `field: ${record.field}${record.label ? ` (${record.label})` : ""}`,
+        `sourceKind: ${record.sourceKind}`,
+        `displayMode: ${record.displayMode}`,
+        `message: ${record.message}`,
+        `reason: ${record.reason}`,
+        `suggestion: ${record.suggestion}`,
+        "source:",
+        record.source,
+        record.originalText ? "originalText:" : "",
+        record.originalText ?? "",
+      ]
+        .filter(Boolean)
+        .join("\n"),
+    )
+    .join("\n\n---\n\n");
+}
+
 function MarkdownText({ text }: { text: string }) {
   return (
     <ReactMarkdown components={{ p: MarkdownParagraph }}>{text}</ReactMarkdown>
@@ -146,15 +274,41 @@ function MarkdownParagraph({ children }: { children?: ReactNode }) {
   return <>{children}</>;
 }
 
-function KatexMath({ token }: { token: Extract<MathTextToken, { type: "math" }> }) {
+function KatexMath({
+  token,
+  context,
+  onFailure,
+}: {
+  token: Extract<MathTextToken, { type: "math" }>;
+  context?: MathRenderContext;
+  onFailure?: (record: MathFailureRecord) => void;
+}) {
   const result = renderMathHtml(token.value, token.displayMode);
   const className = token.displayMode ? "math-render display" : "math-render inline";
+  const failureRecord = useMemo(
+    () =>
+      result.ok
+        ? null
+        : createMathFailureRecord(token, result.message, context),
+    [context, result, token],
+  );
+
+  useEffect(() => {
+    if (!failureRecord) return;
+
+    onFailure?.(failureRecord);
+  }, [failureRecord, onFailure]);
 
   if (!result.ok) {
     return (
       <span className={`${className} math-render-error`} title={result.message}>
         <strong>公式渲染失败</strong>
         <code>{result.source}</code>
+        {failureRecord && (
+          <small>
+            {failureRecord.reason}
+          </small>
+        )}
       </span>
     );
   }
@@ -168,7 +322,16 @@ function KatexMath({ token }: { token: Extract<MathTextToken, { type: "math" }> 
   );
 }
 
-function MarkdownMath({ text }: { text: string; isAnalysis?: boolean }) {
+function MarkdownMath({
+  text,
+  context,
+  onMathFailure,
+}: {
+  text: string;
+  isAnalysis?: boolean;
+  context?: MathRenderContext;
+  onMathFailure?: (record: MathFailureRecord) => void;
+}) {
   const tokens = tokenizeMathText(text);
   const blocks: ReactNode[] = [];
   let inlineParts: ReactNode[] = [];
@@ -214,18 +377,88 @@ function MarkdownMath({ text }: { text: string; isAnalysis?: boolean }) {
 
     if (token.displayMode) {
       flushInlineParts();
-      blocks.push(<KatexMath key={`math-${blockIndex}`} token={token} />);
+      blocks.push(
+        <KatexMath
+          key={`math-${blockIndex}`}
+          token={token}
+          context={context}
+          onFailure={onMathFailure}
+        />,
+      );
       blockIndex += 1;
       continue;
     }
 
-    inlineParts.push(<KatexMath key={`math-inline-${inlineIndex}`} token={token} />);
+    inlineParts.push(
+      <KatexMath
+        key={`math-inline-${inlineIndex}`}
+        token={token}
+        context={context}
+        onFailure={onMathFailure}
+      />,
+    );
     inlineIndex += 1;
   }
 
   flushInlineParts();
 
   return <>{blocks}</>;
+}
+
+function MathFailurePanel({
+  records,
+  open,
+  onToggle,
+  onClear,
+}: {
+  records: MathFailureRecord[];
+  open: boolean;
+  onToggle: () => void;
+  onClear: () => void;
+}) {
+  if (records.length === 0) return null;
+
+  const report = formatMathFailureReport(records);
+
+  const copyReport = () => {
+    void navigator.clipboard?.writeText(report);
+  };
+
+  return (
+    <aside className={`math-failure-panel ${open ? "open" : ""}`}>
+      <button type="button" className="math-failure-toggle" onClick={onToggle}>
+        公式错误 {records.length}
+      </button>
+      {open && (
+        <div className="math-failure-body">
+          <div className="math-failure-actions">
+            <button type="button" onClick={copyReport}>
+              复制报告
+            </button>
+            <button type="button" onClick={onClear}>
+              清空
+            </button>
+          </div>
+          <ol>
+            {records.map((record) => (
+              <li key={record.id}>
+                <div>
+                  <strong>
+                    {record.chapterId ?? "-"} / {record.field}
+                    {record.label ? ` / ${record.label}` : ""}
+                  </strong>
+                  {record.questionId && <span>{record.questionId}</span>}
+                </div>
+                <code>{record.source}</code>
+                <p>{record.reason}</p>
+                <p>{record.suggestion}</p>
+              </li>
+            ))}
+          </ol>
+        </div>
+      )}
+    </aside>
+  );
 }
 
 function formatRate(rate?: number): string {
@@ -611,6 +844,9 @@ function App() {
   const [error, setError] = useState<string>("");
   // 当 allQuestions 还未加载时点击导出，先切换视图触发加载，加载完成后自动触发下载
   const [exportPending, setExportPending] = useState(false);
+  const [mathFailures, setMathFailures] =
+    useState<MathFailureRecord[]>(loadMathFailures);
+  const [mathFailurePanelOpen, setMathFailurePanelOpen] = useState(false);
 
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", themeMode);
@@ -627,6 +863,27 @@ function App() {
       JSON.stringify({ chapterId, pageIndex }),
     );
   }, [chapterId, pageIndex]);
+
+  useEffect(() => {
+    saveMathFailures(mathFailures);
+  }, [mathFailures]);
+
+  const handleMathFailure = useCallback((record: MathFailureRecord) => {
+    console.warn("[mathreact] formula render failed", record);
+    setMathFailures((previous) => {
+      if (previous.some((item) => item.id === record.id)) {
+        return previous;
+      }
+
+      return [record, ...previous].slice(0, 80);
+    });
+  }, []);
+
+  const clearMathFailures = useCallback(() => {
+    clearStoredMathFailures();
+    setMathFailures([]);
+    setMathFailurePanelOpen(false);
+  }, []);
 
   useEffect(() => {
     const run = async () => {
@@ -980,6 +1237,12 @@ function App() {
 
   return (
     <div className="app-shell">
+      <MathFailurePanel
+        records={mathFailures}
+        open={mathFailurePanelOpen}
+        onToggle={() => setMathFailurePanelOpen((open) => !open)}
+        onClear={clearMathFailures}
+      />
       <header className="hero">
         <p className="kicker">mathreact 练习站</p>
         <h1>{pageTitle}</h1>
@@ -1269,7 +1532,16 @@ function App() {
                         </div>
 
                         <div className="question-body markdown-body">
-                          <MarkdownMath text={question.question} />
+                          <MarkdownMath
+                            text={question.question}
+                            context={{
+                              chapterId: question.chapter_id,
+                              questionId: question.question_id,
+                              field: "question",
+                              originalText: question.question,
+                            }}
+                            onMathFailure={handleMathFailure}
+                          />
                         </div>
 
                         <div
@@ -1307,7 +1579,17 @@ function App() {
                                   {choiceLabel}.
                                 </span>
                                 <span className="markdown-body">
-                                  <MarkdownMath text={choice.choice} />
+                                  <MarkdownMath
+                                    text={choice.choice}
+                                    context={{
+                                      chapterId: question.chapter_id,
+                                      questionId: question.question_id,
+                                      field: "choice",
+                                      label: choiceLabel,
+                                      originalText: choice.choice,
+                                    }}
+                                    onMathFailure={handleMathFailure}
+                                  />
                                 </span>
                               </label>
                             );
@@ -1355,7 +1637,16 @@ function App() {
                         {allAnswerOpen && (
                           <div className="answer-line markdown-body">
                             正确答案：
-                            <MarkdownMath text={correctAnswerLabel} />
+                            <MarkdownMath
+                              text={correctAnswerLabel}
+                              context={{
+                                chapterId: question.chapter_id,
+                                questionId: question.question_id,
+                                field: "answer",
+                                originalText: correctAnswerLabel,
+                              }}
+                              onMathFailure={handleMathFailure}
+                            />
                           </div>
                         )}
 
@@ -1365,6 +1656,13 @@ function App() {
                             <MarkdownMath
                               text={question.analysis || "暂无解析"}
                               isAnalysis={true}
+                              context={{
+                                chapterId: question.chapter_id,
+                                questionId: question.question_id,
+                                field: "analysis",
+                                originalText: question.analysis || "暂无解析",
+                              }}
+                              onMathFailure={handleMathFailure}
                             />
                             {question.analysis_image && (
                               <div className="analysis-image-container">

@@ -13,6 +13,11 @@ export type MathRenderResult =
   | { ok: true; html: string }
   | { ok: false; message: string; source: string };
 
+export type MathFailureAnalysis = {
+  reason: string;
+  suggestion: string;
+};
+
 const DISPLAY_ENVIRONMENTS = new Set([
   "aligned",
   "align",
@@ -286,6 +291,71 @@ export function renderMathHtml(
       source,
     };
   }
+}
+
+function countUnescaped(source: string, char: string): number {
+  let count = 0;
+
+  for (let i = 0; i < source.length; i++) {
+    if (source[i] !== char) continue;
+
+    let slashCount = 0;
+    for (let j = i - 1; j >= 0 && source[j] === "\\"; j--) {
+      slashCount += 1;
+    }
+
+    if (slashCount % 2 === 0) {
+      count += 1;
+    }
+  }
+
+  return count;
+}
+
+export function analyzeMathFailure(
+  source: string,
+  message: string,
+  sourceKind: string,
+): MathFailureAnalysis {
+  if (source.includes("$")) {
+    return {
+      reason: "公式 token 内仍含有 `$` 分隔符，通常说明 tokenizer 把相邻内容一起吃进来了。",
+      suggestion: "检查这个字段里失败公式前后的 `$...$` 或 `$$...$$` 是否成对。",
+    };
+  }
+
+  if (countUnescaped(source, "{") !== countUnescaped(source, "}")) {
+    return {
+      reason: "花括号数量不平衡，KaTeX 无法确定命令参数范围。",
+      suggestion: "优先检查 `\\frac{...}{...}`、上标、下标、`\\left...\\right` 附近。",
+    };
+  }
+
+  if (/Undefined control sequence/.test(message)) {
+    return {
+      reason: "KaTeX 不支持其中某个 LaTeX 命令，或命令名被脏数据截断。",
+      suggestion: "查看报错里的命令名；若是 `ight`、`rac` 这类残缺命令，说明原始转义损坏。",
+    };
+  }
+
+  if (/Expected 'EOF'/.test(message) || /Unexpected character/.test(message)) {
+    return {
+      reason: "公式语法在中途结束或出现异常字符，常见原因是 token 边界切错。",
+      suggestion: "把失败记录里的原字段和公式前后文一起看，定位是否多吃了中文、标点或下一段公式。",
+    };
+  }
+
+  if (sourceKind === "tabular") {
+    return {
+      reason: "`tabular` 已转换为 KaTeX `array`，但其中可能仍有 KaTeX 不支持的表格语法。",
+      suggestion: "检查列格式、`\\hline`、文本内容以及单元格内的 `$` 是否需要清洗。",
+    };
+  }
+
+  return {
+    reason: "该公式在当前 token 和 displayMode 下未通过 KaTeX。若公式单独可渲染，优先怀疑上下文切分。",
+    suggestion: "复制失败记录中的 source、field、questionId，和原字段前后文本一起排查。",
+  };
 }
 
 export function normalizeMathMarkdown(text: string): string {
