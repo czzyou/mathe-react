@@ -826,6 +826,43 @@ button:disabled {
     word-break: break-word;
 }
 
+.math-text-paragraph {
+    margin: 0.35rem 0;
+    line-height: 1.7;
+    font-size: 1.08rem;
+}
+
+.math-render.inline {
+    display: inline;
+}
+
+.math-render.display {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 0.7rem 0;
+    padding-bottom: 0.2rem;
+}
+
+.math-render-error {
+    border: 1px solid rgba(177, 39, 39, 0.35);
+    border-radius: 6px;
+    background: rgba(177, 39, 39, 0.08);
+    color: #8f1f1f;
+    padding: 0.25rem 0.35rem;
+    vertical-align: baseline;
+}
+
+.math-render-error strong {
+    margin-right: 0.4rem;
+}
+
+.math-render-error code {
+    color: inherit;
+    white-space: pre-wrap;
+}
+
 .analysis.markdown-body p,
 .analysis.markdown-body li {
     overflow-wrap: anywhere;
@@ -846,7 +883,7 @@ button:disabled {
 
 .markdown-body .katex-display {
     max-width: 100%;
-    overflow-x: visible;
+    overflow-x: auto;
     overflow-y: hidden;
     padding-bottom: 0;
 }

@@ -1,7 +1,12 @@
+import type { ReactNode } from "react";
 import { useEffect, useMemo, useState } from "react";
 import ReactMarkdown from "react-markdown";
-import rehypeKatex from "rehype-katex";
-import remarkMath from "remark-math";
+import {
+  normalizeMathMarkdown,
+  renderMathHtml,
+  tokenizeMathText,
+  type MathTextToken,
+} from "./math/mathText";
 
 type ChapterNode = {
   id: number;
@@ -131,82 +136,96 @@ function loadProgress(): { chapterId: number | null; pageIndex: number } {
   }
 }
 
-function normalizeMathText(text: string): string {
-  if (!text) return "";
-  // 有些 JSON 中的 LaTeX `\right` 被错误写成了 `\r...` 转义，
-  // 解析后会变成真实回车 + `ight`，导致 KaTeX 看到半截命令。
-  let result = text.replace(/\r(?=[A-Za-z])/g, "\\r");
-
-  // 将短划线 \bar 替换为全宽的 \overline（包括 \bar{A} 和 \bar A，以及两层 \bar{\bar{A}}）
-  // 这样渲染逻辑非、集合补集等「a的反」时会更好看。
-  result = result.replace(/\\bar(?![a-zA-Z])/g, "\\overline");
-
-  // remark-math 不识别 LaTeX 原生的 \[...\] / \(...\) 分隔符。
-  // 题库里不少 array 表格正是用 \[...\] 包起来，需先转成 Markdown 数学块。
-  result = result.replace(
-    /\\\[([\s\S]*?)\\\]/g,
-    (_match, inner) => `\n$$\n${inner.trim()}\n$$\n`,
+function MarkdownText({ text }: { text: string }) {
+  return (
+    <ReactMarkdown components={{ p: MarkdownParagraph }}>{text}</ReactMarkdown>
   );
-  result = result.replace(
-    /\\\(([\s\S]*?)\\\)/g,
-    (_match, inner) => `$${inner.trim()}$`,
-  );
-
-  // 修复 \begin{tabular} 在 KaTeX 中不支持且排版错乱的问题
-  // 替换为 KaTeX 支持的 \begin{array}，包裹在 $$ 中成为公式块，并去除内部 $ 避免语法破坏
-  result = result.replace(
-    /\\begin\{tabular\}([\s\S]*?)\\end\{tabular\}/g,
-    (_match, inner) => {
-      const noMathInner = inner.replace(/\$/g, " ");
-      return `\n$$\n\\begin{array}${noMathInner}\\end{array}\n$$\n`;
-    },
-  );
-
-  // 修复极端错乱的题库数据：有些题目的公式裸露在外，而用 "$$ $$" 作为公式间的分隔符。
-  // 例如：`P\{X=0\}=... $$ $$ P\{X=1\}=...`
-  // 这类文本应拆成多个独立 display math 块，而不是把整段再包一层 $$。
-  const displayMathMatches = Array.from(result.matchAll(/\$\$([\s\S]*?)\$\$/g));
-  if (
-    displayMathMatches.length > 0 &&
-    displayMathMatches.every((match) => match[1].trim() === "")
-  ) {
-    const trimmed = result.trim();
-    if (!trimmed.startsWith("$$") && !trimmed.endsWith("$$")) {
-      result = trimmed
-        .split(/\s*\$\$\s+\$\$\s*/)
-        .map((part) => part.trim())
-        .filter(Boolean)
-        .map((part) => `$$\n${part}\n$$`)
-        .join("\n\n");
-    }
-  }
-
-  // 修复同行紧邻的 $$...$$ 块（如 "$$ ... $$ $$ ... $$"）无法被 remark-math 识别的问题。
-  // remark-math 要求每个 display math 块前后都有空行（段落边界），
-  // 因此将 $$ 结束符与下一个 $$ 开始符之间的空白替换为双换行。
-  result = result.replace(/(\$\$)\s+(\$\$)/g, "$1\n\n$2");
-
-  // 修复同行 display math（如 `$$P(...)=...$$`）被 remark-math 当成 inline math，
-  // 甚至在连续公式解析中退回原文的问题。统一改成独立块。
-  result = result.replace(
-    /\$\$([^\n][\s\S]*?[^\n])\$\$/g,
-    (_match, inner) => `\n$$\n${inner.trim()}\n$$\n`,
-  );
-
-  return result;
 }
 
-function MarkdownMath({ text, isAnalysis }: { text: string; isAnalysis?: boolean }) {
-  let prettierText = normalizeMathText(text);
-  if (isAnalysis) {
-    prettierText = normalizeAnalysisText(prettierText);
+function MarkdownParagraph({ children }: { children?: ReactNode }) {
+  return <>{children}</>;
+}
+
+function KatexMath({ token }: { token: Extract<MathTextToken, { type: "math" }> }) {
+  const result = renderMathHtml(token.value, token.displayMode);
+  const className = token.displayMode ? "math-render display" : "math-render inline";
+
+  if (!result.ok) {
+    return (
+      <span className={`${className} math-render-error`} title={result.message}>
+        <strong>公式渲染失败</strong>
+        <code>{result.source}</code>
+      </span>
+    );
   }
 
+  const Element = token.displayMode ? "div" : "span";
   return (
-    <ReactMarkdown remarkPlugins={[remarkMath]} rehypePlugins={[rehypeKatex]}>
-      {prettierText}
-    </ReactMarkdown>
+    <Element
+      className={className}
+      dangerouslySetInnerHTML={{ __html: result.html }}
+    />
   );
+}
+
+function MarkdownMath({ text }: { text: string; isAnalysis?: boolean }) {
+  const tokens = tokenizeMathText(text);
+  const blocks: ReactNode[] = [];
+  let inlineParts: ReactNode[] = [];
+  let blockIndex = 0;
+  let inlineIndex = 0;
+
+  const flushInlineParts = () => {
+    if (inlineParts.length === 0) return;
+
+    blocks.push(
+      <div className="math-text-paragraph" key={`paragraph-${blockIndex}`}>
+        {inlineParts}
+      </div>,
+    );
+    blockIndex += 1;
+    inlineParts = [];
+  };
+
+  const pushTextPart = (value: string) => {
+    if (!value) return;
+
+    const parts = value.split(/(\n\s*\n)/);
+    for (const part of parts) {
+      if (!part) continue;
+
+      if (/^\n\s*\n$/.test(part)) {
+        flushInlineParts();
+        continue;
+      }
+
+      inlineParts.push(
+        <MarkdownText key={`text-${inlineIndex}`} text={part} />,
+      );
+      inlineIndex += 1;
+    }
+  };
+
+  for (const token of tokens) {
+    if (token.type === "text") {
+      pushTextPart(token.value);
+      continue;
+    }
+
+    if (token.displayMode) {
+      flushInlineParts();
+      blocks.push(<KatexMath key={`math-${blockIndex}`} token={token} />);
+      blockIndex += 1;
+      continue;
+    }
+
+    inlineParts.push(<KatexMath key={`math-inline-${inlineIndex}`} token={token} />);
+    inlineIndex += 1;
+  }
+
+  flushInlineParts();
+
+  return <>{blocks}</>;
 }
 
 function formatRate(rate?: number): string {
@@ -287,181 +306,6 @@ function getHardTags(question: RawQuestion): HardTag[] {
   }
 
   return tags;
-}
-
-function normalizeAnalysisText(text: string): string {
-  const BEGIN_ALIGNED = "\\begin{aligned}";
-  const END_ALIGNED = "\\end{aligned}";
-
-  const splitTopLevelAlignedRows = (inner: string): string[] => {
-    const rows: string[] = [];
-    let rowStart = 0;
-    let nestedEnvironmentDepth = 0;
-
-    for (let i = 0; i < inner.length; i++) {
-      if (inner.startsWith("\\begin{", i)) {
-        nestedEnvironmentDepth += 1;
-        continue;
-      }
-
-      if (inner.startsWith("\\end{", i)) {
-        nestedEnvironmentDepth = Math.max(0, nestedEnvironmentDepth - 1);
-        continue;
-      }
-
-      if (
-        nestedEnvironmentDepth === 0 &&
-        inner[i] === "\\" &&
-        inner[i + 1] === "\\"
-      ) {
-        rows.push(inner.slice(rowStart, i));
-        i += 1;
-        rowStart = i + 1;
-      }
-    }
-
-    rows.push(inner.slice(rowStart));
-    return rows;
-  };
-
-  const splitAligned = (_whole: string, inner: string): string => {
-    const removeTopLevelAlignmentMarkers = (line: string): string => {
-      let nestedEnvironmentDepth = 0;
-      let result = "";
-
-      for (let i = 0; i < line.length; i++) {
-        if (line.startsWith("\\begin{", i)) {
-          nestedEnvironmentDepth += 1;
-          result += line[i];
-          continue;
-        }
-
-        if (line.startsWith("\\end{", i)) {
-          nestedEnvironmentDepth = Math.max(0, nestedEnvironmentDepth - 1);
-          result += line[i];
-          continue;
-        }
-
-        if (line[i] === "&" && nestedEnvironmentDepth === 0) {
-          continue;
-        }
-
-        result += line[i];
-      }
-
-      return result;
-    };
-
-    const lines = splitTopLevelAlignedRows(inner)
-      .map((line) =>
-        removeTopLevelAlignmentMarkers(line.replace(/^\s*&\s*/, "")).trim(),
-      )
-      .filter(Boolean);
-
-    if (lines.length === 0) {
-      return _whole;
-    }
-
-    // 将超宽 aligned 公式拆成多个独立公式块，避免单行过长产生难以拖动的横条。
-    return lines.map((line) => `$$\n${line}\n$$`).join("\n\n");
-  };
-
-  const findMatchingAlignedEnd = (
-    source: string,
-    beginIndex: number,
-  ): { innerStart: number; innerEnd: number; blockEnd: number } | null => {
-    let depth = 0;
-    let cursor = beginIndex;
-
-    while (cursor < source.length) {
-      const nextBegin = source.indexOf("\\begin{", cursor);
-      const nextEnd = source.indexOf("\\end{", cursor);
-
-      if (nextBegin === -1 && nextEnd === -1) {
-        return null;
-      }
-
-      if (nextBegin !== -1 && (nextEnd === -1 || nextBegin < nextEnd)) {
-        depth += 1;
-        cursor = nextBegin + "\\begin{".length;
-        continue;
-      }
-
-      depth = Math.max(0, depth - 1);
-      if (depth === 0 && source.startsWith(END_ALIGNED, nextEnd)) {
-        return {
-          innerStart: beginIndex + BEGIN_ALIGNED.length,
-          innerEnd: nextEnd,
-          blockEnd: nextEnd + END_ALIGNED.length,
-        };
-      }
-
-      cursor = nextEnd + "\\end{".length;
-    }
-
-    return null;
-  };
-
-  const getWrappedRange = (
-    source: string,
-    beginIndex: number,
-    blockEnd: number,
-  ): { start: number; end: number } => {
-    let before = beginIndex;
-    while (before > 0 && /\s/.test(source[before - 1])) {
-      before -= 1;
-    }
-
-    let after = blockEnd;
-    while (after < source.length && /\s/.test(source[after])) {
-      after += 1;
-    }
-
-    if (before >= 2 && source.slice(before - 2, before) === "$$") {
-      if (source.slice(after, after + 2) === "$$") {
-        return { start: before - 2, end: after + 2 };
-      }
-    }
-
-    if (
-      before >= 1 &&
-      source[before - 1] === "$" &&
-      source[before - 2] !== "$" &&
-      source[after] === "$" &&
-      source[after + 1] !== "$"
-    ) {
-      return { start: before - 1, end: after + 1 };
-    }
-
-    return { start: beginIndex, end: blockEnd };
-  };
-
-  let result = "";
-  let cursor = 0;
-
-  while (cursor < text.length) {
-    const beginIndex = text.indexOf(BEGIN_ALIGNED, cursor);
-    if (beginIndex === -1) {
-      result += text.slice(cursor);
-      break;
-    }
-
-    const match = findMatchingAlignedEnd(text, beginIndex);
-    if (!match) {
-      result += text.slice(cursor);
-      break;
-    }
-
-    const wrappedRange = getWrappedRange(text, beginIndex, match.blockEnd);
-    result += text.slice(cursor, wrappedRange.start);
-    result += splitAligned(
-      text.slice(wrappedRange.start, wrappedRange.end),
-      text.slice(match.innerStart, match.innerEnd),
-    );
-    cursor = wrappedRange.end;
-  }
-
-  return result;
 }
 
 function getCorrectAnswerLabel(question: RawQuestion): string {
@@ -653,15 +497,14 @@ function generateObsidianMarkdown(
 
       // 选项：A/B/C/D 列表
       const choiceLines = q.choices
-        .map((c, i) => `- **${getChoiceLabel(c.choice_id, i)}.** ${c.choice}`)
+        .map(
+          (c, i) =>
+            `- **${getChoiceLabel(c.choice_id, i)}.** ${normalizeMathMarkdown(c.choice)}`,
+        )
         .join("\n");
 
-      // 题干 & 解析同样替换，与 MarkdownMath 保持一致
-      const questionText = normalizeMathText(q.question);
-
-      const analysisRaw = normalizeAnalysisText(
-        normalizeMathText(q.analysis || "暂无解析"),
-      );
+      const questionText = normalizeMathMarkdown(q.question);
+      const analysisRaw = normalizeMathMarkdown(q.analysis || "暂无解析");
       // Obsidian Callout 要求每行都以 "> " 开头（空行也需要 ">"）
       const analysisCallout = analysisRaw
         .split("\n")
@@ -806,8 +649,8 @@ function App() {
         setChapterTree(tree);
         setExpandedIds({});
 
-        if (leafChapters.length > 0 && chapterId === null) {
-          setChapterId(leafChapters[0].id);
+        if (leafChapters.length > 0) {
+          setChapterId((currentChapterId) => currentChapterId ?? leafChapters[0].id);
         }
       } catch {
         setError(
