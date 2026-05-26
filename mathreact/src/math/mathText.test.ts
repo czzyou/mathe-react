@@ -109,6 +109,23 @@ describe("tokenizeMathText", () => {
       },
     ]);
   });
+
+  it("renders bare blank placeholders as readable text blanks", () => {
+    expect(tokenizeMathText("则答案为( \\quad ).")).toEqual([
+      { type: "text", value: "则答案为（　　）." },
+    ]);
+  });
+
+  it("keeps \\quad untouched when it is inside math", () => {
+    expect(tokenizeMathText("$P(A)=(\\quad)$")).toEqual([
+      {
+        type: "math",
+        value: "P(A)=(\\quad)",
+        displayMode: false,
+        sourceKind: "single-dollar",
+      },
+    ]);
+  });
 });
 
 describe("renderMathHtml", () => {

@@ -148,6 +148,11 @@ function pushText(tokens: MathTextToken[], value: string): void {
   tokens.push({ type: "text", value });
 }
 
+function parseBareBlankPlaceholder(source: string, start: number): string | null {
+  const match = /^\(\s*\\q?quad\s*\)/.exec(source.slice(start));
+  return match ? match[0] : null;
+}
+
 function pushMath(
   tokens: MathTextToken[],
   value: string,
@@ -237,6 +242,15 @@ export function tokenizeMathText(text: string): MathTextToken[] {
       pushText(tokens, source.slice(textStart, cursor));
       pushMath(tokens, source.slice(cursor + 2, end), false, "paren");
       cursor = end + 2;
+      textStart = cursor;
+      continue;
+    }
+
+    const bareBlankPlaceholder = parseBareBlankPlaceholder(source, cursor);
+    if (bareBlankPlaceholder) {
+      pushText(tokens, source.slice(textStart, cursor));
+      pushText(tokens, "（　　）");
+      cursor += bareBlankPlaceholder.length;
       textStart = cursor;
       continue;
     }
