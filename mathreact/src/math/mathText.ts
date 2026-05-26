@@ -36,10 +36,14 @@ const DISPLAY_ENVIRONMENTS = new Set([
 export function sanitizeMathSource(text: string): string {
   if (!text) return "";
 
-  return text.replace(
-    /\r(?=(ight|angle|brace|brack|ceil|floor|vert|Vert)\b)/g,
-    "\\r",
-  );
+  return text
+    .replace(
+      /\r(?=(ight|angle|brace|brack|ceil|floor|vert|Vert)\b)/g,
+      "\\r",
+    )
+    .replace(/\\r\\n/g, "\n")
+    .replace(/\\n(?=[$\\A-Z0-9\u4e00-\u9fff\s]|$)/g, "\n")
+    .replace(/\\t(?=\s|$)/g, "\t");
 }
 
 function findUnescaped(source: string, needle: string, start: number): number {
@@ -111,7 +115,9 @@ function parseBeginEnvironment(
 }
 
 function normalizeMathValue(value: string, sourceKind: string): string {
-  let result = value.trim();
+  let result = value
+    .replace(/^(?:\s|\\[nrt])+/, "")
+    .replace(/(?:\s|\\[nrt])+$/, "");
 
   if (sourceKind === "tabular") {
     result = result

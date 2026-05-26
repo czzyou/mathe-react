@@ -13,6 +13,12 @@ describe("sanitizeMathSource", () => {
 
     expect(sanitizeMathSource(broken)).toBe("\\left(x\\right)");
   });
+
+  it("turns data-literal line breaks into real line breaks without breaking \\nu", () => {
+    expect(sanitizeMathSource("前\\n$$x$$ and $\\nu$")).toBe(
+      "前\n$$x$$ and $\\nu$",
+    );
+  });
 });
 
 describe("tokenizeMathText", () => {
@@ -87,6 +93,21 @@ describe("tokenizeMathText", () => {
     const source = "P\\{X=0\\}=0 $$ $$ P\\{X=1\\}=1";
 
     expect(tokenizeMathText(source)).toEqual([{ type: "text", value: source }]);
+  });
+
+  it("strips literal line-break escapes from math token boundaries", () => {
+    const tokens = tokenizeMathText(
+      "$$\\nP\\{X_i=0\\}=\\left(\\frac{14}{15}\\right)^{10}\\n$$",
+    );
+
+    expect(tokens).toEqual([
+      {
+        type: "math",
+        value: "P\\{X_i=0\\}=\\left(\\frac{14}{15}\\right)^{10}",
+        displayMode: true,
+        sourceKind: "double-dollar",
+      },
+    ]);
   });
 });
 
