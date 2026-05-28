@@ -9,7 +9,7 @@ import {
   type MathTextToken,
 } from "./math/mathText";
 
-type ChapterNode = {
+export type ChapterNode = {
   id: number;
   parent_id?: number | null;
   chapter_name: string;
@@ -57,7 +57,7 @@ type UiChapter = {
   count: number;
 };
 
-type ChapterTreeNode = {
+export type ChapterTreeNode = {
   id: number;
   name: string;
   count: number;
@@ -576,6 +576,44 @@ function shuffleChoices(questions: RawQuestion[]): RawQuestion[] {
   });
 }
 
+function getChapterNumberParts(chapterName: string): number[] {
+  const trimmed = chapterName.trim();
+  const chapterMatch = trimmed.match(/^第\s*(\d+)\s*章/);
+  const numberedMatch = chapterMatch ?? trimmed.match(/^(\d+(?:\.\d+)*)/);
+  const value = numberedMatch?.[1];
+
+  if (!value) {
+    return [];
+  }
+
+  return value
+    .split(".")
+    .map((part) => Number.parseInt(part, 10))
+    .filter((part) => Number.isFinite(part));
+}
+
+export function compareChapterNodes(a: ChapterNode, b: ChapterNode): number {
+  const aParts = getChapterNumberParts(a.chapter_name);
+  const bParts = getChapterNumberParts(b.chapter_name);
+
+  if (aParts.length > 0 && bParts.length > 0) {
+    const length = Math.max(aParts.length, bParts.length);
+    for (let index = 0; index < length; index++) {
+      const aPart = aParts[index] ?? -1;
+      const bPart = bParts[index] ?? -1;
+      if (aPart !== bPart) {
+        return aPart - bPart;
+      }
+    }
+  }
+
+  if (aParts.length !== bParts.length) {
+    return bParts.length - aParts.length;
+  }
+
+  return a.id - b.id;
+}
+
 function getFullImageUrl(url?: string): string {
   if (!url) return "";
   if (url.startsWith("/")) {
@@ -595,7 +633,7 @@ function getLeafChapters(nodes: ChapterNode[]): UiChapter[] {
     .filter((node) => !parentSet.has(node.id))
     .filter((node) => node.count > 0)
     .filter((node) => node.id >= 256 && node.id <= 400)
-    .sort((a, b) => a.id - b.id)
+    .sort(compareChapterNodes)
     .map((node) => ({
       id: node.id,
       name: node.chapter_name,
@@ -603,7 +641,7 @@ function getLeafChapters(nodes: ChapterNode[]): UiChapter[] {
     }));
 }
 
-function buildChapterTree(
+export function buildChapterTree(
   nodes: ChapterNode[],
   selectableLeafIds: Set<number>,
 ): ChapterTreeNode[] {
@@ -639,7 +677,17 @@ function buildChapterTree(
     }
   });
 
-  childrenMap.forEach((list) => list.sort((a, b) => a - b));
+  const compareChapterIds = (a: number, b: number) => {
+    const aNode = nodeMap.get(a);
+    const bNode = nodeMap.get(b);
+    if (!aNode || !bNode) {
+      return a - b;
+    }
+
+    return compareChapterNodes(aNode, bNode);
+  };
+
+  childrenMap.forEach((list) => list.sort(compareChapterIds));
 
   let roots = Array.from(included).filter((id) => {
     const node = nodeMap.get(id);
@@ -649,7 +697,7 @@ function buildChapterTree(
     return !included.has(node.parent_id);
   });
 
-  roots = roots.sort((a, b) => a - b);
+  roots = roots.sort(compareChapterIds);
 
   const toTree = (id: number): ChapterTreeNode => {
     const node = nodeMap.get(id)!;
