@@ -46,7 +46,7 @@ jobs:
 
       - name: Install dependencies
         if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
-        run: npm ci
+        run: npm install
 
       - name: Build
         if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
