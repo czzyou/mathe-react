@@ -98,8 +98,8 @@
           "difficulty": "OCR",
           "answer": "1",
           "question_type": 1,
-          "question": "关于正态总体 $X\\sim N(\\mu,1)$ 的数学期望μ有如下二者必居其一的假设, $H_{0}:\\mu=0,H_{1}:\\mu=1$ 考虑检验规则：当 $\\bar{X}\\geq0.98$\n时否定假设 $\\pmb{\\pi_{0}}$ 接受 $\\mathbf{H_{1}}$ 其中 $\\bar{X}=(X_1+\\cdots+X_4)/4,X_1,\\cdots,X_4$ 是来自总体X的简单随机样本．则下列说法正确的是(\n). $(\\Phi(0.04)=0.5160,\\Phi(0.98)=0.8365,\\Phi(1.96)=0.975)$",
-          "analysis": "在假设”H_0:μ=0”成立的条件下,X~N(0,1/4),2X~N(0,1)；在假设”H_{1:u=1”成立的条件下,\nX~ N(1,1/4),2(X− 1) ~N(0,1). 因 此\nα= P{X ≥0.98 |=0}=P{2X ≥1.96 |μ=0}=0.025,β=P{X<0.98|μ=1}=P{2(X-1)<-0.04|μ=1}=0.484",
+          "question": "关于正态总体 $X\\sim N(\\mu,1)$ 的数学期望μ有如下二者必居其一的假设, $H_{0}:\\mu=0,H_{1}:\\mu=1$ 考虑检验规则：当 $\\bar{X}\\geq0.98$\n时否定假设 $H_0$ 接受 $\\mathbf{H_{1}}$ 其中 $\\bar{X}=(X_1+\\cdots+X_4)/4,X_1,\\cdots,X_4$ 是来自总体X的简单随机样本．则下列说法正确的是(\n). $(\\Phi(0.04)=0.5160,\\Phi(0.98)=0.8365,\\Phi(1.96)=0.975)$",
+          "analysis": "在假设”H_0:μ=0”成立的条件下,X~N(0,1/4),2X~N(0,1)；在假设”H_1: u=1”成立的条件下,\nX~ N(1,1/4),2(X− 1) ~N(0,1). 因 此\nα= P{X ≥0.98 |=0}=P{2X ≥1.96 |μ=0}=0.025,β=P{X<0.98|μ=1}=P{2(X-1)<-0.04|μ=1}=0.484",
           "question_render_type": 1,
           "analysis_render_type": 1,
           "created_at": {
@@ -201,7 +201,7 @@
               "id": 4130031,
               "question_id": 413003,
               "is_answer": true,
-              "choice": "P(拒绝H_0H_{0为真=α",
+              "choice": "P(拒绝H_0H_0为真=α",
               "choice_render_type": 1,
               "choice_id": "1",
               "created_at": {
@@ -215,7 +215,7 @@
               "id": 4130032,
               "question_id": 413003,
               "is_answer": false,
-              "choice": "P(接受H_{0|H0为假)=α",
+              "choice": "P(接受H_0|H0为假)=α",
               "choice_render_type": 1,
               "choice_id": "2",
               "created_at": {
@@ -229,7 +229,7 @@
               "id": 4130033,
               "question_id": 413003,
               "is_answer": false,
-              "choice": "P(接受H_{₁|H_{₁}为假=α",
+              "choice": "P(接受H_1|H_1}为假=α",
               "choice_render_type": 1,
               "choice_id": "3",
               "created_at": {
@@ -243,7 +243,7 @@
               "id": 4130034,
               "question_id": 413003,
               "is_answer": false,
-              "choice": "P(拒绝H_{₁1|H_{₁为)=α",
+              "choice": "P(拒绝H_1|H_1为)=α",
               "choice_render_type": 1,
               "choice_id": "4",
               "created_at": {
@@ -300,7 +300,7 @@
               "id": 4130042,
               "question_id": 413004,
               "is_answer": false,
-              "choice": "原假设 $\\pmb{\\pi_{0}}$ 成立,经检验不能被拒绝的概率",
+              "choice": "原假设 $H_0$ 成立,经检验不能被拒绝的概率",
               "choice_render_type": 1,
               "choice_id": "2",
               "created_at": {
@@ -314,7 +314,7 @@
               "id": 4130043,
               "question_id": 413004,
               "is_answer": false,
-              "choice": "原假设 $\\pmb{\\pi_{0}}$ 不成立,经检验被拒绝的概率",
+              "choice": "原假设 $H_0$ 不成立,经检验被拒绝的概率",
               "choice_render_type": 1,
               "choice_id": "3",
               "created_at": {
@@ -498,7 +498,7 @@
               "id": 4130064,
               "question_id": 413006,
               "is_answer": false,
-              "choice": "H_{1不真,拒绝H_1} e",
+              "choice": "H_1不真, 拒绝H_1",
               "choice_render_type": 1,
               "choice_id": "4",
               "created_at": {
@@ -824,7 +824,7 @@
               "id": 4130103,
               "question_id": 413010,
               "is_answer": false,
-              "choice": "H_{1}真,拒绝H_{",
+              "choice": "H_1真, 拒绝H_1",
               "choice_render_type": 1,
               "choice_id": "3",
               "created_at": {
@@ -838,7 +838,7 @@
               "id": 4130104,
               "question_id": 413010,
               "is_answer": false,
-              "choice": "H_{1不真,拒绝H_1 e",
+              "choice": "H_1不真, 拒绝H_1",
               "choice_render_type": 1,
               "choice_id": "4",
               "created_at": {
@@ -989,7 +989,7 @@
               "id": 4130122,
               "question_id": 413012,
               "is_answer": false,
-              "choice": "当 $\\pmb{\\pi_{0}}$ 不成立时,犯第二类错误的概率 $\\beta=1-\\alpha$",
+              "choice": "当 $H_0$ 不成立时,犯第二类错误的概率 $\\beta=1-\\alpha$",
               "choice_render_type": 1,
               "choice_id": "2",
               "created_at": {
@@ -1272,7 +1272,7 @@
               "id": 4130154,
               "question_id": 413015,
               "is_answer": false,
-              "choice": "H_{1成立且 $\\pmb{p}=\\pmb{0.5}$ 时,犯第二类错误的概率 $\\beta=0.1251$",
+              "choice": "H_1成立且 $\\pmb{p}=\\pmb{0.5}$ 时,犯第二类错误的概率 $\\beta=0.1251$",
               "choice_render_type": 1,
               "choice_id": "4",
               "created_at": {

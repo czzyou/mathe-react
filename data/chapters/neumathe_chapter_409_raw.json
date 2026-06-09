@@ -14,7 +14,7 @@
           "answer": "1",
           "question_type": 1,
           "question": "公共汽车站在一单位时间内 (如半小时或一天等)到达乘客数服从泊松分布P(λ),对不同的车站,所不同的仅仅是参数入的取\n值不同．现对一城市某一公共汽车站进行了100个单位时间的调查,这里单位时间是20分钟,计算得到每20分钟内来到该车\n站的乘客数平均值 $\\bar{x}=15.2$ 人,则参数入的置信度为95%的置信区间为(). $u_{0.025}=1.96$",
-          "analysis": "总体X服从泊松分布 $P(\\lambda)$ 在大样本下,其样本均值X近似地服从正态分布 $N(\\lambda,\\lambda/n)$ ．参照0-1分布参数p的置信区间的推\n导过程,可以得到入的置信度为 $1-\\alpha$ 的近似置信区间为\nuMath $\\left(\\bar{X}-u_{\\alpha/2}\\sqrt{\\frac{\\bar{X}}{n}},\\bar{X}+u_{\\alpha/2}\\sqrt{\\frac{\\bar{X}}{n}}\\right)$ Mathe\n现 $n=100,\\alpha=0.05,u_{\\alpha/2}=u_{0.025}=1.96,\\bar{x}=15.2$ 得入的置信度为95%的一个置信区间近似为\n$$\\left(\\bar{x}\\pm u_{\\alpha/2}\\sqrt{\\bar{x}/n}\\right)=(15.2\\pm1.96\\sqrt{15.2/100})\\approx(14.44,15.96)$$",
+          "analysis": "总体X服从泊松分布 $P(\\lambda)$ 在大样本下,其样本均值X近似地服从正态分布 $N(\\lambda,\\lambda/n)$ ．参照0-1分布参数p的置信区间的推\n导过程,可以得到入的置信度为 $1-\\alpha$ 的近似置信区间为\nuMath $\\left(\\bar{X}-u_{\\alpha/2}\\sqrt{\\frac{\\bar{X}}{n}},\\bar{X}+u_{\\alpha/2}\\sqrt{\\frac{\\bar{X}}{n}}\\right)$ \n现 $n=100,\\alpha=0.05,u_{\\alpha/2}=u_{0.025}=1.96,\\bar{x}=15.2$ 得入的置信度为95%的一个置信区间近似为\n$$\\left(\\bar{x}\\pm u_{\\alpha/2}\\sqrt{\\bar{x}/n}\\right)=(15.2\\pm1.96\\sqrt{15.2/100})\\approx(14.44,15.96)$$",
           "question_render_type": 1,
           "analysis_render_type": 1,
           "created_at": {
@@ -609,7 +609,7 @@
           "answer": "1",
           "question_type": 1,
           "question": "设抽自一大批产品的100件样品中有 一级品 60个,则这批产品的一级品率p的置信水平为0.95的置信区间为\n$u_{0.025}=1.96.$",
-          "analysis": "这是0-1分布参数的区间估计问题. p的0.95置信区间为\n$\\left(\\widehat{p_{1}},\\widehat{p_{2}}\\right)=\\left(\\frac{-b-\\sqrt{b^{2}-4a c}}{2a},\\frac{-b+\\sqrt{b^{2}-4a c}}{2a}\\right)$\n其中 $a=n+u_{\\alpha/2}^{2},b=-\\Big(2n\\bar{x}+u_{\\alpha/2}^{2}\\Big),c=n\\bar{x}^{2}$ lathe\n现 $n=100,\\bar{x}=\\frac{60}{100}=0.6,u_{\\alpha/2}=1.96$ 计算\n$$a=n+u_{\\alpha/2}^{2}\\approx103.84,\\quad b=-\\Big(2n\\bar{x}+u_{\\alpha/2}^{2}\\Big)\\approx-123.84,\\quad c=n\\bar{x}^{2}=36.$$\n于是pi≈0.50,p≈0.69.\n故得p的置信水平为0.95的一个置信区间近似为(0.50,0.69).",
+          "analysis": "这是0-1分布参数的区间估计问题. p的0.95置信区间为\n$\\left(\\widehat{p_{1}},\\widehat{p_{2}}\\right)=\\left(\\frac{-b-\\sqrt{b^{2}-4a c}}{2a},\\frac{-b+\\sqrt{b^{2}-4a c}}{2a}\\right)$\n其中 $a=n+u_{\\alpha/2}^{2},b=-\\Big(2n\\bar{x}+u_{\\alpha/2}^{2}\\Big),c=n\\bar{x}^{2}$ \n现 $n=100,\\bar{x}=\\frac{60}{100}=0.6,u_{\\alpha/2}=1.96$ 计算\n$$a=n+u_{\\alpha/2}^{2}\\approx103.84,\\quad b=-\\Big(2n\\bar{x}+u_{\\alpha/2}^{2}\\Big)\\approx-123.84,\\quad c=n\\bar{x}^{2}=36.$$\n于是pi≈0.50,p≈0.69.\n故得p的置信水平为0.95的一个置信区间近似为(0.50,0.69).",
           "question_render_type": 1,
           "analysis_render_type": 1,
           "created_at": {

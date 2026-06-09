@@ -439,7 +439,7 @@
           "answer": "1",
           "question_type": 1,
           "question": "设对统计假设H0构造了显著性检验方法,则下列结论错误的是().",
-          "analysis": "拒绝域W是在给出显著性水平 α和检验统计量U下,由式子P{拒绝H_0|H_0为真}=α求得．当U,α,H_{0都已知时,就可以由此得到\n拒绝域,它与样本观测值无关",
+          "analysis": "拒绝域W是在给出显著性水平 α和检验统计量U下,由式子P{拒绝H_0|H_0为真}=α求得．当U,α,H_0都已知时,就可以由此得到\n拒绝域,它与样本观测值无关",
           "question_render_type": 1,
           "analysis_render_type": 1,
           "created_at": {
@@ -524,7 +524,7 @@
           "answer": "1",
           "question_type": 1,
           "question": "关于假设检验,下列说法不正确的是",
-          "analysis": "根据反证法的思想和小概率原理,可将假设检验的步骤归纳如下：\n(1)根据问题的要求,提出原假设 $\\boldsymbol{H_0}$ 和备择假设 $\\pmb{H_{1}}$\n(2)根据检验对象,使当 $\\mathbf{H_{0}}$ 为真时,选择检验统计量 $T(X_{1},X_{2},\\cdots,X_{n}),T$ 有确定的分布.\n(3)由给定的显著水平α,查统计量T所服从的分布表,定出临界值λ,使\n$$P(|T|>\\lambda)=\\alpha, 或 P(T<\\lambda_1)=P(T>\\lambda_2)=\\alpha/2,\\lambda_1<\\lambda_2$$\n从而给出 $\\pmb{\\pi_{0}}$ 的拒绝域： $|T|>\\lambda$ 或 $T<\\lambda_{1},T>\\lambda_{2}.$\n(4)由样本观察值计算统计量T的观察值t.\n(5)作出判断,将t的值与临界值比较大小作出结论：\n当t∈拒绝域时,则拒绝 $\\pmb{H_{0}}$ 否则,不拒绝 $\\mathbf{H_{0}}$ 即认为在显著水平α下, $\\pmb{H_{0}}$ 与实际情况差异不显著.",
+          "analysis": "根据反证法的思想和小概率原理,可将假设检验的步骤归纳如下：\n(1)根据问题的要求,提出原假设 $\\boldsymbol{H_0}$ 和备择假设 $\\pmb{H_{1}}$\n(2)根据检验对象,使当 $\\mathbf{H_{0}}$ 为真时,选择检验统计量 $T(X_{1},X_{2},\\cdots,X_{n}),T$ 有确定的分布.\n(3)由给定的显著水平α,查统计量T所服从的分布表,定出临界值λ,使\n$$P(|T|>\\lambda)=\\alpha, 或 P(T<\\lambda_1)=P(T>\\lambda_2)=\\alpha/2,\\lambda_1<\\lambda_2$$\n从而给出 $H_0$ 的拒绝域： $|T|>\\lambda$ 或 $T<\\lambda_{1},T>\\lambda_{2}.$\n(4)由样本观察值计算统计量T的观察值t.\n(5)作出判断,将t的值与临界值比较大小作出结论：\n当t∈拒绝域时,则拒绝 $\\pmb{H_{0}}$ 否则,不拒绝 $\\mathbf{H_{0}}$ 即认为在显著水平α下, $\\pmb{H_{0}}$ 与实际情况差异不显著.",
           "question_render_type": 1,
           "analysis_render_type": 1,
           "created_at": {
@@ -555,7 +555,7 @@
               "id": 4120072,
               "question_id": 412007,
               "is_answer": false,
-              "choice": "根据检验对象,当 $\\pmb{\\pi_{0}}$ 为真时,选取检验统计量 $T(X_{1},X_{2},\\cdots,X_{n}),T$ 有确定的分布",
+              "choice": "根据检验对象,当 $H_0$ 为真时,选取检验统计量 $T(X_{1},X_{2},\\cdots,X_{n}),T$ 有确定的分布",
               "choice_render_type": 1,
               "choice_id": "2",
               "created_at": {
@@ -569,7 +569,7 @@
               "id": 4120073,
               "question_id": 412007,
               "is_answer": false,
-              "choice": "根据问题的要求,提出原假设 $\\pmb{\\pi_{0}}$ 和备择假设H_1",
+              "choice": "根据问题的要求,提出原假设 $H_0$ 和备择假设H_1",
               "choice_render_type": 1,
               "choice_id": "3",
               "created_at": {

@@ -243,7 +243,7 @@
               "id": 4170034,
               "question_id": 417003,
               "is_answer": false,
-              "choice": "$\\left(0,\\chi_{1-\\alpha}^{2}(n)\\right)\\cup\\left(\\chi_{\\alpha}^{2}(n),+\\infty\\right)$ lathe",
+              "choice": "$\\left(0,\\chi_{1-\\alpha}^{2}(n)\\right)\\cup\\left(\\chi_{\\alpha}^{2}(n),+\\infty\\right)$ ",
               "choice_render_type": 1,
               "choice_id": "4",
               "created_at": {
@@ -413,7 +413,7 @@
               "id": 4170054,
               "question_id": 417005,
               "is_answer": false,
-              "choice": "$\\chi^{2}=\\sum_{i=1}^{n}\\frac{\\left(X_{i}-\\bar{X}\\right)^{2}}{\\sigma_{0}^{2}}$ Mathe",
+              "choice": "$\\chi^{2}=\\sum_{i=1}^{n}\\frac{\\left(X_{i}-\\bar{X}\\right)^{2}}{\\sigma_{0}^{2}}$ ",
               "choice_render_type": 1,
               "choice_id": "4",
               "created_at": {
@@ -904,7 +904,7 @@
               "id": 4170112,
               "question_id": 417011,
               "is_answer": false,
-              "choice": "H_{0:{2=}920,}_{1}:^{2≠}92",
+              "choice": "H_0: {2=}920,}_{1}:^{2≠}92",
               "choice_render_type": 1,
               "choice_id": "2",
               "created_at": {
@@ -918,7 +918,7 @@
               "id": 4170113,
               "question_id": 417011,
               "is_answer": false,
-              "choice": "H_{0:{2}>5000,H_{1:{2≤50",
+              "choice": "H_0: {2}>5000,H_1: {2≤50",
               "choice_render_type": 1,
               "choice_id": "3",
               "created_at": {
@@ -932,7 +932,7 @@
               "id": 4170114,
               "question_id": 417011,
               "is_answer": false,
-              "choice": "H_{0 σ^{²<5000, $H_{1}$:^{2 }",
+              "choice": "H_0 σ^{²<5000, $H_{1}$:^{2 }",
               "choice_render_type": 1,
               "choice_id": "4",
               "created_at": {
@@ -1060,7 +1060,7 @@
               "id": 4170131,
               "question_id": 417013,
               "is_answer": true,
-              "choice": "若检验假设：H{0: $\\mathbf{\\mu}=\\mathbf{3}$ H_{1：μ≠3,则接受H_{0",
+              "choice": "若检验假设：$H_0: \\mu=3, H_1: \\mu \\neq 3$, 则接受 $H_0$",
               "choice_render_type": 1,
               "choice_id": "1",
               "created_at": {
@@ -1298,7 +1298,7 @@
           "answer": "1",
           "question_type": 1,
           "question": "某种导线的电阻服从正态分布N(μ,0.0052).今从新生产的一批导线中抽取9根,测其电阻得样本标准差为 $\\pmb{s}=0.008\\Omega.$ 对于\n$\\alpha=0.05$,若想检验这批导线电阻的标准差是否仍为0.005,则下列说法不正确的是 $(\\chi_{0.975}^{2}(8)=2.18,\\chi_{0.025}^{2}(8)=17.5)$",
-          "analysis": "在 $\\alpha=0.05$ 下,检验假设H_{0:²=0.O05²,H_{₁1:σ²2≠0.0052\n因为u未知,所以选取检验统计量 $\\begin{array}{r}{\\chi^{2}=\\frac{n-1}{0.005^{2}}S^{2}\\sim\\chi^{2}(n-1)}\\end{array}$\n拒绝域为 $x^{2}>x_{\\alpha/2}^{2}(n-1)$ 或x²2<x{2-a/2(-1$\n现在 $n=9,s=0.008$ 故 $\\chi^{2}=\\frac{n-1}{0.005^{3}}s^{2}=\\frac{8}{0.005^{2}}\\times0.008^{2}=20.48>17.5,\\chi^{2}_{0.075}(8)=2.18,\\chi^{2}_{0.025}(8)=17.5.$\n从而拒绝 $\\mathbf{H_{0}} 即不能认为这批导线电阻的标准差仍为0.005.",
+          "analysis": "在 $\\alpha=0.05$ 下,检验假设H_0: ²=0.O05²,H_1:σ²2≠0.0052\n因为u未知,所以选取检验统计量 $\\begin{array}{r}{\\chi^{2}=\\frac{n-1}{0.005^{2}}S^{2}\\sim\\chi^{2}(n-1)}\\end{array}$\n拒绝域为 $x^{2}>x_{\\alpha/2}^{2}(n-1)$ 或x²2<x{2-a/2(-1$\n现在 $n=9,s=0.008$ 故 $\\chi^{2}=\\frac{n-1}{0.005^{3}}s^{2}=\\frac{8}{0.005^{2}}\\times0.008^{2}=20.48>17.5,\\chi^{2}_{0.075}(8)=2.18,\\chi^{2}_{0.025}(8)=17.5.$\n从而拒绝 $\\mathbf{H_{0}} 即不能认为这批导线电阻的标准差仍为0.005.",
           "question_render_type": 1,
           "analysis_render_type": 1,
           "created_at": {
@@ -1383,7 +1383,7 @@
           "answer": "1",
           "question_type": 1,
           "question": "总体 $X\\sim N(\\mu,\\sigma^{2})$ 其中u未知, $X_{1},X_{2},\\cdots,X_{n}$ 为来自X的一个样本,样本方差为S．在显著性水平α下,检验假设：\n$H_{0}:\\sigma^{2}\\geq16,H_{1}:\\sigma^{2}<16$ 所用检验统计量与拒绝域为().",
-          "analysis": "正态总体方差的检验如下过程：\n1．若均值μ已知,则\n(1)检验假设为 $H_{0}:\\sigma^{2}=\\sigma_{0}^{2},H_{1}:\\sigma^{2}\\neq\\sigma_{0}^{2};$\n(2)若 $\\pmb{\\pi}_{0}$ 为真,则有 $\\chi^{2}=\\sum_{i=1}^{n}\\left(\\frac{X_{i}-\\mu}{\\sigma_{0}}\\right)^{2}\\sim\\chi^{2}(n)$ 此时拒绝域为 $\\left(0,\\chi_{1-\\alpha/2}^{2}(n)\\right)\\cup\\left(\\chi_{\\alpha/2}^{2}(n),+\\infty\\right)$ 其中 $x_{\\alpha}^{2}$ 为 $x^{2}$ 分布的 α\n分位数.\n另外：右侧检验： $H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2};$ 此时拒绝域为 $(\\chi_{\\alpha}^{2}(n),+\\infty)$\n左侧检验： $H_{0}:\\sigma^{2}\\geq\\sigma_{0}^{2},H_{1}:\\sigma^{2}<\\sigma_{0}^{2};$ 此时拒绝域为 $(0,\\chi_{1-\\alpha}^{2}(n))$\n2.若均值μ未知,则\n(1)检验假设为 $H_{0}:\\sigma^{2}=\\sigma_{0}^{2},H_{1}:\\sigma^{2}\\neq\\sigma_{0}^{2};$\n(2)若 $\\mathbf{H_{0}}$ 为真,则有 $\\begin{array}{r}{\\chi^{2}=\\sum_{i=1}^{n}\\left(\\frac{X_{i}-\\bar{X}}{\\sigma_{0}}\\right)^{2}=\\frac{n-1}{\\sigma_{0}^{2}}S^{2}\\sim\\chi^{2}(n-1).}\\end{array}$ 此时拒绝域为 $\\left(0,\\chi_{1-\\alpha/2}^{2}(n-1)\\right)\\cup\\left(\\chi_{\\alpha/2}^{2}(n-1),+\\infty\\right)$ 其中\ne $x_{\\alpha}^{2}$ 为 $x^{2}$ 分布的α分位数, $\\begin{array}{r}{S^{2}=\\frac{1}{n-1}\\sum_{i=1}^{n}\\left(X_{i}-\\bar{X}\\right)^{2}}\\end{array}$ O\n另外：右侧检验： $H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2}$ 此时拒绝域为 $\\left(\\chi_{\\alpha}^{2}(n-1),+\\infty\\right)$\n左侧检验： $H_{0}:\\sigma^{2}\\geq\\sigma_{0}^{2},H_{1}:\\sigma^{2}<\\sigma_{0}^{2};$ 此时拒绝域为 $\\left(0,\\chi_{1-\\alpha}^{2}(n-1)\\right)$",
+          "analysis": "正态总体方差的检验如下过程：\n1．若均值μ已知,则\n(1)检验假设为 $H_{0}:\\sigma^{2}=\\sigma_{0}^{2},H_{1}:\\sigma^{2}\\neq\\sigma_{0}^{2};$\n(2)若 $H_0$ 为真,则有 $\\chi^{2}=\\sum_{i=1}^{n}\\left(\\frac{X_{i}-\\mu}{\\sigma_{0}}\\right)^{2}\\sim\\chi^{2}(n)$ 此时拒绝域为 $\\left(0,\\chi_{1-\\alpha/2}^{2}(n)\\right)\\cup\\left(\\chi_{\\alpha/2}^{2}(n),+\\infty\\right)$ 其中 $x_{\\alpha}^{2}$ 为 $x^{2}$ 分布的 α\n分位数.\n另外：右侧检验： $H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2};$ 此时拒绝域为 $(\\chi_{\\alpha}^{2}(n),+\\infty)$\n左侧检验： $H_{0}:\\sigma^{2}\\geq\\sigma_{0}^{2},H_{1}:\\sigma^{2}<\\sigma_{0}^{2};$ 此时拒绝域为 $(0,\\chi_{1-\\alpha}^{2}(n))$\n2.若均值μ未知,则\n(1)检验假设为 $H_{0}:\\sigma^{2}=\\sigma_{0}^{2},H_{1}:\\sigma^{2}\\neq\\sigma_{0}^{2};$\n(2)若 $\\mathbf{H_{0}}$ 为真,则有 $\\begin{array}{r}{\\chi^{2}=\\sum_{i=1}^{n}\\left(\\frac{X_{i}-\\bar{X}}{\\sigma_{0}}\\right)^{2}=\\frac{n-1}{\\sigma_{0}^{2}}S^{2}\\sim\\chi^{2}(n-1).}\\end{array}$ 此时拒绝域为 $\\left(0,\\chi_{1-\\alpha/2}^{2}(n-1)\\right)\\cup\\left(\\chi_{\\alpha/2}^{2}(n-1),+\\infty\\right)$ 其中\ne $x_{\\alpha}^{2}$ 为 $x^{2}$ 分布的α分位数, $\\begin{array}{r}{S^{2}=\\frac{1}{n-1}\\sum_{i=1}^{n}\\left(X_{i}-\\bar{X}\\right)^{2}}\\end{array}$ O\n另外：右侧检验： $H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2}$ 此时拒绝域为 $\\left(\\chi_{\\alpha}^{2}(n-1),+\\infty\\right)$\n左侧检验： $H_{0}:\\sigma^{2}\\geq\\sigma_{0}^{2},H_{1}:\\sigma^{2}<\\sigma_{0}^{2};$ 此时拒绝域为 $\\left(0,\\chi_{1-\\alpha}^{2}(n-1)\\right)$",
           "question_render_type": 1,
           "analysis_render_type": 1,
           "created_at": {
@@ -1442,7 +1442,7 @@
               "id": 4170174,
               "question_id": 417017,
               "is_answer": false,
-              "choice": "$\\frac{(n-1)S^{2}}{16},\\left(\\chi^{2}_{\\alpha}(n-1),+\\infty\\right)$ Mathe",
+              "choice": "$\\frac{(n-1)S^{2}}{16},\\left(\\chi^{2}_{\\alpha}(n-1),+\\infty\\right)$ ",
               "choice_render_type": 1,
               "choice_id": "4",
               "created_at": {
@@ -1467,7 +1467,7 @@
           "difficulty": "OCR",
           "answer": "1",
           "question_type": 1,
-          "question": "设总体 $X\\sim N(\\mu,\\sigma^{2})$,其中 $\\mu,\\sigma^{2}$ 未知, $X_{1},X_{2},\\cdots,X_{9}$ 为样本,记 $\\begin{array}{r}{X=\\frac{1}{9}\\sum_{i=1}^{9}X_{i},\\quad S^{2}=\\frac{1}{8}\\sum_{i=1}^{9}(X_{i}-X)^{2}}\\end{array}$ $x_{\\alpha}^{2}(n)$ 为分位\n点, $P\\{\\chi^{2}>\\chi_{\\alpha}^{2}(n)\\}=\\alpha$.对检验问题 $H_{0}:\\sigma^{2}=\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2}(\\sigma_{0}^{2}$ 已知)进行 $x^{2}$ 检验,取显著性水平 $\\alpha=0.05$,正确的拒\n绝域是()\nMathe",
+          "question": "设总体 $X\\sim N(\\mu,\\sigma^{2})$,其中 $\\mu,\\sigma^{2}$ 未知, $X_{1},X_{2},\\cdots,X_{9}$ 为样本,记 $\\begin{array}{r}{X=\\frac{1}{9}\\sum_{i=1}^{9}X_{i},\\quad S^{2}=\\frac{1}{8}\\sum_{i=1}^{9}(X_{i}-X)^{2}}\\end{array}$ $x_{\\alpha}^{2}(n)$ 为分位\n点, $P\\{\\chi^{2}>\\chi_{\\alpha}^{2}(n)\\}=\\alpha$.对检验问题 $H_{0}:\\sigma^{2}=\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2}(\\sigma_{0}^{2}$ 已知)进行 $x^{2}$ 检验,取显著性水平 $\\alpha=0.05$,正确的拒\n绝域是()\n",
           "analysis": "在从未知情形下,对于方差的右侧检验 $H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2}$ 所用的检验统计 量为 $\\begin{array}{r}{\\chi^{2}=\\frac{n-1}{\\sigma_{0}^{2}}S^{2}\\sim\\chi^{2}(n-1)}\\end{array}$ 拒绝域为",
           "question_render_type": 1,
           "analysis_render_type": 1,
@@ -1637,7 +1637,7 @@
           "difficulty": "OCR",
           "answer": "1",
           "question_type": 1,
-          "question": "设总体 $X\\sim N(\\mu,\\sigma^{2})$ 其中 $\\mu,\\sigma^{2}$ 未知,取得样本 $X_{1},X_{2},\\ldots,X_{n}$ 记 $[\\bar{X},\\bar{S}^{2}$ 为样本均值与样本方差,检验假设：\nH_{0σ≥2,H_{₁1:σ<2,应取检验统计量为().",
+          "question": "设总体 $X\\sim N(\\mu,\\sigma^{2})$ 其中 $\\mu,\\sigma^{2}$ 未知,取得样本 $X_{1},X_{2},\\ldots,X_{n}$ 记 $[\\bar{X},\\bar{S}^{2}$ 为样本均值与样本方差,检验假设：\nH_0σ≥2,H_1:σ<2,应取检验统计量为().",
           "analysis": "设总体X~. $N(\\mu,\\sigma^{2})$,x,S^分别为样本均值与样本方差.\n对于假设检验 $H_{0}:\\sigma^{2}\\geq\\sigma_{0}^{2},H_{1}:\\sigma^{2}<\\sigma_{0}^{2}$ 检验统计量为\n$x^{2}=\\frac{(n-1)S^{2}}{\\sigma_{0}^{2}}\\sim\\chi^{2}(n-1)$\n本题中 $H_{0}:\\sigma\\geq2$ 即 $\\sigma_{0}=2$ 代入公式可得检验统计量为\n$\\chi^{2}=\\frac{(n-1)S^{2}}{2^{2}}=\\frac{(n-1)S^{2}}{4}$",
           "question_render_type": 1,
           "analysis_render_type": 1,

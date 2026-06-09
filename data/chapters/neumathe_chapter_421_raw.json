@@ -14,7 +14,7 @@
           "answer": "1",
           "question_type": 1,
           "question": "一位中学校长在报纸上看到这样的报道：\"这 一城市的初中学生平均每周看8小时电视．\"她认为她所领导的学校,学生看电视时间\n明显小于该数字．为此,她向她的学校的100名初中学生作了调查,得知平均每周看电视的时间 $\\bar{x}=6.5$ 小时,样本标准差为\n$\\pmb{s}=\\pmb{2}$ 小时,问是否可以认为这位校长的看法是对的 $(\\alpha=0.05)$ ?",
-          "analysis": "检验假设H_{0:μ=8,H_1:μ<8.由于 $\\pmb{n}=\\pmb{100}$ 所以 $\\begin{array}{r}{\\pmb{T}=\\frac{\\pmb{X}-\\pmb{\\mu}}{\\pmb{S}/\\sqrt{n}}}\\end{array}$ 近似服从N(0,1)分布, $\\alpha=0.05,u_{0.05}=1.645$ 又知 $\\bar{x}=6.5,s=2$\n故计算得\n$t={\\frac{6.5-8}{2/{\\sqrt{100}}}}=-7.5$\n否定域 $\\begin{array}{r}{\\pmb{W}=\\bigg\\{\\frac{\\bar{X}-8}{S/\\sqrt{n}}<-u_{0.05}\\bigg\\}.}\\end{array}$\n因为-7.5<-1.645,故否定 $\\mathbf{H_{0}}$ 认为这位校长的看法是对的.",
+          "analysis": "检验假设H_0: μ=8,H_1:μ<8.由于 $\\pmb{n}=\\pmb{100}$ 所以 $\\begin{array}{r}{\\pmb{T}=\\frac{\\pmb{X}-\\pmb{\\mu}}{\\pmb{S}/\\sqrt{n}}}\\end{array}$ 近似服从N(0,1)分布, $\\alpha=0.05,u_{0.05}=1.645$ 又知 $\\bar{x}=6.5,s=2$\n故计算得\n$t={\\frac{6.5-8}{2/{\\sqrt{100}}}}=-7.5$\n否定域 $\\begin{array}{r}{\\pmb{W}=\\bigg\\{\\frac{\\bar{X}-8}{S/\\sqrt{n}}<-u_{0.05}\\bigg\\}.}\\end{array}$\n因为-7.5<-1.645,故否定 $\\mathbf{H_{0}}$ 认为这位校长的看法是对的.",
           "question_render_type": 1,
           "analysis_render_type": 1,
           "created_at": {
@@ -354,7 +354,7 @@
           "answer": "1",
           "question_type": 1,
           "question": "从非正态总体X抽取容量较大的样本 $X_{1},X_{2},\\cdots,X_{n}$ 总体的期望μ未知、方差σ{已知,对于假设H_{0}:\\mu=\\mu_{0}\\leftrightarrow H_{1}:\\mu<\\mu_{0} 检验统计量是,检验拒绝域W=.()",
-          "analysis": "H0成立时, $\\frac{\\bar{X}-\\mu_{0}}{\\sigma}\\sqrt{n}$ 近似服从N(0,1)分布,故用单正态总体方差已知时均值的检验.\n对于正态总体 $N(\\mu,\\sigma^{2})$ 当以下假设中的H0为真时,所用检验统计量均为 $\\begin{array}{r}{U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma/\\sqrt{n}}\\sim N(0,1)}\\end{array}$\n(1)检验假设H0 $\\mu=\\mu_{0};H_{1}:\\mu\\neq\\mu_{0}$ 拒绝域为|UI $>u_{\\alpha/2};$\n(2)检验假设H0 $:\\mu\\leq\\mu_{0};H_{1}:\\mu>\\mu_{0}$ 拒绝域为 $U>u_{\\alpha};$\n(3)检验假设H_0:μ≥0;H_{1 $\\mu<\\mu_{0}$ 拒绝域为 $\\pmb{U}<-\\pmb{u}_{\\alpha}.$",
+          "analysis": "H0成立时, $\\frac{\\bar{X}-\\mu_{0}}{\\sigma}\\sqrt{n}$ 近似服从N(0,1)分布,故用单正态总体方差已知时均值的检验.\n对于正态总体 $N(\\mu,\\sigma^{2})$ 当以下假设中的H0为真时,所用检验统计量均为 $\\begin{array}{r}{U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma/\\sqrt{n}}\\sim N(0,1)}\\end{array}$\n(1)检验假设H0 $\\mu=\\mu_{0};H_{1}:\\mu\\neq\\mu_{0}$ 拒绝域为|UI $>u_{\\alpha/2};$\n(2)检验假设H0 $:\\mu\\leq\\mu_{0};H_{1}:\\mu>\\mu_{0}$ 拒绝域为 $U>u_{\\alpha};$\n(3)检验假设H_0:μ≥0;H_1 $\\mu<\\mu_{0}$ 拒绝域为 $\\pmb{U}<-\\pmb{u}_{\\alpha}.$",
           "question_render_type": 1,
           "analysis_render_type": 1,
           "created_at": {
@@ -779,7 +779,7 @@
           "answer": "1",
           "question_type": 1,
           "question": "某厂的生产管理员认为该厂第一道工序加工完的产品送到第二道工序进行加工之前的平均等待时间超90min．现对100件产品\n的随机抽样结果是平均等待时间为96min,样本标准差为30min,则抽样的结果是否支持该管理员的看法 $(\\alpha=0.05)$ ?( ).",
-          "analysis": "用X表示第一道工序加工完的产品送到第二道工序进行加工之前的等待时间,总体均值为u．依题意,检验假设为\n$H_{0}:\\mu\\leq90,\\quad H_{1}:\\mu>90.$\n由于 $\\pmb{n}=\\pmb{100}$ 为大样本,故用u检验法．总体标准差σ未知,用样本标准差S代替．当 $\\pmb{\\pi_{0}}$ 成立时,有\n$T_{n}=\\frac{\\bar{X}-90}{S/\\sqrt{100}}=\\frac{\\bar{X}-\\mu}{S/\\sqrt{100}}\\sim N(0,1).$\n对于 $\\alpha=0.05$ 查表得 $u_{\\alpha}=u_{0.05}=1.645$ 近似拒绝域为\n$\\pmb{W}=\\{t>1.645\\}.$ uMathe\n已知 $\\bar{x}=96,s=30$ 于是统计量 $\\pmb{\\mathscr{T}}_{\\pmb{n}}$ 的观察值\n$t={\\frac{96-90}{30/{\\sqrt{100}}}}=2>1.645$\n落在了拒绝域中,故拒绝 $\\pmb{\\pi_{0}}$,即支持该管理员的看法",
+          "analysis": "用X表示第一道工序加工完的产品送到第二道工序进行加工之前的等待时间,总体均值为u．依题意,检验假设为\n$H_{0}:\\mu\\leq90,\\quad H_{1}:\\mu>90.$\n由于 $\\pmb{n}=\\pmb{100}$ 为大样本,故用u检验法．总体标准差σ未知,用样本标准差S代替．当 $H_0$ 成立时,有\n$T_{n}=\\frac{\\bar{X}-90}{S/\\sqrt{100}}=\\frac{\\bar{X}-\\mu}{S/\\sqrt{100}}\\sim N(0,1).$\n对于 $\\alpha=0.05$ 查表得 $u_{\\alpha}=u_{0.05}=1.645$ 近似拒绝域为\n$\\pmb{W}=\\{t>1.645\\}.$ uMathe\n已知 $\\bar{x}=96,s=30$ 于是统计量 $\\pmb{\\mathscr{T}}_{\\pmb{n}}$ 的观察值\n$t={\\frac{96-90}{30/{\\sqrt{100}}}}=2>1.645$\n落在了拒绝域中,故拒绝 $H_0$,即支持该管理员的看法",
           "question_render_type": 1,
           "analysis_render_type": 1,
           "created_at": {
@@ -1187,7 +1187,7 @@
               "id": 4210144,
               "question_id": 421014,
               "is_answer": false,
-              "choice": "以上结论均不正确 lathe",
+              "choice": "以上结论均不正确 ",
               "choice_render_type": 1,
               "choice_id": "4",
               "created_at": {
@@ -1213,7 +1213,7 @@
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $x,Y$ 皆服从两点分布\nX 0 1\nP AMathe P_{1$ leuMa $q1\nY N 0 1\nP P{2q{(p_{1}+q_{1}=1,p_{2}+q_{2}=1$ 且 $0<p_{1}<1,0<p_{2}<1)$,从总体X取样本 $X_{1},X_{2},\\cdots,X_{n_{1}}$ 从总体Y中取样本 $Y_{1},Y_{2},\\cdots,Y_{n_{2}}$\n两样本独立．对于假设检验\n$H_{0}:p_{1}=p_{2}\\leftrightarrow H_{1}:p_{1}\\neq p_{2}$\n设显著水平为α,则检验统计量是,检验拒绝域 $W=$ (假设 $\\pmb{n_{1}},\\pmb{n_{2}} 充分大).()",
-          "analysis": "$A=\\{X=1\\},B=\\{Y=1\\}$ 则 $x,Y$ 分别为 $A,B$ 发生的频率,即 $\\begin{array}{r}{\\bar{x}=\\frac{\\bar{n}_{A}}{\\bar{n}_{1}}=\\hat{p_{1}},\\bar{y}=\\frac{\\bar{n}_{B}}{\\bar{n}_{2}}=\\hat{p_{2}},}\\end{array}$ 检验假设为\n$H_{0}:p_{1}=p_{2}\\leftrightarrow H_{1}:p_{1}\\neq p_{2}$\n根据中心极限定理,当 $\\pmb{\\pi_{0}}$ 真,且 $\\pmb{n_{1}},\\pmb{n_{2}}$ 充分大时,\n$U=\\frac{\\overline{p_1}-\\overline{p_2}}{\\sqrt{\\bar{p}(1-\\bar{p})\\left(\\frac{1}{n_1}+\\frac{1}{n_2}\\right)}} 逛服 N(0,1)$\n其中 $\\begin{array}{r}{\\bar{p}=\\frac{n_{A}+n_{B}}{n_{1}+n_{2}}.}\\end{array}$ 记U的样本观察值为$\\mu$,则有拒绝域为 $|u|>u_{\\alpha/2}$",
+          "analysis": "$A=\\{X=1\\},B=\\{Y=1\\}$ 则 $x,Y$ 分别为 $A,B$ 发生的频率,即 $\\begin{array}{r}{\\bar{x}=\\frac{\\bar{n}_{A}}{\\bar{n}_{1}}=\\hat{p_{1}},\\bar{y}=\\frac{\\bar{n}_{B}}{\\bar{n}_{2}}=\\hat{p_{2}},}\\end{array}$ 检验假设为\n$H_{0}:p_{1}=p_{2}\\leftrightarrow H_{1}:p_{1}\\neq p_{2}$\n根据中心极限定理,当 $H_0$ 真,且 $\\pmb{n_{1}},\\pmb{n_{2}}$ 充分大时,\n$U=\\frac{\\overline{p_1}-\\overline{p_2}}{\\sqrt{\\bar{p}(1-\\bar{p})\\left(\\frac{1}{n_1}+\\frac{1}{n_2}\\right)}} 逛服 N(0,1)$\n其中 $\\begin{array}{r}{\\bar{p}=\\frac{n_{A}+n_{B}}{n_{1}+n_{2}}.}\\end{array}$ 记U的样本观察值为$\\mu$,则有拒绝域为 $|u|>u_{\\alpha/2}$",
           "question_render_type": 1,
           "analysis_render_type": 1,
           "created_at": {
