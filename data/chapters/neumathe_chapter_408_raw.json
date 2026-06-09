@@ -1,0 +1,351 @@
+[
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 4,
+      "questions": [
+        {
+          "id": 408001,
+          "subject_id": 3,
+          "chapter_id": 408,
+          "question_id": "pdf-ocr-408-001",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设两位化验员AB独立地对某种聚合物含氯量用相同的方法各作10次测定,其测定值的样本方差依次为\n$s_{A}^{2}=0.5419,s_{B}^{2}=0.6065$ 设 $\\sigma_{A}^{2},\\sigma_{B}^{2}$ 分别为AB所测定的测定值的总体方差,又设总体均为正态的,两样本独立,则方差比\n$\\sigma_{A}^{2}/\\sigma_{B}^{2}$ 的置信水平为0.95的置信区间为( $F_{0.025}(9,9)=4.03,s_{A}^{2}/s_{B}^{2}=0.8935.$",
+          "analysis": "Ne\n依题意,选随机变量\n$\\boldsymbol{F}=\\frac{\\frac{S_{A}^{2}}{\\sigma_{A}^{2}}}{\\frac{S_{B}^{2}}{\\sigma_{B}^{2}}}\\sim F(9,9).$\n作置信, $\\frac{\\sigma_{A}^{2}}{\\sigma_{B}^{2}}$ 的0.95的置信区间为 $\\left(\\frac{s_{A}^{2}}{s_{B}^{2}}\\frac{1}{F_{\\alpha/2}(9,9)},\\frac{s_{A}^{2}}{s_{B}^{2}}F_{\\alpha/2}(9,9)\\right)$\n现 $\\frac{s_{A}^{2}}{s_{B}^{2}}=0.8935,F_{0.025}(9,9)=4.03$ 得 $\\frac{\\sigma_{A}^{2}}{\\sigma_{B}^{2}}$ 的0.95的置信区间为\n$(0.8935\\div4.03,0.8935\\times4.03)\\approx(0.222,3.601)$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/408/001",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4080011,
+              "question_id": 408001,
+              "is_answer": true,
+              "choice": "(0.222, 3.601)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4080012,
+              "question_id": 408001,
+              "is_answer": false,
+              "choice": "(0.222, 2.601)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4080013,
+              "question_id": 408001,
+              "is_answer": false,
+              "choice": "(0.222, 13.601)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4080014,
+              "question_id": 408001,
+              "is_answer": false,
+              "choice": "(0.202, 3.601)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 408002,
+          "subject_id": 3,
+          "chapter_id": 408,
+          "question_id": "pdf-ocr-408-002",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体X与Y分别服从正态分布 $N\\big(\\mu_{1},\\sigma_{1}^{2}\\big)$ 与 $N(\\mu_{2},\\sigma_{2}^{2})$,其中 $\\mu_{1},\\mu_{2},\\sigma_{1}^{2},\\sigma_{2}^{2}$ 未知,X_{1,$X_₂· $\\mathbf{X}_{n}$ 与 $Y_{1},Y_{2},\\cdots,Y_{m}$ 分别\n是总体X与Y的简单随机样本,S,S分别是两个样本的方差,则 $\\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}} 的1-α 置信区间为().",
+          "analysis": "双正态总体方差比 的1-α置信区间为 F_a/2}(n-1,m-1)S_{2/}S{}$ $F_{1-a/2(n-1,m-1) S^{2/{}",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/408/002",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4080021,
+              "question_id": 408002,
+              "is_answer": true,
+              "choice": "$\\left(\\frac{S_{1}^{2}/S_{2}^{2}}{F_{\\alpha/2}(n-1,m-1)},\\frac{S_{1}^{2}/S_{2}^{2}}{F_{1-\\alpha/2}(n-1,m-1)}\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4080022,
+              "question_id": 408002,
+              "is_answer": false,
+              "choice": "$\\left(\\frac{S_{1}^{2}/S_{2}^{2}}{F_{\\alpha}(n,m)},\\frac{S_{1}^{2}/S_{2}^{2}}{F_{1-\\alpha}(n,m)}\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4080023,
+              "question_id": 408002,
+              "is_answer": false,
+              "choice": "$\\left(\\frac{S_{1}^{2}/S_{2}^{2}}{F_{\\alpha}(n-1,m-1)},\\frac{S_{1}^{2}/S_{2}^{2}}{F_{1-\\alpha}(n-1,m-1)}\\right)$\nuMathe",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4080024,
+              "question_id": 408002,
+              "is_answer": false,
+              "choice": "$\\left(\\frac{S_{1}^{2}/S_{2}^{2}}{F_{\\alpha/2}(n,m)},\\frac{S_{1}^{2}/S_{2}^{2}}{F_{1-\\alpha/2}(n,m)}\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 408003,
+          "subject_id": 3,
+          "chapter_id": 408,
+          "question_id": "pdf-ocr-408-003",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设正态总体X服从正态分布 $N(\\mu_{1},\\sigma_{1}^{2})$ 正态总体Y服从正态分布 $N(\\mu_{2},\\sigma_{2}^{2})$,其中 $\\mu_{1},\\mu_{2},\\sigma_{1}^{2},\\sigma_{2}^{2}$ 皆未知．设 $X_{1},X_{2},\\cdots,X_{8}$\n是来自总体X的样本, $Y_{1},Y_{2},\\cdots,Y_{12}$ 是来自总体Y的样本,两样本独立, $\\mathcal{S}_{1}^{2},\\mathcal{S}_{2}^{2}$ 分别为两样本的样本方差．则两总体方差之\n比 $\\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}}$ 的置信度为90%的置信区间是(). -",
+          "analysis": "=0.05,n₁1=8,n2=12,故置信区间为 $\\frac{}{}$ $F0.05(7,11 1 $\\\\frac{}{}$ $F0.(7).\nF0.95(7,11)= F0.06(11,7) 1 得置信区间 \\frac}{} F0.05(7,11) 1 F0.05(11, 7))",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/408/003",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4080031,
+              "question_id": 408003,
+              "is_answer": true,
+              "choice": "$\\left(\\frac{S_{1}^{2}}{S_{2}^{2}}\\frac{1}{F_{0.05}(7,11)},\\frac{S_{1}^{2}}{S_{2}^{2}}F_{0.05}(11,7)\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4080032,
+              "question_id": 408003,
+              "is_answer": false,
+              "choice": "$\\textstyle\\left(\\frac{S_{1}^{2}}{S_{2}^{2}}F_{0.05}(11,7),\\frac{S_{1}^{2}}{S_{2}^{2}}F_{0.95}(11,7)\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4080033,
+              "question_id": 408003,
+              "is_answer": false,
+              "choice": "$\\left(\\frac{S_{1}^{2}}{S_{2}^{2}}\\frac{1}{F_{0.05}(11,7)},\\frac{S_{1}^{2}}{S_{2}^{2}}F_{0.05}(7,11)\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4080034,
+              "question_id": 408003,
+              "is_answer": false,
+              "choice": "$\\left(\\frac{S_{1}^{2}}{S_{2}^{2}}\\frac{1}{F_{0.05}(7,11)},\\frac{S_{1}^{2}}{S_{2}^{2}}\\frac{1}{F_{0.05}(11,7)}\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 408004,
+          "subject_id": 3,
+          "chapter_id": 408,
+          "question_id": "pdf-ocr-408-004",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "两家电影公司出品的影片放映时间如表所示,假设放映时间均服正态分布,则电影公司的影片放映时间方差比的置信度为90%\n的置信区间为()",
+          "analysis": "在均值未知条件下,两总体方差比的置信度为 $1-\\alpha$ 的置信区间为\n$$\\left(\\frac{S_{1}^{2}}{S_{2}^{2}}\\cdot\\frac{1}{F_{\\alpha/2}(n_{1}-1,n_{2}-1)},\\frac{S_{1}^{2}}{S_{2}^{2}}\\cdot F_{\\alpha/2}(n_{2}-1,n_{1}-1)\\right).$$\n本题 $n_{1}=5,n_{2}=7,1-\\alpha=0.90,F_{0.06}(6,4)=6.16,F_{0.06}(4,6)=4.53,\\bar{x}_{1}=98.40,\\bar{x}_{2}=110.71,\\quad s_{1}^{2}=8.73^{2},s_{2}^{2}=32.19^{2}.$\n$\\frac{\\mathit{s}_{1}^{2}}{\\mathit{s}_{2}^{2}}=\\frac{8.73^{2}}{32.19^{2}}\\approx0.0736$\n于是 $\\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}}$ 的0.90置信区间为\n$\\left(0.0736\\times\\frac{1}{4.53},0.0736\\times6.16\\right)\\approx(0.016,0.453).$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/408/004",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4080041,
+              "question_id": 408004,
+              "is_answer": true,
+              "choice": "(0.016,0.453)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4080042,
+              "question_id": 408004,
+              "is_answer": false,
+              "choice": "(0.116,0.453)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4080043,
+              "question_id": 408004,
+              "is_answer": false,
+              "choice": "(0.016,0.253)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4080044,
+              "question_id": 408004,
+              "is_answer": false,
+              "choice": "(0.016,0.353)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  }
+]

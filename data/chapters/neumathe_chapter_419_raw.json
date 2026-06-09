@@ -1,0 +1,2324 @@
+[
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 27,
+      "questions": [
+        {
+          "id": 419001,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-001",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设甲、乙两厂生产同样的灯泡,其寿命 $X,Y$ 分别服从正态分布 $N(\\mu_{1},\\sigma_{1}^{2}),N(\\mu_{2},\\sigma_{2}^{2})$,已知它们寿命的标准差分别为84h和\n96h,现从两厂生产的灯泡中各取60只,测得平均寿命甲厂为1295h,乙厂为1230h,设 $\\alpha=0.05$ 关于两厂生产的灯泡\n寿命是否有显著差异的说法,下列说法不正确的是(). $(u_{0.05}=1.645,u_{0.025}=1.96)$",
+          "analysis": "(1)建立假设 H0$ $\\mu_{1}=\\mu_{2},H_{1}:\\mu_{1}\\neq\\mu_{2}.$\n(2)选择统计量 $\\begin{array}{r}{\\mathbf{U}=\\frac{\\bar{X}-\\bar{Y}-(\\mu_{1}-\\mu_{2})}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}}\\sim N(0,1)}\\end{array}$ lathe\n(3)对于给定的显著性水平α,确定k使 $P\\{|U|>k\\}=\\alpha.$ 拒绝域为 $|U|>u_{\\alpha/2}.$\n(4) 由于 $\\bar{x}=1295,\\bar{y}=1230,\\sigma_{1}=84,\\sigma_{2}=96$ 所以 $\\left|u\\right|=\\left|\\frac{\\bar{x}-\\bar{y}}{\\sqrt{\\frac{\\sigma_1^2}{n_1}+\\frac{\\sigma_2^2}{n_2}}}\\right|=3.95>u_{0.025}=1.96$ 故拒绝 $\\mathbf{H_{0}} 即认为两厂生产的灯泡寿命\n有显著差异.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/001",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190011,
+              "question_id": 419001,
+              "is_answer": true,
+              "choice": "拒绝域为 $(1.96,+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190012,
+              "question_id": 419001,
+              "is_answer": false,
+              "choice": "假设检验为设 $H_{0}:\\mu_{1}=\\mu_{2},H_{1}:\\mu_{1}\\neq\\mu_{2}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190013,
+              "question_id": 419001,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\begin{array}{r}{U=\\frac{\\vec{X}-\\vec{Y}-(\\mu_{1}-\\mu_{2})}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}}}\\end{array}$ ∼N(0,1)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190014,
+              "question_id": 419001,
+              "is_answer": false,
+              "choice": "可认为两厂生产的灯泡寿命有显著差异",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419002,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-002",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体 $X\\sim N(\\mu_{1},\\sigma^{2})$ 总体 $Y\\sim N(\\mu_{2},\\sigma^{2})$ 其中 $\\pmb{\\sigma}^{2}$ 未知,从总体 $X,Y$ 各取容量为10的样本,两样本独立．对于假设检\n验H0 $\\mu_{1}-\\mu_{2}=4,H_{1}:\\mu_{1}-\\mu_{2}\\neq4$ 若显著性水平为 $\\alpha=0.10$,则检验的拒绝域为",
+          "analysis": "双正态总体均值差(方差未知但相等)的检验统计量为\n$T=\\frac{\\bar{X}-\\bar{Y}-\\mu_{0}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}\\sim t(n_{1}+n_{2}-2).$\n在双侧检验 $H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0},H_{1}:\\mu_{1}-\\mu_{2}\\neq\\mu_{0}$ 拒绝域为\ne\n$|T|=\\left|\\frac{\\bar{x}-\\bar{y}-\\mu_0}{S_w\\sqrt{1/n_1+1/n_2}}\\right|>t_{\\alpha/2}(n_1+n_2-2)$\n其中 $\\begin{array}{r}{\\bar{S}_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}}\\end{array}$\n把题目中具体数据代入, $n_{1}=n_{2}=10,\\mu_{0}=4,\\alpha=0.10$ 则 $t_{\\alpha/2}(n_{1}+n_{2}-2)=t_{0.05}(18)$\n此时 $\\begin{array}{r}{S_{w}^{2}=\\frac{9S_{1}^{2}+9S_{2}^{2}}{18}=\\frac{S_{1}^{2}+S_{2}^{2}}{2}}\\end{array}$ 分母部分 $\\begin{array}{r}{S_{w}\\sqrt{\\frac{1}{10}+\\frac{1}{10}}=\\sqrt{\\frac{S_{1}^{2}+S_{2}^{2}}{2}}\\cdot\\sqrt{\\frac{2}{10}}=\\sqrt{\\frac{S_{1}^{2}+S_{2}^{2}}{10}}.}\\end{array}$\n整理得拒绝域为\n$\\left|\\frac{\\bar{x}-\\bar{y}-4}{\\sqrt{s_1^2+s_2^2}}\\sqrt{10}\\right|>t_{0.05}(18)$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/002",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190021,
+              "question_id": 419002,
+              "is_answer": true,
+              "choice": "$\\left|\\frac{\\bar{x}-\\bar{y}-4}{\\sqrt{s_1^2+s_2^2}}\\sqrt{10}\\right|>t_{0.05}(18)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190022,
+              "question_id": 419002,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\left|\\frac{\\bar{x}-\\bar{y}}{\\sqrt{s_{1}^{2}+s_{2}^{2}}}\\sqrt{10}\\right|>t_{0.05}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190023,
+              "question_id": 419002,
+              "is_answer": false,
+              "choice": "$\\left|\\frac{\\bar{x}-\\bar{y}}{\\sqrt{s_1^2+s_2^2}}\\sqrt{5}\\right|>t_{0.05}(18)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190024,
+              "question_id": 419002,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\left|\\frac{\\bar{x}-\\bar{y}-4}{\\sqrt{s_{1}^{2}+s_{2}^{2}}}\\sqrt{5}\\right|>t_{0.05}(18).}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419003,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-003",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某校从经常参加体育锻炼的男生中随机地选出50名,测得平均身高174.34厘米：从不经常参加体育锻炼的男生中随机地选50\n名,测得平均身高172.42厘米．统计资料表明两种男生的身高都服从正态分布,其标准差分别为5.35厘米和6.11厘米．若\n检验该校经常参加锻炼的男生是否比不常参加锻炼的男生平均身高要高些 $(\\alpha=0.05)$ 下列说法不正确的是().",
+          "analysis": "设 $x,Y$ 分别表示常锻炼和不常锻炼男生的身高,由题设 $\\underline{X}\\sim N(\\mu_{1},5.35^{2}),Y\\sim N(\\mu_{2},6.11^{2})$\n(1)待检假设H0 $\\mathbf{:\\mu _{1}}\\leq\\mathbf{\\mu _{2}}$ 备择假设 $H_{1}:\\mu_{1}>\\mu_{2}$\n(2)选取统计量 $\\mathbf{U}=\\frac{\\bar{X}-\\bar{Y}}{\\sqrt{\\frac{\\sigma_1^2}{n}+\\frac{\\sigma_2^2}{m}}}\\stackrel{H_0 成立 }{\\sim}N(0,1);$\n(3)对于 $\\alpha=0.05$ 查标准正态分布表, $u_{\\alpha}=u_{0.05}=1.64;$ 则拒绝域为 $(1.64,+\\infty)$\n(4)计算 $u=\\frac{174.34-172.42}{\\sqrt{\\frac{5.35^{2}}{50}+\\frac{6.11^{2}}{50}}}\\approx1.67>1.64$\n故否定原假设 $\\begin{array}{r}{\\mathbf{\\mathit{H}_{0}},}\\end{array}$ 即表明经常体育锻炼的男生平均身高比不经常体育锻炼的男生平均身高高些.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/003",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190031,
+              "question_id": 419003,
+              "is_answer": true,
+              "choice": "拒绝域为 $(-\\infty,-1.64)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190032,
+              "question_id": 419003,
+              "is_answer": false,
+              "choice": "检验假设为H_{0:_{1≤μ2,H_{： μ1 > μ2",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190033,
+              "question_id": 419003,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\begin{array}{r}{U=\\frac{\\bar{X}-\\bar{Y}}{\\sqrt{\\sigma_{1}^{2}/n+\\sigma_{2}^{2}/m}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190034,
+              "question_id": 419003,
+              "is_answer": false,
+              "choice": "可认为经常体育锻炼的男生平均身高比不经常体育锻炼的男生平均身高高些",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419004,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-004",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某灯泡厂采用一项新工艺的前后,分别抽取10个灯泡进行寿命试验．计算得到：采用新工艺前灯泡寿命的样本均值为2460小\n时,样本标准差为56小时；采用新工艺后灯泡寿命的样本均值为2550小时,样本标准差为48小时．设灯泡的寿命服从正态\n分布,有人认为采用新工艺后灯泡的平均寿命有显著提高,设 $\\alpha=0.01$ 则下列说法中正确的是().",
+          "analysis": "由于方差未知,且不知是否相等,故需先检验方差是否相等.\n(1)检验假设 $H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},\\quad H_{1}:\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}$\n应选取检验统计量 $F=S_{1}^{2}/S_{2}^{2}$ 若真,则 $\\pmb{H_{0}}$ $F\\sim F(m-1,n-1)$\n对于给定的检验水平 $\\alpha=0.01$ 查自由度为(9,9)的F分布表得 $F_{0.005}(9,9)=6.54$\n已知 $m=n=10,s_{1}=56,s_{2}=48$ 由此得统计量F的观察值为 $\\pmb{F}=56^{2}/48^{2}\\approx1.36$\n因为 $F<F_{0.005}(9,9)$ 所以接受原假设 $\\mathbf{H_{0}}$ 即可认为这两个总体的方差无显著差异.\n(2)检验假设 $H_{0}^{\\prime}:\\mu_{1}=\\mu_{2},H_{1}^{\\prime}:\\mu_{1}<\\mu_{2}$\n按上述关于双总体方差的假设检验的结论知这两个总体的方差未知但相等, $\\sigma_{1}^{2}=\\sigma_{2}^{2}$ 所以应选取检验统计量：\n$\\pmb{T}=\\frac{\\vec{X}-\\vec{Y}}{\\sqrt{\\frac{(m-1)S_{1}^{2}+(n-1)S_{2}^{2}}{m+n-2}\\left(\\frac{1}{m}+\\frac{1}{n}\\right)}}$\n若 $\\pmb{H_{0}}$ 真,则 $T\\sim t(m+n-2)$\n对给定的检验水平 $\\alpha=0.01$,查自由度为 ${\\pmb m}+{\\pmb n}-{\\pmb2}=18$ 的t分布表得临界值 $t_{\\alpha}(m+n-2)=t_{0.01}(18)=2.55$ 故接受域为\n$\\{T>-2.55\\}$\n已知 $m=n=10,\\bar{x}=2460,\\bar{y}=2550,s_{1}=56,s_{2}=48$ 由此得统计量T的观测值为T≈-3.86；\n因为 $t<-t_{0.01}(18)=-2.55$ 所以拒绝原假设 $H_{0}.$ 而接受备择假设 $\\mathbf{\\underline{{\\underline{{H}}}_{1}}}$ 即认为采用新工艺后灯泡的平均寿命显著提高",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/004",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190041,
+              "question_id": 419004,
+              "is_answer": true,
+              "choice": "检验假设为H_{0:{1=2},H_{1}:1",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190042,
+              "question_id": 419004,
+              "is_answer": false,
+              "choice": "拒绝域为{T>-2.55}",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190043,
+              "question_id": 419004,
+              "is_answer": false,
+              "choice": "检验统计量为 $F=S_{1}^{2}/S_{2}^{2}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190044,
+              "question_id": 419004,
+              "is_answer": false,
+              "choice": "可认为采用新工艺后灯泡的平均寿命没有显著提高",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419005,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-005",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设二正态总体 $N(\\mu_{1},\\sigma_{1}^{2})$ 和 $N(\\mu_{2},\\sigma_{2}^{2})$ 有两组相互独立样本,容量分别为n₁,n_2,均值分别为 $\\bar{\\mathbf{X}}_{1},\\bar{\\mathbf{X}}_{2}$ 且和为已知. $\\sigma_{1}^{2}$ $\\sigma_{2}^{2}$\n要对 $\\mu_{1}-\\mu_{2}$ 作假设检验,统计假设为 $H_{0}:\\mu_{1}-\\mu_{2}=0,H_{1}:\\mu_{1}-\\mu_{2}<0$ 给定显著水平α,则检验的拒绝区间为().",
+          "analysis": "双正态总体均值差的检验如下过程.若方差 $\\sigma_{1}^{2},\\sigma_{2}^{2}$ 已知,则：\n(1)检验假设H0 $\\mu_{1}-\\mu_{2}=\\mu_{0},H_{1}:\\mu_{1}-\\mu_{2}\\neq\\mu_{0}.$\n(2)若H0成立,则 $\\begin{array}{r}{\\pmb{U}=\\frac{(\\vec{X}-\\vec{Y})-\\mu_{0}}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}}\\sim N(0,1).}\\end{array}$,拒绝域为UI $>u_{\\alpha/2}.$\n右侧检验：H0 $\\mu_{1}-\\mu_{2}\\leq\\mu_{0};H_{1}:\\mu_{1}-\\mu_{2}>\\mu_{0}.$ 此时拒绝域为 $U>u_{\\alpha}.$\n左侧检验： $H_{0}:\\mu_{1}-\\mu_{2}\\geq\\mu_{0};H_{1}:\\mu_{1}-\\mu_{2}<\\mu_{0}\\text{。}$ 此时拒绝域为 $\\pmb{U}<-\\pmb{u}_{\\pmb{\\alpha}}\\mathrm{{}\\mathrm{{}\\mathrm{{}\\mathrm{{}\\mathrm{{}\\mathrm{{}}}}}}}$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/005",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190051,
+              "question_id": 419005,
+              "is_answer": true,
+              "choice": "$\\pmb{U}<-\\pmb{u}_{\\pmb{\\alpha}}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190052,
+              "question_id": 419005,
+              "is_answer": false,
+              "choice": "$|U|>u_{\\alpha}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190053,
+              "question_id": 419005,
+              "is_answer": false,
+              "choice": "$U>u_{\\alpha}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190054,
+              "question_id": 419005,
+              "is_answer": false,
+              "choice": "$|\\bar{U}|>u_{\\alpha/2}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419006,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-006",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设二正态总体 $N(\\mu_{1},\\sigma_{1}^{2})$ 和 $N\\big(\\mu_{2},\\sigma_{2}^{2}\\big)$ 有两组相互独立样本,容量分别为 $\\pmb{n_{1}},\\pmb{n_{2}}$ 均值分别为 $\\bar{\\mathbf{X_{1}}},\\bar{\\mathbf{X_{2}}}$ 且和 $\\sigma_{1}^{2}$ $\\sigma_{2}^{2}$ 为已知,\n要对 $\\mathbf{\\mu _{1}}-\\mathbf{\\mu _{2}}$ 作假设检验,统计假设为\n$H_{0}:\\mu_{1}-\\mu_{2}=0,\\quad H_{1}:\\mu_{1}-\\mu_{2}\\neq0;$.atl\n给定显著水平α,则检验的拒绝区间为",
+          "analysis": "双正态总体均值差的检验如下过程.若方差 $\\sigma_{1}^{2},\\sigma_{2}^{2}$ 已知,则： euMat\n(1)检验假设H0 $\\mu_{1}-\\mu_{2}=\\mu_{0};H_{1}:\\mu_{1}-\\mu_{2}\\neq\\mu_{0}.$\n(2)若H0成立,则 $\\begin{array}{r}{U=\\frac{(\\bar{X}_{1}-\\bar{X}_{2})-\\mu_{0}}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}}\\sim N(0,1)}\\end{array}$,U的样本观察值记为$\\mu$,此时拒绝域为u $>u_{\\alpha/2}.$ 其中 $\\mathbf{u_{\\alpha/2}}$ 为标准正态分布的\nα/2分位数.\n另外,右侧检验： $H_{0}:\\mu_{1}-\\mu_{2}\\leq\\mu_{0};H_{1}:\\mu_{1}-\\mu_{2}>\\mu_{0}$,此时拒绝域为 $u>u_{\\alpha}.$\n左侧检验： $H_{0}:\\mu_{1}-\\mu_{2}\\geq\\mu_{0};H_{1}:\\mu_{1}-\\mu_{2}<\\mu_{0}.$ 此时拒绝域为 $\\pmb{u}<-\\pmb{u}_{\\pmb{\\alpha}}.$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/006",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190061,
+              "question_id": 419006,
+              "is_answer": true,
+              "choice": "$|u|>u_{\\alpha/2}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190062,
+              "question_id": 419006,
+              "is_answer": false,
+              "choice": "$|u|>u_{\\alpha}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190063,
+              "question_id": 419006,
+              "is_answer": false,
+              "choice": "$u<-u_{\\alpha}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190064,
+              "question_id": 419006,
+              "is_answer": false,
+              "choice": "$u>u_{\\alpha}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419007,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-007",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "有9名学生到英语培训班学习,培训前后各进行了一次水平测验,成绩如下表：\n学生编号 i 1 2 3 4 5 6 7 8 9\n入学前成绩X_i 76 74 70 57 49 69 65 26 59\n入学后成绩Y{ 81 85 70 52 52 63 83 33 62\n$Z_{i}=X_{i}-Y_{i}$ -5 -14 0 5 -3 6 -18 -7 -3\n假设测验成绩服从正态分布,显著性水平 $\\alpha=0.05$ 若检验学生的培训效果是否显著,则下列说法中不正确的是().",
+          "analysis": "设X,Y分别表示培训班前后学生的英语测验成绩,显然 $\\mathbf{x}_{i}$ 与 $Y_{i}(i=1,2,\\cdots,n)$ 不独立. $Z=X-Y$ 则 $Z\\sim N(\\mu,\\sigma^{2})$\n(1)待检假设HQ $\\mu=E(X)-E(Y)\\geq0$ 备择假设 $H_{1}:\\mu=E(X)-E(Y)<0;$\n(2)选取统计量 $\\begin{array}{r}{t=\\frac{\\bar{Z}}{S/\\sqrt{n}}\\sim t(n-1)}\\end{array}$\n(3)由于 $\\alpha=0.05,n=9$ 查t分布表,得 $t_{\\alpha}(n-1)=t_{0.05}(8)=1.860$ 于是 $\\mathbf{H_{0}}$ 的拒绝域为 $(-\\infty,-1.860)$\n(4)算出 $\\bar{z}=-4.333,s=7.937$ 则\n$t={\\frac{\\bar{z}}{s/{\\sqrt{n}}}}\\approx{\\frac{-4.333}{7.937/{\\sqrt{9}}}}\\approx-1.638>-1.860.$\n所以接受 $\\pmb{H_{0}}$ 即可认为培训效果不显著.\n综上所述,该问题属于成对数据的均值检 而非方差比检验.故说法不正确的是“这是双正态总体方差比的假设检验问题”",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/007",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190071,
+              "question_id": 419007,
+              "is_answer": true,
+              "choice": "这是双正态总体方差比的假设检验问题",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190072,
+              "question_id": 419007,
+              "is_answer": false,
+              "choice": "这是双正态总体均值差的假设检验问题",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190073,
+              "question_id": 419007,
+              "is_answer": false,
+              "choice": "经检验可认为培训效果不显著",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190074,
+              "question_id": 419007,
+              "is_answer": false,
+              "choice": "拒绝域为 $(-\\infty,-1.860)$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419008,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-008",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某灯泡厂采用一项新工艺的前后,分别抽取10个灯泡进行寿命试验.计算得到：采用新工艺前灯泡寿命的样本均值为2460小\n时,样本标准差为56小时；采用新工艺后灯泡寿命的样本均值为2550小时,样本标准差为48小时.设灯泡的寿命服从正态\n分布,有人认为采用新工艺后灯泡的平均寿命有显著提高 $(\\alpha=0.01)$,则下列说法中不正确的是().",
+          "analysis": "(1)检验假设 $H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},\\quad H_{1}:\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}.$\n应选取检验统计量 $F=S_{1}^{2}/S_{2}^{2}$ 若 $\\pmb{\\pi_{0}}$ 真,则 $F\\sim F(m-1,n-1)$\n对于给定的检验水平 $\\alpha=0.01$,查自由度为(9,9)的F分布表得 $F_{0.005}(9,9)=6.54;$\n已知 $m=n=10,s_{1}=56,s_{2}=48$ 由此得统计量F的观察值为 $\\pmb{F}=56^{2}/48^{2}\\approx1.36$\n因为 $F<F_{0.005}(9,9)$,所以接受原假设 $\\mathbf{H_{0}}$ 即可认为这两个总体的方差无显著差异.\n(2)检验假设 $H_{0}^{\\prime}:\\mu_{1}=\\mu_{2},H_{1}^{\\prime}:\\mu_{1}<\\mu_{2}.$\n按上述关于双总体方差的假设检验的结论知这两个总体的方差未知但相等, $\\sigma_{1}^{2}=\\sigma_{2}^{2}$ 所以应选取检验统计量：\n$T=\\frac{\\vec{X}-\\vec{Y}}{\\sqrt{\\frac{(m-1)S_{1}^{2}+(n-1)S_{2}^{2}}{m+n-2}\\left(\\frac{1}{m}+\\frac{1}{n}\\right)}}$\n若 $\\pmb{H_{0}^{\\prime}}$ 真,则 $T\\sim t(m+n-2)$\n对给定的检验水平 $\\alpha=0.01$,查自由度为 ${\\pmb m}+{\\pmb n}-{\\pmb2}={\\pmb1}{\\pmb8}$ 的t分布表得临界值 $t_{\\alpha}(m+n-2)=t_{0.01}(18)=2.55$,故接受域为\n$\\{T>-2.55\\}$\n已知 $m=n=10,\\bar{x}=2460,\\bar{y}=2550,s_{1}=56,s_{2}=48$ 由此得统计量T的观测值为 $\\pmb{T}\\approx-\\pmb{3.86}$；因为 $t<-t_{0.01}(18)=-2.55$ 所以\n拒绝原假设 $\\mathbf{H_{0}^{\\prime}}$\n而接受备择假设 $\\mathbf{H_{1}^{\\prime}}$ 即认为采用新工艺后灯泡的平均寿命显著提高.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/008",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190081,
+              "question_id": 419008,
+              "is_answer": true,
+              "choice": "检验统计量为 $\\begin{array}{r}{T=\\frac{\\vec{X}-\\vec{Y}-\\mu_{0}}{\\sqrt{S_{1}^{2}/n_{1}+S_{2}^{2}/n_{2}}}.}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190082,
+              "question_id": 419008,
+              "is_answer": false,
+              "choice": "检验假设为 $H_{0}^{\\prime}:\\mu_{1}=\\mu_{2},H_{1}^{\\prime}:\\mu_{1}<\\mu_{2}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190083,
+              "question_id": 419008,
+              "is_answer": false,
+              "choice": "接受域为 $\\{T>-t_{\\alpha}(m+n-2)\\}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190084,
+              "question_id": 419008,
+              "is_answer": false,
+              "choice": "可认为采用新工艺后灯泡的平均寿命显著提高",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419009,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-009",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设样本 $X_{1},X_{2},\\cdots,X_{n}$ 和 $Y_{1},Y_{2},\\cdots,Y_{n}$ 分别取自总体 $\\pmb{\\xi}\\sim N(\\mu_{1},\\sigma_{1}^{2})$ 和 $\\eta\\sim N(\\mu_{2},\\sigma_{2}^{2})$ 在进行假设检验时,若()时,检\n验$H_{}: $\\mu_{1}=\\mu_{2}$ 采用统计量 $\\begin{array}{r}{T=\\frac{\\bar{X}-\\bar{Y}}{\\sqrt{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}}\\sqrt{\\frac{n_{1}n_{2}(n_{1}+n_{2}-2)}{n_{1}+n_{2}}}.}\\end{array}",
+          "analysis": "双正态总体均值差检验.\n1．方差 $\\sigma_{1}^{2},\\sigma_{2}^{2}$ 已知情形,原假设H0 $\\mathbf{\\mu _{1}}-\\mathbf{\\mu _{2}}=\\mathbf{\\mu _{0}}$ 检验统计量为\n$U=\\frac{\\bar{X}-\\bar{Y}-\\mu_{0}}{\\sqrt{\\sigma_{1}^{2}/n_{1}+\\sigma_{2}^{2}/n_{2}}}\\sim N(0,1).$\n2.方差 $\\sigma_{1}^{2},\\sigma_{2}^{2}$ 未知,但 $\\sigma_{1}^{2}=\\sigma_{2}^{2}=\\sigma^{2}$ 情形,原假设 $H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0}$ 检验统计量为\n$T=\\frac{\\bar{X}-\\bar{Y}-\\mu_{0}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}\\sim t(n_{1}+n_{2}-2)$\n其中 $S_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}$\n3.方差 $\\sigma_{1}^{2},\\sigma_{2}^{2}$ 未知,但 $\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}$ 原假设 $H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0}$ 检验统计量为\n$T=\\frac{\\bar{X}-\\bar{Y}-\\mu_{0}}{\\sqrt{S_{1}^{2}/n_{1}+S_{2}^{2}/n_{2}}}\\sim t(f)$\n其中 $\\begin{array}{r}{f=\\frac{\\left(\\frac{S_{1}^{2}}{n_{1}}+\\frac{S_{2}^{2}}{n_{2}}\\right)^{2}}{\\frac{S_{1}^{4}}{n_{1}^{2}\\left(n_{1}-1\\right)}+\\frac{S_{2}^{4}}{n_{2}^{2}\\left(n_{2}-1\\right)}}.}\\end{array}$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/009",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190091,
+              "question_id": 419009,
+              "is_answer": true,
+              "choice": "$\\sigma_{1}^{2}=\\sigma_{2}^{2}$ 未知",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190092,
+              "question_id": 419009,
+              "is_answer": false,
+              "choice": "$\\sigma_{1}^{2},\\sigma_{2}^{2}$ 已知",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190093,
+              "question_id": 419009,
+              "is_answer": false,
+              "choice": "$\\sigma_{1}^{2},\\sigma_{2}^{2}$ 未知",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190094,
+              "question_id": 419009,
+              "is_answer": false,
+              "choice": "$\\sigma_{1}^{2}=\\sigma_{2}^{2}$ 已知 lathe Mathe",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419010,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-010",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "两个正态总体X与Y的方差 $$\\pmb{\\sigma_{1}^{2}} 与 \\pmb{\\sigma_{2}^{2}}$$ 未知,则检验假设H_{0:{1<_2 要求 $$\\pmb{\\sigma_{1}^{2}} 与 \\pmb{\\sigma_{2}^{2}}$$ 应满足的条件是().",
+          "analysis": "设 $X_{1},X_{2},\\cdots,X_{n_{1}}$ 为取自总体 $N(\\mu_{1},\\sigma_{1}^{2})$ 的一个样本,并且两个样本相互独立,记X与Y分别为相应的样本均值, $\\mathcal{S}_{\\mathbf{1}}^{\\mathbf{2}}$ 与 $\\mathcal{S}_{2}^{2}$ 分别\n为相应的样本方差.\n右侧检验 $H_{0}:\\mu_{1}-\\mu_{2}\\leq\\mu_{0},H_{1}:\\mu_{1}-\\mu_{2}>\\mu_{0}(\\mu_{0}$ 已知).\n1．方差 $\\sigma_{1}^{2},\\sigma_{2}^{2}$ 未知,但 $\\sigma_{1}^{2}=\\sigma_{2}^{2}=\\sigma^{2}$,检验统计量\n$T=\\frac{\\bar{X}-\\bar{Y}-\\mu_{0}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}\\sim t(n_{1}+n_{2}-2)$\n其中 $\\begin{array}{r}{S_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}}\\end{array}$\n2.方差 $\\sigma_{1}^{2},\\sigma_{2}^{2}$ 未知,但 $\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}$ 检验统计量为\nMathe $T=\\frac{\\bar{X}-\\bar{Y}-\\mu_{0}}{\\sqrt{S_{1}^{2}/n_{1}+S_{2}^{2}/n_{2}}}$ NeaMathe\n其中 $\\begin{array}{r}{\\pmb{f}=\\frac{(S_{1}^{2}/n_{1}+S_{2}^{2}/n_{2})^{2}}{\\frac{S_{1}^{4}}{n_{1}^{2}(n_{1}-1)}+\\frac{S_{2}^{4}}{n_{2}^{2}(n_{2}-1)}}.}\\end{array}$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/010",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190101,
+              "question_id": 419010,
+              "is_answer": true,
+              "choice": "$\\sigma_{1}^{2},\\sigma_{2}^{2}$ 可为任意正数",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190102,
+              "question_id": 419010,
+              "is_answer": false,
+              "choice": "$\\sigma_{1}^{2}<\\sigma_{2}^{2}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190103,
+              "question_id": 419010,
+              "is_answer": false,
+              "choice": "$\\sigma_{1}^{2}>\\sigma_{2}^{2}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190104,
+              "question_id": 419010,
+              "is_answer": false,
+              "choice": "$\\sigma_{1}^{2}=\\sigma_{2}^{2}$ e",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  },
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 27,
+      "questions": [
+        {
+          "id": 419011,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-011",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设从正态总体 $N(\\mu_{1},\\sigma^{2})$ 和 $N(\\mu_{2},\\sigma^{2})$ (σ未知)取得两相互独立的样本,容量分别为 $\\pmb{n_{1}},\\pmb{n_{2}}$,均值为 $\\pmb{X},\\pmb{Y}$,样本方差为 $\\pmb{S_{1}^{2}}$\n和 $\\mathcal{S}_{2}^{2}$,要对 $\\mathbf{\\mu _{1}}-\\mathbf{\\mu _{2}}$ 作假设检验,统计假设为 $H_{0}:\\mu_{1}-\\mu_{2}=0\\leftrightarrow H_{1}:\\mu_{1}-\\mu_{2}\\neq0$ 则要用的检验统计量和在给定的显著水平\nα下检验的拒绝域为().",
+          "analysis": "双正态总体均值差的检验过程如下：\n1．方差 $\\sigma_{1}^{2},\\sigma_{2}^{2}$ 已知：\n检验假设 $H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0},H_{1}:\\mu_{1}-\\mu_{2}\\neq\\mu_{0}.$\n若 $\\pmb{\\pi_{0}}$ 成立,则 $\\begin{array}{r}{\\pmb{U}=\\frac{(\\bar{\\pmb{X}}-\\bar{\\pmb{Y}})-\\mu_{0}}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}}\\sim N(0,1)}\\end{array}$.拒绝域为 $|u|>u_{\\alpha/2}.$\n2.方差 $\\sigma_{1}^{2},\\sigma_{2}^{2}$ 未知,但 $\\sigma_{1}^{2}=\\sigma_{2}^{2}=\\sigma^{2}$\n检验假设 $H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0},\\quad H_{1}:\\mu_{1}-\\mu_{2}\\neq\\mu_{0}.$\ne若 $\\mathbf{H_{0}}$ 成立,则 $\\begin{array}{r}{T=\\frac{(\\vec{X}-\\vec{Y})-\\mu_{0}}{S_{w}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}\\sim t(n_{1}+n_{2}-2)}\\end{array}$ 拒绝域为|t $>t_{\\alpha/2}(n_{1}+n_{2}-2)$\n其中 $\\begin{array}{r}{S_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}.}\\end{array}$\n本题中 $\\mathbf{\\mu _{0}}=\\mathbf{0}$ 且方差未知但相等,故选用上述第2种情况的统计量和拒绝域.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/011",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190111,
+              "question_id": 419011,
+              "is_answer": true,
+              "choice": "$\\begin{array}{r}{\\dot{T}=\\frac{(\\vec{X}-\\vec{Y})-\\mu_{0}}{S_{w}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}},|t|>t_{\\alpha/2}(n_{1}+n_{2}-2).}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190112,
+              "question_id": 419011,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{U=\\frac{(\\bar{X}-\\bar{Y})-\\mu_{0}}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}},|u|>u_{\\alpha/2},}\\end{array}$\nrathe",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190113,
+              "question_id": 419011,
+              "is_answer": false,
+              "choice": "$\\boldsymbol{T}=\\frac{\\left(\\bar{X}-\\bar{Y}\\right)-\\mu_{0}}{\\sqrt{\\frac{s_{1}^{2}}{n_{1}}+\\frac{s_{2}^{2}}{n_{2}}}},|t|<t_{\\alpha/2}(n_{1}+n_{2}-2)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190114,
+              "question_id": 419011,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{U=\\frac{(\\vec{X}-\\vec{Y})-\\mu_{0}}{\\sqrt{\\frac{s_{1}^{2}}{n_{1}}+\\frac{s_{2}^{2}}{n_{2}}}},|u|<u_{\\alpha/2}.}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419012,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-012",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "制造厂家宣称,线A的平均张力比线B至少强120N．为证实其说法,在同样情况下测试两种线各50条．线A的平均张力\n$\\bar{x}=867\\mathrm{N}$ 标准差为 $\\mathbf{\\sigma}_{1}=62.8\\;\\mathrm{N}$ 线B的平均张力为 $\\bar{\\pmb y}=\\mathbf{778}\\mathbf{N}$ 标准差为 $\\sigma_{2}=56.1\\mathrm{N}.$ 在显著性水平 $\\alpha=0.05$ 下,下列\n说法中不正确的是() $(u_{0.025}=1.960,u_{0.05}=1.645)$",
+          "analysis": "建立检验假设H0 $\\mu_{1}-\\mu_{2}=120,H_{1}:\\mu_{1}-\\mu_{2}<120.$\n在显著性水平 $\\alpha=0.05$ 下,拒绝域为 ${\\pmb U}<-{\\pmb u}_{\\pmb\\alpha}.$\n由 $\\begin{array}{r}{\\bar{x}=867,\\bar{y}=778,n_{1}=n_{2}=50,\\sigma_{1}^{2}=(62.8)^{2},\\sigma_{2}^{2}=(56.1)^{2},u_{0.05}=1.645.}\\end{array}$ 得\n$$u=\\frac{867-778-120}{\\sqrt{\\frac{(62.8)^2}{50}+\\frac{(56.1)^2}{50}}}\\approx\\frac{-31}{11.91}\\approx-2.60<-1.645$$\n故拒绝 $H_{\\mathbf{0}}$ 认为 $\\mu_{1}-\\mu_{2}<120$ 即厂家的说法不对. lath",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/012",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190121,
+              "question_id": 419012,
+              "is_answer": true,
+              "choice": "拒绝域为 $(u_{\\alpha},+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190122,
+              "question_id": 419012,
+              "is_answer": false,
+              "choice": "检验假设为 $H_{0}:\\mu_{1}-\\mu_{2}=120,H_{1}:\\mu_{1}-\\mu_{2}<120$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190123,
+              "question_id": 419012,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\begin{array}{r}{U=\\frac{\\bar{X}-\\bar{Y}-120}{\\sqrt{\\sigma_{1}^{2}/n_{1}+\\sigma_{2}^{2}/n_{2}}}.}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190124,
+              "question_id": 419012,
+              "is_answer": false,
+              "choice": "可认为厂家的说法不对",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419013,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-013",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "两个正态总体X与Y的方差 $$\\pmb{\\sigma_{1}^{2}} 与 \\pmb{\\sigma_{2}^{2}}$$ 未知,则检验假设H_{0:{1<_2 要求 $$\\pmb{\\sigma_{1}^{2}} 与 \\pmb{\\sigma_{2}^{2}}$$ 应满足的条件是().",
+          "analysis": "设 $X_{1},X_{2},\\cdots,X_{n_{1}}$ 为取自总体 $N(\\mu_{1},\\sigma_{1}^{2})$ 的一个样本,并且两个样本相互独立,记X与Y分别为相应的样本均值, $\\mathcal{S}_{\\mathbf{1}}^{\\mathbf{2}}$ $\\mathcal{S}_{2}^{2}$ 分别\n为相应的样本方差.\n右侧检验 $H_{0}:\\mu_{1}-\\mu_{2}\\leq\\mu_{0},H_{1}:\\mu_{1}-\\mu_{2}>\\mu_{0}(\\mu_{0}$ 已知)：\n1．方差 $\\sigma_{1}^{2},\\sigma_{2}^{2}$ 未知,但 $\\sigma_{1}^{2}=\\sigma_{2}^{2}=\\sigma^{2}$,检验统计量\n$T=\\frac{\\bar{X}-\\bar{Y}-\\mu_{0}}{S_{w}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}\\sim t(n_{1}+n_{2}-2).$\n其中 $\\begin{array}{r}{S_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}}\\end{array}$\n2.方差 $\\sigma_{1}^{2},\\sigma_{2}^{2}$ 未知,但 $\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}$ 检验统计量为\nMathe\n$T=\\frac{\\bar{X}-\\bar{Y}-\\mu_{0}}{\\sqrt{\\frac{S_{1}^{2}}{n_{1}}+\\frac{S_{2}^{2}}{n_{2}}}}\\stackrel{ 记 }{\\sim}t(f).$\n其中 $\\begin{array}{r}{\\pmb{f}=\\frac{(\\frac{S_{1}^{2}}{n_{1}}+\\frac{S_{2}^{2}}{n_{2}})^{2}}{\\frac{S_{1}^{4}}{n_{1}^{2}(n_{1}-1)}+\\frac{S_{2}^{4}}{n_{2}^{2}(n_{2}-1)}}.}\\end{array}$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/013",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190131,
+              "question_id": 419013,
+              "is_answer": true,
+              "choice": "\\f} σ_2} 可为任意正数",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190132,
+              "question_id": 419013,
+              "is_answer": false,
+              "choice": "$\\sigma_{1}^{2}<\\sigma_{2}^{2}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190133,
+              "question_id": 419013,
+              "is_answer": false,
+              "choice": "$\\sigma_{1}^{2}>\\sigma_{2}^{2}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190134,
+              "question_id": 419013,
+              "is_answer": false,
+              "choice": "$\\sigma_{1}^{2}=\\sigma_{2}^{2}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419014,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-014",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某铁矿有10个样本,每一样本用两种方法各化验一次,测得铁的质量分数 (%) 如下\n样本号 1 2 3 4 5 6 8 9 10\n方法 28.22 33.95 38.25 42.52 37.62 37.84 36.12 35.11 34.45 32.83\n方法B 28.77 33.99 38.20 42.42 37.64 37.85 36.21 35.20 34.40 32.86\n设两组数据来自正态分布的总体,两总体方差相等 $\\sigma_{A}^{2}=\\sigma_{B}^{2}$ 要检查这两种方法有无显著差异 $(\\alpha=0.05)$ 提出假设 $H_{0}:(\\quad)$",
+          "analysis": "Net\n显然这是对两个正态总体均值的双侧检验问题,其中总体方差 $\\sigma_{A}^{2}=\\sigma_{B}^{2}$ 但未知,故选用统计量\n$T=\\frac{\\bar{X}_{A}-\\bar{X}_{B}}{S_{W}\\sqrt{\\frac{1}{\\mathit{n}_{1}}+\\frac{1}{\\mathit{n}_{2}}}}\\sim t(\\mathit{n}_{1}+\\mathit{n}_{2}-2)$\n其中 $S_{W}=\\sqrt{\\frac{(n_{1}-1)s_{A}^{2}+(n_{2}-1)s_{B}^{2}}{n_{1}+n_{2}-2}}=3.792$ 则 $\\begin{array}{r}{|t|=\\frac{|\\bar{x}_{A}-\\bar{x}_{B}|}{S_{W}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}=0.0076.}\\end{array}$ 有 $\\alpha=0.05,n_1=n_2=10$ 查t分布表得\n$t_{\\frac{\\alpha}{2}}(n_{1}+n_{2}-2)=t_{0.025}(18)=2.1009$\n于是 $<t_{\\frac{\\alpha}{2}}(n_{1}+n_{2}-2)$ 故接受原假设 $H_{0}:\\mu_{A}=\\mu_{B}$ 即认为两种方法无显著差异.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/014",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190141,
+              "question_id": 419014,
+              "is_answer": true,
+              "choice": "$\\mu_{A}=\\mu_{B}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190142,
+              "question_id": 419014,
+              "is_answer": false,
+              "choice": "$\\mu_{A}\\geq\\mu_{B}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190143,
+              "question_id": 419014,
+              "is_answer": false,
+              "choice": "$\\mu_{A}\\leq\\mu_{B}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190144,
+              "question_id": 419014,
+              "is_answer": false,
+              "choice": "$\\mu_{A}=2\\mu_{B}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419015,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-015",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "在漂白工艺中要改变温度对针织品断裂强力的影响,在两种不同温度下分别作了8次试验,测得断裂强力的数据如下(单位：\nkg):\n70°℃: 20.8 18.8 19.8 20.9 21.5 19.5 21.0 21.2\n80°C:17.7 20.3 20.0 18.8 19.0 20.1 20.2 19.1\n若判断两种温度下的强力有无差别(断裂强力可认为服从正态分布, $\\alpha=0.05$,则下列说法中不正确的是().",
+          "analysis": "(1)本问题是在 $\\alpha=0.05$ 下检验假设 $\\mathbf{\\mu _{1}}=\\mathbf{\\mu _{2}}$,为此需要先检验 $\\sigma_{1}^{2}=\\sigma_{2}^{2}$ 是否成立.\n$H_{01}:\\sigma_{1}^{2}=\\sigma_{2}^{2},\\quad H_{11}:\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}$\n选取统计量 $F=\\frac{S_{1}^{2}}{S_{2}^{2}}$,在 $\\mathbf{H_{01}}$ 成立的条件下, $F\\sim F(n_{1}-1,n_{2}-1)$ Mathe\n且此检验问题的拒绝域为 $F>F_{\\alpha/2}(n_{1}-1,n_{2}-1)$ 或 $F<F_{1-\\alpha/2}(n_{1}-1,n_{2}-1)$\n这里 $\\begin{array}{r}{F=\\frac{S_{1}^{4}}{S_{1}^{4}}\\approx\\frac{0.9055}{0.4268}\\approx1.0928,\\quad F_{0.025}(7,7)=4.99,F_{0.975}(7,7)=\\frac{1}{F_{\\mathrm{b i s s}}(7,7)}=\\frac{1}{4.99}\\approx0.2004.}\\end{array}$\n显然 $F_{0.975}(7,7)=0.2004<1.0928<4.99=F_{0.025}(7,7).$\n说明F未落在拒绝域中,从而接受 $\\mathbf{H_{01}}$,即认为两温度下的强力的方差没有显著变化,亦即 $\\sigma_{1}^{2}=\\sigma_{2}^{2}$\n(2)再检验假设\n$H_{0}:\\mu_{1}=\\mu_{2},\\quad H_{1}:\\mu_{1}\\neq\\mu_{2}$\n在 $\\pmb{\\pi_{0}}$ 成立的条件下,\n$$T=\\frac{\\overline{X_1}-\\overline{X_2}}{\\sqrt{\\frac{(n_1-1)S_1^2+(n_2-1)S_2^2}{n_1+n_2-2}}\\sqrt{\\frac{1}{n_1}+\\frac{1}{n_2}}}\\sim t(n_1+n_2-2)$$\n且此检验问题的拒绝域为 $|T|>t_{\\alpha/2}(n_{1}+n_{2}-2)$ 这里\n$T\\approx\\frac{20.4-19.4}{\\sqrt{\\frac{7\\times0.9055+7\\times0.8286}{8+8-2}}\\sqrt{\\frac{1}{8}+\\frac{1}{8}}}\\approx2.148$\n显然 $|T|=2.148>2.145=t_{0.025}(14)$\n说明T落在拒绝域中,从而拒绝 $\\pmb{H_{0}}$ 即认为两种温度下的断裂强力有显著差别.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/015",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190151,
+              "question_id": 419015,
+              "is_answer": true,
+              "choice": "检验统计量为 $\\begin{array}{r}{T=\\frac{\\overline{{X}}-\\overline{{Y}}-\\mu_{0}}{\\sqrt{S_{1}^{2}/n_{1}+S_{2}^{2}/n_{2}}}.}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190152,
+              "question_id": 419015,
+              "is_answer": false,
+              "choice": "检验假设为 $H_{0}:\\mu_{1}=\\mu_{2},H_{1}:\\mu_{1}\\neq\\mu_{2}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190153,
+              "question_id": 419015,
+              "is_answer": false,
+              "choice": "拒绝域为 $|T|>t_{\\alpha/2}(n_{1}+n_{2}-2)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190154,
+              "question_id": 419015,
+              "is_answer": false,
+              "choice": "可认为两种温度下的断裂强力有显著差别",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419016,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-016",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设样本 $X_{1},X_{2},\\cdots,X_{n_{1}}$ 和 $Y_{1},Y_{2},\\cdots,Y_{n_{2}}$ 分别取自总体 $\\pmb{\\xi}\\sim N(\\mu_{1},\\sigma_{1}^{2})$ $\\eta\\sim N(\\mu_{2},\\sigma_{2}^{2})$,在进行假设检验时,若()时,检\n验$H_{}: $\\mu_{1}=\\mu_{2}$ 采用统计量 $\\begin{array}{r}{T=\\frac{\\bar{X}-\\bar{Y}}{\\sqrt{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}}\\sqrt{\\frac{n_{1}n_{2}(n_{1}+n_{2}-2)}{n_{1}+n_{2}}}.}\\end{array}",
+          "analysis": "双正态总体均值差检验.\n1．方差 $\\sigma_{1}^{2},\\sigma_{2}^{2}$ 已知情形,原假设H0 $\\mathbf{\\mu _{1}}-\\mathbf{\\mu _{2}}=\\mathbf{\\mu _{0}}$ 检验统计量为\neuM $U=\\frac{\\bar{X}-\\bar{Y}-\\mu_{0}}{\\sqrt{\\sigma_{1}^{2}/n_{1}+\\sigma_{2}^{2}/n_{2}}}\\sim N(0,1)$\n2.方差 $\\sigma_{1}^{2},\\sigma_{2}^{2}$ 未知,但 $\\sigma_{1}^{2}=\\sigma_{2}^{2}=\\sigma^{2}$ 情形,原假设 $H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0}$ 检验统计量为\n$T=\\frac{\\bar{X}-\\bar{Y}-\\mu_{0}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}\\sim t(n_{1}+n_{2}-2)$\n其中 $S_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}$\n3.方差 $\\sigma_{1}^{2},\\sigma_{2}^{2}$ 未知,但 $\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}$ 原假设 $H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0}$ 检验统计量为\n$T=\\frac{\\bar{X}-\\bar{Y}-\\mu_{0}}{\\sqrt{S_{1}^{2}/n_{1}+S_{2}^{2}/n_{2}}}\\sim t(f)$\n其中 $\\begin{array}{r}{f=\\frac{\\left(\\frac{S_{1}^{2}}{n_{1}}+\\frac{S_{2}^{2}}{n_{2}}\\right)^{2}}{\\frac{S_{1}^{4}}{n_{1}^{2}\\left(n_{1}-1\\right)}+\\frac{S_{2}^{4}}{n_{2}^{2}\\left(n_{2}-1\\right)}}.}\\end{array}$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/016",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190161,
+              "question_id": 419016,
+              "is_answer": true,
+              "choice": "$\\sigma_{1}^{2}=\\sigma_{2}^{2}$ 未知",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190162,
+              "question_id": 419016,
+              "is_answer": false,
+              "choice": "$\\sigma_{1}^{2},\\sigma_{2}^{2}$ 已知",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190163,
+              "question_id": 419016,
+              "is_answer": false,
+              "choice": "$\\sigma_{1}^{2},\\sigma_{2}^{2}$ 未知",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190164,
+              "question_id": 419016,
+              "is_answer": false,
+              "choice": "$\\sigma_{1}^{2}=\\sigma_{2}^{2}$ 已知 Mathe Mathe",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419017,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-017",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "为比较甲、乙两种安眠药的疗效,将20名患者分成两组,每组10人,如服药后延长的睡眠时间分别服从正态分布,其数据为\n(单位：小时)：\n甲： 4.6 4.4 3.4 1.9 1.6 1.1 0.8 0.1\n乙：3.7 3.4 2.0 0.8 0.7 0 -0.1 -0.2 1.6\n若在显著性水平 $\\alpha=0.05$ 下检验两种药的疗效有无显著差别,则下列说法中不正确的是().",
+          "analysis": "(1)设甲药服后延长的睡眠时间 $X\\sim N(\\mu_{1},\\sigma_{1}^{2})$ 乙药服后延长的睡眠时间 $Y\\sim N(\\mu_{2},\\sigma_{2}^{2})$,其中 $\\mu_{1},\\mu_{2},\\sigma_{1}^{2},\\sigma_{2}^{2}$ 均为未知,先在 $\\mathbf{\\mu _{1}},\\mathbf{\\mu _{2}}$\n未知的条件下检验假设 $H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},H_{1}:\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}.$\n所用统计量为 $\\pmb{F}=S_{1}^{2}/S_{2}^{2}$,由题给数据,得 $n_{1}=10,n_{2}=10,\\bar{x}=2.33,\\bar{y}=1.07,s_{1}^{2}=4.01,s_{2}^{2}=2.84$ 于是 $\\pmb{F}=s_{1}^{2}/s_{2}^{2}=1.412$ 查F\n分布表,得 $F_{0.025}(9,9)=4.03,F_{0.975}(9,9)=1/F_{0.025}(9,9)=1/4.03.$ 因 $\\begin{array}{r}{\\frac{1}{4.03}<1.412<4.03;}\\end{array}$\n故接受原假设 $H_{0}$ 因此在 $\\alpha=0.05$ 下认为 $\\sigma_{1}^{2}=\\sigma_{2}^{2}$\n(2)其次,在 $\\sigma_{1}^{2}=\\sigma_{2}^{2}$ 但其值未知的条件下,检验假设： $H_{0}^{\\prime}:\\mu_{1}=\\mu_{2}$\n所用统计量为 $\\begin{array}{r}{T=\\frac{\\hat{X}-\\hat{Y}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}}\\end{array}$ 将上述已知数据代入 $s_{w}$ 的表达式中,可计算得到 $\\pmb{s_{w}}=\\pmb{1.85}$ 再将其代入统计量T的表达式中计算\n得 $\\begin{array}{r}{t=\\frac{2.33-1.07}{1.85\\sqrt{1/10+1/10}}=1.523}\\end{array}$.查t分布表,得 $t_{0.025}(18)=2.101$,由于 $|1.523|<2.101$,故接受原假设 $\\mathbf{H_{0}^{\\prime}}$ 因此在显著性水平\n$\\alpha=0.05$ 下可认为 $\\mathbf{\\mu _{1}}=\\mathbf{\\mu _{2}}$\n综上所述,可以认为两种安眠药疗效无显著差异.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/017",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190171,
+              "question_id": 419017,
+              "is_answer": true,
+              "choice": "拒绝域为 $F\\geq F_{\\alpha/2}(n_{1}-1,n_{2}-1)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190172,
+              "question_id": 419017,
+              "is_answer": false,
+              "choice": "检验假设为H{：{1=μ2, $H_{}$ ≠μ2",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190173,
+              "question_id": 419017,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\begin{array}{r}{T=\\frac{\\bar{X}-\\bar{Y}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190174,
+              "question_id": 419017,
+              "is_answer": false,
+              "choice": "可认为两种安眠药疗效无显著差异",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419018,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-018",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "18. ｅul\n设二正态总体 $N(\\mu_{1},\\sigma_{1}^{2})$ 和 $N(\\mu_{2},\\sigma_{2}^{2})$ 有两组相互独立样本,容量分别为 $\\pmb{n_{1}},\\pmb{n_{2}}$,均值分别为 $\\pmb{X},\\pmb{Y}$,且和为已知.要 $\\sigma_{1}^{2}$ $\\sigma_{z}^{2}$\n对 $\\mathbf{\\mu _{1}}-\\mathbf{\\mu _{2}}$ 作假设检验,统计假设为\n$H_{0}:\\mu_{1}-\\mu_{2}=0,\\quad H_{1}:\\mu_{1}-\\mu_{2}>0$.ath\n则要用检验统计量为().",
+          "analysis": "双正态总体均值差的检验如下过程.若方差 $\\sigma_{1}^{2},\\sigma_{2}^{2}$ 已知,则：\n(1)检验假设H0 $\\mu_{1}-\\mu_{2}=\\mu_{0},H_{1}:\\mu_{1}-\\mu_{2}\\neq\\mu_{0}.$\n(2)若H0成立 则 $\\begin{array}{r}{\\pmb{U}=\\frac{(\\vec{X}-\\vec{Y})-\\mu_{0}}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}}\\sim N(0,1).}\\end{array}$,U的样本观察值记为$\\mu$,此时拒绝域为 $|u|>u_{\\alpha/2}.$ 其中 $\\mathbf{u_{a/2}}$ 为标准正态分布的 $\\alpha/2$\n分位数.\n另外,右侧检验： $H_{0}:\\mu_{1}-\\mu_{2}\\leq\\mu_{0},H_{1}:\\mu_{1}-\\mu_{2}>\\mu_{0}$ 此时拒绝域为 $\\boldsymbol{u}>\\boldsymbol{u}_{\\alpha}$\n左侧检验： $H_{0}:\\mu_{1}-\\mu_{2}\\geq\\mu_{0},H_{1}:\\mu_{1}-\\mu_{2}<\\mu_{0}.$ 此时拒绝域为 $\\pmb{u}<-\\pmb{u}_{\\pmb{\\alpha}}\\mathrm{{}}\\mathrm{{}}\\mathrm{{}}$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/018",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190181,
+              "question_id": 419018,
+              "is_answer": true,
+              "choice": "$\\begin{array}{r}{U=\\frac{(\\vec{X}-\\vec{Y})-\\mu_{0}}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190182,
+              "question_id": 419018,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{U=\\frac{(\\bar{X}-\\bar{Y})-\\mu_{0}}{\\sqrt{\\frac{n_{1}\\sigma_{1}^{2}+n_{2}\\sigma_{2}^{2}}{n_{1}+n_{2}}}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190183,
+              "question_id": 419018,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\hat{T}=\\frac{(\\hat{X}-\\hat{Y})-\\mu_{0}}{S_{w}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190184,
+              "question_id": 419018,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\pmb{F}=\\frac{\\frac{1}{n_{1}-1}\\sum_{i=1}^{n_{1}}\\left(X_{i}-\\bar{X}\\right)^{2}}{\\frac{1}{n_{2}-1}\\sum_{i=1}^{n_{2}}\\left(Y_{i}-\\bar{Y}\\right)^{2}}}\\end{array}$ e",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419019,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-019",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "一出租车公司欲检验装配哪一种轮胎省油,以12部装有I型轮胎的车辆进行预定的测试.在不变换驾驶员的情况下,将这12部车\n辆换装II型轮并重复测试,其汽油耗量如下表所示(单位：km/L).\n汽车编号 i 1 2 3 5 6 8 9 10 11 12\nⅠ 型胎 (xi) 4.2 4.7 6.6 7.0 6.7 4.5 5.7 6.0 7.4 4.9 6.1 5.2\nII 型胎 (yi) 4.1 4.9 6.2 6.9 6.8 4.4 5.7 5.8 6.9 4.7 6.0 4.9\n假定两总体均服从正态分布,显著性水平 $\\alpha=0.025$ 若检验安装I型轮胎是否要比安装 II型轮胎省油,则下列说法不正确的\n是()",
+          "analysis": "设两种轮胎汽油消耗量之差为随机变量D,则取值为\n$$z_{i}=x_{i}-y_{i}=0.1,-0.2,0.4,0.1,-0.1,0.1,0,0.2,0.5,0.2,0.1,0.3$$\n设 $Z\\sim N(\\mu_{z},\\sigma_{z}^{2}),\\sigma_{z}^{2}$ 未知.若消耗油相同,则 $\\mu_{z}=0;$\n若I型比II型轮胎省油,则 $\\mu_{z}>0$ 于是检验假设 $H_{0}:\\mu_{z}=0,H_{1}:\\mu_{z}>0$\n由题意知 z≈0.142,s≈0.198 $n-1=12-1=11$\n$\\alpha=0.025$,查t分布表得 $t_{0.025}(11)=2.201$ 拒绝域为 $\\pmb{W}=\\{t>2.201\\}$\n由于样本值\n$t=\\frac{\\bar{z}-0}{s/\\sqrt{n}}=\\frac{0.142-0}{0.198/\\sqrt{12}}\\approx2.48>2.201$\n故拒绝 $H_{0}:\\mu_{z}=0$ 即说明I型轮胎省油.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/019",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190191,
+              "question_id": 419019,
+              "is_answer": true,
+              "choice": "这是双正态总体方差比的假设检验问题",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190192,
+              "question_id": 419019,
+              "is_answer": false,
+              "choice": "这是双正态总体均值差的假设检验问题",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190193,
+              "question_id": 419019,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\begin{array}{r}{\\pmb{T}=\\frac{\\pmb{Z}-\\mu_{0}}{\\pmb{S}/\\sqrt{n}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190194,
+              "question_id": 419019,
+              "is_answer": false,
+              "choice": "Ⅰ型轮胎比较省油",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419020,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-020",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "在20世纪70年代后期人们发现,酿造啤酒时,在麦芽干燥过程中形成致癌物质亚硝基二甲胺(NDMA)．到了20世纪80年代\n初期,人们开发了一种新的麦芽干燥过程,下面给出了分别在新、老两种过程中形成的 NDMA含量(以10亿份中的份数计)：\n老过程 6,4,5,5,6,5,5,6,4,6,7,4\n新过程 2,1,2,2,1,0,3,2,1,0,1,3\n设两样本分别来自正态总体,且两总体的方差相等,但参数均未知．两样本独立．分别以 $\\mathbf{\\mu _{1}},\\mathbf{\\mu _{2}}$ 记对应于老、新过程的总体的均\n值,有人认为新、老过程中形成的NDMA平均含量差大于2．设 $\\alpha=0.05$ 则下列说法中不正确的是().",
+          "analysis": "检验假设H_{0: $\\mu_{1}-\\mu_{2}\\leq2,H_{1}:\\mu_{1}-\\mu_{2}>2.$\n设老过程中形成的NDMA含量为 $X\\sim N(\\mu_{1},\\sigma_{1}^{2})$,新过程中形成的NDMA含量为 $Y\\sim N(\\mu_{2},\\sigma_{2}^{2})$ 已知 $\\sigma_{1}^{2}=\\sigma_{2}^{2}=\\sigma^{2}$ 但未知,\n$n_{1}=n_{2}=12.$ 采用t检验法, $\\alpha=0.05$ 算得 $\\bar{x}=5.25,\\bar{y}=1.5,s_{1}^{2}\\approx0.9318,s_{2}^{2}=1,s_{w}\\approx0.9828.$ 拒绝域为\n$\\begin{array}{r}{W=\\Bigg\\{\\frac{\\bar{x}-\\bar{y}-2}{s_{w}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}>t_{\\alpha}(n_{1}+n_{2}-2)\\Bigg\\}.}\\end{array}$\n查t分布表得 $t_{0.05}(22)=1.7171$ 计算得\n$\\frac{5.25-1.5-2}{10.9828\\times\\sqrt{1/12+1/12}}\\approx4.3616>1.7171.$\n故拒绝 $H_{\\mathbf{0}}$ 认为新、老过程中形成的NDMA平均含量差大于2.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/020",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190201,
+              "question_id": 419020,
+              "is_answer": true,
+              "choice": "上述说法不正确",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190202,
+              "question_id": 419020,
+              "is_answer": false,
+              "choice": "检验假设 $H_{0}:\\mu_{1}-\\mu_{2}\\leq2,H_{1}:\\mu_{1}-\\mu_{2}>2$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190203,
+              "question_id": 419020,
+              "is_answer": false,
+              "choice": "x=5.25, $\\bar{\\pmb{y}}=\\pmb{1.5}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190204,
+              "question_id": 419020,
+              "is_answer": false,
+              "choice": "$8{2 } 0.9318, $s_{2}^{2}=1",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  },
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 27,
+      "questions": [
+        {
+          "id": 419021,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-021",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体 $X\\sim N(\\mu_{1},\\sigma^{2})$ ．总体 $Y\\sim N(\\mu_{2},\\sigma^{2})$,其中 $\\sigma^{2}$ 未知,从总体 $x,Y$ 各取容量为10的样本,两样本独立．对于假设检\n验H0 $\\mu_{1}-\\mu_{2}=4,H_{1}:\\mu_{1}-\\mu_{2}\\neq4$ 若显著性水平为 $\\alpha=0.10$,则检验的拒绝域为",
+          "analysis": "双正态总体均值差(方差未知但相等)的检验统计量为\n$T=\\frac{\\bar{X}-\\bar{Y}-\\mu_{0}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}\\sim t(n_{1}+n_{2}-2).$\n在双侧检验 $H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0}$ $H_{1}:\\mu_{1}-\\mu_{2}\\neq\\mu_{0}$ 下,得拒绝域为\n$\\left|t\\right|=\\left|\\frac{\\bar{x}-\\bar{y}-\\mu_{0}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}\\right|>t_{\\alpha/2}(n_{1}+n_{2}-2)$\n其中 $\\begin{array}{r}{\\bar{S}_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}.}\\end{array}$\n把题目中具体数据代入,得拒绝域为\n$\\left|\\frac{(\\bar{x}-\\bar{y}-4)}{\\sqrt{s_1^2+s_2^2}}\\sqrt{10}\\right|>t_{0.05}(18)$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/021",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190211,
+              "question_id": 419021,
+              "is_answer": true,
+              "choice": "$\\left|\\frac{(\\bar{x}-\\bar{y}-4)}{\\sqrt{s_1^2+s_2^2}}\\sqrt{10}\\right|>t_{0.05}(18)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190212,
+              "question_id": 419021,
+              "is_answer": false,
+              "choice": "$\\left|\\frac{(\\bar{x}-\\bar{y})}{\\sqrt{s_1^2+s_2^2}}\\sqrt{10}\\right|>t_{0.05}(18)$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190213,
+              "question_id": 419021,
+              "is_answer": false,
+              "choice": "$\\left|\\frac{(\\bar{x}-\\bar{y})}{\\sqrt{s_1^2+s_2^2}}\\sqrt{5}\\right|>t_{0.05}(18)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190214,
+              "question_id": 419021,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\left|\\frac{(x-y-4)}{\\sqrt{s_{1}^{2}+s_{2}^{2}}}\\sqrt{5}\\right|>t_{0.05}(18).}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419022,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-022",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某地某年高考后随机抽得15名男生、12名女生的物理考试成绩如下：\n男生：49 48 47 53 51 43 39 57 56 46 42 44 55 44 40\n40 47 51 43 36 43 38 48 54 48 34\n有人认为这27名学生的成绩能说明这个地区男女生的物理考试成绩不相上下,设显著性水平 $\\alpha=0.05$ 则下列说法中不正确的\n是().",
+          "analysis": "把男生和女生物理考试的成绩分别近似地看作服从正态分布的随机变量 $X\\sim N(\\mu_1,\\sigma^2) 与 Y\\sim N(\\mu_2,\\sigma^2)$ 则本例可归结为双侧检验问\n题．由题设,有 $n_{1}=15,n_{2}=12$ 从而 $n=n_{1}+n_{2}=27$\n再根据例中数据算出 $\\bar{x}=47.6,\\bar{y}=44;\\quad(n_1-1)s_1^2=\\sum_{i=1}^{15}(x_i-\\bar{x})^2=469.6,(n_2-1)s_2^2=\\sum_{i=1}^{12}(y_i-\\bar{y})^2=412.$\n$$s_{w}={\\sqrt{{\\frac{1}{n_{1}+n_{2}-2}}\\left\\{(n_{1}-1)s_{1}^{2}+(n_{2}-1)s_{2}^{2}\\right\\}}}={\\sqrt{{\\frac{1}{25}}\\left(469.6+412\\right)}}=5.94.$$\n由此便可计算出\n$$t=\\frac{\\bar{x}-\\bar{y}}{s_w\\sqrt{1/n_1+1/n_2}}=\\frac{47.6-44}{5.94\\sqrt{1/15+1/12}}=1.566.$$\n取显著性水平 $\\alpha=0.05$ 查附表得, $t_{\\alpha/2}(n-2)=t_{0.025}(25)=2.060.$\n因为 $|t|=1.566\\leq2.060=t_{0.025}(25)$ 从而没有充分理由否认原假设 $\\mathbf{H_{0}}$ 即认为这一地区男女生的物理考试成绩不相",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/022",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190221,
+              "question_id": 419022,
+              "is_answer": true,
+              "choice": "拒绝域为 $(t_{\\alpha}(n_{1}+n_{2}-2),+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190222,
+              "question_id": 419022,
+              "is_answer": false,
+              "choice": "y=44",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190223,
+              "question_id": 419022,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\begin{array}{r}{\\pmb{t}=\\frac{\\bar{x}-\\bar{y}-\\mu_{0}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190224,
+              "question_id": 419022,
+              "is_answer": false,
+              "choice": "可认为该人的说法是正确的",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419023,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-023",
+          "difficulty": "OCR",
+          "answer": "2",
+          "question_type": 1,
+          "question": "一药厂生产一种新的止痛片,厂方希望验证服用新药片后至开始起作用的时间间隔较原有止痛片至少缩短一半,设1,2分别是\n服用原有止痛片和服用新止痛片后至起作用的时间间隔的总体的均值.设两总体均为正态总体,且方差分别为已知值 $\\sigma_{1}^{2},\\sigma_{2}^{2}$ 现\n分别在两总体中取样 $X_{1},X_{2},\\cdots,X_{n_{1}}$ 和 $Y_{1},Y_{2},\\cdots,Y_{n_{2}}$ 设两个样本独立, 取显著性水平为α,则下列说法中不正确的是",
+          "analysis": "厂方希望验证“新药片时间间隔较原有止痛片至少缩短一半”,即验证 $\\mu_{2}\\leq{\\frac{1}{2}}\\mu_{1}$,等价于 $\\mathbf{\\mu _{1}}\\geq\\mathbf{2}\\mathbf{\\mu _{2}}$\n在假设检验中,通常将希望证明的结论设为备择假设 $\\pmb{H_{1}}$：故假设检验应设立为：\n$H_{0}:\\mu_{1}\\leq2\\mu_{2},\\quad H_{1}:\\mu_{1}>2\\mu_{2}$\n构造统计量 这是一个右侧检验. $\\bar{Z}=\\bar{X}-2\\bar{Y}$,其方差为 $D(\\bar{X})+4D(\\bar{Y})=\\frac{\\sigma_1^2}{n_1}+\\frac{4\\sigma_2^2}{n_2}$\n标准化后的检验统计量为：\n$U=\\frac{\\bar{X}-2\\bar{Y}-(\\mu_1-2\\mu_2)}{\\sqrt{\\frac{\\sigma_1^2}{n_1}+\\frac{4\\sigma_2^2}{n_2}}}$\n在 $\\pmb{H_{0}}$ 成立的边界条件下 $\\mathbf{U}\\sim N(0,1)$\n对于右侧检验,拒绝域为 $U>u_{\\alpha}$ 即 $(u_{\\alpha},+\\infty)$\n综上所述,选项1、3、4说法正确,选 假设检验的方向错误(写成了左侧检验).\n故本题选2.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/023",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190231,
+              "question_id": 419023,
+              "is_answer": false,
+              "choice": "拒绝域为 $(u_{\\alpha},+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190232,
+              "question_id": 419023,
+              "is_answer": true,
+              "choice": "假设检验为 $H_{0}:\\mu_{1}\\geq2\\mu_{2}$ $H_{1}$ $\\mathbf{\\mu _{1}}<\\mathbf{2}\\mathbf{\\mu _{2}}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190233,
+              "question_id": 419023,
+              "is_answer": false,
+              "choice": "$\\bar{X}-2\\bar{Y}\\sim N\\left(\\mu_{1}-2\\mu_{2},\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{4\\sigma_{2}^{2}}{n_{2}}\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190234,
+              "question_id": 419023,
+              "is_answer": false,
+              "choice": "检验统计量 $\\begin{array}{r}{U=\\frac{\\bar{X}-2\\bar{Y}-(\\mu_{1}-2\\mu_{2})}{\\sqrt{\\sigma_{1}^{2}/n_{1}+4\\sigma_{2}^{2}/n_{2}}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419024,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-024",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体 $X\\sim N(\\mu_{1},\\sigma_{1}^{2})$,总体 $Y\\sim N(\\mu_{2},\\sigma_{2}^{2}),\\sigma_{1}^{2},\\sigma_{2}^{2}$ 未知但相等. $X_{1},X_{2},\\cdots,X_{n_{1}}$ 与 $Y_{1},Y_{2},\\cdots,Y_{n_{2}}$ 分别是来自 $X,Y$ 的样\n本,两样本独立,,对 $H_{0}:\\mu_{1}-\\mu_{2}=\\pmb{\\delta}$ (δ为已知数) $\\leftrightarrow H_{1}:\\mu_{1}-\\mu_{2}\\neq\\delta$ 其检验统计量 $T=$,其拒绝域 $W=$",
+          "analysis": "双正态总体均值差的检验如下过程.若方差 $\\sigma_{1}^{2},\\sigma_{2}^{2}$ 但 $\\sigma_{1}^{2}=\\sigma_{2}^{2}=\\sigma^{2}$ 则：\n(1)检验假设 $H_{0}:\\mu_{1}-\\mu_{2}=\\delta;H_{1}:\\mu_{1}-\\mu_{2}\\neq\\delta.$ ath\n(2)若 $\\pmb{\\pi_{0}}$ 成立,则统计量\n$$T=\\frac{\\left(\\bar{X}-\\bar{Y}\\right)-\\delta}{S_w\\sqrt{\\frac{1}{n_1}+\\frac{1}{n_2}}}=\\frac{\\left(\\bar{X}-\\quad a r Y\\right)-\\delta}{S_w}\\sqrt{\\frac{n_1n_2}{n_1+n_2}}\\sim t(n_1+n_2-2).$$\n记T的样本计算值为t,则拒绝域为 $|t|>t_{\\alpha/2}(n_{1}+n_{2}-2)$ 其中 $t_{\\alpha/2}$ 为t分布的 $\\alpha/2$ 分位数,\n$S_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2},\\quad S_{1}^{2}=\\frac{1}{n_{1}-1}\\sum_{i=1}^{n_{1}}(X_{i}-\\bar{X})^{2},\\quad S_{2}^{2}=\\frac{1}{n_{2}-1}\\sum_{i=1}^{n_{2}}(Y_{i}-\\bar{Y})^{2}$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/024",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190241,
+              "question_id": 419024,
+              "is_answer": true,
+              "choice": "$\\begin{array}{r}{T=\\frac{(\\bar{X}-\\bar{Y})-\\delta}{S_{W}}\\sqrt{\\frac{n_{1}n_{2}}{n_{1}+n_{2}}},\\quad W=\\{|t|>t_{\\alpha/2}(n_{1}+n_{2}-2)\\}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190242,
+              "question_id": 419024,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{T=\\frac{(\\bar{X}-\\bar{Y})-\\delta}{S_{W}}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}},\\quad W=\\{|t|>t_{\\alpha/2}(n_{1}+n_{2}-2)\\}.}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190243,
+              "question_id": 419024,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{T=\\frac{(\\bar{X}-\\bar{Y})-\\delta}{S_{W}}\\sqrt{\\frac{n_{1}n_{2}}{n_{1}+n_{2}}},\\quad W=\\{|t|>t_{\\alpha}(n_{1}+n_{2}-2)\\}.}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190244,
+              "question_id": 419024,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{T=\\frac{(\\bar{X}-\\bar{Y})-\\delta}{S_{W}}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}},\\quad W=\\{|t|>t_{\\alpha}(n_{1}+n_{2}-2)\\}.}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419025,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-025",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "据现在的推测,矮个子的人比高个子的人寿命要长一些．下面给出美国31个自然死亡的总统的寿命,将他们分为矮个子与高个\n子2类,数据如下：\n矮个子总统：85,79,67,90,80；\n高个子总统：68,53,63,70,88,74,64,66,60,60,787167,90,73,71,77,72,577867,56,63,64,83,65.\n假设2个寿命总体均服从正态分布且方差相等, $\\alpha=0.05$ 则下列说法中不正确的是().\n$(\\bar{x}=80.2,s_{1}\\approx8.585,\\bar{y}\\approx69.15,s_{2}\\approx9.315)$",
+          "analysis": "设 $\\mathbf{\\mu _{1}},\\mathbf{\\mu _{2}}$ 分别为矮个子与高个子总统的平均寿命,则检验问题为 $H_{0}:\\mu_{1}\\leq\\mu_{2},H_{1}:\\mu_{1}>\\mu_{2}$\n$$\\begin{aligned}&n_{1}=5,x=80.2,s_{1}\\approx8.585,n_{2}=26,y\\approx69.15,s_{2}\\approx9.315\\\\&s_{w}=\\sqrt{\\frac{4\\times8.585^{2}+25\\times9.315^{2}}{29}}\\approx9.218,\\quad\\sqrt{\\frac{n_{1}n_{2}}{n_{1}+n_{2}}}\\approx2.048,\\\\&t=\\frac{80.2-69.15}{9.218}\\times2.048\\approx2.455,\\quad\\alpha=0.05,t_{0.05}(29)=1.6991.\\\\ \\end{aligned}$$\n因 $t>t_{0.05}(29)=1.6991$ 故拒绝H,认为矮个子总统的寿命比高个子总统寿命长",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/025",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190251,
+              "question_id": 419025,
+              "is_answer": true,
+              "choice": "可认为上述推测是不正确的",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190252,
+              "question_id": 419025,
+              "is_answer": false,
+              "choice": "检验假设为 $H_{0}:\\mu_{1}\\leq\\mu_{2},H_{1}:\\mu_{1}>\\mu_{2}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190253,
+              "question_id": 419025,
+              "is_answer": false,
+              "choice": "对矮个子总统x=80.2,81≈8.585",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190254,
+              "question_id": 419025,
+              "is_answer": false,
+              "choice": "对高个子总统y≈69.15,82≈9.315",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419026,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-026",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某铁矿有10个样本,每一样本用两种方法各化验一次,测得铁的质量分数 (%) 如下表：\n样本号 1 2 3 4 5 6 8 9 10\n方法 A 28.22 33.95 38.25 42.52 37.62 37.84 36.12 35.11 34.45 32.83\n方法B 28.77 33.99 38.20 42.42 37.64 37.85 36.21 35.20 34.40 32.86\n设两组数据来自正态分布的总体,两总体方差相等 $\\sigma_{A}^{2}=\\sigma_{B}^{2}$,要检查这两种方法有无显著差异 $(\\alpha=0.05)$.提出假设\n$H_{0}:\\mu_{A}=\\mu_{B}$ 利用 统计量对 $\\pmb{\\pi_{0}}$ 做检验,检验结果是 $\\pmb{\\pi_{0}}$ ( ).",
+          "analysis": "显然这是对两个正态总体均值的双侧检验问题,其中总体方差 $\\sigma_{A}^{2}=\\sigma_{B}^{2}$ 但未知,故选用统计量\n$T=\\frac{\\bar{X}_{A}-\\bar{X}_{B}}{S_{W}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}\\sim t(n_{1}+n_{2}-2).$\n其中 uMathe\n计算行 $$S_{W}=\\sqrt{\\frac{\\left(n_{1}-1\\right)S_{A}^{2}+\\left(n_{2}-1\\right)S_{B}^{2}}{n_{1}+n_{2}-2}}=3.792\\mathrm{。} 得 \\left|t\\right|=\\frac{\\left|\\bar{x}_{A}-\\bar{x}_{B}\\right|}{S_{W}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}=0.0076\\mathrm{。}$$\n已知α=0.05 $n_{1}=n_{2}=10$ 查t分布表得\n$t_{\\alpha/2}(n_{1}+n_{2}-2)=t_{0.025}(18)=2.1009$ -\n于是 |t| $<t_{\\alpha/2}(n_{1}+n_{2}-2)$,故接受原假设 $H_{0}:\\mu_{A}=\\mu_{B}$ 即认为两种方法无显著差异.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/026",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190261,
+              "question_id": 419026,
+              "is_answer": true,
+              "choice": "$\\begin{array}{r}{\\mathbf{\\bar{T}}=\\frac{\\mathbf{\\bar{X}}_{A}-\\mathbf{\\bar{X}}_{B}}{S_{W}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}}\\end{array}$,接受",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190262,
+              "question_id": 419026,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{T=\\frac{\\bar{X}_{A}-\\bar{X}_{B}}{\\sqrt{\\frac{S_{1}^{2}}{n_{1}}+\\frac{S_{2}^{2}}{n_{2}}}}}\\end{array}$,接受",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190263,
+              "question_id": 419026,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{T=\\frac{\\bar{X}_{A}-\\bar{X}_{B}}{S_{W}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}}\\end{array}$,拒绝",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190264,
+              "question_id": 419026,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\pmb{T}=\\frac{\\pmb{\\bar{X}}_{A}-\\pmb{\\bar{X}}_{B}}{\\sqrt{\\frac{S_{1}^{2}}{n_{1}}+\\frac{S_{2}^{2}}{n_{2}}}}}\\end{array}$,拒绝",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 419027,
+          "subject_id": 3,
+          "chapter_id": 419,
+          "question_id": "pdf-ocr-419-027",
+          "difficulty": "OCR",
+          "answer": "4",
+          "question_type": 1,
+          "question": "在漂白工艺中要改变温度对针织品断裂强力的影响,在两种不同温度下分别作了8次试验,测得断裂强力的数据如下(单位：\nkg):\n70c$ 20.8 18.8 19.8 20.9 21.5 19.5 21.0 21.2\n80℃: 17.7 20.3 20.0 18.8 19.0 20.1 20.2 19.\n若判断两种温度下的强力有无差别 (断裂强力服从正态分布, $\\alpha=0.05,则下列说法中不正确的是().",
+          "analysis": "(1)本问题是在 $\\alpha=0.05$ 下检验假设 $\\mathbf{\\mu _{1}}=\\mathbf{\\mu _{2}}$ 为此需要先检验 $\\sigma_{1}^{2}=\\sigma_{2}^{2}$ 是否成立.\n建立检验假设 $H_{01}:\\sigma_{1}^{2}=\\sigma_{2}^{2},H_{11}:\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}\\circ$\n选取统计量 $\\begin{array}{r}{F=\\frac{S_{1}^{2}}{S_{2}^{2}}}\\end{array}$,在 $\\mathbf{\\mathit{H}_{01}}$ 成立的条件下, $\\mathbf{\\mathit{F}}\\sim\\mathbf{\\mathit{F}}(n_{1}-1,n_{2}-1)$,且此检验问题的拒绝域为 $F>F_{\\alpha/2}(n_{1}-1,n_{2}-1)$ 或\n$F<F_{1-\\alpha/2}(n_{1}-1,n_{2}-1).$\n这里 $F=\\frac{S_{1}^{2}}{S_{2}^{2}}\\approx$ 0.9055 0.8286 ≈1.0928,F0.025(7,7)=4.99,F.975(7,7)= F0.025(7,7) 1 = 4.99 1 ≈0.2004.\n显然 $F_{0.975}(7,7)=0.2004<1.0928<4.99=F_{0.025}(7,7)。$\n说明F未落在拒绝域中,从而接受 $\\mathbf{H_{01}}$,即认为两温度下的强力的方差没有显著变化,亦即 $\\sigma_{1}^{2}=\\sigma_{2}^{2}.$\n(2)再检验假设 $H_{0}:\\mu_{1}=\\mu_{2},H_{1}:\\mu_{1}\\neq\\mu_{2}.$\n在 $\\pmb{H_{0}}$ 成立的条件下, $T=\\frac{\\overline{X}_1-\\overline{X}_2}{\\sqrt{\\frac{(n_1-1)S_1^2+(n_2-1)S_2^2}{n_1+n_2-2}}\\sqrt{\\frac{1}{n_1}+\\frac{1}{n_2}}}\\sim t(n_1+n_2-2)$\n且此检验问题的拒绝域为 $|T|>t_{\\alpha/2}(n_{1}+n_{2}-2)$\n这里 $t\\approx\\frac{20.4-19.4}{\\sqrt{\\frac{7\\times0.9055+7\\times0.8286}{8+8-2}}\\sqrt{\\frac{1}{8}+\\frac{1}{8}}}\\approx2.148>2.145=t_{0.025}(14).$\n说明T落在拒绝域中,从而拒绝H0,即认为两种温度下的断裂强力有显著差别.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/419/027",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4190271,
+              "question_id": 419027,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\frac{\\overline{X}_{1}-\\overline{X}_{2}-(\\mu_{1}-\\mu_{2})}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190272,
+              "question_id": 419027,
+              "is_answer": false,
+              "choice": "检验假设为 $H_{0}:\\mu_{1}=\\mu_{2},H_{1}:\\mu_{1}\\neq\\mu_{2}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190273,
+              "question_id": 419027,
+              "is_answer": false,
+              "choice": "可认为两种温度下的断裂强力有显著差别",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4190274,
+              "question_id": 419027,
+              "is_answer": true,
+              "choice": "拒绝域为 $W=\\left\\{t>t_{\\alpha/2}(n_{1}+n_{2}-2)\\right\\}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  }
+]

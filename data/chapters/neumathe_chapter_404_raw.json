@@ -1,0 +1,1984 @@
+[
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 23,
+      "questions": [
+        {
+          "id": 404001,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-001",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设 $X\\sim N(\\mu,\\sigma^{2})$ 其中 $\\sigma^{2}$ 已知, $X_{1},X_{2},\\cdots,X_{n}$ 为来自总体X的一个样本,则μ的置信度为95%的置信区间为 ( ).",
+          "analysis": "在方差已知情形下,正态总体均值u的置信度为1-α的置信区间为\n$\\bigg(\\bar{X}-u_{\\alpha/2}\\frac{\\sigma}{\\sqrt{n}},\\bar{X}+u_{\\alpha/2}\\frac{\\sigma}{\\sqrt{n}}\\bigg).$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/001",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040011,
+              "question_id": 404001,
+              "is_answer": true,
+              "choice": "$\\begin{array}{r}{\\left(\\bar{X}-\\frac{\\sigma}{\\sqrt{n}}u_{0.025},\\bar{X}+\\frac{\\sigma}{\\sqrt{n}}u_{0.025}\\right)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040012,
+              "question_id": 404001,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\Big(\\bar{X}-\\frac{\\sigma}{\\sqrt{n}}t_{0.025}(n-1),\\bar{X}+\\frac{\\sigma}{\\sqrt{n}}t_{0.025}(n-1)\\Big)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040013,
+              "question_id": 404001,
+              "is_answer": false,
+              "choice": "$\\left(\\bar{X}-\\frac{\\sigma}{\\sqrt{n}}u_{0.05},\\bar{X}+\\frac{\\sigma}{\\sqrt{n}}u_{0.05}\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040014,
+              "question_id": 404001,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\Big(\\bar{X}-\\frac{\\sigma}{\\sqrt{n}}t_{0.05}(n-1),\\bar{X}+\\frac{\\sigma}{\\sqrt{n}}t_{0.05}(n-1)\\Big)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404002,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-002",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某旅行社为调查当地旅游者的平均消费额,随机访问了100名旅游者,得知平均消费额 $\\bar{x}=80$ 元．根据经验,已知旅游者消费\n服从正态分布,且标准差 $\\pmb{\\sigma}=\\pmb{12}$ 元,则该地旅游者平均消费额u的置信度为95%的置信区间为().\n$\\Phi(1.645)=0.95,\\Phi(1.96)=0.975)$",
+          "analysis": "对于给定的置信度\n$1-\\alpha=0.95,\\quad\\alpha=0.05,\\quad\\alpha/2=0.025$\n查标准正态分布表 $u_{0.025}=1.96$ 将数据\n$n=100,\\quad\\bar{x}=80,\\quad\\sigma=12,\\quad u_{0.025}=1.96$\n代入 $\\bar{x}\\pm u_{\\alpha/2}\\cdot\\frac{\\sigma}{\\sqrt{n}}$ 计算得μ的置信度为95%的一个置信区间为 (77.6,82.4.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/002",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040021,
+              "question_id": 404002,
+              "is_answer": true,
+              "choice": "(77.6,82.4)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040022,
+              "question_id": 404002,
+              "is_answer": false,
+              "choice": "(76.6,82.4)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040023,
+              "question_id": 404002,
+              "is_answer": false,
+              "choice": "(77.6,92.4)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040024,
+              "question_id": 404002,
+              "is_answer": false,
+              "choice": "(77.8,92.4)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404003,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-003",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某旅行社随机访问了25名旅游者,得知平均消费额 $\\bar{x}=80$ 元,子样标准差 $\\pmb{s}=\\pmb{12}$ 元,已知旅游者消费额服从正态分布,则\n旅游者平均消费额μ的95%的置信区间为().\n$\\left(\\Phi(1.645)=0.95,t_{0.025}(25)=2.0595,t_{0.025}(24)=2.0639\\right)$：",
+          "analysis": "当σ未知时,置信区间为\n$\\left(\\bar{X}-t_{\\frac{\\alpha}{2}}(n-1)\\frac{S}{\\sqrt{n}},\\bar{X}+t_{\\frac{\\alpha}{2}}(n-1)\\frac{S}{\\sqrt{n}}\\right)$\n将 $\\bar{x}=80,s=12,n=25,t_{0.025}(24)=2.0639$ 代入计算得μ的置信度为95%的置信区间为(75.05,84.95).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/003",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040031,
+              "question_id": 404003,
+              "is_answer": true,
+              "choice": "(75.05,84.95)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040032,
+              "question_id": 404003,
+              "is_answer": false,
+              "choice": "(75.05,80.95)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040033,
+              "question_id": 404003,
+              "is_answer": false,
+              "choice": "(75.05,94.95)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040034,
+              "question_id": 404003,
+              "is_answer": false,
+              "choice": "(65.05,84.95)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404004,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-004",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设 $X_{1},X_{2},\\cdots,X_{n}$ 为来自正态总体 $N(\\mu,\\sigma^{2})$ 的一个样本,其中 $\\mu,\\sigma^{2}$ 均未知,则μ的置信度为1-α的双侧置信区间为(\n).",
+          "analysis": "在方差未知的条件下,正态总体u的双侧置信区间为\n$\\left(\\bar{X}-t_{\\alpha/2}(n-1)\\frac{S}{\\sqrt{n}},\\bar{X}+t_{\\alpha/2}(n-1)\\frac{S}{\\sqrt{n}}\\right)$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/004",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040041,
+              "question_id": 404004,
+              "is_answer": true,
+              "choice": "$\\begin{array}{r}{\\left(\\bar{X}-t_{\\alpha/2}(n-1)\\frac{S}{\\sqrt{n}},\\bar{X}+t_{\\alpha/2}(n-1)\\frac{S}{\\sqrt{n}}\\right)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040042,
+              "question_id": 404004,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\left(\\bar{X}-t_{\\alpha/2}(n)\\frac{S}{\\sqrt{n}},\\bar{X}+t_{\\alpha/2}(n)\\frac{S}{\\sqrt{n}}\\right)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040043,
+              "question_id": 404004,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\left(\\bar{X}-t_{\\alpha}(n-1)\\frac{S}{\\sqrt{n}},\\bar{X}+t_{\\alpha}(n-1)\\frac{S}{\\sqrt{n}}\\right)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040044,
+              "question_id": 404004,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\left(\\bar{X}-t_{\\alpha}(n)\\frac{S}{\\sqrt{n}},\\bar{X}+t_{\\alpha}(n)\\frac{S}{\\sqrt{n}}\\right)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404005,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-005",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设X_{1,X_₂,,Xn是来自正态总体N(,0.64)的样本,样本均值X.又知 ${\\pmb n}={\\pmb1}{\\pmb6}$ 及 $u_{\\frac{\\alpha}{2}}=1.96$,则u的置信度为1-α的\n置信区间为().",
+          "analysis": "已知方差的单正态总体均值的区间估计为(-ua/2\\,+ua/2\\),故μ的置信区间为(-0.392,X+0.392).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/005",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040051,
+              "question_id": 404005,
+              "is_answer": true,
+              "choice": "(X-0.392X+0.392)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040052,
+              "question_id": 404005,
+              "is_answer": false,
+              "choice": "(X, X - 0.396)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040053,
+              "question_id": 404005,
+              "is_answer": false,
+              "choice": "(X−0.196,X+0.196)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040054,
+              "question_id": 404005,
+              "is_answer": false,
+              "choice": "(X-0.784,X+0.784)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404006,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-006",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设 $X_{1},X_{2},\\cdots,X_{n}$ 为来自正态总体 $N(\\mu,\\sigma^{2})$ 的一个样本,其中参数 $\\mu,\\sigma^{2}$ 未知,则关于μ的置信度为 $1-\\alpha(0<\\alpha<1)$ 的置\n信区间长度L平方的数学期望 $E(L^{2})=($ ).",
+          "analysis": "在σ未知的情形下,正态总体均值μ的置信区间为 $\\begin{array}{r}{\\left(\\bar{\\boldsymbol{X}}\\pm t_{\\alpha/2}(n-1)\\cdot\\frac{\\boldsymbol{S}}{\\sqrt{n}}\\right).}\\end{array}$\n于是,置信区间的长度为 $\\begin{array}{r}{L=2t_{\\alpha/2}(n-1)\\cdot\\frac{S}{\\sqrt{n}},L^{2}=\\dot{4t_{\\alpha/2}^{2}}(n-1)\\cdot\\frac{S^{2}}{n}.}\\end{array}$\n由于样本方差 S^{2 满足E $\\begin{array}{r}{\\mathbf{\\nabla}_{\\mathbf{\\nabla}}(S^{2})=\\mathbf{\\sigma}^{2},}\\end{array}$ 故E $\\begin{array}{r}{\\left(L^{2}\\right)=\\frac{4\\sigma^{2}}{n}t_{\\alpha/2}^{2}(n-1).}\\end{array}$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/006",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040061,
+              "question_id": 404006,
+              "is_answer": true,
+              "choice": "$\\scriptstyle{\\frac{4\\sigma^{2}}{n}}t_{\\alpha/2}^{2}(n-1)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040062,
+              "question_id": 404006,
+              "is_answer": false,
+              "choice": "$\\frac{4\\sigma^{2}}{n}t_{\\alpha/2}^{2}(n)$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040063,
+              "question_id": 404006,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\frac{\\sigma^{2}}{n}t_{\\alpha/2}^{2}(n-1)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040064,
+              "question_id": 404006,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\frac{\\sigma^{2}}{n}t_{\\alpha/2}^{2}(n)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404007,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-007",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某冶金研究者对铁的熔点做了4次试验,其结果(单位：C)为\n1550,1540,1530,1560.\n$\\boldsymbol{s}=12.910$ 如果铁的熔点服从正态分布,则均值 μ的置信度为0.95 间是 '\n$$\\left(\\Phi(1.96)=0.975,t_{0.025}(4)=2.7764,t_{0.025}(3)=3.1824\\right)$$",
+          "analysis": "可以认为总体服从正态分布,由于方差未知, 则均值的区间估计如下\n枢轴变量为 $\\begin{array}{r}{U=\\frac{\\bar{X}-\\mu}{S/\\sqrt{n}}\\sim t(n-1),}\\end{array}$ 置信区间为 $\\begin{array}{r}{\\left(\\bar{\\boldsymbol{X}}\\pm t_{\\alpha/2}(n-1)\\cdot\\frac{\\boldsymbol{S}}{\\sqrt{n}}\\right)}\\end{array}$\n计算得 $\\bar{x}=1545,s=12.910,t_{\\alpha/2}(3)=3.1824,n=4.$ 于是估计区间为(1524.458,1565.542).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/007",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040071,
+              "question_id": 404007,
+              "is_answer": true,
+              "choice": "(1524.458,1565.542)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040072,
+              "question_id": 404007,
+              "is_answer": false,
+              "choice": "(1522.458,1567.542)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040073,
+              "question_id": 404007,
+              "is_answer": false,
+              "choice": "(1524.485,1565.592)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040074,
+              "question_id": 404007,
+              "is_answer": false,
+              "choice": "(1520.458,1569.542)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404008,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-008",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体 $X\\sim N(\\mu,1)$,μ为未知,X_{1,X_₂,…,X_16是来自X的样本,若样本均值 $\\bar{x}=\\mathbf{5.20}$,μ的置信水平为95%的置信区间\n为(). $(\\Phi(1.645)=0.95,\\Phi(1.96)=0.975)$",
+          "analysis": "在方差已知的情形下,μ的置信水平为1-α的一个置信区间为 $\\begin{array}{r}{\\left(\\bar{X}-\\frac{\\sigma}{\\sqrt{n}}u_{\\alpha/2},\\bar{X}+\\frac{\\sigma}{\\sqrt{n}}u_{\\alpha/2}\\right)}\\end{array}$,常写成 $\\begin{array}{r}{\\left(\\bar{\\bar{X}}\\pm\\frac{\\sigma}{\\sqrt{n}}u_{\\alpha/2}\\right)}\\end{array}$\n$\\alpha=0.05,\\sigma=1,n=16,\\bar{x}=5.20,u_{\\alpha/2}=u_{0.025}=1.96$ 所以μ的置信水平为0.95的一个置信区间为(4.71,5.69).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/008",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040081,
+              "question_id": 404008,
+              "is_answer": true,
+              "choice": "(4.71,5.69)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040082,
+              "question_id": 404008,
+              "is_answer": false,
+              "choice": "(3.71,5.69)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040083,
+              "question_id": 404008,
+              "is_answer": false,
+              "choice": "(4.71,6.69)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040084,
+              "question_id": 404008,
+              "is_answer": false,
+              "choice": "(4.51,5.69)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404009,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-009",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "一个随机样本来自正态总体X,总体标准差 $\\pmb{\\sigma}=\\pmb{1.5}$ 抽样前希望有95% 的置信水平使得u的估计的置信区间长度小于1.7,\n则至少应抽取容量为()的一个样本. $(\\Phi(1.645)=0.95,\\Phi(1.96)=0.975,{\\sqrt{50}}\\approx7.071)$",
+          "analysis": "因方差已知,所以u的置信区间长度为 $\\begin{array}{r}{L=2u_{\\alpha/2}\\cdot\\frac{\\sigma}{\\sqrt{n}},}\\end{array}$ 于是 $\\begin{array}{r}{\\pmb{n}=\\left(\\frac{2\\sigma}{L}u_{\\alpha/2}\\right)^{2}.}\\end{array}$ 由题知 $u_{0.025}=1.96,\\sigma=1.5,L=1.7$ √50≈7.071,所\n以样本容量 $\\begin{array}{r}{\\pmb{n}=\\left(\\frac{2\\times1.5\\times1.96}{1.7}\\right)^{2}\\approx}\\end{array}$ 11.96.向上取整数得 ${\\pmb n}={\\bf12}$ 即欲使估计的区间长度为1.7的置信水平为95%,所需样本容量为\n${\\pmb n}={\\bf12}.$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/009",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040091,
+              "question_id": 404009,
+              "is_answer": true,
+              "choice": "n=12",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040092,
+              "question_id": 404009,
+              "is_answer": false,
+              "choice": "n=11",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040093,
+              "question_id": 404009,
+              "is_answer": false,
+              "choice": "$n=13$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040094,
+              "question_id": 404009,
+              "is_answer": false,
+              "choice": "$n=14$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404010,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-010",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "10. N\n设某批铝材料的比重X服从正态分布 $N(\\mu,\\sigma^{2})$ 现测量它的比重16次,得 $\\bar{x}=2.705,s=0.029$,则u的置信度为0.95的\n置信区间为() $\\cdot\\left(\\Phi(1.645)=0.95,t_{0.025}(15)=2.1315,t_{0.025}(16)=2.1199\\right)$",
+          "analysis": "当σ²未知时,μ的置信区间为 $\\begin{array}{r}{\\Big(\\bar{X}-t_{\\frac{\\alpha}{2}}(n-1)\\frac{S}{\\sqrt{n}},\\bar{X}+t_{\\frac{\\alpha}{2}}(n-1)\\frac{S}{\\sqrt{n}}\\Big),}\\end{array}$\n$$\\begin{aligned}&\\bar{x}+t_{\\alpha/2}(15)\\frac{s}{\\sqrt{n}}=2.705+2.1315\\times\\frac{0.029}{\\sqrt{16}}=2.705+0.016\\approx2.720,\\\\&\\bar{x}-t_{\\alpha/2}(15)\\frac{s}{\\sqrt{n}}=2.705-0.016\\approx2.690,\\\\ \\end{aligned}$$\n关于μ的置信区间约为 (2.690,2.720).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/010",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040101,
+              "question_id": 404010,
+              "is_answer": true,
+              "choice": "(2.690,2.720)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040102,
+              "question_id": 404010,
+              "is_answer": false,
+              "choice": "(2.690, 2.820)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040103,
+              "question_id": 404010,
+              "is_answer": false,
+              "choice": "(2.590,2.720)\nuMath",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040104,
+              "question_id": 404010,
+              "is_answer": false,
+              "choice": "(2.490, 2.620)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  },
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 23,
+      "questions": [
+        {
+          "id": 404011,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-011",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "11. ｅul\n有一大批袋装糖果．现从中随机地取16袋,称得重量(以克计)如下：\n$$\\mathbf{506,508,499,503,504,510,497,512,514,505,493,496,506,502,509,496}$$\n$\\bar{x}=503.75,s=6.2022$ 设袋装糖果的重量近似地服从正态分布,则总体均值 的置信水平为0.95的置信区间().\n$$\\Phi(1.96)=0.975,t_{0.025}(16)=2.1199,t_{0.025}(15)=2.1315)$$",
+          "analysis": "当σ未知时,置信区间为\n$\\bigg(\\bar{X}-t_{\\frac{\\alpha}{2}}(n-1)\\frac{S}{\\sqrt{n}},\\bar{X}+t_{\\frac{\\alpha}{2}}(n-1)\\frac{S}{\\sqrt{n}}\\bigg).$\n由给出的数据可得μ的一个置信水平为0.95的置信区间为(503.75±2.1315× $\\frac{\\mathbf{6.2022}}{\\sqrt{\\mathbf{16}}})$ 即 (500.4,507.1).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/011",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040111,
+              "question_id": 404011,
+              "is_answer": true,
+              "choice": "(500.4,507.1)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040112,
+              "question_id": 404011,
+              "is_answer": false,
+              "choice": "(500.4,517.1)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040113,
+              "question_id": 404011,
+              "is_answer": false,
+              "choice": "(500.4, 508.1)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040114,
+              "question_id": 404011,
+              "is_answer": false,
+              "choice": "(500.4, 509.1)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404012,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-012",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体 $X\\sim N(\\mu,\\sigma_{0}^{2})$ 其中 $\\sigma_{0}^{2}$ 已知,样本 $X_{1},X_{2},\\cdots,X_{n}.$ 若μ的置信度为0.95的置信区间长度不大于 $\\mathbf{0.5}\\sigma_{\\mathbf{0}}$ 则n 应\n不小于() $(\\Phi(1.96)=0.975,\\Phi(1.645)=0.95)$",
+          "analysis": "在置信度 $\\mathbf{1}-\\boldsymbol{\\alpha} 下$ 正态总体方差已知的均值的置信区间为\n$\\bigg(\\bar{X}-u_{\\alpha/2}\\frac{\\sigma}{\\sqrt{n}},\\bar{X}+u_{\\alpha/2}\\frac{\\sigma}{\\sqrt{n}}\\bigg)$\n依题意, $\\begin{array}{r}{2u_{\\alpha/2}\\frac{\\sigma_{0}}{\\sqrt{n}}\\leq0.5\\sigma_{0},}\\end{array}$ 得n≥ 4u/2 = 61.4656.\n所以n应不小于62.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/012",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040121,
+              "question_id": 404012,
+              "is_answer": true,
+              "choice": "62",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040122,
+              "question_id": 404012,
+              "is_answer": false,
+              "choice": "54",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040123,
+              "question_id": 404012,
+              "is_answer": false,
+              "choice": "75",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040124,
+              "question_id": 404012,
+              "is_answer": false,
+              "choice": "87",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404013,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-013",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "现有来自正态总体X容量为 ${\\pmb n}={\\pmb2}{\\pmb5}$ 的一个样本,且已知 $D(X)=4,{\\bar{x}}=2$ 则均值μ的置信度为0.95的置信区间为().\n$$(\\Phi(1.654)=0.95,\\Phi(1.96)=0.975,\\Phi(1.282)=0.90)$$",
+          "analysis": "在方差σ²已知情形下,正态总体均值μ的置信度为 $\\mathbf{1}-\\pmb{\\alpha}$ 的置信区间为\n$\\left(\\bar{X}-u_{\\alpha/2}\\frac{\\sigma}{\\sqrt{n}},\\bar{X}+u_{\\alpha/2}\\frac{\\sigma}{\\sqrt{n}}\\right)$\n依题意, $\\bar{x}=2,\\sigma=2,\\sqrt{n}=5$ 所以均值μ的置信度为0.95的置信区间为(1.216,2.784).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/013",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040131,
+              "question_id": 404013,
+              "is_answer": true,
+              "choice": "(1.216,2.784)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040132,
+              "question_id": 404013,
+              "is_answer": false,
+              "choice": "(1.342,2.658)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040133,
+              "question_id": 404013,
+              "is_answer": false,
+              "choice": "(1.4872,2.5128)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040134,
+              "question_id": 404013,
+              "is_answer": false,
+              "choice": "(1.843,2.157)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404014,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-014",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "人的身高服从正态分布,从初一女生中随机抽取6名,测其身高(单位：cm)如下：\n149 158.5 152.5 165 157 142\n$\\mathfrak{s}=8.0187$ 则初一女生平均身高的置信区间为()(α=0.05).\n(Φ(1.96)=0.975,t0.025(6)=2.4469,t0.025(5)=2.5706,√6=2.45)",
+          "analysis": "X～N(μ,2}),μ的置信度为95%的置信区间为 $\\begin{array}{r}{\\Big(\\bar{\\pm}\\frac{S}{\\sqrt{n}}t_{\\alpha/2}(n-1)\\Big)}\\end{array}$ ．这里 $\\bar{x}=154,s=8.0187,t_{0.025}(5)=2.5706$ 于是,\n$\\left(\\bar{x}\\pm\\frac{s}{\\sqrt{n}}t_{\\alpha/2}(n-1)\\right)$ ≈ (145.58,162.42).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/014",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040141,
+              "question_id": 404014,
+              "is_answer": true,
+              "choice": "(145.58,162.42)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040142,
+              "question_id": 404014,
+              "is_answer": false,
+              "choice": "(135.58,162.42)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040143,
+              "question_id": 404014,
+              "is_answer": false,
+              "choice": "(145.58,172.42)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040144,
+              "question_id": 404014,
+              "is_answer": false,
+              "choice": "(145.8,162.42)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404015,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-015",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "已知灯泡寿命的标准差 $\\pmb{\\sigma}=\\pmb{50}$ 小时,抽出25个灯泡检验,得平均寿命 $\\bar{x}=500$ 小时,试以95%的可靠性对灯泡的平均寿命\n进行区间估计(假设灯泡寿命服从正态分布)为() $\\Phi(1.645)=0.95,\\Phi(1.96)=0.975)$",
+          "analysis": "Ne\n由于X～N(μ,502),所以μ的置信度为95%的置信区间为\n$\\bigg(\\vec{X}-\\frac{\\sigma}{\\sqrt{n}}u_{\\alpha/2},\\vec{X}+\\frac{\\sigma}{\\sqrt{n}}u_{\\alpha/2}\\bigg)$\n这里 $\\bar{x}=500,n=25,\\sigma=50,u_{\\alpha/2}=1.96$ 所以灯泡的平均寿命的置信区间为\n$$\\left(\\bar{x}\\pm u_{\\alpha/2}\\frac{\\sigma}{\\sqrt{n}}\\right)=\\left(500\\pm\\frac{50}{\\sqrt{25}}\\times1.96\\right)=\\left(500\\pm19.6\\right)=\\left(480.4,519.6\\right)$$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/015",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040151,
+              "question_id": 404015,
+              "is_answer": true,
+              "choice": "(480.4,519.6)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040152,
+              "question_id": 404015,
+              "is_answer": false,
+              "choice": "(450.4, 519.6)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040153,
+              "question_id": 404015,
+              "is_answer": false,
+              "choice": "(480.4,529.6)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040154,
+              "question_id": 404015,
+              "is_answer": false,
+              "choice": "(380.4,519.6)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404016,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-016",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设 $X_{1},X_{2},\\cdots,X_{n}$ 为正态总体 $N(\\mu,4)$ 的一个样本,X表示样本均值,则 μ的置信度为 $1-\\alpha$ 的置信区间为()",
+          "analysis": "在置信度 $\\mathbf{1}-\\boldsymbol{\\alpha} 下$,正态总体方差已知的均值的区间估计为：\n$\\Bigg(\\vec{X}-u_{\\alpha/2}\\frac{\\sigma}{\\sqrt{n}},\\vec{X}+u_{\\alpha/2}\\frac{\\sigma}{\\sqrt{n}}\\Bigg).$\n本题中 $\\sigma^{2}=4$ 即 $\\sigma=\\mathbf{2}$ 代入即得结果.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/016",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040161,
+              "question_id": 404016,
+              "is_answer": true,
+              "choice": "$\\begin{array}{r}{\\left(\\bar{X}-u_{\\alpha/2}\\frac{2}{\\sqrt{n}},\\bar{X}+u_{\\alpha/2}\\frac{2}{\\sqrt{n}}\\right)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040162,
+              "question_id": 404016,
+              "is_answer": false,
+              "choice": "$\\left(\\begin{array}{c}{{\\bar{X}-u_{\\alpha/2}\\frac{4}{\\sqrt{n}},\\bar{X}+u_{\\alpha/2}\\frac{4}{\\sqrt{n}}}}\\end{array}\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040163,
+              "question_id": 404016,
+              "is_answer": false,
+              "choice": "$\\left(\\begin{array}{c}{\\bar{X}-u_{1-\\alpha/2}\\frac{2}{\\sqrt{n}},\\bar{X}+u_{1-\\alpha/2}\\frac{2}{\\sqrt{n}}}\\\\ \\end{array}\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040164,
+              "question_id": 404016,
+              "is_answer": false,
+              "choice": "$\\left(\\bar{X}-u_{a}\\frac{2}{\\sqrt{n}},\\bar{X}+u_{a}\\frac{2}{\\sqrt{n}}\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404017,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-017",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "为研究某种汽车轮胎的磨损特性,随机地选择16只轮胎,每只轮胎行驶到磨坏为止.记录所行驶的路程(以千米计)如下：\n41250 40187 43175 41010 39265 41872 42654 41287\n38970 40200 42550 41095 40680 43500 39775 40440\n$\\bar{x}=41119.38,s=1345.46$.假设这些数据来自正态总体 $N(\\mu,\\sigma^{2})$,其中 $\\mu,\\sigma^{2}$ 未知,则μ的置信水平为0.95的单侧\n为() $\\left(\\Phi(1.645)=0.95,t_{0.05}(16)=1.7459,t_{0.05}(15)=1.7531\\right)$",
+          "analysis": "由 $\\begin{array}{r}{P\\Big\\{\\mu>\\bar{X}-\\frac{S}{\\sqrt{n}}t_{\\alpha}(n-1)\\Big\\}=1-\\alpha,}\\end{array}$ 的 得 $1-\\alpha$ 的单侧置信下限为\n$\\underline{{\\mu}}=\\bar{x}-\\frac{s}{\\sqrt{n}}t_{\\alpha}(n-1)$\n由数据 ≈41119.38,8≈1345.46 $n=16,t_{0.05}(15)=1.7531$ 代入上式,则μ的0.95的单侧置信下限为\n$\\underline{{\\mu}}=41119.38-\\frac{1345.46}{4}\\times1.7531\\approx40529.73$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/017",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040171,
+              "question_id": 404017,
+              "is_answer": true,
+              "choice": "40529.73",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040172,
+              "question_id": 404017,
+              "is_answer": false,
+              "choice": "41529.73",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040173,
+              "question_id": 404017,
+              "is_answer": false,
+              "choice": "30529.73",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040174,
+              "question_id": 404017,
+              "is_answer": false,
+              "choice": "50529.73",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404018,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-018",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某公司欲估计自己生产的电池寿命．现从其产品中随机抽取50只电池做寿命试验,这些电池的寿命的平均值 $\\bar{x}=2.266$ (单位：\n100小时), $\\pmb{s}=\\pmb{1.935}$ 设电池寿命服从正态分布 $N(\\mu,\\sigma^{2})$,则该公司生产的电池平均寿命的置信度为95%的置信区间为().\n(Φ(1.645)= 0.95,Φ(1.96)= 0.975,√50 ≈7.071)",
+          "analysis": "当n>45时,置信区间为(X-ua/2S/√n,X+ua/2S/√n),代入数据得置信区间(1.730,2.802).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/018",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040181,
+              "question_id": 404018,
+              "is_answer": true,
+              "choice": "(1.730,2.802)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040182,
+              "question_id": 404018,
+              "is_answer": false,
+              "choice": "(1.730,2.502)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040183,
+              "question_id": 404018,
+              "is_answer": false,
+              "choice": "(1.530, 2.502)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040184,
+              "question_id": 404018,
+              "is_answer": false,
+              "choice": "(1.730,2.552)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404019,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-019",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "从一批灯泡中随机地抽取5只作寿命试验,其寿命如下(单位：h)\n1050 1100 1120 1250 1280\n$s=99.75$ 已知这批灯泡寿命 $X\\sim N(\\mu,\\sigma^{2})$ 平均寿命μ的置信度为 95% 的单侧置信下限为(). '\n$$\\left(t_{0.05}(5)=2.0150,t_{0.05}(4)=2.1318,\\Phi(1.645)=0.95,\\sqrt{5}=2.236\\right)$$",
+          "analysis": "$T=\\frac{\\bar{X}-\\mu}{S/\\sqrt{n}}\\sim t(n-1)$\n对于给定置信度1-α,有 $\\begin{array}{r}{P\\Big\\{\\frac{\\bar{X}-\\mu}{\\bar{S}/\\sqrt{n}}<t_{\\alpha}(n-1)\\Big\\}=1-\\alpha,}\\end{array}$ 即\n$P\\bigg\\{\\mu>\\bar{X}-t_{\\alpha}(n-1)\\frac{S}{\\sqrt{n}}\\bigg\\}=1-\\alpha_{\\gamma}$\n可得 μ的置信度为1-α的单侧置信下限为\n$\\left|\\bar{X}-t_{\\alpha}(n-1)\\frac{S}{\\sqrt{n}},\\right.$\n由数据计算,有\n$$\\bar{x}=1160,s=99.75,n=5,\\alpha=0.05,t_{0.05}(4)=2.1318$$\n所以u的置信度为95%的置信下限为\n$$\\bar{x}-t_{\\alpha}(n-1)\\frac{s}{\\sqrt{n}}=1160-2.1318\\times\\frac{99.75}{2.236}=1064.9.$$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/019",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040191,
+              "question_id": 404019,
+              "is_answer": true,
+              "choice": "1064.9",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040192,
+              "question_id": 404019,
+              "is_answer": false,
+              "choice": "1164.9",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040193,
+              "question_id": 404019,
+              "is_answer": false,
+              "choice": "1239",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040194,
+              "question_id": 404019,
+              "is_answer": false,
+              "choice": "64.9",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404020,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-020",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设 $X_{1},X_{2},\\cdots,X_{n}$ 为来自正态总体 $N(\\mu,\\sigma^{2})$ 的一个样本,其中 $\\mu,\\sigma^{2}$ 未知,则μ的置信度为 $1-\\alpha(0<\\alpha<1)$ 的置信区间长\n度 $\\pmb{L}=(\\quad)$",
+          "analysis": "在σ²未知的情形下,正态总体均值u的置信区间为 (x±ta/2(n-1)\\/.于是,置信区间的长度为_=2ta/2(n-1). √n S",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/020",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040201,
+              "question_id": 404020,
+              "is_answer": true,
+              "choice": "$\\begin{array}{r}{2t_{\\alpha/2}(n-1)\\cdot\\frac{\\mathcal{S}}{\\sqrt{n}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040202,
+              "question_id": 404020,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{2t_{\\alpha/2}(n)\\cdot\\frac{S}{\\sqrt{n}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040203,
+              "question_id": 404020,
+              "is_answer": false,
+              "choice": "$\\textstyle2t_{\\alpha/2}(n-1)\\cdot{\\frac{\\sigma}{\\sqrt{n}}}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040204,
+              "question_id": 404020,
+              "is_answer": false,
+              "choice": "$2t_{\\alpha/2}(n)\\cdot\\frac{\\sigma}{\\sqrt{n}}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  },
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 23,
+      "questions": [
+        {
+          "id": 404021,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-021",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设 $X_{1},X_{2},\\cdots,X_{n}$ 是来自正态总体 $N(\\mu,\\sigma^{2})$ 的简单随机样本, $\\sigma^{2}$ 未知,X是样本均值. $\\begin{array}{r}{S^{2}=\\frac{1}{n-1}\\sum_{i=1}^{n}(X_{i}-\\bar{X})^{2}}\\end{array}$,若用\n$\\left(\\bar{X}-k\\frac{S}{\\sqrt{n}},\\bar{X}+k\\frac{S}{\\sqrt{n}}\\right)$ 作为μ的 $\\mathbf{1}-\\pmb{a}$ 置信区间,则k应取的分位数为().",
+          "analysis": "当总体方差未知时,均值u的 $\\mathbf{1}-\\pmb{\\alpha}$ 的置信区间为：\n$\\left(\\bar{X}-t_{\\alpha/2}(n-1)\\cdot\\frac{S}{\\sqrt{n}},\\bar{X}+t_{\\alpha/2}(n-1)\\cdot\\frac{S}{\\sqrt{n}}\\right)$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/021",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040211,
+              "question_id": 404021,
+              "is_answer": true,
+              "choice": "$t_{a/2}(n-1)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040212,
+              "question_id": 404021,
+              "is_answer": false,
+              "choice": "$\\pmb{u}_{1-a/2}$ 或ta",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040213,
+              "question_id": 404021,
+              "is_answer": false,
+              "choice": "$t_{a}(n-1)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040214,
+              "question_id": 404021,
+              "is_answer": false,
+              "choice": "$\\pmb{t}_{\\mathbf{1}-\\pmb{a}}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404022,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-022",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设由来自正态总体 $N(\\mu,1)$ 容量为16的简单随机样本算出的样本均值为 ${\\mathfrak{L}}={\\mathfrak{H}}$,则未知参数μ的置信度为0.95的置信区间\n是().(Φ(1.645)=0.95,Φ(1.96)=0.975)",
+          "analysis": "在 σ2 已知的情形下,正态总体均值的置信区间为 $\\begin{array}{r}{\\left(\\bar{\\pm}\\boldsymbol{u}_{\\alpha/2}\\frac{\\sigma}{\\sqrt{n}}\\right)}\\end{array}$ 把数据代入计算,得μ的置信区间为(4.51,5.49).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/022",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040221,
+              "question_id": 404022,
+              "is_answer": true,
+              "choice": "(4.51, 5.49)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040222,
+              "question_id": 404022,
+              "is_answer": false,
+              "choice": "(5.51,5.94)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040223,
+              "question_id": 404022,
+              "is_answer": false,
+              "choice": "(4.15, 5.94)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040224,
+              "question_id": 404022,
+              "is_answer": false,
+              "choice": "(4.51,5.94)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 404023,
+          "subject_id": 3,
+          "chapter_id": 404,
+          "question_id": "pdf-ocr-404-023",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体 $X\\sim(\\mu,\\sigma^{2})$ σ已知．为使总体均值u的置信度为1-α的置信区间的长度不大于L,则样本容量至少应取().",
+          "analysis": "在σ{²已知的情形下,正态总体均值的置信区间为(±ua/2\\),即置信区间的长度为d=2ua/2\\.要使d≤L,即要求\n2ua/2\\≤, n≥ (2u2 2",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/404/023",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4040231,
+              "question_id": 404023,
+              "is_answer": true,
+              "choice": "$\\begin{array}{r}{n\\geq\\left(\\frac{2u_{\\alpha/2}\\sigma}{L}\\right)^{2}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040232,
+              "question_id": 404023,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{n\\geq\\left(\\frac{u_{\\alpha/2}\\sigma}{L}\\right)^{2}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040233,
+              "question_id": 404023,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{n\\geq\\left(\\frac{2t_{\\alpha/2}(n-1)\\sigma}{L}\\right)^{2}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4040234,
+              "question_id": 404023,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{n\\geq\\left(\\frac{2u_{\\alpha/2}S}{L}\\right)^{2}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  }
+]

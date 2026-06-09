@@ -1,0 +1,955 @@
+[
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 11,
+      "questions": [
+        {
+          "id": 409001,
+          "subject_id": 3,
+          "chapter_id": 409,
+          "question_id": "pdf-ocr-409-001",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "公共汽车站在一单位时间内 (如半小时或一天等)到达乘客数服从泊松分布P(λ),对不同的车站,所不同的仅仅是参数入的取\n值不同．现对一城市某一公共汽车站进行了100个单位时间的调查,这里单位时间是20分钟,计算得到每20分钟内来到该车\n站的乘客数平均值 $\\bar{x}=15.2$ 人,则参数入的置信度为95%的置信区间为(). $u_{0.025}=1.96$",
+          "analysis": "总体X服从泊松分布 $P(\\lambda)$ 在大样本下,其样本均值X近似地服从正态分布 $N(\\lambda,\\lambda/n)$ ．参照0-1分布参数p的置信区间的推\n导过程,可以得到入的置信度为 $1-\\alpha$ 的近似置信区间为\nuMath $\\left(\\bar{X}-u_{\\alpha/2}\\sqrt{\\frac{\\bar{X}}{n}},\\bar{X}+u_{\\alpha/2}\\sqrt{\\frac{\\bar{X}}{n}}\\right)$ Mathe\n现 $n=100,\\alpha=0.05,u_{\\alpha/2}=u_{0.025}=1.96,\\bar{x}=15.2$ 得入的置信度为95%的一个置信区间近似为\n$$\\left(\\bar{x}\\pm u_{\\alpha/2}\\sqrt{\\bar{x}/n}\\right)=(15.2\\pm1.96\\sqrt{15.2/100})\\approx(14.44,15.96)$$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/409/001",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4090011,
+              "question_id": 409001,
+              "is_answer": true,
+              "choice": "(14.44,15.96)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090012,
+              "question_id": 409001,
+              "is_answer": false,
+              "choice": "(14.44,14.96)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090013,
+              "question_id": 409001,
+              "is_answer": false,
+              "choice": "(14.04,15.96)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090014,
+              "question_id": 409001,
+              "is_answer": false,
+              "choice": "(13.44,15.96)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 409002,
+          "subject_id": 3,
+          "chapter_id": 409,
+          "question_id": "pdf-ocr-409-002",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "已知正态总体X容量为25的一个样本, $\\bar{x}=2,D(X)=4$ 则在置信水平 $\\alpha=0.05$ 下,期望μ的置信度为1-α的置信区\n间为(). $u_{0.025}=1.96$",
+          "analysis": "在置信度1-ａ下,正态总体方差σ已知的均值μ的置信区间为 $\\begin{array}{r}{\\Big(\\bar{X}-u_{\\alpha/2}\\frac{\\sigma}{\\sqrt{n}},\\bar{X}+u_{\\alpha/2}\\frac{\\sigma}{\\sqrt{n}}\\Big),}\\end{array}$\n$\\bar{x}=2,u_{\\alpha/2}=u_{0.025}=1.96,\\sigma=2,\\sqrt{n}=5$ 代入计算得 (1.216,2.784).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/409/002",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4090021,
+              "question_id": 409002,
+              "is_answer": true,
+              "choice": "(1.216,2.784)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090022,
+              "question_id": 409002,
+              "is_answer": false,
+              "choice": "(1.342, 2.658)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090023,
+              "question_id": 409002,
+              "is_answer": false,
+              "choice": "(1.4872,2.5128)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090024,
+              "question_id": 409002,
+              "is_answer": false,
+              "choice": "$\\left(2-\\frac{2\\times1.96}{25},2+\\frac{2\\times1.96}{25}\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 409003,
+          "subject_id": 3,
+          "chapter_id": 409,
+          "question_id": "pdf-ocr-409-003",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体的期望μ和方差 $\\sigma^{2}$ 均存在,则u的置信度为 $1-\\alpha$ 的置信区间为()",
+          "analysis": "先从总体中抽取一容量为n的样本 $X_{1},X_{2},\\cdots,X_{n}$ 根据中心极限定理,\n$U=\\frac{\\bar{X}-\\mu}{\\sigma/\\sqrt{n}}\\rightarrow N(0,1)\\quad(n\\rightarrow\\infty).$\n(1)当 $\\sigma^{2}$ 已知时,则μ的置信度为1-α的一个近似置信区间为\n$\\Bigg(\\vec{X}-u_{\\alpha/2}\\frac{\\sigma}{\\sqrt{n}},\\vec{X}+u_{\\alpha/2}\\frac{\\sigma}{\\sqrt{n}}\\Bigg).$\n(2)当 $\\sigma^{2}$ 未知时,用 $\\sigma^{2}$ 的无偏估计 $s^{2}$ 代替 $\\sigma^{2}$,这里仍有\n$\\frac{\\bar{X}-\\mu}{S/\\sqrt{n}}\\rightarrow N(0,1)\\quad(n\\rightarrow\\infty)$ uMathe\nμ的置信度为 $1-\\alpha$ 的一个近似置信区间为\n$\\bigg(\\bar{X}-u_{\\alpha/2}\\frac{S}{\\sqrt{n}},\\bar{X}+u_{\\alpha/2}\\frac{S}{\\sqrt{n}}\\bigg)$\n一般要求 $n\\geq$ 30才能使用上述公式,称为大样本区间估计",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/409/003",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4090031,
+              "question_id": 409003,
+              "is_answer": true,
+              "choice": "$\\begin{array}{r}{\\left(\\bar{X}-u_{\\alpha/2}\\frac{S}{\\sqrt{n}},\\bar{X}+u_{\\alpha/2}\\frac{S}{\\sqrt{n}}\\right)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090032,
+              "question_id": 409003,
+              "is_answer": false,
+              "choice": "$\\left(\\begin{array}{c}{{\\bar{X}-2u_{\\alpha/2}\\frac{S}{\\sqrt{n}},\\bar{X}+2u_{\\alpha/2}\\frac{S}{\\sqrt{n}}}}\\end{array}\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090033,
+              "question_id": 409003,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\left(\\vec{X}-u_{\\alpha/2}\\frac{2S}{\\sqrt{n}},\\vec{X}+u_{\\alpha/2}\\frac{S}{\\sqrt{n}}\\right)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090034,
+              "question_id": 409003,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\left(\\bar{X}-u_{\\alpha/2}\\frac{S}{\\sqrt{2n}},\\bar{X}+u_{\\alpha/2}\\frac{S}{\\sqrt{2n}}\\right)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 409004,
+          "subject_id": 3,
+          "chapter_id": 409,
+          "question_id": "pdf-ocr-409-004",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体X的方差为1,取容量为100的样本,得样本均值 ${\\bar{x}}={\\bf5}.$ 则总体均值μ的置信度为0.95的置信区间是().\n$u_{0.025}=1.96.$",
+          "analysis": "对于一般总体分布X,设 $E(X)=\\mu,D(X)=\\sigma^{2}$ 在大样本下,根据中心极限定理, $\\frac{\\sum-\\mu}{\\sigma/\\sqrt{n}}$ ~N(0,1),若方差已知,均值μ的置信度\n为1-α的置信区间近似为 $\\begin{array}{r}{\\left(\\mathbf{\\bar{X}}\\pm\\mathbf{\\mathit{u}}_{\\alpha/2}\\cdot\\frac{\\mathbf{\\sigma}}{\\sqrt{n}}\\right)}\\end{array}$\n现 $n=100,\\sigma=1,\\bar{x}=5,\\alpha=0.05,u_{0.025}=1.96$ 均值μ的置信度为0.95的置信区间为(4.804,5.196).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/409/004",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4090041,
+              "question_id": 409004,
+              "is_answer": true,
+              "choice": "(4.804, 5.196)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090042,
+              "question_id": 409004,
+              "is_answer": false,
+              "choice": "(5.004, 5.096)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090043,
+              "question_id": 409004,
+              "is_answer": false,
+              "choice": "(4.904,5.096)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090044,
+              "question_id": 409004,
+              "is_answer": false,
+              "choice": "(4.604,5.396)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 409005,
+          "subject_id": 3,
+          "chapter_id": 409,
+          "question_id": "pdf-ocr-409-005",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某城镇抽样调查的500名应就业的人中,有13名待业者,则该城镇的待业率p的置信度为0.95置信区间为().",
+          "analysis": "这是0-1分布参数的区间估计问题．待业率p的0.95置信区间为\n$\\left(\\widehat{p_1},\\widehat{p_2}\\right)=\\left(\\frac{-b-\\sqrt{b^2-4ac}}{2a},\\frac{-b+\\sqrt{b^2-4ac}}{2a}\\right)$\n其中 $a=n+u_{\\alpha/2}^{2},b=-2n\\bar{X}-\\big(u_{\\alpha/2}\\big)^{2},c=n\\bar{X}^{2}$\n现 $\\begin{array}{r}{n=500,\\bar{x}=\\frac{13}{500},u_{\\alpha/2}=1.96,}\\end{array}$ 所以\n$\\left(\\widehat{p_{1}},\\widehat{p_{2}}\\right)=\\left(0.015,0.044\\right)$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/409/005",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4090051,
+              "question_id": 409005,
+              "is_answer": true,
+              "choice": "$\\left(\\widehat{p_{1}},\\widehat{p_{2}}\\right)=\\left(0.015,0.044\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090052,
+              "question_id": 409005,
+              "is_answer": false,
+              "choice": "$\\left(\\widehat{p_{1}},\\widehat{p_{2}}\\right)=\\left(0.005,0.044\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090053,
+              "question_id": 409005,
+              "is_answer": false,
+              "choice": "(pi, P2)= (0.025,0.044)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090054,
+              "question_id": 409005,
+              "is_answer": false,
+              "choice": "$\\left(\\widehat{p_{1}},\\widehat{p_{2}}\\right)=\\left(0.015,0.034\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 409006,
+          "subject_id": 3,
+          "chapter_id": 409,
+          "question_id": "pdf-ocr-409-006",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某火箭发射系统进行火箭发射,在40次发射中有34次成功,则发射成功率p的置信度为0.95的置信区间为(),\n$u_{0.025}=1.96.$",
+          "analysis": "0-1分布参数p的区间估计如下：\n在大样本下, $U=\\frac{\\overline{X}-p}{\\sqrt{\\frac{p(1-p)}{n}}}\\sim N(0,1)$\n从而p在置信度为1-下置信区间为 $\\left(\\frac{-b-\\sqrt{b^{2}-4ac}}{2a},\\quad\\frac{-b+\\sqrt{b^{2}-4ac}}{2a}\\right)$\n其中 $a=n+u_{\\alpha/2}^{2},b=-(2n\\overline{{X}}+u_{\\alpha/2}^{2}),c=n\\overline{{X}}^{2}.$\n$n=40,u_{0.025}=1.96$,计算得 $\\bar{x}=\\frac{34}{40}=0.85$,a=43.8416,h −71.8416,c=28.9000,\n于是区间估计为(0.7093,0.9294).\n也可以如下求解：\n样本均值的方差 $D(\\bar{X})=\\frac{p(1-p)}{n}$\n得 $D(\\overline{{X}})$ 的估计量 $S^{2}=\\frac{\\overline{X}(1-\\overline{X})}{n}$ 及枢轴变量 $U=\\frac{\\overline{X}-p}{S}=\\frac{\\overline{X}-p}{\\sqrt{\\frac{\\overline{X}(1-\\overline{X})}{n}}}\\sim N(0,1).$\n从而p在置信度为 $1-\\alpha$ 的置信区间为 $\\left(\\overline{X}-u_{\\omega/2}\\sqrt{\\frac{\\overline{X}(1-\\overline{X})}{n}},\\overline{X}+u_{\\omega/2}\\sqrt{\\frac{\\overline{X}(1-\\overline{X})}{n}}\\right)$\n得置信区间(0.7393,0.9607)\n参见教材可知,后者是前者的约简置信区间",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/409/006",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4090061,
+              "question_id": 409006,
+              "is_answer": true,
+              "choice": "(0.7093, 0.9294)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090062,
+              "question_id": 409006,
+              "is_answer": false,
+              "choice": "(0.6893,0.9494)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090063,
+              "question_id": 409006,
+              "is_answer": false,
+              "choice": "(0.7393,0.9594)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090064,
+              "question_id": 409006,
+              "is_answer": false,
+              "choice": "(0.793,0.994)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 409007,
+          "subject_id": 3,
+          "chapter_id": 409,
+          "question_id": "pdf-ocr-409-007",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "在一批货物的容量为100的样本中,经检验发现有16只次品,则这批货物次品率的置信度为0.95的置信区间为().(\n$u_{0.025}=1.96)$",
+          "analysis": "这是0-1分布参数区间的估计问题.次品率p的1-α的近似置信区间为\n$\\left(\\hat{p}_{1},\\hat{p}_{2}\\right)=\\left(\\frac{-b-\\sqrt{b^{2}-4a c}}{2a},\\frac{-b+\\sqrt{b^{2}-4a c}}{2a}\\right)$\n其中 $a=n+u_{\\alpha/2}^{2},b=-\\Big(2n\\bar{X}+u_{\\alpha/2}^{2}\\Big),c=n\\bar{X}^{2}.$\n$\\begin{array}{r}{n=100,\\bar{x}=\\frac{16}{100}=0.16,u_{0.025}=1.96,}\\end{array}$ 计算得\n$$a=100+1.96^{2}=103.842,\\quad b=-\\left(2\\times100\\times0.16+1.96^{2}\\right)=-35.842,\\quad c=100\\times0.16^{2}=2.56$$\n所以这批货物次品率p的0.95的置信区间为\neuMa $\\left(\\hat{p}_{1},\\hat{p}_{2}\\right)=\\left(\\frac{35.8416\\pm\\sqrt{221.2823}}{2\\times103.842}\\right)\\approx(0.101,0.244)$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/409/007",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4090071,
+              "question_id": 409007,
+              "is_answer": true,
+              "choice": "(0.101, 0.244)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090072,
+              "question_id": 409007,
+              "is_answer": false,
+              "choice": "(0.101,0.344)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090073,
+              "question_id": 409007,
+              "is_answer": false,
+              "choice": "(0.131, 0.244)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090074,
+              "question_id": 409007,
+              "is_answer": false,
+              "choice": "(0.201,0.244)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 409008,
+          "subject_id": 3,
+          "chapter_id": 409,
+          "question_id": "pdf-ocr-409-008",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设抽自一大批产品的100件样品中有 一级品 60个,则这批产品的一级品率p的置信水平为0.95的置信区间为\n$u_{0.025}=1.96.$",
+          "analysis": "这是0-1分布参数的区间估计问题. p的0.95置信区间为\n$\\left(\\widehat{p_{1}},\\widehat{p_{2}}\\right)=\\left(\\frac{-b-\\sqrt{b^{2}-4a c}}{2a},\\frac{-b+\\sqrt{b^{2}-4a c}}{2a}\\right)$\n其中 $a=n+u_{\\alpha/2}^{2},b=-\\Big(2n\\bar{x}+u_{\\alpha/2}^{2}\\Big),c=n\\bar{x}^{2}$ lathe\n现 $n=100,\\bar{x}=\\frac{60}{100}=0.6,u_{\\alpha/2}=1.96$ 计算\n$$a=n+u_{\\alpha/2}^{2}\\approx103.84,\\quad b=-\\Big(2n\\bar{x}+u_{\\alpha/2}^{2}\\Big)\\approx-123.84,\\quad c=n\\bar{x}^{2}=36.$$\n于是pi≈0.50,p≈0.69.\n故得p的置信水平为0.95的一个置信区间近似为(0.50,0.69).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/409/008",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4090081,
+              "question_id": 409008,
+              "is_answer": true,
+              "choice": "(0.50, 0.69)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090082,
+              "question_id": 409008,
+              "is_answer": false,
+              "choice": "(0.33,0.69)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090083,
+              "question_id": 409008,
+              "is_answer": false,
+              "choice": "(0.50,0.59)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090084,
+              "question_id": 409008,
+              "is_answer": false,
+              "choice": "(0.25,0.69)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 409009,
+          "subject_id": 3,
+          "chapter_id": 409,
+          "question_id": "pdf-ocr-409-009",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某印染厂在配制一种染料时,在40次试验中成功了34次,则配制成功的概率p的置信度为0.95的置信区间为()\n$u_{0.025}=1.96$",
+          "analysis": "总体是伯努利试验的分布,p是成功率.\n已知n=40, $\\hat{\\pmb{p}}=\\pmb{34}/\\pmb{40}$ $u_{0,025}=1.96$,所以p的置信度为0.95的置信区间为\n$$\\begin{align*}\\hat{p}_{1},p_{2})&\\approx\\left(\\hat{p}-u_{\\alpha/2}\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}},\\hat{p}+u_{\\alpha/2}\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}\\right)\\\\&=\\left(\\frac{34}{40}-1.96\\sqrt{\\frac{\\frac{34}{40}\\times\\frac{6}{40}}{40}},\\frac{34}{40}+1.96\\sqrt{\\frac{\\frac{34}{40}\\times\\frac{6}{40}}{40}}\\right)\\\\&=(0.7378,0.9607).\\end{align*}$$\n即(0.7378,0.9607).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/409/009",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4090091,
+              "question_id": 409009,
+              "is_answer": true,
+              "choice": "(0.7378,0.9607)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090092,
+              "question_id": 409009,
+              "is_answer": false,
+              "choice": "(0.8378,0.9607)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090093,
+              "question_id": 409009,
+              "is_answer": false,
+              "choice": "(0.7378,0.8607)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090094,
+              "question_id": 409009,
+              "is_answer": false,
+              "choice": "(0.6378,0.9607)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 409010,
+          "subject_id": 3,
+          "chapter_id": 409,
+          "question_id": "pdf-ocr-409-010",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某面粉厂接到许多顾客的订货,厂内采用自动流水线灌装面粉,按每袋25千克出售．现从中随机地抽取50袋,其结果如下：\n25.8, 24.7, 25.0, 24.9, 25.1, 25.0, 25.2, 24.8, 25.4, 25.3,\n25.4, 24.9, 25.0, 24.6, 25.0, 25.1, 25.3, 24.9,\n24.6, 21.1, 25.4, 24. 24.8, 25.3, 25.0, 25.1, 24.7, 25.0,\n24.7, 25.3, 25.2, 24.8, 25.1, 25.1, 24.7, 25.0, 25.3, 24.9,\n25.0, 25.3, 25.0, 25. 24.7, 25.3, 25.1, 24.9, 25.2, 25.1,\n则该厂自动流水线灌装袋重X的期望置信度为0.95的置信区间为(), $\\bar{x}=24.92,s=0.6615,u_{0.025}=1.96$",
+          "analysis": "X为袋重总体,样本容量 ${\\pmb n}={\\pmb5}{\\pmb0}.$ 可作为大样本处理. uMathe\n因为总体方差未知,所以总体期望的置信度为1一α的置信区间为\n$\\left(\\bar{X}-u_{\\alpha/2}\\frac{S}{\\sqrt{n}},\\bar{X}+u_{\\alpha/2}\\frac{S}{\\sqrt{n}}\\right)$\n由 $\\bar{x}=24.92,s=0.6615,\\alpha=0.05,u_{0.025}=1.96$ 得总体期望的置信度为0.95的置信区间近似为\n$\\left(24.92-1.96\\times\\frac{0.6615}{\\sqrt{50}},24.92+1.96\\times\\frac{0.6615}{\\sqrt{50}}\\right)\\approx(24.737,25.103)$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/409/010",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4090101,
+              "question_id": 409010,
+              "is_answer": true,
+              "choice": "(24.737,25.103)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090102,
+              "question_id": 409010,
+              "is_answer": false,
+              "choice": "(24.537,25.103)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090103,
+              "question_id": 409010,
+              "is_answer": false,
+              "choice": "(24.737,26.103)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090104,
+              "question_id": 409010,
+              "is_answer": false,
+              "choice": "(24.737,25.503)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  },
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 11,
+      "questions": [
+        {
+          "id": 409011,
+          "subject_id": 3,
+          "chapter_id": 409,
+          "question_id": "pdf-ocr-409-011",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某总体的标准差 $\\mathbf{\\sigma}=\\mathbf{3}\\;\\mathbf{c m}$ 从中抽取40个个体,其样本平均数 $\\bar{x}=642cm$ 试给出总体期望值μ的95%的置信上、下限分\n别为(). $u_{0.025}=1.96.$",
+          "analysis": "$n=40$ 在实际中属于大样本情形,所以X近似服从 $\\begin{array}{r}{N\\Big(\\mu,\\frac{\\sigma^{2}}{n}\\Big)}\\end{array}$ 的正态分布,于是$\\mu$的置信度约为95%的置信区间近似为\n$\\begin{array}{r}{\\left(\\bar{\\pm}\\frac{\\sigma}{\\sqrt{n}}u_{\\alpha/2}\\right)}\\end{array}$\n这里 $\\bar{x}=642,\\sigma=3,\\sqrt{n}=\\sqrt{40}\\approx6.32,u_{\\alpha/2}=1.96.$ 从而\n$\\left(\\bar{x}\\pm\\frac{\\sigma}{\\sqrt{n}}u_{\\alpha/2}\\right)=\\left(642\\pm\\frac{3}{\\sqrt{40}}\\times1.96\\right)\\approx(642\\pm0.93)$\n故u的置信度约为95%的置信区间的置信上限为642.93、下限为641.07.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/409/011",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4090111,
+              "question_id": 409011,
+              "is_answer": true,
+              "choice": "上限为642.93,下限为641.07",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090112,
+              "question_id": 409011,
+              "is_answer": false,
+              "choice": "上限为641.07,下限为232.93",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090113,
+              "question_id": 409011,
+              "is_answer": false,
+              "choice": "上限为642.93,下限为551.07",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4090114,
+              "question_id": 409011,
+              "is_answer": false,
+              "choice": "上限为642.93,下限为640.11",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  }
+]

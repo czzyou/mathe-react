@@ -1,0 +1,1720 @@
+[
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 20,
+      "questions": [
+        {
+          "id": 417001,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-001",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "测定某种溶液中的水分,它的10个测定值给出 $s=0.037\\%$,设测定值总体服从正态分布,但总体期望μ与总体方差 $\\sigma^{2}$ 均未\n知．若在显著性水平 $\\alpha=0.05$ 下,检验假设：H_0:σ≥0.04%,H_1:σ<0.04%,则下列说法正确的是 ).\n$\\left(\\chi^{2}_{0.95}(9)=3.325,\\chi^{2}_{0.05}(9)=16.919\\right)$",
+          "analysis": "在α=0.05下,拒绝域为 $\\begin{array}{r}{\\pmb{W}=\\left\\{\\frac{(n-1)S^{2}}{\\sigma_{0}^{2}}<\\chi_{1-\\alpha}^{2}(\\pmb{9})\\right\\}}\\end{array}$.计算得 $\\frac{(n-1)s^{2}}{\\sigma_{0}^{2}}=\\frac{(10-1)\\times(0.037\\%)^{2}}{(0.04\\%)^{2}}$ ≈7.7006>3.325,未落入拒绝域,故接受H0",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/001",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170011,
+              "question_id": 417001,
+              "is_answer": true,
+              "choice": "接受 $\\mathbf{H_{0}}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170012,
+              "question_id": 417001,
+              "is_answer": false,
+              "choice": "拒绝域为 $\\begin{array}{r}{\\frac{9S^{2}}{0.0004^{2}}<\\chi_{0.05}^{2}(9)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170013,
+              "question_id": 417001,
+              "is_answer": false,
+              "choice": "拒绝域为 $\\begin{array}{r}{\\frac{10S^{2}}{0.0004^{2}}\\leq\\chi_{0.95}^{2}(9)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170014,
+              "question_id": 417001,
+              "is_answer": false,
+              "choice": "拒绝 $\\pmb{H_{0}}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 417002,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-002",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设样本 $X_{1},X_{2},\\cdots,X_{n}$ 来自总体 $X\\sim N(\\mu,\\sigma^{2})$ 其中μ已知.对 $\\sigma^{2}$ 作假设检验,提出假设：H0 $:\\sigma^{2}\\leq\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2}$ 给\n定显著水平α,检验的拒绝域为(.",
+          "analysis": "单正态方差的检验,若均值μ已知,则\n(1)检验假设为H0 $\\mathbf{\\sigma}^{2}=\\mathbf{\\sigma}_{0}^{2},H_{1}:\\mathbf{\\sigma}^{2}\\neq\\mathbf{\\sigma}_{0}^{2};$\n(2)若H0为真,则有 $\\chi^{2}=\\sum_{i=1}^{n}\\left(\\frac{X_{i}-\\mu}{\\sigma_{0}}\\right)^{2}\\sim\\chi^{2}(n)$ 此时拒绝域为 $\\left(0,\\chi_{1-\\alpha/2}^{2}(n)\\right)\\cup\\left(\\chi_{\\alpha/2}^{2}(n),+\\infty\\right)$ 其中x为x²分布的α\n位数.\n另外：右侧检验： $H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2};$ 此时拒绝域为 $(\\chi_{\\alpha}^{2}(n),+\\infty)$\n左侧检验: $H_{0}:\\sigma^{2}\\geq\\sigma_{0}^{2},H_{1}:\\sigma^{2}<\\sigma_{0}^{2}:$ 此时拒绝域为 $(0,\\chi_{1-\\alpha}^{2}(n))$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/002",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170021,
+              "question_id": 417002,
+              "is_answer": true,
+              "choice": "$(\\chi_{\\alpha}^{2}(n),+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170022,
+              "question_id": 417002,
+              "is_answer": false,
+              "choice": "$(0,\\chi_{1-\\alpha}^{2}(n))$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170023,
+              "question_id": 417002,
+              "is_answer": false,
+              "choice": "$\\left(0,\\chi_{1-\\alpha/2}^{2}(n)\\right)\\cup\\left(\\chi_{\\alpha/2}^{2}(n),+\\infty\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170024,
+              "question_id": 417002,
+              "is_answer": false,
+              "choice": "$\\left(0,\\chi_{1-\\alpha}^{2}(n)\\right)\\cup\\left(\\chi_{\\alpha}^{2}(n),+\\infty\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 417003,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-003",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设样本 $X_{1},X_{2},\\cdots,X_{n}$ 来自总体 $X\\sim N(\\mu,\\sigma^{2})$,其中μ已知．对 $\\pmb{\\sigma}^{2}$ 作假设检验,提出假设：H0 $\\mathbf{\\sigma}^{2}=\\mathbf{\\sigma}_{0}^{2},H_{1}:\\mathbf{\\sigma}^{2}<\\mathbf{\\sigma}_{0}^{2}$ 给\n定显著水平α,检验的拒绝域为().",
+          "analysis": "单正态方差的检验,均值u已知．若H为真,检验统计量为 $\\begin{array}{r}{\\chi^{2}=\\sum_{i=1}^{n}\\left(\\frac{X_{i}-\\mu}{\\sigma_{0}}\\right)^{2}\\sim\\chi^{2}(n)}\\end{array}$\n双侧检验：H0 $\\mathbf{\\sigma}^{2}=\\mathbf{\\sigma}_{0}^{2},H_{1}:\\mathbf{\\sigma}^{2}\\neq\\mathbf{\\sigma}_{0}^{2}$ 拒绝域为 $\\left(0,\\chi_{1-\\alpha/2}^{2}(n)\\right)\\cup\\left(\\chi_{\\alpha/2}^{2}(n),+\\infty\\right)$\n右侧检验：H0 $\\begin{array}{r}{:\\sigma^{2}\\leq\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2},}\\end{array}$ 拒绝域为 $\\left(\\chi_{\\alpha}^{2}(n),+\\infty\\right)$\n左侧检验： $H_{0}:\\sigma^{2}\\geq\\sigma_{0}^{2},H_{1}:\\sigma^{2}<\\sigma_{0}^{2}$ 拒绝域为 $(0,\\chi^{2}_{1-\\alpha}(n))$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/003",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170031,
+              "question_id": 417003,
+              "is_answer": true,
+              "choice": "$(0,\\chi_{1-\\alpha}^2(n))$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170032,
+              "question_id": 417003,
+              "is_answer": false,
+              "choice": "$\\left(0,\\chi_{1-\\alpha/2}^{2}(n)\\right)\\cup\\left(\\chi_{\\alpha/2}^{2}(n),+\\infty\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170033,
+              "question_id": 417003,
+              "is_answer": false,
+              "choice": "$(\\chi_{\\alpha}^{2}(n),+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170034,
+              "question_id": 417003,
+              "is_answer": false,
+              "choice": "$\\left(0,\\chi_{1-\\alpha}^{2}(n)\\right)\\cup\\left(\\chi_{\\alpha}^{2}(n),+\\infty\\right)$ lathe",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 417004,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-004",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设有来自正态总体 $N(\\mu,\\sigma^{2})$ 容量为100的样本,其中 $\\mu,\\sigma^{2}$ 未知,下列说法正确的是\n若检验假设",
+          "analysis": "检验假设 $H_{0}:\\mu=3,H_{1}:\\mu\\neq3$ 因为未知,所以检验统计量为 $\\begin{array}{r}{\\pmb{T}=\\frac{\\pmb{X}-\\pmb{3}}{S/\\sqrt{100}}\\sim}\\end{array}$ t(99). 检验假设 $H_{0}:\\sigma^{2}=2.5,H_{1}:\\sigma^{2}\\neq2.5$ 因为\nμ未知,所以检验统计量为 $\\chi^{2}=\\frac{99S^{2}}{2.5}\\sim\\chi^{2}(99)$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/004",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170041,
+              "question_id": 417004,
+              "is_answer": true,
+              "choice": "若检验假设 H{ $\\mathbf{\\mu}:\\mathbf{\\mu}=\\mathbf{3},H_{1}:\\mathbf{\\mu}\\neq\\mathbf{3}$ 检验统计量为 $\\begin{array}{r}{T=\\frac{\\bar{X}-3}{\\bar{S}/10}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170042,
+              "question_id": 417004,
+              "is_answer": false,
+              "choice": "若检验假设 H0 $:\\mathbf{\\mu}=\\mathbf{3},H_{1}:\\mathbf{\\mu}\\neq\\mathbf{3}$ 检验统计量为 $\\begin{array}{r}{T=\\frac{\\bar{X}-3}{\\bar{S}/100}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170043,
+              "question_id": 417004,
+              "is_answer": false,
+              "choice": "若检验假设1 $H_{0}:\\sigma^{2}=2.5,H_{1}:\\sigma^{2}\\neq2.5$ 检验统计量为 $\\begin{array}{r}{\\chi^{2}=\\frac{99S^{2}}{2.5^{2}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170044,
+              "question_id": 417004,
+              "is_answer": false,
+              "choice": "$H_{0}:\\sigma^{2}=2.5,H_{1}:\\sigma^{2}\\neq2.5$ 检验统计量为 $\\chi^{2}=\\frac{100S^{2}}{2.5}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 417005,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-005",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "5\n设 $X_{1},X_{2},\\cdots,X_{n}$ 是来自总体 $X\\sim N(\\mu,\\sigma^{2})$ 的样本,其中μ已知．对 $\\sigma^{2}$ 作假设检验,提出假设： $H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2}$\n$H_{1}:\\sigma^{2}>\\sigma_{0}^{2}$ 检验统计量为Q.",
+          "analysis": "单正态方差的检验,若均值u已知,则\n(1)检验假设为H0 $\\mathbf{\\sigma}^{2}=\\mathbf{\\sigma}_{0}^{2},H_{1}:\\mathbf{\\sigma}^{2}\\neq\\mathbf{\\sigma}_{0}^{2};$\n(2)若H0为真,则有 $\\begin{array}{r}{\\chi^{2}=\\sum_{i=1}^{n}\\left(\\frac{X_{i}-\\mu}{\\sigma_{0}}\\right)^{2}\\sim\\chi^{2}(n)}\\end{array}$ 此时拒绝域为 $\\left(0,\\chi_{1-\\alpha/2}^{2}(n)\\right)\\cup\\left(\\chi_{\\alpha/2}^{2}(n),+\\infty\\right)$ 其中 $x_{\\alpha}^{2}$ 为x²分布的 分\n位数.\n另外：\n右侧检验： $H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2};$ 此时拒绝域为 $(\\chi_{\\alpha}^{2}(n),+\\infty)$\n左侧检验： $H_{0}:\\sigma^{2}\\geq\\sigma_{0}^{2},H_{1}:\\sigma^{2}<\\sigma_{0}^{2};$ 此时拒绝域为 $(0,\\chi_{1-\\alpha}^{2}(n))$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/005",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170051,
+              "question_id": 417005,
+              "is_answer": true,
+              "choice": "$\\chi^{2}=\\sum_{i=1}^{n}\\frac{(X_{i}-\\mu)^{2}}{\\sigma_{0}^{2}}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170052,
+              "question_id": 417005,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{U=\\frac{\\bar{X}-\\mu}{\\sigma_{0}/\\sqrt{n}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170053,
+              "question_id": 417005,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{T=\\frac{\\bar{X}-\\mu}{\\bar{S}/\\sqrt{n}}}\\end{array}$\nthe",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170054,
+              "question_id": 417005,
+              "is_answer": false,
+              "choice": "$\\chi^{2}=\\sum_{i=1}^{n}\\frac{\\left(X_{i}-\\bar{X}\\right)^{2}}{\\sigma_{0}^{2}}$ Mathe",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 417006,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-006",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设 $X\\sim N(\\mu,\\sigma^{2})$,其中μ未知,从X中抽取容量为10的样本．对于假设： $H_{0}:\\sigma^{2}\\leq0.02,H_{1}:\\sigma^{2}>0.02$ 在显著性水平\n0.05下,检验的拒绝域为()",
+          "analysis": "检验统计量为\n$x^{2}=\\frac{n-1}{\\sigma_{0}^{2}}S^{2}\\sim\\chi^{2}(n-1).$\n现 $\\sigma_{0}^{2}=0.02$ 拒绝域为\n$\\chi^{2}=\\frac{n-1}{0.02}S^{2}>\\chi_{\\alpha}^{2}(n-1)$\n将 ${\\pmb n}={\\pmb1}{\\pmb0}$ 代入,得\n$450S^{2}>\\chi_{0.05}^{2}(9)$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/006",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170061,
+              "question_id": 417006,
+              "is_answer": true,
+              "choice": "$450S^{2}\\geq\\chi_{0.05}^{2}(9)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170062,
+              "question_id": 417006,
+              "is_answer": false,
+              "choice": "$500S^{2}\\geq\\chi_{0.05}^{2}(10)$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170063,
+              "question_id": 417006,
+              "is_answer": false,
+              "choice": "450S^{2≤x{}.95(9)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170064,
+              "question_id": 417006,
+              "is_answer": false,
+              "choice": "$450S^{2}\\leq\\chi_{0.975}^{2}(9)$ 或 $450S^{2}\\geq\\chi_{0.025}^{2}(9)$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 417007,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-007",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设样本 $X_{1},X_{2},\\cdots,X_{n}$ 来自总体 $X\\sim N(\\mu,\\sigma^{2})$,其中μ已知．对 $\\pmb{\\sigma}^{2}$ 作假设检验,提出假设：H0 $\\sigma^{2}=\\sigma_{0}^{2},H_{1}:\\sigma^{2}\\neq\\sigma_{0}^{2}$ 给\n定显著水平α,检验的拒绝域为().",
+          "analysis": "单正态方差的检验,若均值μ已知,则\n(1)检验假设为H0 $\\sigma^{2}=\\sigma_{0}^{2},H_{1}:\\sigma^{2}\\neq\\sigma_{0}^{2};$\n(2)若H0为真,则有 $\\begin{array}{r}{\\chi^{2}=\\sum_{i=1}^{n}\\left(\\frac{X_{i}-\\mu}{\\sigma_{0}}\\right)^{2}\\sim\\chi^{2}(n),}\\end{array}$ 此时拒绝域为 $\\left(0,\\chi_{1-\\alpha/2}^{2}(n)\\right)\\cup\\left(\\chi_{\\alpha/2}^{2}(n),+\\infty\\right)$ 其中x2为²2分布的α 分\n位数. $H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2};$ 此时拒绝域为 $(\\chi_{\\alpha}^{2}(n),+\\infty)$\n另外：右侧检验：\n左侧检验：H0 $\\sigma^{2}\\geq\\sigma_{0}^{2},H_{1}:\\sigma^{2}<\\sigma_{0}^{2};$ 此时拒绝域为 $(0,\\chi_{1-\\alpha}^{2}(n))$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/007",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170071,
+              "question_id": 417007,
+              "is_answer": true,
+              "choice": "$\\left(0,\\chi_{1-\\alpha/2}^{2}(n)\\right)\\cup\\left(\\chi_{\\alpha/2}^{2}(n),+\\infty\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170072,
+              "question_id": 417007,
+              "is_answer": false,
+              "choice": "$(0,\\chi_{1-\\alpha}^{2}(n))$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170073,
+              "question_id": 417007,
+              "is_answer": false,
+              "choice": "$(\\chi_{\\alpha}^{2}(n),+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170074,
+              "question_id": 417007,
+              "is_answer": false,
+              "choice": "$\\left(0,\\chi_{1-\\alpha}^{2}(n)\\right)\\cup\\left(\\chi_{\\alpha}^{2}(n),+\\infty\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 417008,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-008",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "机器包装食盐,假设每袋盐的净重服从正态分布,规定每袋标准含量为500g,标准差不得超过10g.某天开工后,随机抽取9\n袋,测得净重如下(单位：g)：497,507,510,475,515,484,488,524,491, $\\pmb{s}=\\pmb{16.031}$ $\\begin{array}{r}{\\sum_{i=1}^{9}\\left(\\frac{x_{i}-500}{10}\\right)^{2}=20.6}\\end{array}$ 5.若每\n袋标准含量不变,在显著性水平 $\\alpha=0.05$ 下检验标准差是否超过10g,下列说法中不正确的是().\n$$\\chi_{0.05}^{2}(9)=16.919,\\chi_{0.05}^{2}(8)=15.507,\\chi_{0.95}^{2}(9)=3.325,\\chi_{0.95}^{2}(8)=2.733$$",
+          "analysis": "提出假设： $H_{0}:\\sigma\\leq10,H_{1}:\\sigma>10.$\n检验统计量为 $\\chi^{2}=\\sum_{i=1}^{9}\\left(\\frac{X_{i}-500}{10}\\right)^{2}\\sim\\chi^{2}(9)$\n拒绝域为 $\\chi^{2}\\geq\\chi_{\\alpha}^{2}(9)$\n检验统计量的观测值 $\\begin{array}{r}{\\sum_{i=1}^{9}\\left(\\frac{x_{i}-500}{10}\\right)^{2}=20.65>\\chi_{0.05}^{2}(9)=16.919.}\\end{array}$\n故拒绝假设 $\\mathbf{H_{0}}$ 即认为该天每袋盐的标准差超过了10g.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/008",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170081,
+              "question_id": 417008,
+              "is_answer": true,
+              "choice": "拒绝域为 $\\chi^{2}<\\chi_{\\alpha}^{2}(9)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170082,
+              "question_id": 417008,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\chi^{2}=\\textstyle\\sum_{i=1}^{9}\\left({\\frac{X_{i}-500}{10}}\\right)^{2}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170083,
+              "question_id": 417008,
+              "is_answer": false,
+              "choice": "$\\bar{x}=499$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170084,
+              "question_id": 417008,
+              "is_answer": false,
+              "choice": "在 $\\alpha=0.05$ 下,可以认为该天每袋盐的标准差超过10g",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 417009,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-009",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体 $X\\sim N(\\mu,\\sigma^{2})$,其中u未知, $X_{1},X_{2},\\cdots,X_{11}$ 是一组样本,提出假设：H_0 $\\sigma^{2}=\\sigma_{0}^{2},H_{1}:\\sigma^{2}\\neq\\sigma_{0}^{2}\\quad(\\sigma_{0}^{2}$ 已知),那么在\n显著性水平 $\\alpha=0.05$ 下,拒绝域是().\nleuM",
+          "analysis": "N\n本题考查正态总体方差的假设检验(u未知).\n1．检验统计量：当μ未知时,检验 $\\sigma^{2}$ 的统计量为 $\\begin{array}{r}{\\chi^{2}=\\frac{(n-1)S^{2}}{\\sigma_{0}^{2}}}\\end{array}$ 它服从自由度为 $\\pmb{n}-\\pmb{1}$ 的分布. $x^{2}$\n2.参数确定：样本量 ${\\pmb n}={\\pmb1}{\\pmb1}$,自由度 $df=n-1=10$\n3．拒绝域：备择假设为 $H_{1}:\\sigma^{2}\\neq\\sigma_{0}^{2}$ 属于双边检验.在显著性水平α下,拒绝域由两部分组成：.右侧拒绝域： $[x_{\\alpha/2}^{2}(10),+\\infty)$.左侧拒绝域： $(0,\\chi_{1-\\alpha/2}^{2}(10)]$\n(注：此处 $x_{p}^{2}$ 表示上侧分位数,即 $P(X>\\chi_{p}^{2})=p$\n4.结论：结合 $\\alpha=0.05$ 拒绝域为 $(0,\\chi_{1-\\alpha/2}^{2}(10)]\\cup[\\chi_{\\alpha/2}^{2}(10),+\\infty)$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/009",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170091,
+              "question_id": 417009,
+              "is_answer": true,
+              "choice": "$(0,\\chi_{1-\\alpha/2}^{2}(10)]\\cup[\\chi_{\\alpha/2}^{2}(10),+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170092,
+              "question_id": 417009,
+              "is_answer": false,
+              "choice": "$(0,-\\chi_{\\alpha/2}^{2}(10)]\\cup[\\chi_{\\alpha/2}^{2}(10),+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170093,
+              "question_id": 417009,
+              "is_answer": false,
+              "choice": "$(0,-\\chi_{\\alpha/2}^{2}(10)]\\cup[\\chi_{\\alpha/2}^{2}(10),+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170094,
+              "question_id": 417009,
+              "is_answer": false,
+              "choice": "$(0,-\\chi_{\\alpha/2}^{2}(10)]\\cup[\\chi_{\\alpha/2}^{2}(10),+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 417010,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-010",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "过去经验显示,高三学生完成标准考试的时间为一正态变量,其标准差为6min．若随机样本为20位学生,样本标准差为\n$\\pmb{s}=\\pmb{4.51}$,那么在显著性水平 $\\alpha=0.05$ 下 怀疑总体标准差变小所进行的假设检验,下面说法不正确的是().\n$\\left(\\chi^{2}_{0.05}(19)=30.144,\\chi^{2}_{0.95}(19)=10.117\\right)$",
+          "analysis": "假设检验H_0:σ≥6,H_₁:σ<6.\n检验统计量为 $\\chi^{2}=\\frac{(n-1)S^{2}}{6^{2}}\\sim\\chi^{2}(n-1)$\n拒绝域为 $\\mathbf{W}=\\{\\chi^{2}<\\chi_{1-\\alpha}^{2}(n-1)\\}.$\n现 $\\alpha=0.05,n-1=19,s=4.51,\\chi_{0.95}^{2}(19)=10.117$\n$得$x^{}=$ (20-1)×4.512 $6^{} ≈10.74>10.117,故接受H0,认为≥6.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/010",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170101,
+              "question_id": 417010,
+              "is_answer": true,
+              "choice": "可以认为 $\\sigma<\\pmb{6}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170102,
+              "question_id": 417010,
+              "is_answer": false,
+              "choice": "应检验假设：H0:σ≥6,H_1:σ<6",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170103,
+              "question_id": 417010,
+              "is_answer": false,
+              "choice": "拒绝域为 $\\chi^{2}\\leq10.117$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170104,
+              "question_id": 417010,
+              "is_answer": false,
+              "choice": "检验统计量的观测值为 $\\chi^{2}\\approx10.74$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  },
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 20,
+      "questions": [
+        {
+          "id": 417011,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-011",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "长期以来,某厂生产的某种型号的电池,其寿命服从方差 $\\sigma^{2}=5000h^{2}$ 的正态分布．现有一批这种电池,从它的生产情况来看,\n寿命的波动性有所改变．现随机取了26只电池,测得其寿命的样本方差 $s^{2}=9200h^{2}$ 根据这一数据推断这批电池的寿命的波\n动性较以往有无显著变化( $\\alpha=0.02$ ),应提出假设： ( ).",
+          "analysis": "正态总体方差的检验,均值u未知,检验假设为H $\\mathbf{\\sigma}_{0}:\\mathbf{\\sigma}^{2}=\\mathbf{\\sigma}_{0}^{2},H_{1}:\\mathbf{\\sigma}^{2}\\neq\\mathbf{\\sigma}_{0}^{2}.$ 若H0为真,检验统计量为 $\\begin{array}{r}{\\chi^{2}=\\frac{n-1}{\\sigma_{0}^{2}}S^{2}\\sim\\chi^{2}(n-1),}\\end{array}$\n拒绝域为(0,/-1))(x/2n1)+∞)s²=9200n=26x01(25)=44.314(25)=114, $(n-1)^{}$ %_{ =46> 44.314,\n故拒绝H0,即认为这批电池的寿命的波动性较以往有显著变化.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/011",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170111,
+              "question_id": 417011,
+              "is_answer": true,
+              "choice": "H{0:{2=}000,_{1}:^{2≠ 50",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170112,
+              "question_id": 417011,
+              "is_answer": false,
+              "choice": "H_{0:{2=}920,}_{1}:^{2≠}92",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170113,
+              "question_id": 417011,
+              "is_answer": false,
+              "choice": "H_{0:{2}>5000,H_{1:{2≤50",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170114,
+              "question_id": 417011,
+              "is_answer": false,
+              "choice": "H_{0 σ^{²<5000, $H_{1}$:^{2 }",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 417012,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-012",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "电工器材厂生产一批保险丝,抽取10根试验其熔断时间,结果为42,65,75,7871,59,57,68,54,55, $S^{2}=121.8.$ 假设熔断时间\n服从正态分布 $N(\\mu,\\sigma^{2})$ $\\mu,\\sigma^{2}$ 未知.若取 $\\sigma_{0}^{2}=80,\\alpha=0.05$,那么怀疑整批保险丝熔断时间的方差变大进行的检验,下面说法\n不正确的是(). $\\chi^{2}_{0.05}(9)=16.919,\\chi^{2}_{0.95}(9)=3.325)$",
+          "analysis": "(1)待检假设 $H_{0}:\\sigma^{2}\\leq80$ 备择假设 $H_{1}:\\sigma^{2}>80;$\n(2)在 $\\pmb{H_{0}}$ 成立时,选取统计量 $\\begin{array}{r}{\\chi^{2}=\\frac{(n-1)S^{2}}{\\sigma_{0}^{2}}\\sim\\chi^{2}(n-1);}\\end{array}$\n(3)由 $\\alpha=0.05,n-1=9$ 拒绝域为 $(\\chi_{0.05}^{2}(9),+\\infty)$\n(4)计算样本值：\n$\\begin{aligned}&\\bar{x}=\\frac{1}{10}(42+65+75+78+71+59+57+68+54+55)=62.4,\\\\&\\chi^{2}=\\frac{9\\times121.8}{80}\\approx13.7\\in(0,16.919).\\\\ \\end{aligned}$\n故接受原假设 $\\mathbf{H_{0}}$ 即在 $\\alpha=0.05$ 下,可认为整批保险丝的熔断时间的方差不大于80.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/012",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170121,
+              "question_id": 417012,
+              "is_answer": true,
+              "choice": "可以认为整批保险丝的熔断时间的方差大于80",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170122,
+              "question_id": 417012,
+              "is_answer": false,
+              "choice": "应检验假设： $H_{0}:\\sigma^{2}\\leq80,H_{1}:\\sigma^{2}>80$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170123,
+              "question_id": 417012,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\chi^{2}=\\frac{9S^{2}}{80}\\sim\\chi^{2}(9)}\\end{array}$\n检验统计量为",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170124,
+              "question_id": 417012,
+              "is_answer": false,
+              "choice": "$\\bar{x}=62.4$ ^{2 } 121.8",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 417013,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-013",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设有来自正态总体 $N(\\mu,\\sigma^{2})$ 容量为100的样本,其中 $\\mu,\\sigma^{2}$ 均未知,样本均值 $\\bar{x}=2.7$,样本标准差 $\\pmb{s}=\\pmb{1.508}$\n$\\textstyle\\sum_{i=1}^{100}(x_{i}-{\\bar{x}})^{2}=225$.在 $\\alpha=0.05$ 水平下,下列说法不正确的是().20.025 −1.960,2.025(99)≈127.71,.975(99)≈72.286",
+          "analysis": "检验假设HC $\\mathbf{:\\mu=3,}\\;H_{1}:\\mathbf{\\mu\\neq 3}$,检验统计量为 $\\begin{array}{r}{\\pmb{T}=\\frac{\\pmb{\\bar{X}}-\\pmb{3}}{\\pmb{S}/\\sqrt{100}}\\sim}\\end{array}$ t(99),拒绝域为 $\\begin{array}{r}{|T|=\\left|\\frac{\\bar{X}-3}{S/\\sqrt{100}}\\right|\\geq t_{\\alpha/2}(99).}\\end{array}$.计算\nt= 2.7-3 1.508 ×10≈-1.9894<-t0.025(99)≈-20.025=-1.960.故拒绝H0,即认为 $\\mu\\neq3.$ \\n\\n检验假设 $\\dot{H_{0}}:\\sigma^{2}=2.5,H_{1}:\\sigma^{2}\\ne2.5$\n检验统计量为 $\\chi^{2}=\\frac{99S^{2}}{2.5}\\sim\\chi^{2}(99)$,拒绝域为 $\\boldsymbol{W}=\\left[0,\\chi_{1-\\frac{\\alpha}{2}}^{2}\\right]$ (99)]u(x2}(99)+∞0).计算 $\\chi^{2}=\\frac{\\sum_{i=1}^{100}(x_{i}-\\bar{x})^{2}}{2.5}=\\frac{225}{2.5}=90$\n$\\chi^{2}_{0.975}(99)<\\chi^{2}_{0.025}(99)$.\\n\\n故接受H0,即认为 $\\sigma^{2}=2.5$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/013",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170131,
+              "question_id": 417013,
+              "is_answer": true,
+              "choice": "若检验假设：H{0: $\\mathbf{\\mu}=\\mathbf{3}$ H_{1：μ≠3,则接受H_{0",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170132,
+              "question_id": 417013,
+              "is_answer": false,
+              "choice": "检验假设 $H_{0}:\\mu=3,H_{1}:\\mu\\neq3$ 的检验统计量为 $\\begin{array}{r}{T=\\frac{\\bar{X}-3}{S/\\sqrt{100}}\\sim t(99)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170133,
+              "question_id": 417013,
+              "is_answer": false,
+              "choice": "若检验假设: $H_{0}:\\sigma^{2}=2.5,H_{1}:\\sigma^{2}\\neq2.5$ 则接受H0",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170134,
+              "question_id": 417013,
+              "is_answer": false,
+              "choice": "检验假设 $H_{0}:\\sigma^{2}=2.5,H_{1}:\\sigma^{2}\\neq2.5$ 的检验统计量为 $\\chi^{2}=\\frac{99S^{2}}{2.5}\\sim\\chi^{2}(99)$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 417014,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-014",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某工厂生产金属丝,产品指标为折断力.折断力的方差被用作工厂生产精度的表征,方差越小,表明精度越高.以往工厂一直把\n该方差保持在 $\\mathbf{64}(\\mathbf{k g}^{2})$ 及以下.最近从一批产品中抽取10根作折断力试验,测得的结果(单位：千克)如下：\n578,572,570,568,572,570,572,596,584,570, $S^{2}=75.74$.如果金属丝折断力的方差变大,则表明生产精度不如以前,厂方就需\n对生产流程作检验,以发现生产环节中存在的问题.现在厂方有怀疑,在显著性水平为 $\\alpha=0.05$ 下,下列说法不正确的是(\n). $(\\chi_{0.05}^{2}(9)=16.919,\\chi_{0.95}^{2}(9)=3.325)$",
+          "analysis": "为确认上述疑虑是否为真,假定金属丝折断力服从正态分布,并作下述假设检验：\n$\\bar{H_{0}}:\\sigma^{2}\\leq64,\\quad H_{1}:\\sigma^{2}>64$\n上述假设检验问题可利用 $x^{2}$ 检验法的右侧检验法来检验,就本例中而言,相应于 $\\sigma_{0}^{2}=64,n=10$.对于给定的显著性水平 $\\alpha=0.05$\n查附表知, $\\chi_{\\alpha}^{2}(n-1)=\\chi_{0.05}^{2}(9)=16.919$.经计算得 $\\bar{x}=575.2,s^{2}=75.74$\n从而有 $\\begin{array}{r}{\\chi^{2}=\\frac{n-1}{\\sigma_{0}^{2}}s^{2}=\\frac{9\\times75.74}{64}=10.65\\leq16.919=\\chi_{0.05}^{2}(9).}\\end{array}$\n故不能拒绝原假设 $\\mathbf{H_{0}}$ 从而认为样本方差的偏大系偶然因素,生产流程正常,故不需要再作进 步的检查.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/014",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170141,
+              "question_id": 417014,
+              "is_answer": true,
+              "choice": "可以认为生产环节存在问题",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170142,
+              "question_id": 417014,
+              "is_answer": false,
+              "choice": "x=575.2, $s^{2}=75.74$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170143,
+              "question_id": 417014,
+              "is_answer": false,
+              "choice": "应检验假设： $H_{0}:\\sigma^{2}\\leq64,H_{1}:\\sigma^{2}>64$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170144,
+              "question_id": 417014,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\begin{array}{r}{\\chi^{2}=\\frac{(n-1)S^{2}}{\\sigma_{0}^{2}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 417015,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-015",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某厂生产的铜丝,要求其折断力的方差不超过16N2.今从某日生产的铜丝中随机抽取容量为9的样本,测得其折断力(单位：\nN)如下：289,286,285,286,284,285,286,298,292, $\\pmb{S^{2}}=\\pmb{20.36}$.假设折断力服从正态分布,检验该日生产的铜线折断力的方差\n是否超过标准 $(\\alpha=0.05)$,下列说法中不正确的是 ( $\\chi^{2}_{0.05}(8)=15.507,\\chi^{2}_{0.95}(8)=2.733)$",
+          "analysis": "应检验假设H_0:o2≤16,_{1:σ2>16,检验统计量为x^{2}= (n-1)s^{ 16 ～x²}(n-1).拒绝域为(x{05(8),+∞).现 n=9,α=0.05,8²2≈20.3611,χ{²}=8s^{}$ 16 ≈ 10.181, $x^{} L x{.05(8)=15.507,故接受H0,认为铜丝的折断力的方差不超过16N2.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/015",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170151,
+              "question_id": 417015,
+              "is_answer": true,
+              "choice": "可以认为铜丝折断力的方差超过了16N2 U",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170152,
+              "question_id": 417015,
+              "is_answer": false,
+              "choice": "应检验假设：H_0:2≤16,H_1:2>16",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170153,
+              "question_id": 417015,
+              "is_answer": false,
+              "choice": "x≈287.89,8²≈20.3611",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170154,
+              "question_id": 417015,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\begin{array}{r}{\\chi^{2}=\\frac{8S^{2}}{16}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 417016,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-016",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某种导线的电阻服从正态分布N(μ,0.0052).今从新生产的一批导线中抽取9根,测其电阻得样本标准差为 $\\pmb{s}=0.008\\Omega.$ 对于\n$\\alpha=0.05$,若想检验这批导线电阻的标准差是否仍为0.005,则下列说法不正确的是 $(\\chi_{0.975}^{2}(8)=2.18,\\chi_{0.025}^{2}(8)=17.5)$",
+          "analysis": "在 $\\alpha=0.05$ 下,检验假设H_{0:²=0.O05²,H_{₁1:σ²2≠0.0052\n因为u未知,所以选取检验统计量 $\\begin{array}{r}{\\chi^{2}=\\frac{n-1}{0.005^{2}}S^{2}\\sim\\chi^{2}(n-1)}\\end{array}$\n拒绝域为 $x^{2}>x_{\\alpha/2}^{2}(n-1)$ 或x²2<x{2-a/2(-1$\n现在 $n=9,s=0.008$ 故 $\\chi^{2}=\\frac{n-1}{0.005^{3}}s^{2}=\\frac{8}{0.005^{2}}\\times0.008^{2}=20.48>17.5,\\chi^{2}_{0.075}(8)=2.18,\\chi^{2}_{0.025}(8)=17.5.$\n从而拒绝 $\\mathbf{H_{0}} 即不能认为这批导线电阻的标准差仍为0.005.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/016",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170161,
+              "question_id": 417016,
+              "is_answer": true,
+              "choice": "拒绝域为 $x^{2}<\\chi_{\\alpha/2}^{2}(n-1)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170162,
+              "question_id": 417016,
+              "is_answer": false,
+              "choice": "应检验假设： $H_{0}:\\sigma^{2}=0.005^{2}$,$H_{1}$ $\\sigma^{2}\\neq0.005^{2}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170163,
+              "question_id": 417016,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\chi^{2}=\\frac{8S^{2}}{0.005^{2}}$\neuMath",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170164,
+              "question_id": 417016,
+              "is_answer": false,
+              "choice": "不能认为这批导线电阻的标准差仍为 005",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 417017,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-017",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "总体 $X\\sim N(\\mu,\\sigma^{2})$ 其中u未知, $X_{1},X_{2},\\cdots,X_{n}$ 为来自X的一个样本,样本方差为S．在显著性水平α下,检验假设：\n$H_{0}:\\sigma^{2}\\geq16,H_{1}:\\sigma^{2}<16$ 所用检验统计量与拒绝域为().",
+          "analysis": "正态总体方差的检验如下过程：\n1．若均值μ已知,则\n(1)检验假设为 $H_{0}:\\sigma^{2}=\\sigma_{0}^{2},H_{1}:\\sigma^{2}\\neq\\sigma_{0}^{2};$\n(2)若 $\\pmb{\\pi}_{0}$ 为真,则有 $\\chi^{2}=\\sum_{i=1}^{n}\\left(\\frac{X_{i}-\\mu}{\\sigma_{0}}\\right)^{2}\\sim\\chi^{2}(n)$ 此时拒绝域为 $\\left(0,\\chi_{1-\\alpha/2}^{2}(n)\\right)\\cup\\left(\\chi_{\\alpha/2}^{2}(n),+\\infty\\right)$ 其中 $x_{\\alpha}^{2}$ 为 $x^{2}$ 分布的 α\n分位数.\n另外：右侧检验： $H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2};$ 此时拒绝域为 $(\\chi_{\\alpha}^{2}(n),+\\infty)$\n左侧检验： $H_{0}:\\sigma^{2}\\geq\\sigma_{0}^{2},H_{1}:\\sigma^{2}<\\sigma_{0}^{2};$ 此时拒绝域为 $(0,\\chi_{1-\\alpha}^{2}(n))$\n2.若均值μ未知,则\n(1)检验假设为 $H_{0}:\\sigma^{2}=\\sigma_{0}^{2},H_{1}:\\sigma^{2}\\neq\\sigma_{0}^{2};$\n(2)若 $\\mathbf{H_{0}}$ 为真,则有 $\\begin{array}{r}{\\chi^{2}=\\sum_{i=1}^{n}\\left(\\frac{X_{i}-\\bar{X}}{\\sigma_{0}}\\right)^{2}=\\frac{n-1}{\\sigma_{0}^{2}}S^{2}\\sim\\chi^{2}(n-1).}\\end{array}$ 此时拒绝域为 $\\left(0,\\chi_{1-\\alpha/2}^{2}(n-1)\\right)\\cup\\left(\\chi_{\\alpha/2}^{2}(n-1),+\\infty\\right)$ 其中\ne $x_{\\alpha}^{2}$ 为 $x^{2}$ 分布的α分位数, $\\begin{array}{r}{S^{2}=\\frac{1}{n-1}\\sum_{i=1}^{n}\\left(X_{i}-\\bar{X}\\right)^{2}}\\end{array}$ O\n另外：右侧检验： $H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2}$ 此时拒绝域为 $\\left(\\chi_{\\alpha}^{2}(n-1),+\\infty\\right)$\n左侧检验： $H_{0}:\\sigma^{2}\\geq\\sigma_{0}^{2},H_{1}:\\sigma^{2}<\\sigma_{0}^{2};$ 此时拒绝域为 $\\left(0,\\chi_{1-\\alpha}^{2}(n-1)\\right)$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/017",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170171,
+              "question_id": 417017,
+              "is_answer": true,
+              "choice": "$\\frac{(n-1)S^{2}}{16},\\left(0,\\chi^{2}_{1-\\alpha}(n-1)\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170172,
+              "question_id": 417017,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\sum_{i=1}^{n}\\Big(\\frac{X_{i}-\\mu}{4}\\Big)^{2},\\big(\\chi_{\\alpha}^{2}(n),+\\infty\\big)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170173,
+              "question_id": 417017,
+              "is_answer": false,
+              "choice": "$\\scriptstyle\\sum_{i=1}^{n}{\\Big(}{\\frac{X_{i}-\\mu}{4}}{\\Big)}^{2},{\\big(}0,\\chi_{1-\\alpha}^{2}(n){\\big)}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170174,
+              "question_id": 417017,
+              "is_answer": false,
+              "choice": "$\\frac{(n-1)S^{2}}{16},\\left(\\chi^{2}_{\\alpha}(n-1),+\\infty\\right)$ Mathe",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 417018,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-018",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体 $X\\sim N(\\mu,\\sigma^{2})$,其中 $\\mu,\\sigma^{2}$ 未知, $X_{1},X_{2},\\cdots,X_{9}$ 为样本,记 $\\begin{array}{r}{X=\\frac{1}{9}\\sum_{i=1}^{9}X_{i},\\quad S^{2}=\\frac{1}{8}\\sum_{i=1}^{9}(X_{i}-X)^{2}}\\end{array}$ $x_{\\alpha}^{2}(n)$ 为分位\n点, $P\\{\\chi^{2}>\\chi_{\\alpha}^{2}(n)\\}=\\alpha$.对检验问题 $H_{0}:\\sigma^{2}=\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2}(\\sigma_{0}^{2}$ 已知)进行 $x^{2}$ 检验,取显著性水平 $\\alpha=0.05$,正确的拒\n绝域是()\nMathe",
+          "analysis": "在从未知情形下,对于方差的右侧检验 $H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2}$ 所用的检验统计 量为 $\\begin{array}{r}{\\chi^{2}=\\frac{n-1}{\\sigma_{0}^{2}}S^{2}\\sim\\chi^{2}(n-1)}\\end{array}$ 拒绝域为",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/018",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170181,
+              "question_id": 417018,
+              "is_answer": true,
+              "choice": "$\\textcircled{\\textcircled{1}}\\quad S^{2}\\geq\\frac{\\sigma_{0}^{2}}{8}\\chi_{0.05}^{2}(8)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170182,
+              "question_id": 417018,
+              "is_answer": false,
+              "choice": "$\\textcircled{\\textcircled{1}}\\quad S^{2}\\leq\\frac{\\sigma_{0}^{2}}{8}\\chi_{0.05}^{2}(8)$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170183,
+              "question_id": 417018,
+              "is_answer": false,
+              "choice": "$\\textcircled{\\textcircled{1}}\\quad S^{2}\\leq\\frac{\\sigma_{0}^{2}}{8}\\chi_{0.975}^{2}(8)\\quad 与 \\quad S^{2}\\geq\\frac{\\sigma_{0}^{2}}{8}\\chi_{0.025}^{2}(8)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170184,
+              "question_id": 417018,
+              "is_answer": false,
+              "choice": "$\\textcircled{\\textcircled{1}}\\quad S^{2}\\geq\\frac{\\sigma_{0}^{2}}{8}\\chi_{0.95}^{2}(8)$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 417019,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-019",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某厂生产的某种型号的电池,其寿命(以小时计)长期以来服从方差 $\\sigma^{2}=5000$ 的正态分布,现有一批这种电池,从它的生产情\n况来看,寿命的波动性有所改变．现随机取26只电池,测出其寿命的样本方差 $s^{2}=9200$ 根据这一数据推断这批电池的寿命的\n波动性是否较以往有显著变化(取 $\\alpha=0.02$ 下列说法不正确的是 ( ).\\left(\\chi_{0.01}^2(25)=44.314,\n\\chi_{0.99}^2(25)=11.524\\right)",
+          "analysis": "在水平 $\\pmb{\\alpha}=\\pmb{0.02}$ 下,检验假设H0：²=5000,H_₁：²≠5000.因为μ未知,所以检验统计量为 $\\begin{array}{r}{\\chi^{2}=\\frac{(n-1)S^{2}}{\\sigma_{0}^{2}}\\sim\\chi^{2}(n-1).}\\end{array}$ 拒绝域\n为 $W=\\left(0,\\chi_{1-\\frac{\\alpha}{2}}^{2}(n-1)\\right]\\cup\\left[\\chi_{\\frac{\\alpha}{2}}^{2}(n-1),+\\infty\\right)$\n代入n=26,{²=5000,s²=9200,得χ{²= (n-1)a^{$ $0}$ =46>x2.01(25)=44.314.\n故拒绝 $\\mathbf{H_{0}}$ 即认为在显著性水平 $\\alpha=0.02 下这批电池寿命的波动性较以往有显著变化",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/019",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170191,
+              "question_id": 417019,
+              "is_answer": true,
+              "choice": "拒绝域为 $\\chi^{2}\\geq44.314$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170192,
+              "question_id": 417019,
+              "is_answer": false,
+              "choice": "检验假设H_0：^²2=500H_₁1:^2≠5000",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170193,
+              "question_id": 417019,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\chi^{2}=\\frac{S^{2}}{200}\\sim\\chi^{2}(25)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170194,
+              "question_id": 417019,
+              "is_answer": false,
+              "choice": "在显著性水平 $\\alpha=0.02$ 下, 可以认为这批电池寿命的波动性较以往有显著的变化",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 417020,
+          "subject_id": 3,
+          "chapter_id": 417,
+          "question_id": "pdf-ocr-417-020",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体 $X\\sim N(\\mu,\\sigma^{2})$ 其中 $\\mu,\\sigma^{2}$ 未知,取得样本 $X_{1},X_{2},\\ldots,X_{n}$ 记 $[\\bar{X},\\bar{S}^{2}$ 为样本均值与样本方差,检验假设：\nH_{0σ≥2,H_{₁1:σ<2,应取检验统计量为().",
+          "analysis": "设总体X~. $N(\\mu,\\sigma^{2})$,x,S^分别为样本均值与样本方差.\n对于假设检验 $H_{0}:\\sigma^{2}\\geq\\sigma_{0}^{2},H_{1}:\\sigma^{2}<\\sigma_{0}^{2}$ 检验统计量为\n$x^{2}=\\frac{(n-1)S^{2}}{\\sigma_{0}^{2}}\\sim\\chi^{2}(n-1)$\n本题中 $H_{0}:\\sigma\\geq2$ 即 $\\sigma_{0}=2$ 代入公式可得检验统计量为\n$\\chi^{2}=\\frac{(n-1)S^{2}}{2^{2}}=\\frac{(n-1)S^{2}}{4}$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/417/020",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4170201,
+              "question_id": 417020,
+              "is_answer": true,
+              "choice": "$\\begin{array}{r}{\\chi^{2}=\\frac{(n-1)S^{2}}{4}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170202,
+              "question_id": 417020,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\chi^{2}=\\frac{(n-1)S^{2}}{8}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170203,
+              "question_id": 417020,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\chi^{2}=\\frac{(n-1)S^{2}}{2}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4170204,
+              "question_id": 417020,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\chi^{2}=\\frac{(n-1)S^{2}}{6}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  }
+]

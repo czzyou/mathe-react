@@ -1,0 +1,1295 @@
+[
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 15,
+      "questions": [
+        {
+          "id": 413001,
+          "subject_id": 3,
+          "chapter_id": 413,
+          "question_id": "pdf-ocr-413-001",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "样本容量n确定后,在一个假设检验中,给定显著水平为α,设此第二类错误的概率为β,则必有().",
+          "analysis": "当样本容量n确定后,αβ不能同时都很小,即 α变小时,β变大；而β变小时,α变大.\n理论上,自然希望犯这两类错误的概率都很小,但α,β的大小关系不能确定,并且这两类错误不能同时发生,即 $\\alpha=1 且 \\beta=1 不会$\n发生,故α+β<2.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/413/001",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4130011,
+              "question_id": 413001,
+              "is_answer": true,
+              "choice": "$\\alpha+\\beta<2$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130012,
+              "question_id": 413001,
+              "is_answer": false,
+              "choice": "α+β=",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130013,
+              "question_id": 413001,
+              "is_answer": false,
+              "choice": "α+β>1",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130014,
+              "question_id": 413001,
+              "is_answer": false,
+              "choice": "α+β<1",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 413002,
+          "subject_id": 3,
+          "chapter_id": 413,
+          "question_id": "pdf-ocr-413-002",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "关于正态总体 $X\\sim N(\\mu,1)$ 的数学期望μ有如下二者必居其一的假设, $H_{0}:\\mu=0,H_{1}:\\mu=1$ 考虑检验规则：当 $\\bar{X}\\geq0.98$\n时否定假设 $\\pmb{\\pi_{0}}$ 接受 $\\mathbf{H_{1}}$ 其中 $\\bar{X}=(X_1+\\cdots+X_4)/4,X_1,\\cdots,X_4$ 是来自总体X的简单随机样本．则下列说法正确的是(\n). $(\\Phi(0.04)=0.5160,\\Phi(0.98)=0.8365,\\Phi(1.96)=0.975)$",
+          "analysis": "在假设”H_0:μ=0”成立的条件下,X~N(0,1/4),2X~N(0,1)；在假设”H_{1:u=1”成立的条件下,\nX~ N(1,1/4),2(X− 1) ~N(0,1). 因 此\nα= P{X ≥0.98 |=0}=P{2X ≥1.96 |μ=0}=0.025,β=P{X<0.98|μ=1}=P{2(X-1)<-0.04|μ=1}=0.484",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/413/002",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4130021,
+              "question_id": 413002,
+              "is_answer": true,
+              "choice": "犯第一类错误的概率 $\\alpha=0.025$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130022,
+              "question_id": 413002,
+              "is_answer": false,
+              "choice": "犯第一类错误的概率 $\\alpha=0.484$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130023,
+              "question_id": 413002,
+              "is_answer": false,
+              "choice": "犯第二类错误的概率 $\\beta=0.044$\n-",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130024,
+              "question_id": 413002,
+              "is_answer": false,
+              "choice": "犯第二类错误的概率 $\\beta=0.025$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 413003,
+          "subject_id": 3,
+          "chapter_id": 413,
+          "question_id": "pdf-ocr-413-003",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "在假设检验中,显著性水平α是指()",
+          "analysis": "显著性水平就是“小概率事件”发生的概率α,即P{拒绝H_0|H0为}=α.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/413/003",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4130031,
+              "question_id": 413003,
+              "is_answer": true,
+              "choice": "P(拒绝H_0H_{0为真=α",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130032,
+              "question_id": 413003,
+              "is_answer": false,
+              "choice": "P(接受H_{0|H0为假)=α",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130033,
+              "question_id": 413003,
+              "is_answer": false,
+              "choice": "P(接受H_{₁|H_{₁}为假=α",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130034,
+              "question_id": 413003,
+              "is_answer": false,
+              "choice": "P(拒绝H_{₁1|H_{₁为)=α",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 413004,
+          "subject_id": 3,
+          "chapter_id": 413,
+          "question_id": "pdf-ocr-413-004",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "在假设检验问题中,检验水平α等于",
+          "analysis": "检验水平α就是显著性水平,即犯第一类错误的概率,也就是P{拒绝H_0|H_0为真}=α.所以检验水平α就是原假设H_0 经检验\n被拒绝的概率.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/413/004",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4130041,
+              "question_id": 413004,
+              "is_answer": true,
+              "choice": "原假设H0成立,经检验被拒绝的概率",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130042,
+              "question_id": 413004,
+              "is_answer": false,
+              "choice": "原假设 $\\pmb{\\pi_{0}}$ 成立,经检验不能被拒绝的概率",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130043,
+              "question_id": 413004,
+              "is_answer": false,
+              "choice": "原假设 $\\pmb{\\pi_{0}}$ 不成立,经检验被拒绝的概率",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130044,
+              "question_id": 413004,
+              "is_answer": false,
+              "choice": "原假设 $H_{0}$ 不成立,经检验不能被拒绝的概率",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 413005,
+          "subject_id": 3,
+          "chapter_id": 413,
+          "question_id": "pdf-ocr-413-005",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "假设检验中,显著性水平α表示().",
+          "analysis": "显著性水平 α就是第一类错误,其计算如下：\nP{拒绝H0|H0为真}=",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/413/005",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4130051,
+              "question_id": 413005,
+              "is_answer": true,
+              "choice": "H_0为真,但拒绝H_0的假设的概率",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130052,
+              "question_id": 413005,
+              "is_answer": false,
+              "choice": "H0为假,但接受H0的假设的概率",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130053,
+              "question_id": 413005,
+              "is_answer": false,
+              "choice": "H0为假,但拒绝H0的假设的概率",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130054,
+              "question_id": 413005,
+              "is_answer": false,
+              "choice": "可信度",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 413006,
+          "subject_id": 3,
+          "chapter_id": 413,
+          "question_id": "pdf-ocr-413-006",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "在假设检验中,记H1为备择假设,称()为犯第一类错误",
+          "analysis": "犯第一类错误的概率恰好就是“小概率事件”发生的概率α,即\nP{拒绝H0|H0为}=α,\n即也可转化为备择假设\nP{接受H₁1|H₁不}=α.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/413/006",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4130061,
+              "question_id": 413006,
+              "is_answer": true,
+              "choice": "H_{1}不真,接受$H_{1}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130062,
+              "question_id": 413006,
+              "is_answer": false,
+              "choice": "H0为真,接受H_0",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130063,
+              "question_id": 413006,
+              "is_answer": false,
+              "choice": "H_0为假,拒绝H0",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130064,
+              "question_id": 413006,
+              "is_answer": false,
+              "choice": "H_{1不真,拒绝H_1} e",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 413007,
+          "subject_id": 3,
+          "chapter_id": 413,
+          "question_id": "pdf-ocr-413-007",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "关于犯第一类错误的概率α与犯第二类错误的概率β之间的关系,下列说法不正确的是()",
+          "analysis": "一般来说,当样本容量固定时,若减少犯一类错误的概率,则犯另一类错误的概率往往会增大．要它们同时减少,只有增加样本容量n.在实际问题中,总是控制犯第一类错误的概率α而使犯第二类错误的概率尽可能小．α的大小视具体实际问题而定,通常取\nα=0.05,0.005等值.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/413/007",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4130071,
+              "question_id": 413007,
+              "is_answer": true,
+              "choice": "α和β的值都是不能预先确定的",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130072,
+              "question_id": 413007,
+              "is_answer": false,
+              "choice": "当样本容量固定时,若减少α,则β往往会增大",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130073,
+              "question_id": 413007,
+              "is_answer": false,
+              "choice": "要使α,β同时减少,只有增加样本容量",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130074,
+              "question_id": 413007,
+              "is_answer": false,
+              "choice": "通常可先给定α的值,使β尽可能地小",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 413008,
+          "subject_id": 3,
+          "chapter_id": 413,
+          "question_id": "pdf-ocr-413-008",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "在统计假设的显著性检验中,下列结论错误的是().",
+          "analysis": "第一类错误α和第二类错误β的关系如下：\n当样本容量n固定时,αβ不能同时都小,即α变小时,β就变大；而β变小时,α就变大．但是它们之间并不存在确定的函数关\n系,事实上只能求出它们的大致范围为 $0<\\alpha+\\beta<2$ 所以认为若显著性水平为α,则1－α是该检验犯第二类错误的概率是错误\n的.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/413/008",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4130081,
+              "question_id": 413008,
+              "is_answer": true,
+              "choice": "记显著性水平为α,则1-α是该检验犯第二类错误的概率,即“受伪” 概率",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130082,
+              "question_id": 413008,
+              "is_answer": false,
+              "choice": "显著性水平α是该检验犯第一类错误的概率,即 “拒真”概率",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130083,
+              "question_id": 413008,
+              "is_answer": false,
+              "choice": "若样本值落在“拒绝域”内则拒绝原假设",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130084,
+              "question_id": 413008,
+              "is_answer": false,
+              "choice": "显著性检验的基本思想是 “小概率原则” 即小概率事件在一次实验中是几乎不可能发生",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 413009,
+          "subject_id": 3,
+          "chapter_id": 413,
+          "question_id": "pdf-ocr-413-009",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某厂生产的一种螺钉,标准要求长度是68mm.实际生产的产品,其长度服从正态分布 $N(\\mathbf{\\mu},\\mathbf{3.6}^{2})$,样本容量为n,考虑假设检\n验问题 $H_{0}:\\mu=68\\leftrightarrow H_{1}:\\mu\\neq68$,设X为样本均值,建立假设检验：当 $|\\bar{X}-68|>1$ 时,拒绝假设 $\\mathbf{\\mathit{H}_{0}};$ 当 $|\\bar{\\pmb{X}}-\\pmb{68}|\\leq1$\n时,接受假设 $\\mathbf{H_{0}}.$ 则下列说法中正确的是(). $(\\Phi(1.67)=0.9525,\\Phi(2.22)=0.9868)$",
+          "analysis": "(1)当 $n=36$ 时, $\\begin{array}{r}{\\bar{X}\\sim N\\Big(\\mu,\\frac{3.6^{2}}{36}\\Big)=N(\\mu,0.6^{2}).}\\end{array}$ 所以\n$$\\alpha=P\\{|\\bar{X}-68|>1\\mid H_{0} 或:\\}=1-P\\left\\{\\frac{|\\bar{X}-68|}{0.6}<\\frac{5}{3}\\mid H_{0} 或:\\right\\}=1-\\left(2\\Phi\\left(\\frac{5}{3}\\right)-1\\right)=2[1-\\Phi(1.67)]=2[1-0.9528]=0.0950$$\n(2)当 $n=64$ 时,X~N(μ,0.45{2),则\n$$\\begin{aligned}\\alpha&=P\\{\\left|\\bar{X}-68\\right|>1\\mid H_{0} 成 \\bar{\\zeta}\\}=P\\Bigg\\{\\frac{\\left|\\bar{X}-68\\right|}{0.45}>\\frac{1}{0.45}\\bigg|H_{0} 成 \\bar{\\zeta}\\Bigg\\}=\\Phi\\bigg(\\frac{67-68}{0.45}\\bigg)+\\bigg[1-\\Phi\\bigg(\\frac{69-68}{0.45}\\bigg)\\bigg]\\\\&=2[1-\\Phi(2.22)]=2[1-0.9868]=0.0264\\end{aligned}$$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/413/009",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4130091,
+              "question_id": 413009,
+              "is_answer": true,
+              "choice": "当 ${\\pmb n}={\\pmb3}{\\pmb6}$ 时,犯第一类错误的概率 $\\alpha=0.0950$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130092,
+              "question_id": 413009,
+              "is_answer": false,
+              "choice": "当 $n=36$ 时,犯第一类错误的概率 $\\alpha=0.0264$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130093,
+              "question_id": 413009,
+              "is_answer": false,
+              "choice": "当 $n=64$ 时,犯第一类错误的概率 $\\alpha=0.0950$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130094,
+              "question_id": 413009,
+              "is_answer": false,
+              "choice": "当 $n=64$ 时,犯第二类错误的概率 $\\alpha=0.0264$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 413010,
+          "subject_id": 3,
+          "chapter_id": 413,
+          "question_id": "pdf-ocr-413-010",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "在假设检验中,设H为备择假设,犯第一类错误的情况为().",
+          "analysis": "第一类错误的与原假设的关系为P{拒绝H_0|H0为真}=α反过来,就是P{接受H₁|H₁为=α.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/413/010",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4130101,
+              "question_id": 413010,
+              "is_answer": true,
+              "choice": "H_{1}不真,接受$H_{1}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130102,
+              "question_id": 413010,
+              "is_answer": false,
+              "choice": "H1真,接受H1",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130103,
+              "question_id": 413010,
+              "is_answer": false,
+              "choice": "H_{1}真,拒绝H_{",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130104,
+              "question_id": 413010,
+              "is_answer": false,
+              "choice": "H_{1不真,拒绝H_1 e",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  },
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 15,
+      "questions": [
+        {
+          "id": 413011,
+          "subject_id": 3,
+          "chapter_id": 413,
+          "question_id": "pdf-ocr-413-011",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "关于假设检验中的两类错误,下列说法正确的是",
+          "analysis": "我们希望所作的检验犯两类错误的概率尽可能都小,但实际上这是不可能的.当样本容量n固定时,一般地,减少犯其中一个错误的概\n率就会增加犯另一个错误的概率.因此,通常的作法是只要求犯第一类错误的概率不大于指定的显著水平α,因而根据小概率原理,最\n终结论为拒绝H较为可靠,而最终判断为接受H则不大可靠,其原因是不知道犯第二类错误的概率β究竟有多少,且α小,β就\n大,所以通常用“H0相容”、“不拒绝H0”等词语来代替“接受H0”,而“不拒绝H0”还包含有再进一步作抽样检验的意思.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/413/011",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4130111,
+              "question_id": 413011,
+              "is_answer": true,
+              "choice": "当样本容量n固定时,α小,β就大",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130112,
+              "question_id": 413011,
+              "is_answer": false,
+              "choice": "可以实现所作的检验犯两类错误的概率尽可能都小",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130113,
+              "question_id": 413011,
+              "is_answer": false,
+              "choice": "通常要求犯第一类错误的概率不大于指定的显著水平β",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130114,
+              "question_id": 413011,
+              "is_answer": false,
+              "choice": "通常接受H较为可靠,而拒绝H则不大可靠",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 413012,
+          "subject_id": 3,
+          "chapter_id": 413,
+          "question_id": "pdf-ocr-413-012",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体 $X\\sim N(\\mu,1),X_1,X_2,\\cdots,X_n$ 是取自X的样本．对于假设检验：H0:μ=0,H_₁:μ≠0,取显著水平α,拒绝域\n$\\pmb{W}=\\left\\{|\\pmb{U}|>u_{\\alpha/2}\\right\\}$ 其中 $U={\\sqrt{n}}{\\bar{X}}$,则下列说法正确的是().",
+          "analysis": "(1) $X\\sim N(\\mu,1),\\bar{X}\\sim N(\\mu,\\frac{1}{n})$ 故当 $\\pmb{H_{0}}$ 为真时, $U=\\sqrt{n}\\bar{X}\\sim N(0,1)$\n$$\\alpha_{0}=P\\{|U|>u_{\\alpha/2}\\mid\\mu=0\\}=1-P\\{-u_{\\alpha/2}\\leq U\\leq u_{\\alpha/2}\\}=1-\\left[\\Phi\\left(u_{\\alpha/2}\\right)-\\Phi\\left(-u_{\\alpha/2}\\right)\\right]=1-\\left[\\left(1-\\frac{\\alpha}{2}\\right)-\\frac{\\alpha}{2}\\right]=\\alpha_{s}$$\n即犯第一类错误的概率是显著性水平α. euMat\n(2)当 $\\mathbf{H_{0}}$ 不成立,即 $\\mu\\neq0$ 时,犯第二类错误的概率为\n$$\\begin{array}{r l}&{\\beta=P\\{|U|\\leq u_{\\alpha/2}\\mid E(X)=\\mu\\}=P\\{-u_{\\alpha/2}\\leq\\sqrt{n}\\bar{X}\\leq u_{\\alpha/2}\\mid E(X)=\\mu\\}}\\\\ &{\\quad=P\\{-u_{\\alpha/2}-\\sqrt{n}\\mu\\leq\\sqrt{n}(\\bar{X}-\\mu)\\leq u_{\\alpha/2}-\\sqrt{n}\\mu\\mid E(X)=\\mu\\}=\\Phi\\big(u_{\\alpha/2}-\\sqrt{n}\\mu\\big)-\\Phi\\big(-u_{\\alpha/2}-\\sqrt{n}\\mu\\big).}\\end{array}$$\n因此：(1)当 $\\mu\\to+\\infty$ 或 $\\pmb{\\mu}\\rightarrow-\\infty$ 时, $\\beta\\to0$.由此可见,当实际均值u偏离原假设较大时,犯第二类错误的概率很小,检验效\n果较好； (2)当 $\\mu\\neq0$ 但接近于0时, $\\pmb{\\beta}\\approx\\pmb{1}-\\pmb{\\alpha}.$ 因α很小,故犯第二类错误的概率很大,检验效果较差.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/413/012",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4130121,
+              "question_id": 413012,
+              "is_answer": true,
+              "choice": "当H0成立时,犯第一类错误的概率 $\\alpha_{0}=\\alpha$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130122,
+              "question_id": 413012,
+              "is_answer": false,
+              "choice": "当 $\\pmb{\\pi_{0}}$ 不成立时,犯第二类错误的概率 $\\beta=1-\\alpha$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130123,
+              "question_id": 413012,
+              "is_answer": false,
+              "choice": "当实际均值μ偏离原假设较大时,犯第一类错误的概率很小,检验效果较好",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130124,
+              "question_id": 413012,
+              "is_answer": false,
+              "choice": "当 $\\mu\\neq0$ 但接近于0时,犯第一类错误的概率很大,检验效果较好.",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 413013,
+          "subject_id": 3,
+          "chapter_id": 413,
+          "question_id": "pdf-ocr-413-013",
+          "difficulty": "OCR",
+          "answer": "2",
+          "question_type": 1,
+          "question": "在统计假设的显著性检验中,实际上是()",
+          "analysis": "假设检验中处理两类错误的一般原则是：控制犯第一类错误的概率,即给定α,然后通过增大样本容量n来减小β.而当样本容量 n\n固定时,若使α变小,则β就变大；反之,β变小时,α就变大.此时,只控制第一类错误.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/413/013",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4130131,
+              "question_id": 413013,
+              "is_answer": false,
+              "choice": "在控制第一类错误的前提下,尽量减少此第二类错误(即受伪)的概率",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130132,
+              "question_id": 413013,
+              "is_answer": true,
+              "choice": "只控制第一类错误,即控制“拒真”错误",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130133,
+              "question_id": 413013,
+              "is_answer": false,
+              "choice": "同时控制第一类错误和第二类错误",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130134,
+              "question_id": 413013,
+              "is_answer": false,
+              "choice": "只控制第二类错误,即控制“受伪”错误",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 413014,
+          "subject_id": 3,
+          "chapter_id": 413,
+          "question_id": "pdf-ocr-413-014",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设显著水平为α,当原假设H0正确时,由于样本的随机性,作出了“拒绝接受原假设”的决策,因而犯了错误,称为犯了\n错误．犯该错误的概率为,().",
+          "analysis": "犯第一类错误记为α,即P{拒绝H_0|H0为真}=α",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/413/014",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4130141,
+              "question_id": 413014,
+              "is_answer": true,
+              "choice": "第一类,α",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130142,
+              "question_id": 413014,
+              "is_answer": false,
+              "choice": "第一类,β",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130143,
+              "question_id": 413014,
+              "is_answer": false,
+              "choice": "第二类,β",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130144,
+              "question_id": 413014,
+              "is_answer": false,
+              "choice": "第二类, α",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 413015,
+          "subject_id": 3,
+          "chapter_id": 413,
+          "question_id": "pdf-ocr-413-015",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "考察某城市购买A公司牛奶的比例,作假设H_0：p=0.6,H_₁1:p<0.6,随机抽取50个家庭,设X为其中购买A公司牛奶\n的家庭数,拒绝域 $\\pmb{W}=\\{\\pmb{X}\\leq2\\pmb{4}\\}$,则下列说法中正确的是() $(\\Phi(0.28)=0.6130,\\Phi(1.15)=0.8749,\\Phi(1.73)=0.9582)$",
+          "analysis": "X～B(50,p),根据中心极限定理,X近似服从N(50p,50p(1-p))\n(1 $\\begin{array}{r}{)\\quad\\alpha=P\\{X\\leq24\\mid p=0.6\\}\\approx\\Phi\\Big(\\frac{24-10\\times0.6}{\\sqrt{90\\times0.6\\times0.4}}\\Big)\\approx\\Phi(-1.73)=1-\\Phi(1.73)=1-0.9582=0.0418.}\\end{array}$\n(2)\n$$\\begin{aligned}\\beta(0.4)&=P\\{X>24\\mid p=0.4\\}\\approx1-\\Phi\\bigg(\\frac{24-50\\times0.4}{\\sqrt{50\\times0.4\\times0.6}}\\bigg)\\approx1-\\Phi(1.15)=1-0.8749=0.1251\\\\\\beta(0.5)&=P\\{X>24\\mid p=0.5\\}\\approx1-\\Phi\\bigg(\\frac{24-50\\times0.5}{\\sqrt{50\\times0.5\\times0.5}}\\bigg)\\approx1-\\Phi(-0.28)=\\Phi(0.28)=0.6130\\end{aligned}$$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/413/015",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4130151,
+              "question_id": 413015,
+              "is_answer": true,
+              "choice": "H0成立时,犯第一类错误的概率 $\\alpha=0.0418$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130152,
+              "question_id": 413015,
+              "is_answer": false,
+              "choice": "$\\pmb{H_{0}}$ 成立时,犯第一类错误的概率 $\\alpha=0.0536$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130153,
+              "question_id": 413015,
+              "is_answer": false,
+              "choice": "$\\pmb{\\pi_{1}}$ 成立且 $\\pmb{p}=\\pmb{0.4}$ 时,犯第二类错误的概率 $\\beta=0.6130$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4130154,
+              "question_id": 413015,
+              "is_answer": false,
+              "choice": "H_{1成立且 $\\pmb{p}=\\pmb{0.5}$ 时,犯第二类错误的概率 $\\beta=0.1251$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  }
+]

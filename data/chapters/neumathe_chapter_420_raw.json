@@ -1,0 +1,955 @@
+[
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 11,
+      "questions": [
+        {
+          "id": 420001,
+          "subject_id": 3,
+          "chapter_id": 420,
+          "question_id": "pdf-ocr-420-001",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "总体 $X\\sim N(\\mu_1,\\sigma_1^2)$, 总体 $Y\\sim N(\\mu_2,\\sigma_2^2)$, 其中 $\\mu_1,\\mu_2$ 未知. $X_1,X_2,\\cdots,X_{n_1}$ 与 $Y_1,Y_2,\\cdots,Y_{n_2}$ 分别是来自总体 $X,Y$ 的样本, 两样本独立. 设两样本的样本方差分别为 $S_1^2,S_2^2$, 对 $H_0:\\frac{\\sigma_1^2}{\\sigma_2^2}=\\lambda(\\lambda>0)$, $H_1:\\frac{\\sigma_1^2}{\\sigma_2^2}\\ne\\lambda$, 其检验统计量 $F=(\\quad)$",
+          "analysis": "根据已知条件,检验统计量选为F= $S{2}{2}$ ～F(n1-1,n2-1),当H成立时(=λ),= λ\\fr{2} S^{a{2} ～F(n_1-1,n₂-1),从而拒绝域\nW={F<F₁-a/2(₁-1,n₂-1)或F>Fa/₂(n₁-1n₂-1}",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/420/001",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4200011,
+              "question_id": 420001,
+              "is_answer": true,
+              "choice": "$\\frac{S_1^2}{\\lambda S_2^2}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200012,
+              "question_id": 420001,
+              "is_answer": false,
+              "choice": "$\\frac{S_1^2}{S_2^2}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200013,
+              "question_id": 420001,
+              "is_answer": false,
+              "choice": "$\\frac{\\lambda S_1^2}{S_2^2}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200014,
+              "question_id": 420001,
+              "is_answer": false,
+              "choice": "$\\frac{\\lambda S_2^2}{S_1^2}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 420002,
+          "subject_id": 3,
+          "chapter_id": 420,
+          "question_id": "pdf-ocr-420-002",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体 $X\\sim N(\\mu_{1},\\sigma_{1}^{2})$,总体 $Y\\sim N(\\mu_{2},\\sigma_{2}^{2})$,其中 $\\mathbf{\\mu _{1}},\\mathbf{\\mu _{2}}$ 未知．从总体X抽取容量为8的样本,从总体Y抽取容量为10\n的样本,两样本独立．对于假设检验 $H_{0}:\\sigma_{1}=\\sigma_{2}\\leftrightarrow H_{1}:\\sigma_{1}<\\sigma_{2}$ 在显著水平为 $\\alpha=0.05$ 下,检验的拒绝域为().",
+          "analysis": "双正态总体方差相等的检验统计量为 $F=S_{1}^{2}/S_{2}^{2}\\sim F(n_{1}-1,n_{2}-1)$,对于左侧检验H_0:≥O²,H_₁：<,拒绝域为\n$F<F_{1-\\alpha}(n_{1}-1,n_{2}-1).$ 代入具体数据,得拒绝域为 <F0.95(7,9).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/420/002",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4200021,
+              "question_id": 420002,
+              "is_answer": true,
+              "choice": "$\\begin{array}{r}{\\frac{s_{1}^{2}}{s_{2}^{2}}<F_{0.95}(7,9)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200022,
+              "question_id": 420002,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\frac{s_{1}^{2}}{s_{2}^{2}}>F_{0.05}(7,9)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200023,
+              "question_id": 420002,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\frac{s_{1}^{2}}{s_{2}^{2}}<F_{0.05}(8,10)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200024,
+              "question_id": 420002,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\frac{s_{1}^{2}}{s_{2}^{2}}<F_{0.975}(7,9)}\\end{array}$ 或 $\\begin{array}{r}{\\frac{s_{1}^{2}}{s_{2}^{2}}>F_{0.025}(7,9)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 420003,
+          "subject_id": 3,
+          "chapter_id": 420,
+          "question_id": "pdf-ocr-420-003",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设两正态总体 $N(\\mu_{1},\\sigma_{1}^{2})$ 和 $N(\\mu_{2},\\sigma_{2}^{2})$ 有两组相互独立的样本,容量分别为 $\\pmb{n_{1}},\\pmb{n_{2}}$ 均值为 及(无偏)样本方差为 $\\pmb{X_{1}}$ $\\mathbf{X_{2}}$\n$S_{1}^{2},S_{2}^{2},\\mu_{1}$ 及 $\\mu_{2}$ 未知,要对 $\\sigma_{1}^{2}=\\sigma_{2}^{2}$ 作假设检验,统计假设为H0: $\\sigma_{1}^{2}=\\sigma_{2}^{2}$ $H_{1}${} <o_{ 给定显著水平α,则检验的拒绝域\n为 ( ).",
+          "analysis": "若均值1,μ2未知,则\n(1)检验假设为H0 $\\sigma_{1}^{2}=\\sigma_{2}^{2},H_{1}:\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}.$\n(2) 若 H0$ 为真 则 有 $\\begin{array}{r}{F=\\frac{\\frac{1}{n_{1}-1}\\sum_{i=1}^{n_{1}}\\left(X_{i}-\\bar{X}\\right)^{2}}{\\frac{1}{n_{2}-1}\\sum_{i=1}^{n_{2}}\\left(Y_{i}-\\bar{Y}\\right)^{2}}=\\frac{S_{1}^{2}}{S_{2}^{2}}\\sim F(n_{1}-1,n_{2}-1),}\\end{array}$ 此时拒绝 为\n( $\\begin{array}{r}{\\mathrm{)},F_{1-\\alpha/2}(n_{1}-1,n_{2}-1)\\mathrm{)}\\cup\\big(F_{\\alpha/2}(n_{1}-1,n_{2}-1),+\\infty\\big).}\\end{array}$\n另外,右侧检验： $H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},H_{1}:\\sigma_{1}^{2}>\\sigma_{2}^{2}.$ 此时拒绝域为 $(F_{\\alpha}(n_{1}-1,n_{2}-1),+\\infty)$\n左侧检验：1 $H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},H_{1}:\\sigma_{1}^{2}<\\sigma_{2}^{2}.$ 此时拒绝域为 $(0,F_{1-\\alpha}(n_{1}-1,n_{2}-1))",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/420/003",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4200031,
+              "question_id": 420003,
+              "is_answer": true,
+              "choice": "$(0,F_{1-\\alpha}(n_{1}-1,n_{2}-1))$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200032,
+              "question_id": 420003,
+              "is_answer": false,
+              "choice": "$(F_{\\alpha}(n_{1},n_{2}),+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200033,
+              "question_id": 420003,
+              "is_answer": false,
+              "choice": "$(0,F_{1-\\alpha}(n_{1},n_{2}))$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200034,
+              "question_id": 420003,
+              "is_answer": false,
+              "choice": "$(F_{\\alpha}(n_{1}-1,n_{2}-1),+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 420004,
+          "subject_id": 3,
+          "chapter_id": 420,
+          "question_id": "pdf-ocr-420-004",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "甲 乙两厂生产同一种电阻,现从甲乙两厂的产品中分别随机抽取12个和10个样品,测得它们的电阻值后,计算出样本方差\n分别为 $s_{1}^{2}=1.40,s_{2}^{2}=4.38$.假设电阻值服从正态分布,在显著性水平 $\\alpha=0.10$ 下,两厂生产的电阻值的方差是否相等的说\n法,不正确的是().",
+          "analysis": "该问题即检验假设：H $\\mathbf{\\sigma}_{0}:\\mathbf{\\sigma}_{1}^{2}=\\mathbf{\\sigma}_{2}^{2}\\Leftrightarrow H_{1}:\\mathbf{\\sigma}_{1}^{2}\\neq\\mathbf{\\sigma}_{2}^{2}.$\n因为 $n_{1}=12,n_{2}=10$ 利用F分布的性质,有 $\\begin{array}{r}{F_{0.95}(11,9)=\\frac{1}{F_{0.05}(9,11)}=\\frac{1}{2.9}\\approx0.34,}\\end{array}$\n而 $s_{1}^{2}/s_{2}^{2}=1.40/4.38\\approx0.32<0.34=F_{0.95}(11,9).$\n故拒绝原假设,认为两厂生产的电阻阻值的方差不同.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/420/004",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4200041,
+              "question_id": 420004,
+              "is_answer": true,
+              "choice": "拒绝域为 $(F_{\\alpha/2}(n_{1}-1,n_{2}-1),+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200042,
+              "question_id": 420004,
+              "is_answer": false,
+              "choice": "检验假设为 $H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},H_{1}:\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200043,
+              "question_id": 420004,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\begin{array}{r}{F=\\frac{S_{1}^{2}}{S_{2}^{2}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200044,
+              "question_id": 420004,
+              "is_answer": false,
+              "choice": "可认为两厂生产的电阻阻值的方差不同",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 420005,
+          "subject_id": 3,
+          "chapter_id": 420,
+          "question_id": "pdf-ocr-420-005",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设两正态总体 $N(\\mu_{1},\\sigma_{1}^{2})$ 和 $N\\big(\\mu_{2},\\sigma_{2}^{2}\\big)$ 有两组相互独立的样本,容量分别为 $\\pmb{n_{1}},\\pmb{n_{2}}$ 均值为 $\\pmb{X_{1}}$ 及 $\\mathbf{X_{2}}$ (无偏)样本方差为\nS_{2}S{2}{1 $\\mu_{2}$ 未知,要对 $\\sigma_{1}^{2}=\\sigma_{2}^{2}$ 作假设检验,统计假设为H0 $\\sigma_{1}^{2}=\\sigma_{2}^{2},H_{1}:\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}$ 给定显著水平α,则检验的拒绝域\n为 ( ).",
+          "analysis": "若均值1,2未知,则\n(1)检验假设为H0 $\\sigma_{1}^{2}=\\sigma_{2}^{2},H_{1}:\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}.$\n(2)若H0为真,则有 $F=\\frac{\\frac{1}{n_1-1}\\sum_{i=1}^{n_1}\\left(X_i-\\bar{X}\\right)^2}{\\frac{1}{n_2-1}\\sum_{i=1}^{n_2}\\left(Y_i-\\bar{Y}\\right)^2}=\\frac{S_1^2}{S_2^2}\\sim F(n_1-1,n_2-1)$\n此时拒绝域为 $\\big(0,F_{1-\\alpha/2}(n_{1}-1,n_{2}-1)\\big)\\cup\\big(\\bar{F}_{\\alpha/2}(n_{1}-1,n_{2}-1),+\\infty\\big).$\n另外,右侧检验： $H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},H_{1}:\\sigma_{1}^{2}>\\sigma_{2}^{2}.$ 此时拒绝域为 $(F_{\\alpha}(n_{1}-1,n_{2}-1),+\\infty)$\n左侧检验: $H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},H_{1}:\\sigma_{1}^{2}<\\sigma_{2}^{2}.$ 此时拒绝域为 $(0,F_{1-\\alpha}(n_{1}-1,n_{2}-1))$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/420/005",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4200051,
+              "question_id": 420005,
+              "is_answer": true,
+              "choice": "$\\left(0,F_{1-\\alpha/2}(n_{1}-1,n_{2}-1)\\right)\\cup\\left(F_{\\alpha/2}(n_{1}-1,n_{2}-1),+\\infty\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200052,
+              "question_id": 420005,
+              "is_answer": false,
+              "choice": "$(0,F_{1-\\alpha}(n_{1}-1,n_{2}-1))$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200053,
+              "question_id": 420005,
+              "is_answer": false,
+              "choice": "$(F_{\\alpha}(n_{1},n_{2}),+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200054,
+              "question_id": 420005,
+              "is_answer": false,
+              "choice": "$\\left(0,F_{1-\\alpha/2}(n_{1},n_{2})\\right)\\cup\\left(F_{\\alpha/2}(n_{1},n_{2}),+\\infty\\right)$ uMathe",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 420006,
+          "subject_id": 3,
+          "chapter_id": 420,
+          "question_id": "pdf-ocr-420-006",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "两台机床加工同种零件,分别从两台车床加工的零件中抽取6个和9个测量其直径,并计算得： $s_{1}^{2}=0.345,\\quad s_{2}^{2}=0.375$.假定\n零件直径服从正态分布,若比较两台车床加工精度有无显著差异 $(\\alpha=0.10)$,则下列说法中不正确的是().",
+          "analysis": "设两总体X和Y分别服从正态分布 $N(\\mu_{1},\\sigma_{1}^{2})$ 和 $N(\\mu_{2},\\sigma_{2}^{2})$ μ_{}_2}{}{2}$未知.\n(1)建立假设 $H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},H_{1}:\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}.$\n(2)选统计量 $F=S_{1}^{2}/S_{2}^{2}\\sim F(n_{1}-1,n_{2}-1).(3)对于给定的显著性水平α,确定k_{,k_{_, P{F<k₁1或F>k₂}=α.\n查F分布表得\n$$\\begin{aligned}&k_{1}=F_{1-\\alpha/2}(n_{1}-1,n_{2}-1)=F_{0.95}(5,8)=\\frac{1}{F_{0.05}(8,5)}=0.207,\\\\&k_{2}=F_{\\alpha/2}(n_{1}-1,n_{2}-1)=F_{0.05}(5,8)=3.69\\\\ \\end{aligned}$$\n从而拒绝域为 $F<0.207$ 或F>3.69.\n(4) 由于 $s_{1}^{2}=0.345,s_{2}^{2}=0.375$ 所以 $\\pmb{F}=s_{1}^{2}/s_{2}^{2}=0.92$ 而0.207<0.92<3.69, 故应接受 $\\mathbf{H_{0}}$ 即认为两车床加工精度无差异.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/420/006",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4200061,
+              "question_id": 420006,
+              "is_answer": true,
+              "choice": "拒绝域为 $F>F_{\\alpha/2}(n_{1}-1,n_{2}-1)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200062,
+              "question_id": 420006,
+              "is_answer": false,
+              "choice": "检验假设为H0 $\\begin{array}{r}{:\\sigma_{1}^{2}=\\sigma_{2}^{2},}\\end{array}$ H_{1\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200063,
+              "question_id": 420006,
+              "is_answer": false,
+              "choice": "检验统计量为 $F=S_{1}^{2}/S_{2}^{2}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200064,
+              "question_id": 420006,
+              "is_answer": false,
+              "choice": "可认为两车床加工精度无差异",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 420007,
+          "subject_id": 3,
+          "chapter_id": 420,
+          "question_id": "pdf-ocr-420-007",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体 $X\\sim N(\\mu_{1},\\sigma_{1}^{2})$,总体 $Y\\sim N(\\mu_{2},\\sigma_{2}^{2})$,其中1,2未知．从总体X抽取容量为11的样本,从总体Y抽取容量为13\n的样本,两样本独立．对于假设检验 $H_{0}:\\sigma_{1}=2\\sigma_{2}\\leftrightarrow H_{1}:\\sigma_{1}>2\\sigma_{2}$ 设显著水平为 0.05,则检验的拒绝域为().",
+          "analysis": "双正态总体方差比的检验统计量为\n$F=\\frac{\\sigma_{2}^{2}}{\\sigma_{1}^{2}}\\frac{S_{1}^{2}}{S_{2}^{2}}\\sim F(n_{1}-1,n_{2}-1).$\n对于右侧检验H0 $:\\sigma_{1}^{2}\\leq k^{2}\\sigma_{2}^{2},H_{1}:\\sigma_{1}^{2}>k^{2}\\sigma_{2}^{2}$ (本题中 $\\pmb{k}=\\pmb{2}$,拒绝域为\n$F>F_{\\alpha}(n_{1}-1,n_{2}-1)$\n把具体数据代入本题,拒绝域为\n即uMath $\\frac{1}{4}\\frac{s_{1}^{2}}{s_{2}^{2}}>F_{0.05}(10,12).$\n$\\frac{s_{1}^{2}}{s_{2}^{2}}>4F_{0.05}(10,12).$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/420/007",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4200071,
+              "question_id": 420007,
+              "is_answer": true,
+              "choice": "$\\frac{s_{1}^{2}}{s_{2}^{2}}>4F_{0.05}(10,12)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200072,
+              "question_id": 420007,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\frac{s_{1}^{2}}{s_{2}^{2}}>\\frac{1}{4}F_{0.95}(10,12)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200073,
+              "question_id": 420007,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\frac{\\mathit{s}_{1}^{2}}{\\mathit{s}_{2}^{2}}>2F_{0.05}(10,12)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200074,
+              "question_id": 420007,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\frac{s_{1}^{2}}{s_{2}^{2}}>\\frac{1}{2}F_{0.05}(10,12)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 420008,
+          "subject_id": 3,
+          "chapter_id": 420,
+          "question_id": "pdf-ocr-420-008",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "有两台车床生产同一种型号的滚珠．根据过去的经验,可以认为这两台车床生产的滚珠的直径都服从正态分布．现要比较两台车\n床所生产滚珠的直径的方差,分别抽出8个和9个样品,测得滚珠的直径如下(单位：mm)：\n甲车床x：15.0 14.5 15.2 15.5 14.8 15.1 15.2 14.8\n乙车床y：15.2 15.0 14.8 15.2 15.0 15.0 14.8 15.1 14.8\n若要检验乙车床产品的方差是否比甲车床的小 $(\\alpha=0.05)$,则下列说法中不正确的是().",
+          "analysis": "以 $x,Y$ 分别表示甲、乙二车床产品直径 $X\\sim N(\\mu_{\\mathrm{即}}\\sigma_{\\mathrm{甲}}^2),Y\\sim N(\\mu_{\\mathrm{乙}}\\sigma_{\\mathrm{乙}}^2)$ 且 $x,Y$ 独立.\n1．建立假设：\n题目要求检验乙车床产品的方差是否比甲车床的小,故原假设与备择假设为：\n$H_{0}:\\sigma_{甲}^{2}=\\sigma_{乙}^{2},\\quad H_{1}:\\sigma_{乙}^{2}<\\sigma_{甲}^{2}$\n2.构造统计量： Mathe\n在 $\\pmb{H_{0}}$ 成立时,选用的检验统计量为：\n$F=\\frac{S_{ 甲 }^{2}}{S_{ 乙 }^{2}}\\sim F(n_{ 甲 }-1,n_{ 乙 }-1)$\n3．计算样本统计量：\n根据样本数据计算：\n$\\bar{x}_{ 甲 }\\approx15.01,\\quad\\bar{x}_{ 乙 }\\approx14.99$\n$S_{甲}^{2}\\approx0.0955,\\quad S_{乙}^{2}\\approx0.0261$\n已知 $n_{甲}=8,n_{乙}=9,\\alpha=0.05.$\n4.确定拒绝域：\n对于单侧检验 $H_{1}:\\sigma_{甲}^{2}>\\sigma_{乙}^{2}$ 拒绝域为：\n$R_{\\alpha}=\\{F>F_{\\alpha}(n_{\\mathrm{ 甲 }}-1,n_{\\mathrm{ 乙 }}-1)\\}$\n查表得临界值：\n$F_{0.05}(8-1,9-1)=F_{0.05}(7,8)=3.50$\n5.做出判断：\n计算F值：\n$F=\\frac{S_{ 甲 }^{2}}{S_{ 乙 }^{2}}=\\frac{0.0955}{0.0261}\\approx3.66$\n因为 $\\mathbf{3.66}>\\mathbf{3.50}$ 落在拒绝域内,故拒绝 $\\pmb{H_{0}}$ 即认为乙车床产品的直径的方差比甲车床的小.\n综上所述,选项A中的拒绝域自由度应为 $(n_{ 甲 }-1,n_{ 乙 }-1)$,而非 $(n_{ 甲 },n_{ 乙 })$,故A说法不正确.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/420/008",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4200081,
+              "question_id": 420008,
+              "is_answer": true,
+              "choice": "拒绝域为 $\\{F>F_{\\alpha}(n_{\\mathrm{ 甲 }},n_{\\mathrm{ 乙 }})\\}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200082,
+              "question_id": 420008,
+              "is_answer": false,
+              "choice": "应检验假设H0: $\\sigma_{甲}^{2}=\\sigma_{乙}^{2}H_{1}:\\sigma_{乙}^{2}<\\sigma_{甲}^{2}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200083,
+              "question_id": 420008,
+              "is_answer": false,
+              "choice": "检验统计量为 $F=S_{\\mathrm{{H}}}^{2}/S_{\\mathrm{{Z}}}^{2}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200084,
+              "question_id": 420008,
+              "is_answer": false,
+              "choice": "可认为乙车床产品的直径的方差比甲车床的小",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 420009,
+          "subject_id": 3,
+          "chapter_id": 420,
+          "question_id": "pdf-ocr-420-009",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设两正态总体 $N(\\mu_{1},\\sigma_{1}^{2})$ 和 $N(\\mu_{2},\\sigma_{2}^{2})$ 有两组相互独立的样本,容量分别为 $\\pmb{n_{1}},\\pmb{n_{2}}$ 均值为X及Y,(无偏)样本方差为\nS_{2}S{2}.{1及{2未知,要对 $\\sigma_{1}^{2}=\\sigma_{2}^{2}$ 作假设检验,统计假设为H0 $\\sigma_{1}^{2}=\\sigma_{2}^{2},H_{1}:\\sigma_{1}^{2}<\\sigma_{2}^{2}$ 则要用检验统计量为().",
+          "analysis": "若均值 $\\mathbf{\\mu _{1}},\\mathbf{\\mu _{2}}$ 未知,则\n(1)检验假设为H0 $\\sigma_{1}^{2}=\\sigma_{2}^{2},H_{1}:\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}.$\n(2)若H0为真,则有 $\\begin{array}{r}{F=\\frac{\\frac{1}{n_{1}-1}\\sum_{i=1}^{n_{1}}\\left(X_{i}-\\bar{X}\\right)^{2}}{\\frac{1}{n_{2}-1}\\sum_{i=1}^{n_{2}}\\left(Y_{i}-\\bar{Y}\\right)^{2}}=\\frac{S_{1}^{2}}{S_{2}^{2}}\\sim F(n_{1}-1,n_{2}-1),}\\end{array}$\n此时拒绝域为 $\\left(0,F_{1-\\alpha/2}(n_{1}-1,n_{2}-1)\\right)\\cup\\left(F_{\\alpha/2}(n_{1}-1,n_{2}-1),+\\infty\\right)\\circ$\n另外,右侧检验： $H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},H_{1}:\\sigma_{1}^{2}>\\sigma_{2}^{2}.$ 此时拒绝域为 $(F_{\\alpha}(n_{1}-1,n_{2}-1),+\\infty)$\n左侧检验：H0 $\\sigma_{1}^{2}=\\sigma_{2}^{2},H_{1}:\\sigma_{1}^{2}<\\sigma_{2}^{2}.$ 此时拒绝域为 $(0,F_{1-\\alpha}(n_{1}-1,n_{2}-1))$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/420/009",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4200091,
+              "question_id": 420009,
+              "is_answer": true,
+              "choice": "$\\frac{\\frac{1}{n_{1}-1}\\sum_{i=1}^{n_{1}}\\left(X_{i}-\\bar{X}\\right)^{2}}{\\frac{1}{n_{2}-1}\\sum_{i=1}^{n_{2}}\\left(Y_{i}-\\bar{Y}\\right)^{2}}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200092,
+              "question_id": 420009,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\pmb{F}=\\frac{\\frac{1}{n_{2}-1}\\sum_{i=1}^{n_{2}}\\left(X_{i}-\\bar{X}\\right)^{2}}{\\frac{1}{n_{1}-1}\\sum_{i=1}^{n_{1}}\\left(Y_{i}-\\bar{Y}\\right)^{2}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200093,
+              "question_id": 420009,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\pmb{F}=\\frac{\\frac{1}{n_{1}}\\sum_{i=1}^{n_{1}}\\left(X_{i}-\\mu_{1}\\right)^{2}}{\\frac{1}{n_{2}}\\sum_{i=1}^{n_{2}}\\left(Y_{i}-\\mu_{2}\\right)^{2}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200094,
+              "question_id": 420009,
+              "is_answer": false,
+              "choice": "$\\frac{\\frac{1}{n_{2}}\\sum_{i=1}^{n_{2}}\\left(X_{i}-\\mu_{1}\\right)^{2}}{\\frac{1}{n_{1}}\\sum_{i=1}^{n_{1}}\\left(Y_{i}-\\mu_{2}\\right)^{2}}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 420010,
+          "subject_id": 3,
+          "chapter_id": 420,
+          "question_id": "pdf-ocr-420-010",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "有两台机器生产金属部件,分别在两台机器所生产的部件中各取一容量 $n_{1}=60,n_{2}=40$ 的样本,测得部件重量(以kg计)的\n样本方差分别为 $s_{1}^{2}=15.46,s_{2}^{2}=9.66$.设两样本相互独立,两总体分别服从分布 $N(\\mu_{1},\\sigma_{1}^{2}),N(\\mu_{2},\\sigma_{2}^{2}),\\quad\\mu_{i},\\sigma_{i}^{2}(i=1,2)$ 均未\n知.若在 $\\alpha=0.05$ 水平下检验假设H0 $\\sigma_{1}^{2}\\leq\\sigma_{2}^{2},\\overline{{H_{1}:\\sigma_{1}^{2}>\\sigma_{2}^{2}}}$ 则下列说法中不正确的是().",
+          "analysis": "在 $\\alpha=0.05$ 下,检验假设H0 $:\\sigma_{1}^{2}\\leq\\sigma_{2}^{2},H_{1}:\\sigma_{1}^{2}>\\sigma_{2}^{2}$ 采用F检验统计量,则拒绝域为\nleuM $W=\\Bigg\\{\\frac{S_{1}^{2}}{S_{2}^{2}}>F_{\\alpha}(n_{1}-1,n_{2}-1)\\Bigg\\}$\n已知 $n_{1}=60,n_{2}=40,s_{1}^{2}=15.46,s_{2}^{2}=9.66$ 查F分布表得 $F_{0.05}(59,39)=1.64$,且样本值\n$\\frac{s_{1}^{2}}{s_{2}^{2}}=\\frac{15.46}{9.66}\\approx1.60<1.64.$\n由于未落入拒绝域,故接受H0",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/420/010",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4200101,
+              "question_id": 420010,
+              "is_answer": true,
+              "choice": "经检验,拒绝 $\\pmb{H_{0}}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200102,
+              "question_id": 420010,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\begin{array}{r}{F=\\frac{S_{1}^{2}}{S_{2}^{2}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200103,
+              "question_id": 420010,
+              "is_answer": false,
+              "choice": "若H_0为真,则 $\\begin{array}{r}{F=\\frac{S_{1}^{2}}{S_{2}^{2}}\\sim F(n_{1}-1,n_{2}-1)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200104,
+              "question_id": 420010,
+              "is_answer": false,
+              "choice": "拒绝域为 $\\begin{array}{r}{W=\\Big\\{\\frac{S_{1}^{2}}{S_{2}^{2}}>F_{\\alpha}(n_{1}-1,n_{2}-1)\\Big\\}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  },
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 11,
+      "questions": [
+        {
+          "id": 420011,
+          "subject_id": 3,
+          "chapter_id": 420,
+          "question_id": "pdf-ocr-420-011",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "总体 $X\\sim N(\\mu_{1},\\sigma_{1}^{2})$ ．总体 $Y\\sim N(\\mu_{2},\\sigma_{2}^{2})$ 其中μ1,2 未知. $X_{1},X_{2},\\cdots,X_{n_{1}}$ 与 $Y_{1},Y_{2},\\cdots,Y_{n_{2}}$ 分别是来自总体X,Y的样\n本,两样本独立．设两样本的样本方差分别为 $S_{1}^{2},S_{2}^{2}$ 对 $\\begin{array}{r}{H_{0}:\\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}}=\\lambda(\\lambda>0,}\\end{array}$ 已知↔H_{1}: $\\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}}\\neq\\lambda_{1}$ 其检验统计量 $F=$\n其拒绝域 W=. ( ).",
+          "analysis": "检验统计量F= ra}{} $S{2}/{}$ S_f\\fra{}{2} $S{2_2}$ ∼F(n1− 1,n2 − 1)\n当H_0成立时 $=λ, F = $1\\frac{}{2}$ $S^{}∼F(n1−1,n2- 1 由于备择假设 H_{₁为不等号,故为双侧检验,从而拒绝域W为\\left\\{F<F_{1-\\alpha/2}(n_{1}-1,n_{2}-1)\\mathrm{~ 或 }F>F_{\\alpha/2}(n_{1}-1,n_{2}-1)\\right\\}.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/420/011",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4200111,
+              "question_id": 420011,
+              "is_answer": true,
+              "choice": "$\\frac{S_{1}^{2}}{\\lambda S_{2}^{2}},\\left\\{F<F_{1-\\alpha/2}(n_{1}-1,n_{2}-1) 或 F>F_{\\alpha/2}(n_{1}-1,n_{2}-1)\\right\\}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200112,
+              "question_id": 420011,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\frac{S_{1}^{2}}{\\lambda S_{2}^{2}},\\big\\{F<F_{1-\\alpha/2}(n_{1}-1,n_{2}-1)\\big\\}.}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200113,
+              "question_id": 420011,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\frac{S_{1}^{2}}{S_{2}^{2}},\\left\\{F>F_{\\alpha/2}(n_{1}-1,n_{2}-1)\\right\\}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4200114,
+              "question_id": 420011,
+              "is_answer": false,
+              "choice": "$\\frac{\\lambda S_{1}^{2}}{S_{2}^{2}},\\left\\{F<F_{1-\\alpha/2}(n_{1}-1,n_{2}-1) 或 F>F_{\\alpha/2}(n_{1}-1,n_{2}-1)\\right\\}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  }
+]
