@@ -14,7 +14,7 @@
           "answer": "1",
           "question_type": 1,
           "question": "$X_{1},X_{2},X_{3},X_{4}$ 为总体X的一个样本, 且 $E(X)=\\mu$ 下列$\\mu$的最小方差无偏估计量是().",
-          "analysis": "由题可知, $E(\\widehat{\\mu_{1}})=2\\mu,E(\\widehat{\\mu_{2}})=E(\\widehat{\\mu_{3}})=\\mu,E(\\widehat{\\mu_{4}})=1.6\\mu$\n故只有选项是无偏估计,接下来分别求它们的方差,方差小的就是最有效的.\n由于 $X_{i}(i=1,2,3,4)$ 之间相互独立,故\nath ${\\begin{array}{r l}&{D{\\big(}{\\widehat{\\mu_{2}}}{\\big)}={\\bigg(}{\\cfrac{1}{16}}+{\\cfrac{1}{16}}+{\\cfrac{1}{16}}+{\\cfrac{1}{16}}{\\bigg)}D(X)={\\cfrac{1}{4}}D(X)=0.25D(X)}\\\\ &{D{\\big(}{\\widehat{\\mu_{3}}}{\\big)}={\\bigg(}{\\cfrac{1}{16}}+{\\cfrac{1}{64}}+{\\cfrac{1}{16^{2}}}+{\\cfrac{81}{16^{2}}}{\\bigg)}D(X)={\\cfrac{3\\times17}{8\\times16}}D(X)=0.398D(X)}\\end{array}}$",
+          "analysis": "由题可知, $E(\\widehat{\\mu_{1}})=2\\mu,E(\\widehat{\\mu_{2}})=E(\\widehat{\\mu_{3}})=\\mu,E(\\widehat{\\mu_{4}})=1.6\\mu$\n故只有 $\\widehat{\\mu_2}$ 和 $\\widehat{\\mu_3}$ 是无偏估计,接下来分别求它们的方差,方差小的就是最有效的.\n由于 $X_{i}(i=1,2,3,4)$ 之间相互独立,故\nath ${\\begin{array}{r l}&{D{\\big(}{\\widehat{\\mu_{2}}}{\\big)}={\\bigg(}{\\cfrac{1}{16}}+{\\cfrac{1}{16}}+{\\cfrac{1}{16}}+{\\cfrac{1}{16}}{\\bigg)}D(X)={\\cfrac{1}{4}}D(X)=0.25D(X)}\\\\ &{D{\\big(}{\\widehat{\\mu_{3}}}{\\big)}={\\bigg(}{\\cfrac{1}{16}}+{\\cfrac{1}{64}}+{\\cfrac{1}{16^{2}}}+{\\cfrac{81}{16^{2}}}{\\bigg)}D(X)={\\cfrac{3\\times17}{8\\times16}}D(X)=0.398D(X)}\\end{array}}$",
           "question_render_type": 1,
           "analysis_render_type": 1,
           "created_at": {
@@ -183,8 +183,8 @@
           "difficulty": "OCR",
           "answer": "1",
           "question_type": 1,
-          "question": "设X_₁,X是来自正态总体 $N(\\mu,1)$ 的样本,则对统计量 $\\widehat{\\mu_{1}}=\\frac{2}{3}X_{1}+\\frac{1}{3}X_{2},\\widehat{\\mu_{2}}=\\frac{1}{4}X_{1}+\\frac{3}{4}X_{2},\\widehat{\\mu_{3}}=\\frac{1}{2}X_{1}+\\frac{1}{2}X_{2}$ 下列结论中错\n误的是 ( ).",
-          "analysis": "N\n依题可得, $E\\left(\\widehat{\\mu_{1}}\\right)=E\\left(\\widehat{\\mu_{2}}\\right)=E\\left(\\widehat{\\mu_{3}}\\right)=\\mu$\n$\\begin{aligned}{}&{{}D\\big(\\widehat{\\mu_{1}}\\big)=\\frac{5}{9}D(X)\\approx0.556D(X),}\\\\ {}&{{}D\\big(\\widehat{\\mu_{2}}\\big)=\\frac{10}{16}D(X)=0.625D(X),}\\\\ {}&{{}D\\big(\\widehat{\\mu_{3}}\\big)=\\frac{2}{4}D(X)=0.5D(X)}\\\\ {}&{{}D\\bigg[\\frac{\\widehat{\\mu_{1}}+\\widehat{\\mu_{2}}}{2}\\bigg]=\\frac{290}{576}D(X)\\approx0.503D(X).}\\\\ \\end{aligned}$\n由于样本容量已经固定, _{}_},的估计与n无关,故不存在相合性评价. e",
+          "question": "设 $X_1, X_2$ 是来自正态总体 $N(\\mu, 1)$ 的样本，则对统计量 $\\widehat{\\mu_1} = \\frac{2}{3}X_1 + \\frac{1}{3}X_2$, $\\widehat{\\mu_2} = \\frac{1}{4}X_1 + \\frac{3}{4}X_2$, $\\widehat{\\mu_3} = \\frac{1}{2}X_1 + \\frac{1}{2}X_2$，下列结论中错误的是（　　）.",
+          "analysis": "N\n依题可得, $E\\left(\\widehat{\\mu_{1}}\\right)=E\\left(\\widehat{\\mu_{2}}\\right)=E\\left(\\widehat{\\mu_{3}}\\right)=\\mu$\n$\\begin{aligned}{}&{{}D\\big(\\widehat{\\mu_{1}}\\big)=\\frac{5}{9}D(X)\\approx0.556D(X),}\\\\ {}&{{}D\\big(\\widehat{\\mu_{2}}\\big)=\\frac{10}{16}D(X)=0.625D(X),}\\\\ {}&{{}D\\big(\\widehat{\\mu_{3}}\\big)=\\frac{2}{4}D(X)=0.5D(X)}\\\\ {}&{{}D\\bigg[\\frac{\\widehat{\\mu_{1}}+\\widehat{\\mu_{2}}}{2}\\bigg]=\\frac{290}{576}D(X)\\approx0.503D(X).}\\\\ \\end{aligned}$\n由于样本容量已经固定，对无偏估计量的相合性（一致性）评价需要 $n \\to \\infty$，故在固定样本量下无法讨论一致性。",
           "question_render_type": 1,
           "analysis_render_type": 1,
           "created_at": {
@@ -201,7 +201,7 @@
               "id": 4010031,
               "question_id": 401003,
               "is_answer": true,
-              "choice": "$_{},${_{}{}_{3}都是$的$致估计量",
+              "choice": "$\\widehat{\\mu_1}, \\widehat{\\mu_2}, \\widehat{\\mu_3}$ 都是 $\\mu$ 的一致估计量",
               "choice_render_type": 1,
               "choice_id": "1",
               "created_at": {
@@ -215,7 +215,7 @@
               "id": 4010032,
               "question_id": 401003,
               "is_answer": false,
-              "choice": "_{_}{}_{_},}_都是u的无偏估计量",
+              "choice": "$\\widehat{\\mu_1}, \\widehat{\\mu_2}, \\widehat{\\mu_3}$ 都是 $\\mu$ 的无偏估计量",
               "choice_render_type": 1,
               "choice_id": "2",
               "created_at": {
@@ -229,7 +229,7 @@
               "id": 4010033,
               "question_id": 401003,
               "is_answer": false,
-              "choice": "比_{}_{2更有效",
+              "choice": "$\\widehat{\\mu_3}$ 比 $\\widehat{\\mu_2}$ 更有效",
               "choice_render_type": 1,
               "choice_id": "3",
               "created_at": {
@@ -243,7 +243,7 @@
               "id": 4010034,
               "question_id": 401003,
               "is_answer": false,
-              "choice": "$_比 $\\frac{\\widehat{\\mu_{1}}+\\widehat{\\mu_{2}}}{2} 更有效 the",
+              "choice": "$\\widehat{\\mu_3}$ 比 $\\frac{\\widehat{\\mu_1} + \\widehat{\\mu_2}}{2}$ 更有效",
               "choice_render_type": 1,
               "choice_id": "4",
               "created_at": {
@@ -438,7 +438,7 @@
           "difficulty": "OCR",
           "answer": "1",
           "question_type": 1,
-          "question": "设 $\\mathbf{X_{1}},\\mathbf{X_{2}}$ 是取自正态总体 $X\\sim N(\\mu,1)$ 的一个容量为2 的样本, $\\hat{\\mu}=\\alpha X_{1}+\\beta X_{2}$ (其中 $\\alpha+\\beta=1$ )则当 NeaMath $\\alpha=$ 是\nμ 的最小方差估计量.",
+          "question": "设 $X_{1}, X_{2}$ 是取自正态总体 $X\\sim N(\\mu,1)$ 的一个容量为2的样本，$\\hat{\\mu}=\\alpha X_{1}+\\beta X_{2}$（其中 $\\alpha+\\beta=1$），则当 $\\alpha=()$ 时，$\\hat{\\mu}$ 是 $\\mu$ 的最小方差无偏估计量.",
           "analysis": "根据有效性的定义有\n$D(\\hat{\\mu})=\\alpha^{2}+\\beta^{2}=\\alpha^{2}+(1-\\alpha)^{2}\\triangleq d(\\alpha)$\n要使方差最小,即求方差函数d(α)的最小值,求 $d(\\alpha)$ 关于α求导数,并令其为零,有\n$2\\alpha-2(1-\\alpha)=0\\Rightarrow\\alpha=\\frac{1}{2}.$\n$\\left.\\frac{d^{2}(\\alpha)}{d\\alpha^{2}}\\right|_{\\alpha=\\frac{1}{2}}=4>0$ 故 $\\alpha={\\frac{1}{2}}$ 是d(α)的最小值,此时 $d(\\alpha)=\\left(\\frac{1}{2}\\right)^2+\\left(1-\\frac{1}{2}\\right)^2=\\frac{1}{2}$",
           "question_render_type": 1,
           "analysis_render_type": 1,
@@ -456,7 +456,7 @@
               "id": 4010061,
               "question_id": 401006,
               "is_answer": true,
-              "choice": "12",
+              "choice": "1/2",
               "choice_render_type": 1,
               "choice_id": "1",
               "created_at": {
@@ -470,7 +470,7 @@
               "id": 4010062,
               "question_id": 401006,
               "is_answer": false,
-              "choice": "13",
+              "choice": "1/3",
               "choice_render_type": 1,
               "choice_id": "2",
               "created_at": {
@@ -523,8 +523,8 @@
           "difficulty": "OCR",
           "answer": "1",
           "question_type": 1,
-          "question": "设总体X服从正态分布N(m,1),X_{₁,X_2是总体X的子样, 试验证 $\\begin{array}{r}{\\widehat{m_{1}}=\\frac{2}{3}X_{1}+\\frac{1}{3}X_{2},\\widehat{m_{2}}=\\frac{1}{4}X_{1}+\\frac{3}{4}X_{2},}\\end{array}$",
-          "analysis": "因为X服从N(m,1),有 $E(X_{i})=m,D(X_{i})=1(i=1,2)$ 得 $E(\\widehat{m_1})=E(\\frac{2}{3}X_1+\\frac{1}{3}X_2)=\\frac{2}{3}E(X_1)+\\frac{1}{3}E(X_2)=\\frac{2}{3}m+\\frac{1}{3}m=m$\n$$D(\\widehat{m_1})=D\\left(\\frac{2}{3}X_1+\\frac{1}{3}X_2\\right)=\\frac{4}{9}D(X_1)+\\frac{1}{9}D(X_2)=\\frac{4}{9}+\\frac{1}{9}=\\frac{5}{9}$$\n同理可得：1 $\\vec{v}(\\widehat{m_2})=m,D(\\widehat{m_2})=\\frac{5}{8},E(\\widehat{m_3})=m,D(\\widehat{m_3})=\\frac{1}{2}$\n所以,m_{₁},m_₂}m_₃都是m的无偏估计量,并且在m_{₁},m_,m_₃中,以m_₃的方差为最小.",
+          "question": "设总体 $X\\sim N(m,1)$， $X_1, X_2$ 是来自总体 $X$ 的样本，现有三个估计量 $\\widehat{m_1}=\\frac{2}{3}X_1+\\frac{1}{3}X_2$, $\\widehat{m_2}=\\frac{1}{4}X_1+\\frac{3}{4}X_2$, $\\widehat{m_3}=\\frac{1}{2}X_1+\\frac{1}{2}X_2$，则在这三个无偏估计量中，方差最小的是（　　）.",
+          "analysis": "因为X服从N(m,1),有 $E(X_{i})=m,D(X_{i})=1(i=1,2)$ 得 $E(\\widehat{m_1})=E(\\frac{2}{3}X_1+\\frac{1}{3}X_2)=\\frac{2}{3}E(X_1)+\\frac{1}{3}E(X_2)=\\frac{2}{3}m+\\frac{1}{3}m=m$\n$$D(\\widehat{m_1})=D\\left(\\frac{2}{3}X_1+\\frac{1}{3}X_2\\right)=\\frac{4}{9}D(X_1)+\\frac{1}{9}D(X_2)=\\frac{4}{9}+\\frac{1}{9}=\\frac{5}{9}$$\n同理可得：1 $\\vec{v}(\\widehat{m_2})=m,D(\\widehat{m_2})=\\frac{5}{8},E(\\widehat{m_3})=m,D(\\widehat{m_3})=\\frac{1}{2}$\n所以，$\\widehat{m_1}, \\widehat{m_2}, \\widehat{m_3}$ 都是 $m$ 的无偏估计量，并且在它们之中以 $\\widehat{m_3}$ 的方差为最小。",
           "question_render_type": 1,
           "analysis_render_type": 1,
           "created_at": {
@@ -711,7 +711,7 @@
               "id": 4010091,
               "question_id": 401009,
               "is_answer": false,
-              "choice": "$\\begin{array}{r}{\\bar{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}}\\end{array}$ 和 $\\begin{array}{r}{Y=\\sum_{i=1}^{n}}\\end{array}$ C_{_{} $(C_{i}\\geq0$ 为常数, $\\textstyle\\sum_{i=1}^{n}C_{i}=1)$ 都不是总体期望 $E(X)$ 的无偏估计",
+              "choice": "$\\bar{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}$ 和 $Y=\\sum_{i=1}^{n}C_{i}X_{i}$ ($C_{i}\\geq0$ 为常数, $\\sum_{i=1}^{n}C_{i}=1$) 都不是总体期望 $E(X)$ 的无偏估计",
               "choice_render_type": 1,
               "choice_id": "1",
               "created_at": {
@@ -725,7 +725,7 @@
               "id": 4010092,
               "question_id": 401009,
               "is_answer": false,
-              "choice": "Y比X有效",
+              "choice": "$Y$ 比 $\\bar{X}$ 更有效",
               "choice_render_type": 1,
               "choice_id": "2",
               "created_at": {
@@ -739,7 +739,7 @@
               "id": 4010093,
               "question_id": 401009,
               "is_answer": false,
-              "choice": "$\\begin{array}{r}{\\bar{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}}\\end{array}$ 是总体期望 $E(X)$ 的无偏估计, $\\begin{array}{r}{Y=\\sum_{i=1}^{n}C_{i}X_{i}\\quad(C_{i}\\geq0)}\\end{array}$ 为常数, $\\textstyle\\sum_{i=1}^{n}C_{i}=1)$ 不是总体期望 $E(X)$ 的\n无偏估计",
+              "choice": "$\\bar{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}$ 是总体期望 $E(X)$ 的无偏估计, 而 $Y=\\sum_{i=1}^{n}C_{i}X_{i}$ ($C_{i}\\geq0$ 为常数, $\\sum_{i=1}^{n}C_{i}=1$) 不是总体期望 $E(X)$ 的无偏估计",
               "choice_render_type": 1,
               "choice_id": "3",
               "created_at": {
@@ -753,7 +753,7 @@
               "id": 4010094,
               "question_id": 401009,
               "is_answer": true,
-              "choice": "$\\begin{array}{r}{\\bar{\\pmb X}=\\frac{1}{n}\\sum_{i=1}^{n}}\\end{array}$ $X_{}和 $\\begin{array}{r}{Y=\\sum_{i=1}^{n}}\\end{array}$ $C_{X{}$ $\\left(C_{i}\\geq0\\right.$ 为常数, $\\textstyle\\sum_{i=1}^{n}C_{i}=1) 都是总体期望E(X)的无偏估计",
+              "choice": "$\\bar{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}$ 和 $Y=\\sum_{i=1}^{n}C_{i}X_{i}$ ($C_{i}\\geq0$ 为常数, $\\sum_{i=1}^{n}C_{i}=1$) 都是总体期望 $E(X)$ 的无偏估计，且 $\\bar{X}$ 比 $Y$ 更有效",
               "choice_render_type": 1,
               "choice_id": "4",
               "created_at": {
@@ -872,8 +872,8 @@
           "difficulty": "OCR",
           "answer": "1",
           "question_type": 1,
-          "question": "设从均值为u、方差为 $\\sigma^{2}(\\sigma>0)$ 的总体中分别抽取容量为 $\\pmb{n_{1}},\\pmb{n_{2}}$ 的两独立样本, $\\pmb{X_{1}}$ 和 $\\mathbf{X_{2}}$ 分别是两样本的均值,对于任意\n常数 $a,b(a+b=1)$ $Y=a{\\bar{X}}_{1}+b{\\bar{X}}_{2}$ 都是$\\mu$的无偏估计．下列说法不正确的是(",
-          "analysis": "$E(Z)=a E(S_{1}^{2})+b E(S_{2}^{2})=\\sigma^{2}$ 即Z是σ的无偏估计.因 $\\mathcal{S}_{1}^{2},\\mathcal{S}_{2}^{2}$ 相互独立,所以\n$\\begin{aligned}D(Z)&=D(aS_{1}^{2}+bS_{2}^{2})=\\left(\\frac{a^{2}}{n_{1}-1}+\\frac{b^{2}}{n_{2}-1}\\right)\\cdot2\\sigma^{4}=\\left(\\frac{a^{2}}{n_{1}-1}+\\frac{(1-a)^{2}}{n_{2}-1}\\right)\\cdot2\\sigma^{4},\\\\& 令 \\frac{dD(Z)}{da}=2\\sigma^{4}\\left[\\frac{2a}{n_{1}-1}-\\frac{2(1-a)}{n_{2}-1}\\right]=0, 得出 a=\\frac{n_{1}-1}{n_{1}+n_{2}-2}.\\\\& 又 \\frac{d^{2}D(Z)}{da^{2}}=2\\sigma^{4}\\left(\\frac{2}{n_{1}-1}+\\frac{2}{n_{2}-1}\\right)>0, 如部凤妲链, 底出 a=\\frac{n_{1}-1}{n_{1}+n_{2}-2},\\\\b=&\\frac{n_{2}-1}{n_{1}+n_{2}-2} 畦绌握 Z=\\frac{1}{n_{1}+n_{2}-2}\\left[(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}\\right] 其射劳热 \\end{aligned}$",
+          "question": "设从均值为u、方差为 $\\sigma^{2}(\\sigma>0)$ 的总体中分别抽取容量为 $\\pmb{n_{1}},\\pmb{n_{2}}$ 的两独立样本, $\\pmb{X_{1}}$ 和 $\\mathbf{X_{2}}$ 分别是两样本的均值,对于任意\n常数 $a,b(a+b=1)$ $Y=a{\\bar{X}}_{1}+b{\\bar{X}}_{2}$ 都是$\\mu$的无偏估计．下列说法不正确的是（　　）.",
+          "analysis": "设 $S_1^2$ 和 $S_2^2$ 分别是两个样本的样本方差，$Z = a S_1^2 + b S_2^2$（其中 $a+b=1$）是 $\\sigma^2$ 的无偏估计。\n因为 $S_1^2$ 和 $S_2^2$ 相互独立，所以其方差为：\n$$D(Z) = a^2 D(S_1^2) + b^2 D(S_2^2) = \\left( \\frac{a^2}{n_1-1} + \\frac{(1-a)^2}{n_2-1} \\right) 2\\sigma^4$$\n对 $a$ 求导并令其为 0：\n$$\\frac{\\mathrm{d}D(Z)}{\\mathrm{d}a} = 2\\sigma^4 \\left[ \\frac{2a}{n_1-1} - \\frac{2(1-a)}{n_2-1} \\right] = 0$$\n解得驻点 $a = \\frac{n_1-1}{n_1+n_2-2}$。因为一阶导数为 0 且二阶导数大于 0，所以此驻点为极小值点。\n此时 $b = \\frac{n_2-1}{n_1+n_2-2}$，$Z = \\frac{1}{n_1+n_2-2} \\left[ (n_1-1)S_1^2 + (n_2-1)S_2^2 \\right]$ 的方差达到最小。",
           "question_render_type": 1,
           "analysis_render_type": 1,
           "created_at": {
