@@ -1,1465 +1,1465 @@
 [
-  {
-    "code": 200,
-    "message": "OK",
-    "data": {
-      "total": 17,
-      "questions": [
-        {
-          "id": 421001,
-          "subject_id": 3,
-          "chapter_id": 421,
-          "question_id": "pdf-ocr-421-001",
-          "difficulty": "OCR",
-          "answer": "1",
-          "question_type": 1,
-          "question": "一位中学校长在报纸上看到这样的报道：\"这 一城市的初中学生平均每周看8小时电视．\"她认为她所领导的学校,学生看电视时间\n明显小于该数字．为此,她向她的学校的100名初中学生作了调查,得知平均每周看电视的时间 $\\bar{x}=6.5$ 小时,样本标准差为\n$\\pmb{s}=\\pmb{2}$ 小时,问是否可以认为这位校长的看法是对的 $(\\alpha=0.05)$ ?",
-          "analysis": "检验假设H_0: μ=8,H_1:μ<8.由于 $\\pmb{n}=\\pmb{100}$ 所以 $\\begin{array}{r}{\\pmb{T}=\\frac{\\pmb{X}-\\pmb{\\mu}}{\\pmb{S}/\\sqrt{n}}}\\end{array}$ 近似服从N(0,1)分布, $\\alpha=0.05,u_{0.05}=1.645$ 又知 $\\bar{x}=6.5,s=2$\n故计算得\n$t={\\frac{6.5-8}{2/{\\sqrt{100}}}}=-7.5$\n否定域 $\\begin{array}{r}{\\pmb{W}=\\bigg\\{\\frac{\\bar{X}-8}{S/\\sqrt{n}}<-u_{0.05}\\bigg\\}.}\\end{array}$\n因为-7.5<-1.645,故否定 $\\mathbf{H_{0}}$ 认为这位校长的看法是对的.",
-          "question_render_type": 1,
-          "analysis_render_type": 1,
-          "created_at": {
-            "seconds": 1766137662
-          },
-          "question_json": "pdf-ocr/421/001",
-          "updated_at": {
-            "seconds": 1766137662
-          },
-          "version": 1,
-          "is_active_version": true,
-          "choices": [
-            {
-              "id": 4210011,
-              "question_id": 421001,
-              "is_answer": true,
-              "choice": "对",
-              "choice_render_type": 1,
-              "choice_id": "1",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210012,
-              "question_id": 421001,
-              "is_answer": false,
-              "choice": "不对",
-              "choice_render_type": 1,
-              "choice_id": "2",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210013,
-              "question_id": 421001,
-              "is_answer": false,
-              "choice": "无法判断",
-              "choice_render_type": 1,
-              "choice_id": "3",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210014,
-              "question_id": 421001,
-              "is_answer": false,
-              "choice": "其它论点均不正确",
-              "choice_render_type": 1,
-              "choice_id": "4",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            }
-          ],
-          "accuracy_rate": null,
-          "difficulty_score": null,
-          "avg_time_spent": null,
-          "ai_tags": "PDF OCR",
-          "tags": "PDF OCR"
-        },
-        {
-          "id": 421002,
-          "subject_id": 3,
-          "chapter_id": 421,
-          "question_id": "pdf-ocr-421-002",
-          "difficulty": "OCR",
-          "answer": "1",
-          "question_type": 1,
-          "question": "某青年工以往的记录是：平均每加工100 个零件,有60件是一等品．今年考核他,在他加工的零件中随机抽取100件,发现\n有70件是一等品．这个成绩是否说明该青年工的技术水平有了显著的提高 $(\\alpha=0.05)$ ？对此问题,假设检验问题应设为()",
-          "analysis": "根据实际问题的要求,充分考虑和利用已知的背景知识,提出原假设H及备择假设H₁.问该青工的技术水平是否有显著提高,通常把\n预期的相反情形设为原假设,所以提出假设检验H0：p<0.6←H_₁：p≥0.6.\n技术水平有显著的提高时,即否定原假设.",
-          "question_render_type": 1,
-          "analysis_render_type": 1,
-          "created_at": {
-            "seconds": 1766137662
-          },
-          "question_json": "pdf-ocr/421/002",
-          "updated_at": {
-            "seconds": 1766137662
-          },
-          "version": 1,
-          "is_active_version": true,
-          "choices": [
-            {
-              "id": 4210021,
-              "question_id": 421002,
-              "is_answer": true,
-              "choice": "$H_{0}:p<0.6\\leftrightarrow H_{1}:p\\geq0.6$",
-              "choice_render_type": 1,
-              "choice_id": "1",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210022,
-              "question_id": 421002,
-              "is_answer": false,
-              "choice": "$H_{0}:p>0.6\\leftrightarrow H_{1}:p\\leq0.6$",
-              "choice_render_type": 1,
-              "choice_id": "2",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210023,
-              "question_id": 421002,
-              "is_answer": false,
-              "choice": "$H_{0}:p=0.6\\leftrightarrow H_{1}:p\\neq0.6$",
-              "choice_render_type": 1,
-              "choice_id": "3",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210024,
-              "question_id": 421002,
-              "is_answer": false,
-              "choice": "$H_{0}:p\\neq0.6\\leftrightarrow H_{1}:p=0.6$",
-              "choice_render_type": 1,
-              "choice_id": "4",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            }
-          ],
-          "accuracy_rate": null,
-          "difficulty_score": null,
-          "avg_time_spent": null,
-          "ai_tags": "PDF OCR",
-          "tags": "PDF OCR"
-        },
-        {
-          "id": 421003,
-          "subject_id": 3,
-          "chapter_id": 421,
-          "question_id": "pdf-ocr-421-003",
-          "difficulty": "OCR",
-          "answer": "1",
-          "question_type": 1,
-          "question": "某药品广告上声称该药品对某种疾病的治愈率为90%,一家医院对该种药品临床使用120例,治愈85人,问该药品广告是否\n真实 $(\\alpha=0.02)^{\\circ}$ ？()",
-          "analysis": "设该药品对某种疾病的治愈率为p,随机变量X为\n$\\boldsymbol{X}=\\left\\{\\begin{aligned}1,&\\quad 恼油辅辅辅命 \\\\ 0,&\\quad 反 \\end{aligned}\\right.$\n则 $\\overline{{X}}\\sim b(1,p)$ 问题该归结为检验假设：\n$H_{0}:p=0.9,H_{1}:p\\neq0.9.$\n由于 $\\pmb{n}=\\pmb{120}$ 足够大,可以用u检验法,所给样值 $(x_{1},x_{2},\\cdots,x_{120})$ 中有85个1,35个0,所以\n$\\bar{x}=\\frac{1}{120}\\sum_{i=1}^{120}x_{i}=\\frac{1}{120}\\sum_{i=1}^{85}1=\\frac{85}{120}\\approx0.71$\n又 $p_{0}=0.9$ 以之代入统计量U得U的观察值为\n$\\left|u\\right|=\\frac{\\left|0.71-0.9\\right|}{\\sqrt{0.9\\times0.1}}\\sqrt{120}=6.94>u_{0.01}=2.33$\n故拒绝 $H_{\\mathbf{0}}$ 即认为该药品不真实.",
-          "question_render_type": 1,
-          "analysis_render_type": 1,
-          "created_at": {
-            "seconds": 1766137662
-          },
-          "question_json": "pdf-ocr/421/003",
-          "updated_at": {
-            "seconds": 1766137662
-          },
-          "version": 1,
-          "is_active_version": true,
-          "choices": [
-            {
-              "id": 4210031,
-              "question_id": 421003,
-              "is_answer": true,
-              "choice": "不真实",
-              "choice_render_type": 1,
-              "choice_id": "1",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210032,
-              "question_id": 421003,
-              "is_answer": false,
-              "choice": "真实",
-              "choice_render_type": 1,
-              "choice_id": "2",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210033,
-              "question_id": 421003,
-              "is_answer": false,
-              "choice": "无法判断",
-              "choice_render_type": 1,
-              "choice_id": "3",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210034,
-              "question_id": 421003,
-              "is_answer": false,
-              "choice": "其它结论均不正确",
-              "choice_render_type": 1,
-              "choice_id": "4",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            }
-          ],
-          "accuracy_rate": null,
-          "difficulty_score": null,
-          "avg_time_spent": null,
-          "ai_tags": "PDF OCR",
-          "tags": "PDF OCR"
-        },
-        {
-          "id": 421004,
-          "subject_id": 3,
-          "chapter_id": 421,
-          "question_id": "pdf-ocr-421-004",
-          "difficulty": "OCR",
-          "answer": "1",
-          "question_type": 1,
-          "question": "某厂生产了一大批产品,按规定次品率p≤0.05才能出厂,否则不能出厂,现从产品中随机抽查50件,发现有4件次品,问\n该批产品能否出厂 $(\\alpha=0.05)$ ？().",
-          "analysis": "问题归结为在 $\\alpha=0.05$ 下,检验假设\n$H_{0}:p\\leq0.05,H_{1}:p>0.05$\n这是一个单侧检验问题,用u检验法, $\\pmb{H_{0}}$ 的拒绝域为\n$U=\\frac{\\bar{X}-p_0}{\\sqrt{p_0(1-p_0)}}\\sqrt{n}>u_{\\alpha}$\n已知 $n=50,p_{0}=0.05,\\bar{x}=\\frac{4}{50}=0.08$ 代入U的表达式得 e\n$$u=\\frac{0.08-0.05}{\\sqrt{0.05\\times0.95}}\\sqrt{50}\\approx0.97<u_{\\alpha}=u_{0.05}=1.645.$$\n故接受 $H_{\\mathbf{0}}$ 即认为这批产品可以出厂,",
-          "question_render_type": 1,
-          "analysis_render_type": 1,
-          "created_at": {
-            "seconds": 1766137662
-          },
-          "question_json": "pdf-ocr/421/004",
-          "updated_at": {
-            "seconds": 1766137662
-          },
-          "version": 1,
-          "is_active_version": true,
-          "choices": [
-            {
-              "id": 4210041,
-              "question_id": 421004,
-              "is_answer": true,
-              "choice": "可以",
-              "choice_render_type": 1,
-              "choice_id": "1",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210042,
-              "question_id": 421004,
-              "is_answer": false,
-              "choice": "不可以",
-              "choice_render_type": 1,
-              "choice_id": "2",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210043,
-              "question_id": 421004,
-              "is_answer": false,
-              "choice": "不能确定",
-              "choice_render_type": 1,
-              "choice_id": "3",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210044,
-              "question_id": 421004,
-              "is_answer": false,
-              "choice": "以上结论均不正确",
-              "choice_render_type": 1,
-              "choice_id": "4",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            }
-          ],
-          "accuracy_rate": null,
-          "difficulty_score": null,
-          "avg_time_spent": null,
-          "ai_tags": "PDF OCR",
-          "tags": "PDF OCR"
-        },
-        {
-          "id": 421005,
-          "subject_id": 3,
-          "chapter_id": 421,
-          "question_id": "pdf-ocr-421-005",
-          "difficulty": "OCR",
-          "answer": "1",
-          "question_type": 1,
-          "question": "从非正态总体X抽取容量较大的样本 $X_{1},X_{2},\\cdots,X_{n}$ 总体的期望μ未知、方差σ{已知,对于假设H_{0}:\\mu=\\mu_{0}\\leftrightarrow H_{1}:\\mu<\\mu_{0} 检验统计量是,检验拒绝域W=.()",
-          "analysis": "H0成立时, $\\frac{\\bar{X}-\\mu_{0}}{\\sigma}\\sqrt{n}$ 近似服从N(0,1)分布,故用单正态总体方差已知时均值的检验.\n对于正态总体 $N(\\mu,\\sigma^{2})$ 当以下假设中的H0为真时,所用检验统计量均为 $\\begin{array}{r}{U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma/\\sqrt{n}}\\sim N(0,1)}\\end{array}$\n(1)检验假设H0 $\\mu=\\mu_{0};H_{1}:\\mu\\neq\\mu_{0}$ 拒绝域为|UI $>u_{\\alpha/2};$\n(2)检验假设H0 $:\\mu\\leq\\mu_{0};H_{1}:\\mu>\\mu_{0}$ 拒绝域为 $U>u_{\\alpha};$\n(3)检验假设H_0:μ≥0;H_1 $\\mu<\\mu_{0}$ 拒绝域为 $\\pmb{U}<-\\pmb{u}_{\\alpha}.$",
-          "question_render_type": 1,
-          "analysis_render_type": 1,
-          "created_at": {
-            "seconds": 1766137662
-          },
-          "question_json": "pdf-ocr/421/005",
-          "updated_at": {
-            "seconds": 1766137662
-          },
-          "version": 1,
-          "is_active_version": true,
-          "choices": [
-            {
-              "id": 4210051,
-              "question_id": 421005,
-              "is_answer": true,
-              "choice": "$\\begin{array}{r}{U=\\frac{(\\bar{X}-\\mu_{0})}{\\sigma}\\sqrt{n},\\quad W=\\{U<-u_{\\alpha}\\}.}\\end{array}$",
-              "choice_render_type": 1,
-              "choice_id": "1",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210052,
-              "question_id": 421005,
-              "is_answer": false,
-              "choice": "$\\begin{array}{r}{U=\\frac{(\\mathbf{z}-\\mu_{0})}{\\sigma}\\sqrt{n},\\quad W=\\{u<-u_{\\alpha}\\}.}\\end{array}$",
-              "choice_render_type": 1,
-              "choice_id": "2",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210053,
-              "question_id": 421005,
-              "is_answer": false,
-              "choice": "$\\begin{array}{r}{U=\\frac{(\\vec{X}-\\mu_{0})}{\\sigma}\\sqrt{n},\\quad W=\\{U>u_{\\alpha}\\}.}\\end{array}$",
-              "choice_render_type": 1,
-              "choice_id": "3",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210054,
-              "question_id": 421005,
-              "is_answer": false,
-              "choice": "$\\begin{array}{r}{U=\\frac{(\\bar{x}-\\mu_{0})}{\\sigma}\\sqrt{n},\\quad W=\\{|U|>u_{\\alpha/2}\\}.}\\end{array}$",
-              "choice_render_type": 1,
-              "choice_id": "4",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            }
-          ],
-          "accuracy_rate": null,
-          "difficulty_score": null,
-          "avg_time_spent": null,
-          "ai_tags": "PDF OCR",
-          "tags": "PDF OCR"
-        },
-        {
-          "id": 421006,
-          "subject_id": 3,
-          "chapter_id": 421,
-          "question_id": "pdf-ocr-421-006",
-          "difficulty": "OCR",
-          "answer": "1",
-          "question_type": 1,
-          "question": "某青年工以往的记录是：平均每加工100个零件,有60件是一等品．今年考核他,在他加工的零件中随机抽取100件,发现\n有70件是一等品．这个成绩证明该青年工的技术水平有了显著的提高 $(\\alpha=0.05)^{\\circ}$ ？对此问题,假设检验问题应设为().",
-          "analysis": "根据实际问题的要求,充分考虑和利用已知的背景知识,提出原假设H及备择假设H₁.\n题目问技术水平有了显著的提高？也就是检验的技术水平有了显著的提高时,其检验结果应该是显著的,即否定了原假设.\n故应检验假设H:p<0.6←H:p>0.6",
-          "question_render_type": 1,
-          "analysis_render_type": 1,
-          "created_at": {
-            "seconds": 1766137662
-          },
-          "question_json": "pdf-ocr/421/006",
-          "updated_at": {
-            "seconds": 1766137662
-          },
-          "version": 1,
-          "is_active_version": true,
-          "choices": [
-            {
-              "id": 4210061,
-              "question_id": 421006,
-              "is_answer": true,
-              "choice": "$H_{0}:p<0.6\\leftrightarrow H_{1}:p>0.6$",
-              "choice_render_type": 1,
-              "choice_id": "1",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210062,
-              "question_id": 421006,
-              "is_answer": false,
-              "choice": "$H_{0}:p>0.6\\leftrightarrow H_{1}:p<0.6$",
-              "choice_render_type": 1,
-              "choice_id": "2",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210063,
-              "question_id": 421006,
-              "is_answer": false,
-              "choice": "$H_{0}:p=0.6\\leftrightarrow H_{1}:p\\neq0.6$",
-              "choice_render_type": 1,
-              "choice_id": "3",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210064,
-              "question_id": 421006,
-              "is_answer": false,
-              "choice": "$H_{0}:p\\neq0.6\\leftrightarrow H_{1}:p=0.6$",
-              "choice_render_type": 1,
-              "choice_id": "4",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            }
-          ],
-          "accuracy_rate": null,
-          "difficulty_score": null,
-          "avg_time_spent": null,
-          "ai_tags": "PDF OCR",
-          "tags": "PDF OCR"
-        },
-        {
-          "id": 421007,
-          "subject_id": 3,
-          "chapter_id": 421,
-          "question_id": "pdf-ocr-421-007",
-          "difficulty": "OCR",
-          "answer": "1",
-          "question_type": 1,
-          "question": "比较两种小麦植株的高度(单位：cm),在相同条件下进行高度测定,算得样本均值与样本方差分别如下：\n甲小麦: $n_{1}=100,\\bar{x}=28,s_{1}^{2}=35.8$\n乙小麦： $n_{2}=100,\\bar{y}=26,s_{2}^{2}=32.3$\n在显著性水平 $\\alpha=0.05$ 下,这两种小麦株高之间有无显著差异(假设两个总体方差相等)？()",
-          "analysis": "这是属于大样本情形下两个总体分布未知、两个总体方差未知且相等的均值的差异性检验,提出假设：\n$H_{0}:\\mu_{1}=\\mu_{2},\\quad H_{1}:\\mu_{1}\\neq\\mu_{2}$\n由于α=0.05 $u_{\\alpha/2}=1.96$ 又\n$n_{1}=n_{2}=100,\\bar{x}=28,\\bar{y}=26,s_{1}^{2}=35.8,s_{2}^{2}=32.3$\n计算统计量U的值.\n将上述数据代入计算统计量U的观察值\n$u=\\frac{\\bar{x}-\\bar{y}}{\\sqrt{\\frac{(n_1-1)s_1^2+(n_2-1)s_2^2}{n_1+n_2-2}}\\sqrt{\\frac{1}{n_1}+\\frac{1}{n_2}}}\\approx2.42$\n由于 |u $\\approx2.42>1.96.$ 故否定 $\\mathbf{H_{0}}$ 在显著性水平 $\\alpha=0.05$ 下可认为两种小麦株高之间有显著差异.",
-          "question_render_type": 1,
-          "analysis_render_type": 1,
-          "created_at": {
-            "seconds": 1766137662
-          },
-          "question_json": "pdf-ocr/421/007",
-          "updated_at": {
-            "seconds": 1766137662
-          },
-          "version": 1,
-          "is_active_version": true,
-          "choices": [
-            {
-              "id": 4210071,
-              "question_id": 421007,
-              "is_answer": true,
-              "choice": "有显著差异",
-              "choice_render_type": 1,
-              "choice_id": "1",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210072,
-              "question_id": 421007,
-              "is_answer": false,
-              "choice": "无显著差异",
-              "choice_render_type": 1,
-              "choice_id": "2",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210073,
-              "question_id": 421007,
-              "is_answer": false,
-              "choice": "无法判断",
-              "choice_render_type": 1,
-              "choice_id": "3",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210074,
-              "question_id": 421007,
-              "is_answer": false,
-              "choice": "其它结论均不正确",
-              "choice_render_type": 1,
-              "choice_id": "4",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            }
-          ],
-          "accuracy_rate": null,
-          "difficulty_score": null,
-          "avg_time_spent": null,
-          "ai_tags": "PDF OCR",
-          "tags": "PDF OCR"
-        },
-        {
-          "id": 421008,
-          "subject_id": 3,
-          "chapter_id": 421,
-          "question_id": "pdf-ocr-421-008",
-          "difficulty": "OCR",
-          "answer": "1",
-          "question_type": 1,
-          "question": "设某段高速公路上汽车限制速度为104.6km/h,现检验 $n=85$ 辆汽车的样本,测出平均车速为 $\\bar{x}=106.7\\;\\mathrm{k m/h}$ 已知总体标\n准差为 $\\sigma=13.4\\:\\mathrm{k m/h}$,但不知总体是否服从正态分布．在显著性水平 $\\alpha=0.05$ 试检验高速公路上的汽车是否比限制速度\n104.6km/h显著地快？().",
-          "analysis": "设高速公路上的车速为随机变量X,近似有\n$X\\sim N\\left(\\mu,\\sigma^{2}\\right),\\sigma=13.4\\mathrm{k m/h}.$\n要检验假设\n$H_{0}:\\mu=\\mu_{0}=104.6,H_{1}:\\mu>104.6$\n$\\alpha=0.05,n=85,u_{\\alpha}=u_{0.05}=1.645$\n拒绝域 $\\boldsymbol{W}=\\left\\{u=\\frac{\\bar{x}-\\mu_{0}}{\\sigma/\\sqrt{n}}>u_{\\alpha}\\right\\}$\n由 $\\bar{x}=106.7,\\sigma=13.4,\\mu_{0}=104.6,n=85$ 得\n$u=\\frac{106.7-104.6}{13.4/\\sqrt{85}}\\approx1.44<1.645$\n因为 $1.44<1.645$ 所以接受 $\\mathbf{H_{0}}$ 即在 $\\alpha=0.05$ 显著性水平下,没有明显的证据说明汽车行驶快于限制速度.",
-          "question_render_type": 1,
-          "analysis_render_type": 1,
-          "created_at": {
-            "seconds": 1766137662
-          },
-          "question_json": "pdf-ocr/421/008",
-          "updated_at": {
-            "seconds": 1766137662
-          },
-          "version": 1,
-          "is_active_version": true,
-          "choices": [
-            {
-              "id": 4210081,
-              "question_id": 421008,
-              "is_answer": true,
-              "choice": "没有明显的证据说明汽车行驶快于限制速",
-              "choice_render_type": 1,
-              "choice_id": "1",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210082,
-              "question_id": 421008,
-              "is_answer": false,
-              "choice": "有明显的证据说明汽车行驶快于限制速度,",
-              "choice_render_type": 1,
-              "choice_id": "2",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210083,
-              "question_id": 421008,
-              "is_answer": false,
-              "choice": "不能确定有没有明显的证据说明汽车行 行驶快于限制速度.",
-              "choice_render_type": 1,
-              "choice_id": "3",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210084,
-              "question_id": 421008,
-              "is_answer": false,
-              "choice": "其它结论均不正确",
-              "choice_render_type": 1,
-              "choice_id": "4",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            }
-          ],
-          "accuracy_rate": null,
-          "difficulty_score": null,
-          "avg_time_spent": null,
-          "ai_tags": "PDF OCR",
-          "tags": "PDF OCR"
-        },
-        {
-          "id": 421009,
-          "subject_id": 3,
-          "chapter_id": 421,
-          "question_id": "pdf-ocr-421-009",
-          "difficulty": "OCR",
-          "answer": "1",
-          "question_type": 1,
-          "question": "甲、乙两机床加工同一种零件,抽样测量其产品的数据(单位：毫米),经计算得\n甲机床： $n_{1}=80,\\bar{x}=33.75,s_{1}=0.1$\n乙机床: $n_{2}=100,\\bar{y}=34.15,s_{2}=0.15$\n在 $\\alpha=0.01$ 下,若检验两机床加工的产品尺寸有无显著差异,则下列 正确的是(). '",
-          "analysis": "n≥50时,即可认为是大样本问题.\n$\\sigma_{1}^{2},\\sigma_{2}^{2}$ 均未知,检验假设H0 $\\mu_{1}=\\mu_{2},H_{1}:\\mu_{1}\\neq\\mu_{2}.$\n用U检验法,经计算得\n$$|u|=\\frac{|x-y|}{\\sqrt{s_1^2/n_1+s_2^2/n_2}}=\\frac{0.4}{\\sqrt{0.000125+0.000225}}=21.39.$$\n查正态分布表得 $u_{0.005}=2.57.$ 经比较 $|u|=21.39>u_{0.005}=2.57$,故拒绝 $\\mathbf{H_{0}}$ 认为两机床加工的产品尺寸有显著差异.",
-          "question_render_type": 1,
-          "analysis_render_type": 1,
-          "created_at": {
-            "seconds": 1766137662
-          },
-          "question_json": "pdf-ocr/421/009",
-          "updated_at": {
-            "seconds": 1766137662
-          },
-          "version": 1,
-          "is_active_version": true,
-          "choices": [
-            {
-              "id": 4210091,
-              "question_id": 421009,
-              "is_answer": true,
-              "choice": "拒绝域为 $|u|>u_{0.01}$",
-              "choice_render_type": 1,
-              "choice_id": "1",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210092,
-              "question_id": 421009,
-              "is_answer": false,
-              "choice": "检验假设为 $H_{0}:\\mu_{1}=\\mu_{2},H_{1}:\\mu_{1}\\neq\\mu_{2}$",
-              "choice_render_type": 1,
-              "choice_id": "2",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210093,
-              "question_id": 421009,
-              "is_answer": false,
-              "choice": "检验统计量的观测值为 $\\begin{array}{r}{u=\\frac{\\bar{x}-\\bar{y}}{\\sqrt{s_{1}^{2}/n_{1}+s_{2}^{2}/n_{2}}}}\\end{array}$",
-              "choice_render_type": 1,
-              "choice_id": "3",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210094,
-              "question_id": 421009,
-              "is_answer": false,
-              "choice": "可认为两机床加工的产品尺寸有显著差异",
-              "choice_render_type": 1,
-              "choice_id": "4",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            }
-          ],
-          "accuracy_rate": null,
-          "difficulty_score": null,
-          "avg_time_spent": null,
-          "ai_tags": "PDF OCR",
-          "tags": "PDF OCR"
-        },
-        {
-          "id": 421010,
-          "subject_id": 3,
-          "chapter_id": 421,
-          "question_id": "pdf-ocr-421-010",
-          "difficulty": "OCR",
-          "answer": "1",
-          "question_type": 1,
-          "question": "某厂的生产管理员认为该厂第一道工序加工完的产品送到第二道工序进行加工之前的平均等待时间超90min．现对100件产品\n的随机抽样结果是平均等待时间为96min,样本标准差为30min,则抽样的结果是否支持该管理员的看法 $(\\alpha=0.05)$ ?( ).",
-          "analysis": "用X表示第一道工序加工完的产品送到第二道工序进行加工之前的等待时间,总体均值为u．依题意,检验假设为\n$H_{0}:\\mu\\leq90,\\quad H_{1}:\\mu>90.$\n由于 $\\pmb{n}=\\pmb{100}$ 为大样本,故用u检验法．总体标准差σ未知,用样本标准差S代替．当 $H_0$ 成立时,有\n$T_{n}=\\frac{\\bar{X}-90}{S/\\sqrt{100}}=\\frac{\\bar{X}-\\mu}{S/\\sqrt{100}}\\sim N(0,1).$\n对于 $\\alpha=0.05$ 查表得 $u_{\\alpha}=u_{0.05}=1.645$ 近似拒绝域为\n$\\pmb{W}=\\{t>1.645\\}.$ uMathe\n已知 $\\bar{x}=96,s=30$ 于是统计量 $\\pmb{\\mathscr{T}}_{\\pmb{n}}$ 的观察值\n$t={\\frac{96-90}{30/{\\sqrt{100}}}}=2>1.645$\n落在了拒绝域中,故拒绝 $H_0$,即支持该管理员的看法",
-          "question_render_type": 1,
-          "analysis_render_type": 1,
-          "created_at": {
-            "seconds": 1766137662
-          },
-          "question_json": "pdf-ocr/421/010",
-          "updated_at": {
-            "seconds": 1766137662
-          },
-          "version": 1,
-          "is_active_version": true,
-          "choices": [
-            {
-              "id": 4210101,
-              "question_id": 421010,
-              "is_answer": true,
-              "choice": "A",
-              "choice_render_type": 1,
-              "choice_id": "1",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210102,
-              "question_id": 421010,
-              "is_answer": false,
-              "choice": "不支持",
-              "choice_render_type": 1,
-              "choice_id": "2",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210103,
-              "question_id": 421010,
-              "is_answer": false,
-              "choice": "无法判断",
-              "choice_render_type": 1,
-              "choice_id": "3",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210104,
-              "question_id": 421010,
-              "is_answer": false,
-              "choice": "以上结论均不对",
-              "choice_render_type": 1,
-              "choice_id": "4",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            }
-          ],
-          "accuracy_rate": null,
-          "difficulty_score": null,
-          "avg_time_spent": null,
-          "ai_tags": "PDF OCR",
-          "tags": "PDF OCR"
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 17,
+            "questions": [
+                {
+                    "id": 421001,
+                    "subject_id": 3,
+                    "chapter_id": 421,
+                    "question_id": "pdf-ocr-421-001",
+                    "difficulty": "OCR",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一位中学校长在报纸上看到这样的报道：\"这 一城市的初中学生平均每周看8小时电视．\"她认为她所领导的学校,学生看电视时间\n明显小于该数字．为此,她向她的学校的100名初中学生作了调查,得知平均每周看电视的时间 $\\bar{x}=6.5$ 小时,样本标准差为\n$\\pmb{s}=\\pmb{2}$ 小时,问是否可以认为这位校长的看法是对的 $(\\alpha=0.05)$ ?",
+                    "analysis": "检验假设H_0: μ=8,H_1:μ<8.由于 $\\pmb{n}=\\pmb{100}$ 所以 $\\begin{array}{r}{\\pmb{T}=\\frac{\\pmb{X}-\\pmb{\\mu}}{\\pmb{S}/\\sqrt{n}}}\\end{array}$ 近似服从N(0,1)分布, $\\alpha=0.05,u_{0.05}=1.645$ 又知 $\\bar{x}=6.5,s=2$\n故计算得\n$t={\\frac{6.5-8}{2/{\\sqrt{100}}}}=-7.5$\n否定域 $\\begin{array}{r}{\\pmb{W}=\\bigg\\{\\frac{\\bar{X}-8}{S/\\sqrt{n}}<-u_{0.05}\\bigg\\}.}\\end{array}$\n因为-7.5<-1.645,故否定 $\\mathbf{H_{0}}$ 认为这位校长的看法是对的.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1766137662
+                    },
+                    "question_json": "pdf-ocr/421/001",
+                    "updated_at": {
+                        "seconds": 1766137662
+                    },
+                    "version": 1,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 4210011,
+                            "question_id": 421001,
+                            "is_answer": true,
+                            "choice": "对",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210012,
+                            "question_id": 421001,
+                            "is_answer": false,
+                            "choice": "不对",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210013,
+                            "question_id": 421001,
+                            "is_answer": false,
+                            "choice": "无法判断",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210014,
+                            "question_id": 421001,
+                            "is_answer": false,
+                            "choice": "其它论点均不正确",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        }
+                    ],
+                    "accuracy_rate": null,
+                    "difficulty_score": null,
+                    "avg_time_spent": null,
+                    "ai_tags": "PDF OCR",
+                    "tags": "PDF OCR"
+                },
+                {
+                    "id": 421002,
+                    "subject_id": 3,
+                    "chapter_id": 421,
+                    "question_id": "pdf-ocr-421-002",
+                    "difficulty": "OCR",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某青年工以往的记录是：平均每加工100 个零件,有60件是一等品．今年考核他,在他加工的零件中随机抽取100件,发现\n有70件是一等品．这个成绩是否说明该青年工的技术水平有了显著的提高 $(\\alpha=0.05)$ ？对此问题,假设检验问题应设为()",
+                    "analysis": "根据实际问题的要求,充分考虑和利用已知的背景知识,提出原假设H及备择假设H₁.问该青工的技术水平是否有显著提高,通常把\n预期的相反情形设为原假设,所以提出假设检验H0：p<0.6←H_₁：p≥0.6.\n技术水平有显著的提高时,即否定原假设.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1766137662
+                    },
+                    "question_json": "pdf-ocr/421/002",
+                    "updated_at": {
+                        "seconds": 1766137662
+                    },
+                    "version": 1,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 4210021,
+                            "question_id": 421002,
+                            "is_answer": true,
+                            "choice": "$H_{0}:p<0.6\\leftrightarrow H_{1}:p\\geq0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210022,
+                            "question_id": 421002,
+                            "is_answer": false,
+                            "choice": "$H_{0}:p>0.6\\leftrightarrow H_{1}:p\\leq0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210023,
+                            "question_id": 421002,
+                            "is_answer": false,
+                            "choice": "$H_{0}:p=0.6\\leftrightarrow H_{1}:p\\neq0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210024,
+                            "question_id": 421002,
+                            "is_answer": false,
+                            "choice": "$H_{0}:p\\neq0.6\\leftrightarrow H_{1}:p=0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        }
+                    ],
+                    "accuracy_rate": null,
+                    "difficulty_score": null,
+                    "avg_time_spent": null,
+                    "ai_tags": "PDF OCR",
+                    "tags": "PDF OCR"
+                },
+                {
+                    "id": 421003,
+                    "subject_id": 3,
+                    "chapter_id": 421,
+                    "question_id": "pdf-ocr-421-003",
+                    "difficulty": "OCR",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某药品广告上声称该药品对某种疾病的治愈率为90%,一家医院对该种药品临床使用120例,治愈85人,问该药品广告是否\n真实 $(\\alpha=0.02)^{\\circ}$ ？()",
+                    "analysis": "设该药品对某种疾病的治愈率为p,随机变量X为\n$\\boldsymbol{X}=\\left\\{\\begin{aligned}1,&\\quad 恼油辅辅辅命 \\\\ 0,&\\quad 反 \\end{aligned}\\right.$\n则 $\\overline{{X}}\\sim b(1,p)$ 问题该归结为检验假设：\n$H_{0}:p=0.9,H_{1}:p\\neq0.9.$\n由于 $\\pmb{n}=\\pmb{120}$ 足够大,可以用u检验法,所给样值 $(x_{1},x_{2},\\cdots,x_{120})$ 中有85个1,35个0,所以\n$\\bar{x}=\\frac{1}{120}\\sum_{i=1}^{120}x_{i}=\\frac{1}{120}\\sum_{i=1}^{85}1=\\frac{85}{120}\\approx0.71$\n又 $p_{0}=0.9$ 以之代入统计量U得U的观察值为\n$\\left|u\\right|=\\frac{\\left|0.71-0.9\\right|}{\\sqrt{0.9\\times0.1}}\\sqrt{120}=6.94>u_{0.01}=2.33$\n故拒绝 $H_{\\mathbf{0}}$ 即认为该药品不真实.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1766137662
+                    },
+                    "question_json": "pdf-ocr/421/003",
+                    "updated_at": {
+                        "seconds": 1766137662
+                    },
+                    "version": 1,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 4210031,
+                            "question_id": 421003,
+                            "is_answer": true,
+                            "choice": "不真实",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210032,
+                            "question_id": 421003,
+                            "is_answer": false,
+                            "choice": "真实",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210033,
+                            "question_id": 421003,
+                            "is_answer": false,
+                            "choice": "无法判断",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210034,
+                            "question_id": 421003,
+                            "is_answer": false,
+                            "choice": "其它结论均不正确",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        }
+                    ],
+                    "accuracy_rate": null,
+                    "difficulty_score": null,
+                    "avg_time_spent": null,
+                    "ai_tags": "PDF OCR",
+                    "tags": "PDF OCR"
+                },
+                {
+                    "id": 421004,
+                    "subject_id": 3,
+                    "chapter_id": 421,
+                    "question_id": "pdf-ocr-421-004",
+                    "difficulty": "OCR",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某厂生产了一大批产品,按规定次品率p≤0.05才能出厂,否则不能出厂,现从产品中随机抽查50件,发现有4件次品,问\n该批产品能否出厂 $(\\alpha=0.05)$ ？().",
+                    "analysis": "问题归结为在 $\\alpha=0.05$ 下,检验假设\n$H_{0}:p\\leq0.05,H_{1}:p>0.05$\n这是一个单侧检验问题,用u检验法, $\\pmb{H_{0}}$ 的拒绝域为\n$U=\\frac{\\bar{X}-p_0}{\\sqrt{p_0(1-p_0)}}\\sqrt{n}>u_{\\alpha}$\n已知 $n=50,p_{0}=0.05,\\bar{x}=\\frac{4}{50}=0.08$ 代入U的表达式得 e\n$$u=\\frac{0.08-0.05}{\\sqrt{0.05\\times0.95}}\\sqrt{50}\\approx0.97<u_{\\alpha}=u_{0.05}=1.645.$$\n故接受 $H_{\\mathbf{0}}$ 即认为这批产品可以出厂,",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1766137662
+                    },
+                    "question_json": "pdf-ocr/421/004",
+                    "updated_at": {
+                        "seconds": 1766137662
+                    },
+                    "version": 1,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 4210041,
+                            "question_id": 421004,
+                            "is_answer": true,
+                            "choice": "可以",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210042,
+                            "question_id": 421004,
+                            "is_answer": false,
+                            "choice": "不可以",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210043,
+                            "question_id": 421004,
+                            "is_answer": false,
+                            "choice": "不能确定",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210044,
+                            "question_id": 421004,
+                            "is_answer": false,
+                            "choice": "以上结论均不正确",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        }
+                    ],
+                    "accuracy_rate": null,
+                    "difficulty_score": null,
+                    "avg_time_spent": null,
+                    "ai_tags": "PDF OCR",
+                    "tags": "PDF OCR"
+                },
+                {
+                    "id": 421005,
+                    "subject_id": 3,
+                    "chapter_id": 421,
+                    "question_id": "pdf-ocr-421-005",
+                    "difficulty": "OCR",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "从非正态总体 $X$ 抽取容量较大的样本 $X_1, X_2, \\cdots, X_n$，总体均值 $\\mu$ 未知、方差 $\\sigma^2$ 已知．对于假设 $H_0: \\mu = \\mu_0 \\leftrightarrow H_1: \\mu < \\mu_0$，其检验统计量及拒绝域 $W$ 为 ( )．",
+                    "analysis": "当 $H_0$ 成立时，由于样本容量较大，根据中心极限定理，统计量\n$$U = \\frac{\\bar{X}-\\mu_0}{\\sigma}\\sqrt{n}$$\n近似服从正态分布 $N(0,1)$．对于双侧/单侧检验，在显著性水平 $\\alpha$ 下：\n\n1. 检验 $H_0: \\mu = \\mu_0 \\leftrightarrow H_1: \\mu \\neq \\mu_0$，拒绝域为 $|U| > u_{\\alpha/2}$；\n2. 检验 $H_0: \\mu \\leq \\mu_0 \\leftrightarrow H_1: \\mu > \\mu_0$，拒绝域为 $U > u_{\\alpha}$；\n3. 检验 $H_0: \\mu \\geq \\mu_0 \\leftrightarrow H_1: \\mu < \\mu_0$，拒绝域为 $U < -u_{\\alpha}$．\n\n因此本题的检验统计量为 $U = \\frac{\\bar{X}-\\mu_0}{\\sigma}\\sqrt{n}$，拒绝域为 $W = \\{U < -u_{\\alpha}\\}$．",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1766137662
+                    },
+                    "question_json": "pdf-ocr/421/005",
+                    "updated_at": {
+                        "seconds": 1766137662
+                    },
+                    "version": 1,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 4210051,
+                            "question_id": 421005,
+                            "is_answer": true,
+                            "choice": "$\\begin{array}{r}{U=\\frac{(\\bar{X}-\\mu_{0})}{\\sigma}\\sqrt{n},\\quad W=\\{U<-u_{\\alpha}\\}.}\\end{array}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210052,
+                            "question_id": 421005,
+                            "is_answer": false,
+                            "choice": "$\\begin{array}{r}{U=\\frac{(\\mathbf{z}-\\mu_{0})}{\\sigma}\\sqrt{n},\\quad W=\\{u<-u_{\\alpha}\\}.}\\end{array}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210053,
+                            "question_id": 421005,
+                            "is_answer": false,
+                            "choice": "$\\begin{array}{r}{U=\\frac{(\\vec{X}-\\mu_{0})}{\\sigma}\\sqrt{n},\\quad W=\\{U>u_{\\alpha}\\}.}\\end{array}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210054,
+                            "question_id": 421005,
+                            "is_answer": false,
+                            "choice": "$\\begin{array}{r}{U=\\frac{(\\bar{x}-\\mu_{0})}{\\sigma}\\sqrt{n},\\quad W=\\{|U|>u_{\\alpha/2}\\}.}\\end{array}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        }
+                    ],
+                    "accuracy_rate": null,
+                    "difficulty_score": null,
+                    "avg_time_spent": null,
+                    "ai_tags": "PDF OCR",
+                    "tags": "PDF OCR"
+                },
+                {
+                    "id": 421006,
+                    "subject_id": 3,
+                    "chapter_id": 421,
+                    "question_id": "pdf-ocr-421-006",
+                    "difficulty": "OCR",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某青年工以往的记录是：平均每加工100个零件,有60件是一等品．今年考核他,在他加工的零件中随机抽取100件,发现\n有70件是一等品．这个成绩证明该青年工的技术水平有了显著的提高 $(\\alpha=0.05)^{\\circ}$ ？对此问题,假设检验问题应设为().",
+                    "analysis": "根据实际问题的要求,充分考虑和利用已知的背景知识,提出原假设H及备择假设H₁.\n题目问技术水平有了显著的提高？也就是检验的技术水平有了显著的提高时,其检验结果应该是显著的,即否定了原假设.\n故应检验假设H:p<0.6←H:p>0.6",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1766137662
+                    },
+                    "question_json": "pdf-ocr/421/006",
+                    "updated_at": {
+                        "seconds": 1766137662
+                    },
+                    "version": 1,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 4210061,
+                            "question_id": 421006,
+                            "is_answer": true,
+                            "choice": "$H_{0}:p<0.6\\leftrightarrow H_{1}:p>0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210062,
+                            "question_id": 421006,
+                            "is_answer": false,
+                            "choice": "$H_{0}:p>0.6\\leftrightarrow H_{1}:p<0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210063,
+                            "question_id": 421006,
+                            "is_answer": false,
+                            "choice": "$H_{0}:p=0.6\\leftrightarrow H_{1}:p\\neq0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210064,
+                            "question_id": 421006,
+                            "is_answer": false,
+                            "choice": "$H_{0}:p\\neq0.6\\leftrightarrow H_{1}:p=0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        }
+                    ],
+                    "accuracy_rate": null,
+                    "difficulty_score": null,
+                    "avg_time_spent": null,
+                    "ai_tags": "PDF OCR",
+                    "tags": "PDF OCR"
+                },
+                {
+                    "id": 421007,
+                    "subject_id": 3,
+                    "chapter_id": 421,
+                    "question_id": "pdf-ocr-421-007",
+                    "difficulty": "OCR",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "比较两种小麦植株的高度(单位：cm),在相同条件下进行高度测定,算得样本均值与样本方差分别如下：\n甲小麦: $n_{1}=100,\\bar{x}=28,s_{1}^{2}=35.8$\n乙小麦： $n_{2}=100,\\bar{y}=26,s_{2}^{2}=32.3$\n在显著性水平 $\\alpha=0.05$ 下,这两种小麦株高之间有无显著差异(假设两个总体方差相等)？()",
+                    "analysis": "这是属于大样本情形下两个总体分布未知、两个总体方差未知且相等的均值的差异性检验,提出假设：\n$H_{0}:\\mu_{1}=\\mu_{2},\\quad H_{1}:\\mu_{1}\\neq\\mu_{2}$\n由于α=0.05 $u_{\\alpha/2}=1.96$ 又\n$n_{1}=n_{2}=100,\\bar{x}=28,\\bar{y}=26,s_{1}^{2}=35.8,s_{2}^{2}=32.3$\n计算统计量U的值.\n将上述数据代入计算统计量U的观察值\n$u=\\frac{\\bar{x}-\\bar{y}}{\\sqrt{\\frac{(n_1-1)s_1^2+(n_2-1)s_2^2}{n_1+n_2-2}}\\sqrt{\\frac{1}{n_1}+\\frac{1}{n_2}}}\\approx2.42$\n由于 |u $\\approx2.42>1.96.$ 故否定 $\\mathbf{H_{0}}$ 在显著性水平 $\\alpha=0.05$ 下可认为两种小麦株高之间有显著差异.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1766137662
+                    },
+                    "question_json": "pdf-ocr/421/007",
+                    "updated_at": {
+                        "seconds": 1766137662
+                    },
+                    "version": 1,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 4210071,
+                            "question_id": 421007,
+                            "is_answer": true,
+                            "choice": "有显著差异",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210072,
+                            "question_id": 421007,
+                            "is_answer": false,
+                            "choice": "无显著差异",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210073,
+                            "question_id": 421007,
+                            "is_answer": false,
+                            "choice": "无法判断",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210074,
+                            "question_id": 421007,
+                            "is_answer": false,
+                            "choice": "其它结论均不正确",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        }
+                    ],
+                    "accuracy_rate": null,
+                    "difficulty_score": null,
+                    "avg_time_spent": null,
+                    "ai_tags": "PDF OCR",
+                    "tags": "PDF OCR"
+                },
+                {
+                    "id": 421008,
+                    "subject_id": 3,
+                    "chapter_id": 421,
+                    "question_id": "pdf-ocr-421-008",
+                    "difficulty": "OCR",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设某段高速公路上汽车限制速度为104.6km/h,现检验 $n=85$ 辆汽车的样本,测出平均车速为 $\\bar{x}=106.7\\;\\mathrm{k m/h}$ 已知总体标\n准差为 $\\sigma=13.4\\:\\mathrm{k m/h}$,但不知总体是否服从正态分布．在显著性水平 $\\alpha=0.05$ 试检验高速公路上的汽车是否比限制速度\n104.6km/h显著地快？().",
+                    "analysis": "设高速公路上的车速为随机变量X,近似有\n$X\\sim N\\left(\\mu,\\sigma^{2}\\right),\\sigma=13.4\\mathrm{k m/h}.$\n要检验假设\n$H_{0}:\\mu=\\mu_{0}=104.6,H_{1}:\\mu>104.6$\n$\\alpha=0.05,n=85,u_{\\alpha}=u_{0.05}=1.645$\n拒绝域 $\\boldsymbol{W}=\\left\\{u=\\frac{\\bar{x}-\\mu_{0}}{\\sigma/\\sqrt{n}}>u_{\\alpha}\\right\\}$\n由 $\\bar{x}=106.7,\\sigma=13.4,\\mu_{0}=104.6,n=85$ 得\n$u=\\frac{106.7-104.6}{13.4/\\sqrt{85}}\\approx1.44<1.645$\n因为 $1.44<1.645$ 所以接受 $\\mathbf{H_{0}}$ 即在 $\\alpha=0.05$ 显著性水平下,没有明显的证据说明汽车行驶快于限制速度.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1766137662
+                    },
+                    "question_json": "pdf-ocr/421/008",
+                    "updated_at": {
+                        "seconds": 1766137662
+                    },
+                    "version": 1,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 4210081,
+                            "question_id": 421008,
+                            "is_answer": true,
+                            "choice": "没有明显的证据说明汽车行驶快于限制速",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210082,
+                            "question_id": 421008,
+                            "is_answer": false,
+                            "choice": "有明显的证据说明汽车行驶快于限制速度,",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210083,
+                            "question_id": 421008,
+                            "is_answer": false,
+                            "choice": "不能确定有没有明显的证据说明汽车行 行驶快于限制速度.",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210084,
+                            "question_id": 421008,
+                            "is_answer": false,
+                            "choice": "其它结论均不正确",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        }
+                    ],
+                    "accuracy_rate": null,
+                    "difficulty_score": null,
+                    "avg_time_spent": null,
+                    "ai_tags": "PDF OCR",
+                    "tags": "PDF OCR"
+                },
+                {
+                    "id": 421009,
+                    "subject_id": 3,
+                    "chapter_id": 421,
+                    "question_id": "pdf-ocr-421-009",
+                    "difficulty": "OCR",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲、乙两机床加工同一种零件,抽样测量其产品的数据(单位：毫米),经计算得\n甲机床： $n_{1}=80,\\bar{x}=33.75,s_{1}=0.1$\n乙机床: $n_{2}=100,\\bar{y}=34.15,s_{2}=0.15$\n在 $\\alpha=0.01$ 下,若检验两机床加工的产品尺寸有无显著差异,则下列 正确的是(). '",
+                    "analysis": "n≥50时,即可认为是大样本问题.\n$\\sigma_{1}^{2},\\sigma_{2}^{2}$ 均未知,检验假设H0 $\\mu_{1}=\\mu_{2},H_{1}:\\mu_{1}\\neq\\mu_{2}.$\n用U检验法,经计算得\n$$|u|=\\frac{|x-y|}{\\sqrt{s_1^2/n_1+s_2^2/n_2}}=\\frac{0.4}{\\sqrt{0.000125+0.000225}}=21.39.$$\n查正态分布表得 $u_{0.005}=2.57.$ 经比较 $|u|=21.39>u_{0.005}=2.57$,故拒绝 $\\mathbf{H_{0}}$ 认为两机床加工的产品尺寸有显著差异.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1766137662
+                    },
+                    "question_json": "pdf-ocr/421/009",
+                    "updated_at": {
+                        "seconds": 1766137662
+                    },
+                    "version": 1,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 4210091,
+                            "question_id": 421009,
+                            "is_answer": true,
+                            "choice": "拒绝域为 $|u|>u_{0.01}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210092,
+                            "question_id": 421009,
+                            "is_answer": false,
+                            "choice": "检验假设为 $H_{0}:\\mu_{1}=\\mu_{2},H_{1}:\\mu_{1}\\neq\\mu_{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210093,
+                            "question_id": 421009,
+                            "is_answer": false,
+                            "choice": "检验统计量的观测值为 $\\begin{array}{r}{u=\\frac{\\bar{x}-\\bar{y}}{\\sqrt{s_{1}^{2}/n_{1}+s_{2}^{2}/n_{2}}}}\\end{array}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210094,
+                            "question_id": 421009,
+                            "is_answer": false,
+                            "choice": "可认为两机床加工的产品尺寸有显著差异",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        }
+                    ],
+                    "accuracy_rate": null,
+                    "difficulty_score": null,
+                    "avg_time_spent": null,
+                    "ai_tags": "PDF OCR",
+                    "tags": "PDF OCR"
+                },
+                {
+                    "id": 421010,
+                    "subject_id": 3,
+                    "chapter_id": 421,
+                    "question_id": "pdf-ocr-421-010",
+                    "difficulty": "OCR",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某厂的生产管理员认为该厂第一道工序加工完的产品送到第二道工序进行加工之前的平均等待时间超90min．现对100件产品\n的随机抽样结果是平均等待时间为96min,样本标准差为30min,则抽样的结果是否支持该管理员的看法 $(\\alpha=0.05)$ ?( ).",
+                    "analysis": "用X表示第一道工序加工完的产品送到第二道工序进行加工之前的等待时间,总体均值为u．依题意,检验假设为\n$H_{0}:\\mu\\leq90,\\quad H_{1}:\\mu>90.$\n由于 $\\pmb{n}=\\pmb{100}$ 为大样本,故用u检验法．总体标准差σ未知,用样本标准差S代替．当 $H_0$ 成立时,有\n$T_{n}=\\frac{\\bar{X}-90}{S/\\sqrt{100}}=\\frac{\\bar{X}-\\mu}{S/\\sqrt{100}}\\sim N(0,1).$\n对于 $\\alpha=0.05$ 查表得 $u_{\\alpha}=u_{0.05}=1.645$ 近似拒绝域为\n$\\pmb{W}=\\{t>1.645\\}.$ uMathe\n已知 $\\bar{x}=96,s=30$ 于是统计量 $\\pmb{\\mathscr{T}}_{\\pmb{n}}$ 的观察值\n$t={\\frac{96-90}{30/{\\sqrt{100}}}}=2>1.645$\n落在了拒绝域中,故拒绝 $H_0$,即支持该管理员的看法",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1766137662
+                    },
+                    "question_json": "pdf-ocr/421/010",
+                    "updated_at": {
+                        "seconds": 1766137662
+                    },
+                    "version": 1,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 4210101,
+                            "question_id": 421010,
+                            "is_answer": true,
+                            "choice": "A",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210102,
+                            "question_id": 421010,
+                            "is_answer": false,
+                            "choice": "不支持",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210103,
+                            "question_id": 421010,
+                            "is_answer": false,
+                            "choice": "无法判断",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210104,
+                            "question_id": 421010,
+                            "is_answer": false,
+                            "choice": "以上结论均不对",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        }
+                    ],
+                    "accuracy_rate": null,
+                    "difficulty_score": null,
+                    "avg_time_spent": null,
+                    "ai_tags": "PDF OCR",
+                    "tags": "PDF OCR"
+                }
+            ]
         }
-      ]
-    }
-  },
-  {
-    "code": 200,
-    "message": "OK",
-    "data": {
-      "total": 17,
-      "questions": [
-        {
-          "id": 421011,
-          "subject_id": 3,
-          "chapter_id": 421,
-          "question_id": "pdf-ocr-421-011",
-          "difficulty": "OCR",
-          "answer": "1",
-          "question_type": 1,
-          "question": "设总体 $x,Y$ 皆服从两点分布\nX 0 1\nGM P P_{1$ $q1\nY 0 1\nP P{2$ aty q_2\n$(p_{1}+q_{1}=1,p_{2}+q_{2}=1$,且 $0<p_{1}<1,0<p_{2}<1$,从总体X取样本 $X_{1},X_{2},\\cdots,X_{n_{1}}$,从总体Y中取样本 $Y_{1},Y_{2},\\cdots,Y_{n_{2}}$\n两样本独立．对于假设检验\n$H_{0}:p_{1}=p_{2}\\leftrightarrow H_{1}:p_{1}\\neq p_{2}$\n设显著水平为α,则检验统计量是()．(假设 $\\boldsymbol{n}_{1},\\boldsymbol{n}_{2} 充分大).",
-          "analysis": "$A=\\{X=1\\},B=\\{Y=1\\}$ 则 $\\mathbf{z},\\mathbf{y}$ 分别为 $A,B$ 发生的频率,即 $\\begin{array}{r}{\\bar{x}=\\frac{n_{A}}{n_{1}}=\\hat{p_{1}},\\bar{y}=\\frac{n_{B}}{n_{2}}=\\hat{p_{2}},}\\end{array}$ 检验假设为\n$H_{0}:p_{1}=p_{2}\\leftrightarrow H_{1}:p_{1}\\neq p_{2}$\n根据中心极限定理,当 $\\mathbf{H_{0}}$ 真,且 $\\pmb{n_{1}},\\pmb{n_{2}}$ 充分大时,\n$U=\\frac{\\overline{p_1}-\\overline{p_2}}{\\sqrt{\\bar{p}(1-\\bar{p})\\left(\\frac{1}{n_1}+\\frac{1}{n_2}\\right)}} 通职 N(0,1);$\n其中 $\\begin{array}{r}{\\bar{p}=\\frac{n_{A}+n_{B}}{n_{1}+n_{2}}.}\\end{array}$ 记U的样本观察值为$\\mu$,则有拒绝域为 $|u|>u_{\\alpha/2}$",
-          "question_render_type": 1,
-          "analysis_render_type": 1,
-          "created_at": {
-            "seconds": 1766137662
-          },
-          "question_json": "pdf-ocr/421/011",
-          "updated_at": {
-            "seconds": 1766137662
-          },
-          "version": 1,
-          "is_active_version": true,
-          "choices": [
-            {
-              "id": 4210111,
-              "question_id": 421011,
-              "is_answer": true,
-              "choice": "$\\begin{array}{r}{U=\\frac{\\overline{{p_{1}}}-\\overline{{p_{2}}}}{\\sqrt{\\bar{p}\\left(1-\\bar{p}\\right)\\left(\\frac{1}{n_{1}}+\\frac{1}{n_{2}}\\right)}}.}\\end{array}$",
-              "choice_render_type": 1,
-              "choice_id": "1",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210112,
-              "question_id": 421011,
-              "is_answer": false,
-              "choice": "$\\frac{\\overline{p_{1}}-\\overline{p_{2}}}{\\sqrt{\\frac{n_{A}}{n_{1}}\\left(1-\\frac{n_{A}}{n_{1}}\\right)\\left(\\frac{1}{n_{1}}+\\frac{1}{n_{2}}\\right)}}$",
-              "choice_render_type": 1,
-              "choice_id": "2",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210113,
-              "question_id": 421011,
-              "is_answer": false,
-              "choice": "$\\frac{\\overline{p_{1}}-\\overline{p_{2}}}{\\sqrt{\\frac{n_{B}}{n_{2}}\\left(1-\\frac{n_{B}}{n_{2}}\\right)\\left(\\frac{1}{n_{1}}+\\frac{1}{n_{2}}\\right)}}$",
-              "choice_render_type": 1,
-              "choice_id": "3",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210114,
-              "question_id": 421011,
-              "is_answer": false,
-              "choice": "$\\begin{array}{r}{U=\\frac{\\overline{{p_{1}}}-\\overline{{p_{2}}}}{\\sqrt{\\frac{n_{B}}{n_{2}}\\left(1-\\frac{n_{A}}{n_{1}}\\right)\\left(\\frac{1}{n_{1}}+\\frac{1}{n_{2}}\\right)}}.}\\end{array}$",
-              "choice_render_type": 1,
-              "choice_id": "4",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            }
-          ],
-          "accuracy_rate": null,
-          "difficulty_score": null,
-          "avg_time_spent": null,
-          "ai_tags": "PDF OCR",
-          "tags": "PDF OCR"
-        },
-        {
-          "id": 421012,
-          "subject_id": 3,
-          "chapter_id": 421,
-          "question_id": "pdf-ocr-421-012",
-          "difficulty": "OCR",
-          "answer": "1",
-          "question_type": 1,
-          "question": "某产品的次品率为0.17,现对此产品进行新工艺试验,从中抽取400检查,发现次品56件,能否认为这项新工艺显著地影响\n产品质量 $(\\alpha=0.05)$ ?",
-          "analysis": "检验问题为\n$H_{0}:p=0.17,H_{1}:p\\neq0.17$\n由题意知\n$\\hat{p}=\\frac{m}{n}=\\frac{56}{400}=0.14$\n$$\\begin{aligned}u=\\frac{\\left(\\hat{p}-p_{0}\\right)}{\\sqrt{p_{0}q_{0}}}\\sqrt{n}&=\\frac{0.14-0.17}{\\sqrt{0.17\\times0.83}}\\times\\sqrt{400}\\approx-1.597\\\\\\alpha&=0.05,u_{0.025}=1.96\\end{aligned}$$\natne\n因|ul $<u_{0.025}=1.96$ 故接受 $\\mathbf{H_{0}}$ 即认为新工艺没有显著地影响产品质量.",
-          "question_render_type": 1,
-          "analysis_render_type": 1,
-          "created_at": {
-            "seconds": 1766137662
-          },
-          "question_json": "pdf-ocr/421/012",
-          "updated_at": {
-            "seconds": 1766137662
-          },
-          "version": 1,
-          "is_active_version": true,
-          "choices": [
-            {
-              "id": 4210121,
-              "question_id": 421012,
-              "is_answer": true,
-              "choice": "新工艺没有显著地影响产品质量",
-              "choice_render_type": 1,
-              "choice_id": "1",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210122,
-              "question_id": 421012,
-              "is_answer": false,
-              "choice": "新工艺显著地影响产品质量",
-              "choice_render_type": 1,
-              "choice_id": "2",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210123,
-              "question_id": 421012,
-              "is_answer": false,
-              "choice": "不能确定",
-              "choice_render_type": 1,
-              "choice_id": "3",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210124,
-              "question_id": 421012,
-              "is_answer": false,
-              "choice": "以上结论均不正确",
-              "choice_render_type": 1,
-              "choice_id": "4",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            }
-          ],
-          "accuracy_rate": null,
-          "difficulty_score": null,
-          "avg_time_spent": null,
-          "ai_tags": "PDF OCR",
-          "tags": "PDF OCR"
-        },
-        {
-          "id": 421013,
-          "subject_id": 3,
-          "chapter_id": 421,
-          "question_id": "pdf-ocr-421-013",
-          "difficulty": "OCR",
-          "answer": "1",
-          "question_type": 1,
-          "question": "从选区A中抽取300名选民的选票,从选区B中抽取200名选民的选票,在这两组选票中,分别有168票和96票支持所\n提候选人,试在显著水平 $\\alpha=0.05$ 下,检验两个选区之间对候选人的支持是否存在差异",
-          "analysis": "这是两个比率的比较问题,待检假设为\n$H_{0}:p_{1}=p_{2},\\quad H_{1}:p_{1}\\neq p_{2}$\n由题设知 $n=300,\\mu_{n}=168,m=200,\\mu_{m}=96$\n$\\hat{p}_{1}=\\frac{168}{300}=0.56,\\quad\\hat{p}_{2}=\\frac{96}{200}=0.48.$\n$\\hat{p}=\\frac{\\mu_{n}+\\mu_{m}}{m+n}=\\frac{264}{500}=0.528$\nuMathe\n统计量\n$$U_{0}=\\frac{\\hat{p}_{1}-\\hat{p}_{2}}{\\sqrt{\\hat{p}(1-\\hat{p})\\left(\\frac{1}{n}+\\frac{1}{m}\\right)}}=\\frac{0.56-0.48}{\\sqrt{0.528\\times0.472\\times\\frac{1}{120}}}\\approx1.755$$\n由 $P\\{|U|>1.96\\}=\\alpha=0.05$ 得拒绝域 $|U|>1.96$ 因为\n$|U_{0}|=1.755<1.96$\n故接受 $\\mathbf{H_{0}}$ 即两个选区之间无显著差异.",
-          "question_render_type": 1,
-          "analysis_render_type": 1,
-          "created_at": {
-            "seconds": 1766137662
-          },
-          "question_json": "pdf-ocr/421/013",
-          "updated_at": {
-            "seconds": 1766137662
-          },
-          "version": 1,
-          "is_active_version": true,
-          "choices": [
-            {
-              "id": 4210131,
-              "question_id": 421013,
-              "is_answer": true,
-              "choice": "两个选区之间无显著差异.",
-              "choice_render_type": 1,
-              "choice_id": "1",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210132,
-              "question_id": 421013,
-              "is_answer": false,
-              "choice": "两个选区之间有显著差异.",
-              "choice_render_type": 1,
-              "choice_id": "2",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210133,
-              "question_id": 421013,
-              "is_answer": false,
-              "choice": "无法判断",
-              "choice_render_type": 1,
-              "choice_id": "3",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210134,
-              "question_id": 421013,
-              "is_answer": false,
-              "choice": "其它结论均不正确",
-              "choice_render_type": 1,
-              "choice_id": "4",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            }
-          ],
-          "accuracy_rate": null,
-          "difficulty_score": null,
-          "avg_time_spent": null,
-          "ai_tags": "PDF OCR",
-          "tags": "PDF OCR"
-        },
-        {
-          "id": 421014,
-          "subject_id": 3,
-          "chapter_id": 421,
-          "question_id": "pdf-ocr-421-014",
-          "difficulty": "OCR",
-          "answer": "1",
-          "question_type": 1,
-          "question": "已知某种电子元件的使用寿命X(h)服从指数分布 $e(\\lambda)$ 抽查 100 个元件,得样本均值 $\\bar{x}=950(h)$ 能否认为参数\n$\\lambda=0.001(\\alpha=0.05)?$",
-          "analysis": "由题意知 $X\\sim e(\\lambda)$ $E(X)=1/\\lambda$ $D(X)=1/\\lambda^{2}$ 故当n充分大时\n$$u=\\frac{\\bar{x}-1/\\lambda}{\\frac{1}{\\lambda\\sqrt{n}}}=\\bigg(\\bar{x}-\\frac{1}{\\lambda}\\bigg)\\lambda\\sqrt{n}=(\\lambda\\bar{x}-1)\\sqrt{n}\\sim N(0,1).$$\n现在检验问题为\n$H_{0}:\\lambda=0.001,\\quad H_{1}:\\lambda\\neq0.001$\n样本值 $u=(0.001\\times950-1)\\times{\\sqrt{100}}=-0.5.$\n给定 $\\alpha=0.05$ 临界值 $u_{0.025}=1.96$\n因 $|u|=0.5<u_{0.025}=1.96$ 故接受 $\\pmb{H_{0}}$ 即可认为参数 $\\lambda=0.001$ (即元件平均使用寿命为1000h).",
-          "question_render_type": 1,
-          "analysis_render_type": 1,
-          "created_at": {
-            "seconds": 1766137662
-          },
-          "question_json": "pdf-ocr/421/014",
-          "updated_at": {
-            "seconds": 1766137662
-          },
-          "version": 1,
-          "is_active_version": true,
-          "choices": [
-            {
-              "id": 4210141,
-              "question_id": 421014,
-              "is_answer": true,
-              "choice": "4 可以",
-              "choice_render_type": 1,
-              "choice_id": "1",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210142,
-              "question_id": 421014,
-              "is_answer": false,
-              "choice": "不能",
-              "choice_render_type": 1,
-              "choice_id": "2",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210143,
-              "question_id": 421014,
-              "is_answer": false,
-              "choice": "不能确定",
-              "choice_render_type": 1,
-              "choice_id": "3",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210144,
-              "question_id": 421014,
-              "is_answer": false,
-              "choice": "以上结论均不正确 ",
-              "choice_render_type": 1,
-              "choice_id": "4",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            }
-          ],
-          "accuracy_rate": null,
-          "difficulty_score": null,
-          "avg_time_spent": null,
-          "ai_tags": "PDF OCR",
-          "tags": "PDF OCR"
-        },
-        {
-          "id": 421015,
-          "subject_id": 3,
-          "chapter_id": 421,
-          "question_id": "pdf-ocr-421-015",
-          "difficulty": "OCR",
-          "answer": "1",
-          "question_type": 1,
-          "question": "设总体 $x,Y$ 皆服从两点分布\nX 0 1\nP AMathe P_{1$ leuMa $q1\nY N 0 1\nP P{2q{(p_{1}+q_{1}=1,p_{2}+q_{2}=1$ 且 $0<p_{1}<1,0<p_{2}<1)$,从总体X取样本 $X_{1},X_{2},\\cdots,X_{n_{1}}$ 从总体Y中取样本 $Y_{1},Y_{2},\\cdots,Y_{n_{2}}$\n两样本独立．对于假设检验\n$H_{0}:p_{1}=p_{2}\\leftrightarrow H_{1}:p_{1}\\neq p_{2}$\n设显著水平为α,则检验统计量是,检验拒绝域 $W=$ (假设 $\\pmb{n_{1}},\\pmb{n_{2}} 充分大).()",
-          "analysis": "$A=\\{X=1\\},B=\\{Y=1\\}$ 则 $x,Y$ 分别为 $A,B$ 发生的频率,即 $\\begin{array}{r}{\\bar{x}=\\frac{\\bar{n}_{A}}{\\bar{n}_{1}}=\\hat{p_{1}},\\bar{y}=\\frac{\\bar{n}_{B}}{\\bar{n}_{2}}=\\hat{p_{2}},}\\end{array}$ 检验假设为\n$H_{0}:p_{1}=p_{2}\\leftrightarrow H_{1}:p_{1}\\neq p_{2}$\n根据中心极限定理,当 $H_0$ 真,且 $\\pmb{n_{1}},\\pmb{n_{2}}$ 充分大时,\n$U=\\frac{\\overline{p_1}-\\overline{p_2}}{\\sqrt{\\bar{p}(1-\\bar{p})\\left(\\frac{1}{n_1}+\\frac{1}{n_2}\\right)}} 逛服 N(0,1)$\n其中 $\\begin{array}{r}{\\bar{p}=\\frac{n_{A}+n_{B}}{n_{1}+n_{2}}.}\\end{array}$ 记U的样本观察值为$\\mu$,则有拒绝域为 $|u|>u_{\\alpha/2}$",
-          "question_render_type": 1,
-          "analysis_render_type": 1,
-          "created_at": {
-            "seconds": 1766137662
-          },
-          "question_json": "pdf-ocr/421/015",
-          "updated_at": {
-            "seconds": 1766137662
-          },
-          "version": 1,
-          "is_active_version": true,
-          "choices": [
-            {
-              "id": 4210151,
-              "question_id": 421015,
-              "is_answer": true,
-              "choice": "$\\begin{array}{r}{U=\\frac{\\overline{{p_{1}}}-\\overline{{p_{2}}}}{\\sqrt{\\bar{p}(1-\\bar{p})\\left(\\frac{1}{n_{1}}+\\frac{1}{n_{2}}\\right)}},|u|>u_{\\alpha/2}.}\\end{array}$",
-              "choice_render_type": 1,
-              "choice_id": "1",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210152,
-              "question_id": 421015,
-              "is_answer": false,
-              "choice": "$U=\\frac{\\overline{p_1}-\\overline{p_2}}{\\sqrt{\\frac{n_A}{n_1}\\left(1-\\frac{n_A}{n_1}\\right)\\left(\\frac{1}{n_1}+\\frac{1}{n_2}\\right)}},|t|>t_{\\alpha/2}(n_1+n_2-2).$",
-              "choice_render_type": 1,
-              "choice_id": "2",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210153,
-              "question_id": 421015,
-              "is_answer": false,
-              "choice": "$U=\\frac{\\overline{p_{1}}-\\overline{p_{2}}}{\\sqrt{\\frac{n_{B}}{n_{2}}\\left(1-\\frac{n_{B}}{n_{2}}\\right)\\left(\\frac{1}{n_{1}}+\\frac{1}{n_{2}}\\right)}},|u|>u_{\\alpha}$",
-              "choice_render_type": 1,
-              "choice_id": "3",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210154,
-              "question_id": 421015,
-              "is_answer": false,
-              "choice": "$\\begin{array}{r}{U=\\frac{\\overline{{p_{1}}}-\\overline{{p_{2}}}}{\\sqrt{\\frac{n_{B}}{n_{2}}\\left(1-\\frac{n_{A}}{n_{1}}\\right)\\left(\\frac{1}{n_{1}}+\\frac{1}{n_{2}}\\right)}},|t|>t_{\\alpha}(n_{1}+n_{2}-1)}\\end{array}$",
-              "choice_render_type": 1,
-              "choice_id": "4",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            }
-          ],
-          "accuracy_rate": null,
-          "difficulty_score": null,
-          "avg_time_spent": null,
-          "ai_tags": "PDF OCR",
-          "tags": "PDF OCR"
-        },
-        {
-          "id": 421016,
-          "subject_id": 3,
-          "chapter_id": 421,
-          "question_id": "pdf-ocr-421-016",
-          "difficulty": "OCR",
-          "answer": "1",
-          "question_type": 1,
-          "question": "某地区主管工业的负责人收到一份报告,该报告中说他主管的工厂中执行环境保护条例的厂家不足60%,这位负责人认为应不低\n于60%,于是他在该地区众多的工厂中随机抽查了60个厂家,结果发现有33家执行了环境条例,那么由他本人的调查结果能\n否证明那份报告中的说法有问题(α=0.05)？().",
-          "analysis": "(1)建立检验假设H_0：p≥0.6,H_₁:p<0.6.\n(2)选择统计量 $\\begin{array}{r}{U=\\frac{\\bar{X}-p_{0}}{\\sqrt{p_{0}(1-p_{0})/n}}}\\end{array}$ ∼ N(0, 1).\n(3)给定显著性水平α,确定k,使\n$P\\Bigg\\{\\frac{\\bar{X}-p_{0}}{\\sqrt{p_{0}(1-p_{0})/n}}<k\\Bigg\\}\\approx\\alpha.$\n查标准正态分布表得 $k=-u_{\\alpha}=-u_{0.05}=-1.645$ 所以拒绝域为 $\\pmb{u}<-\\pmb{1.645}$\n(4)由于 $\\bar{x}=33/60=0.55,p_0=0.6$ 所以 iathe\n$u=\\frac{\\bar{x}-p_{0}}{\\sqrt{p_{0}(1-p_{0})/n}}\\approx-0.79>-1.645$\n故接受 $\\mathbf{H_{0}}$ 即认为执行环保条例厂家不低于60%.",
-          "question_render_type": 1,
-          "analysis_render_type": 1,
-          "created_at": {
-            "seconds": 1766137662
-          },
-          "question_json": "pdf-ocr/421/016",
-          "updated_at": {
-            "seconds": 1766137662
-          },
-          "version": 1,
-          "is_active_version": true,
-          "choices": [
-            {
-              "id": 4210161,
-              "question_id": 421016,
-              "is_answer": true,
-              "choice": "能证明那份报告中的说法有问题 U",
-              "choice_render_type": 1,
-              "choice_id": "1",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210162,
-              "question_id": 421016,
-              "is_answer": false,
-              "choice": "不能证明那份报告中的说法有问题",
-              "choice_render_type": 1,
-              "choice_id": "2",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210163,
-              "question_id": 421016,
-              "is_answer": false,
-              "choice": "不能确定",
-              "choice_render_type": 1,
-              "choice_id": "3",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210164,
-              "question_id": 421016,
-              "is_answer": false,
-              "choice": "其它几个结论均不正确",
-              "choice_render_type": 1,
-              "choice_id": "4",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            }
-          ],
-          "accuracy_rate": null,
-          "difficulty_score": null,
-          "avg_time_spent": null,
-          "ai_tags": "PDF OCR",
-          "tags": "PDF OCR"
-        },
-        {
-          "id": 421017,
-          "subject_id": 3,
-          "chapter_id": 421,
-          "question_id": "pdf-ocr-421-017",
-          "difficulty": "OCR",
-          "answer": "1",
-          "question_type": 1,
-          "question": "在A县调查 $n_{1}=1500$ 个农户,其中有中小型农业机械的农户 $\\mu_{n_{1}}=\\mathbf{300}$ 户；在B县调查 $n_{2}=1800$ 户,其中有中小型农业\n机械的农户 $\\mu_{n_{2}}=320$ 户,试在显著性水平 $\\alpha=0.05$ 下检验两个县有中小型农户的比率有无差异？()",
-          "analysis": "由于 $n_{1}=1500,n_{2}=1800$ 这是大样本情形下两个0-1总体的概率检验问题.假设\n$H_{0}:p_{1}=p_{2},\\quad H_{1}:p_{1}\\neq p_{2}$\n由于 $n_{1}=1500,n_{2}=1800,\\mu_{n_{1}}=300,\\mu_{n_{2}}=320$ 经计算得\n$$\\begin{aligned}\\overline{p}_{1}=\\frac{\\mu_{n_{1}}}{n_{1}}=0.200,\\quad\\overline{p}_{2}=\\frac{\\mu_{n_{2}}}{n_{2}}=0.178,\\quad\\overline{p}&=\\frac{\\mu_{n_{1}}+\\mu_{n_{2}}}{n_{1}+n_{2}}=0.188,\\\\u=\\frac{\\overline{p}_{1}-\\overline{p}_{2}}{\\sqrt{\\overline{p}(1-\\overline{p})(1/n_{1}+1/n_{2})}}&=1.61\\end{aligned}$$\n由 $\\alpha=0.05$ 可知 $u_{\\alpha/2}=1.96$,由于 $|u|<u_{\\alpha/2}$ 故在显著性水平 $\\alpha=0.05$ 下接受 $\\mathbf{H_{0}}.$",
-          "question_render_type": 1,
-          "analysis_render_type": 1,
-          "created_at": {
-            "seconds": 1766137662
-          },
-          "question_json": "pdf-ocr/421/017",
-          "updated_at": {
-            "seconds": 1766137662
-          },
-          "version": 1,
-          "is_active_version": true,
-          "choices": [
-            {
-              "id": 4210171,
-              "question_id": 421017,
-              "is_answer": true,
-              "choice": "没有",
-              "choice_render_type": 1,
-              "choice_id": "1",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210172,
-              "question_id": 421017,
-              "is_answer": false,
-              "choice": "有",
-              "choice_render_type": 1,
-              "choice_id": "2",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210173,
-              "question_id": 421017,
-              "is_answer": false,
-              "choice": "无法确定",
-              "choice_render_type": 1,
-              "choice_id": "3",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            },
-            {
-              "id": 4210174,
-              "question_id": 421017,
-              "is_answer": false,
-              "choice": "其他结论均不正确",
-              "choice_render_type": 1,
-              "choice_id": "4",
-              "created_at": {
-                "seconds": 1766137662
-              },
-              "updated_at": {
-                "seconds": 1766137662
-              }
-            }
-          ],
-          "accuracy_rate": null,
-          "difficulty_score": null,
-          "avg_time_spent": null,
-          "ai_tags": "PDF OCR",
-          "tags": "PDF OCR"
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 17,
+            "questions": [
+                {
+                    "id": 421011,
+                    "subject_id": 3,
+                    "chapter_id": 421,
+                    "question_id": "pdf-ocr-421-011",
+                    "difficulty": "OCR",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X, Y$ 皆服从两点分布：\n$$\n\\begin{array}{c|cc}\nX & 0 & 1 \\\\\n\\hline\nP & p_1 & q_1\n\\end{array}, \\quad\n\\begin{array}{c|cc}\nY & 0 & 1 \\\\\n\\hline\nP & p_2 & q_2\n\\end{array}\n$$\n其中 $p_1 + q_1 = 1, p_2 + q_2 = 1$，且 $0 < p_1 < 1, 0 < p_2 < 1$．从总体 $X$ 取样本 $X_1, X_2, \\cdots, X_{n_1}$，从总体 $Y$ 中取样本 $Y_1, Y_2, \\cdots, Y_{n_2}$，两样本独立．对于假设检验\n$$H_0: p_1 = p_2 \\leftrightarrow H_1: p_1 \\neq p_2$$\n设显著水平为 $\\alpha$，则检验统计量是 ( )．(假设 $n_1, n_2$ 充分大)",
+                    "analysis": "设 $A = \\{X = 1\\}, B = \\{Y = 1\\}$，样本中 $A, B$ 发生的频率分别为 $\\hat{p}_1 = \\bar{X}$ 和 $\\hat{p}_2 = \\bar{Y}$．当 $H_0$ 为真且 $n_1, n_2$ 充分大时，根据中心极限定理，检验统计量\n$$U = \\frac{\\hat{p}_1 - \\hat{p}_2}{\\sqrt{\\bar{p}(1-\\bar{p})\\left(\\frac{1}{n_1} + \\frac{1}{n_2}\\right)}}$$\n近似服从标准正态分布 $N(0,1)$，其中联合估计概率为 $\\bar{p} = \\frac{n_1 \\hat{p}_1 + n_2 \\hat{p}_2}{n_1 + n_2}$（即两样本中事件发生的总频数除以总容量）．\n在显著性水平 $\\alpha$ 下，拒绝域为 $|U| > u_{\\alpha/2}$．",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1766137662
+                    },
+                    "question_json": "pdf-ocr/421/011",
+                    "updated_at": {
+                        "seconds": 1766137662
+                    },
+                    "version": 1,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 4210111,
+                            "question_id": 421011,
+                            "is_answer": true,
+                            "choice": "$\\begin{array}{r}{U=\\frac{\\overline{{p_{1}}}-\\overline{{p_{2}}}}{\\sqrt{\\bar{p}\\left(1-\\bar{p}\\right)\\left(\\frac{1}{n_{1}}+\\frac{1}{n_{2}}\\right)}}.}\\end{array}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210112,
+                            "question_id": 421011,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\overline{p_{1}}-\\overline{p_{2}}}{\\sqrt{\\frac{n_{A}}{n_{1}}\\left(1-\\frac{n_{A}}{n_{1}}\\right)\\left(\\frac{1}{n_{1}}+\\frac{1}{n_{2}}\\right)}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210113,
+                            "question_id": 421011,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\overline{p_{1}}-\\overline{p_{2}}}{\\sqrt{\\frac{n_{B}}{n_{2}}\\left(1-\\frac{n_{B}}{n_{2}}\\right)\\left(\\frac{1}{n_{1}}+\\frac{1}{n_{2}}\\right)}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210114,
+                            "question_id": 421011,
+                            "is_answer": false,
+                            "choice": "$\\begin{array}{r}{U=\\frac{\\overline{{p_{1}}}-\\overline{{p_{2}}}}{\\sqrt{\\frac{n_{B}}{n_{2}}\\left(1-\\frac{n_{A}}{n_{1}}\\right)\\left(\\frac{1}{n_{1}}+\\frac{1}{n_{2}}\\right)}}.}\\end{array}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        }
+                    ],
+                    "accuracy_rate": null,
+                    "difficulty_score": null,
+                    "avg_time_spent": null,
+                    "ai_tags": "PDF OCR",
+                    "tags": "PDF OCR"
+                },
+                {
+                    "id": 421012,
+                    "subject_id": 3,
+                    "chapter_id": 421,
+                    "question_id": "pdf-ocr-421-012",
+                    "difficulty": "OCR",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某产品的次品率为0.17,现对此产品进行新工艺试验,从中抽取400检查,发现次品56件,能否认为这项新工艺显著地影响\n产品质量 $(\\alpha=0.05)$ ?",
+                    "analysis": "检验问题为\n$H_{0}:p=0.17,H_{1}:p\\neq0.17$\n由题意知\n$\\hat{p}=\\frac{m}{n}=\\frac{56}{400}=0.14$\n$$\\begin{aligned}u=\\frac{\\left(\\hat{p}-p_{0}\\right)}{\\sqrt{p_{0}q_{0}}}\\sqrt{n}&=\\frac{0.14-0.17}{\\sqrt{0.17\\times0.83}}\\times\\sqrt{400}\\approx-1.597\\\\\\alpha&=0.05,u_{0.025}=1.96\\end{aligned}$$\natne\n因|ul $<u_{0.025}=1.96$ 故接受 $\\mathbf{H_{0}}$ 即认为新工艺没有显著地影响产品质量.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1766137662
+                    },
+                    "question_json": "pdf-ocr/421/012",
+                    "updated_at": {
+                        "seconds": 1766137662
+                    },
+                    "version": 1,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 4210121,
+                            "question_id": 421012,
+                            "is_answer": true,
+                            "choice": "新工艺没有显著地影响产品质量",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210122,
+                            "question_id": 421012,
+                            "is_answer": false,
+                            "choice": "新工艺显著地影响产品质量",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210123,
+                            "question_id": 421012,
+                            "is_answer": false,
+                            "choice": "不能确定",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210124,
+                            "question_id": 421012,
+                            "is_answer": false,
+                            "choice": "以上结论均不正确",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        }
+                    ],
+                    "accuracy_rate": null,
+                    "difficulty_score": null,
+                    "avg_time_spent": null,
+                    "ai_tags": "PDF OCR",
+                    "tags": "PDF OCR"
+                },
+                {
+                    "id": 421013,
+                    "subject_id": 3,
+                    "chapter_id": 421,
+                    "question_id": "pdf-ocr-421-013",
+                    "difficulty": "OCR",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "从选区A中抽取300名选民的选票,从选区B中抽取200名选民的选票,在这两组选票中,分别有168票和96票支持所\n提候选人,试在显著水平 $\\alpha=0.05$ 下,检验两个选区之间对候选人的支持是否存在差异",
+                    "analysis": "这是两个比率的比较问题,待检假设为\n$H_{0}:p_{1}=p_{2},\\quad H_{1}:p_{1}\\neq p_{2}$\n由题设知 $n=300,\\mu_{n}=168,m=200,\\mu_{m}=96$\n$\\hat{p}_{1}=\\frac{168}{300}=0.56,\\quad\\hat{p}_{2}=\\frac{96}{200}=0.48.$\n$\\hat{p}=\\frac{\\mu_{n}+\\mu_{m}}{m+n}=\\frac{264}{500}=0.528$\nuMathe\n统计量\n$$U_{0}=\\frac{\\hat{p}_{1}-\\hat{p}_{2}}{\\sqrt{\\hat{p}(1-\\hat{p})\\left(\\frac{1}{n}+\\frac{1}{m}\\right)}}=\\frac{0.56-0.48}{\\sqrt{0.528\\times0.472\\times\\frac{1}{120}}}\\approx1.755$$\n由 $P\\{|U|>1.96\\}=\\alpha=0.05$ 得拒绝域 $|U|>1.96$ 因为\n$|U_{0}|=1.755<1.96$\n故接受 $\\mathbf{H_{0}}$ 即两个选区之间无显著差异.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1766137662
+                    },
+                    "question_json": "pdf-ocr/421/013",
+                    "updated_at": {
+                        "seconds": 1766137662
+                    },
+                    "version": 1,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 4210131,
+                            "question_id": 421013,
+                            "is_answer": true,
+                            "choice": "两个选区之间无显著差异.",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210132,
+                            "question_id": 421013,
+                            "is_answer": false,
+                            "choice": "两个选区之间有显著差异.",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210133,
+                            "question_id": 421013,
+                            "is_answer": false,
+                            "choice": "无法判断",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210134,
+                            "question_id": 421013,
+                            "is_answer": false,
+                            "choice": "其它结论均不正确",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        }
+                    ],
+                    "accuracy_rate": null,
+                    "difficulty_score": null,
+                    "avg_time_spent": null,
+                    "ai_tags": "PDF OCR",
+                    "tags": "PDF OCR"
+                },
+                {
+                    "id": 421014,
+                    "subject_id": 3,
+                    "chapter_id": 421,
+                    "question_id": "pdf-ocr-421-014",
+                    "difficulty": "OCR",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知某种电子元件的使用寿命X(h)服从指数分布 $e(\\lambda)$ 抽查 100 个元件,得样本均值 $\\bar{x}=950(h)$ 能否认为参数\n$\\lambda=0.001(\\alpha=0.05)?$",
+                    "analysis": "由题意知 $X\\sim e(\\lambda)$ $E(X)=1/\\lambda$ $D(X)=1/\\lambda^{2}$ 故当n充分大时\n$$u=\\frac{\\bar{x}-1/\\lambda}{\\frac{1}{\\lambda\\sqrt{n}}}=\\bigg(\\bar{x}-\\frac{1}{\\lambda}\\bigg)\\lambda\\sqrt{n}=(\\lambda\\bar{x}-1)\\sqrt{n}\\sim N(0,1).$$\n现在检验问题为\n$H_{0}:\\lambda=0.001,\\quad H_{1}:\\lambda\\neq0.001$\n样本值 $u=(0.001\\times950-1)\\times{\\sqrt{100}}=-0.5.$\n给定 $\\alpha=0.05$ 临界值 $u_{0.025}=1.96$\n因 $|u|=0.5<u_{0.025}=1.96$ 故接受 $\\pmb{H_{0}}$ 即可认为参数 $\\lambda=0.001$ (即元件平均使用寿命为1000h).",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1766137662
+                    },
+                    "question_json": "pdf-ocr/421/014",
+                    "updated_at": {
+                        "seconds": 1766137662
+                    },
+                    "version": 1,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 4210141,
+                            "question_id": 421014,
+                            "is_answer": true,
+                            "choice": "4 可以",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210142,
+                            "question_id": 421014,
+                            "is_answer": false,
+                            "choice": "不能",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210143,
+                            "question_id": 421014,
+                            "is_answer": false,
+                            "choice": "不能确定",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210144,
+                            "question_id": 421014,
+                            "is_answer": false,
+                            "choice": "以上结论均不正确 ",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        }
+                    ],
+                    "accuracy_rate": null,
+                    "difficulty_score": null,
+                    "avg_time_spent": null,
+                    "ai_tags": "PDF OCR",
+                    "tags": "PDF OCR"
+                },
+                {
+                    "id": 421015,
+                    "subject_id": 3,
+                    "chapter_id": 421,
+                    "question_id": "pdf-ocr-421-015",
+                    "difficulty": "OCR",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X, Y$ 皆服从两点分布：\n$$\n\\begin{array}{c|cc}\nX & 0 & 1 \\\\\n\\hline\nP & p_1 & q_1\n\\end{array}, \\quad\n\\begin{array}{c|cc}\nY & 0 & 1 \\\\\n\\hline\nP & p_2 & q_2\n\\end{array}\n$$\n其中 $p_1 + q_1 = 1, p_2 + q_2 = 1$，且 $0 < p_1 < 1, 0 < p_2 < 1$．从总体 $X$ 取样本 $X_1, X_2, \\cdots, X_{n_1}$，从总体 $Y$ 中取样本 $Y_1, Y_2, \\cdots, Y_{n_2}$，两样本独立．对于假设检验\n$$H_0: p_1 = p_2 \\leftrightarrow H_1: p_1 \\neq p_2$$\n设显著水平为 $\\alpha$，则检验统计量及检验拒绝域 $W$ 为 ( )．(假设 $n_1, n_2$ 充分大)",
+                    "analysis": "设 $A = \\{X = 1\\}, B = \\{Y = 1\\}$，样本中 $A, B$ 发生的频率分别为 $\\hat{p}_1 = \\bar{X}$ 和 $\\hat{p}_2 = \\bar{Y}$．当 $H_0$ 为真且 $n_1, n_2$ 充分大时，根据中心极限定理，检验统计量\n$$U = \\frac{\\hat{p}_1 - \\hat{p}_2}{\\sqrt{\\bar{p}(1-\\bar{p})\\left(\\frac{1}{n_1} + \\frac{1}{n_2}\\right)}}$$\n近似服从标准正态分布 $N(0,1)$，其中联合估计概率为 $\\bar{p} = \\frac{n_1 \\hat{p}_1 + n_2 \\hat{p}_2}{n_1 + n_2}$．\n在显著性水平 $\\alpha$ 下，拒绝域为 $|U| > u_{\\alpha/2}$．",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1766137662
+                    },
+                    "question_json": "pdf-ocr/421/015",
+                    "updated_at": {
+                        "seconds": 1766137662
+                    },
+                    "version": 1,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 4210151,
+                            "question_id": 421015,
+                            "is_answer": true,
+                            "choice": "$\\begin{array}{r}{U=\\frac{\\overline{{p_{1}}}-\\overline{{p_{2}}}}{\\sqrt{\\bar{p}(1-\\bar{p})\\left(\\frac{1}{n_{1}}+\\frac{1}{n_{2}}\\right)}},|u|>u_{\\alpha/2}.}\\end{array}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210152,
+                            "question_id": 421015,
+                            "is_answer": false,
+                            "choice": "$U=\\frac{\\overline{p_1}-\\overline{p_2}}{\\sqrt{\\frac{n_A}{n_1}\\left(1-\\frac{n_A}{n_1}\\right)\\left(\\frac{1}{n_1}+\\frac{1}{n_2}\\right)}},|t|>t_{\\alpha/2}(n_1+n_2-2).$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210153,
+                            "question_id": 421015,
+                            "is_answer": false,
+                            "choice": "$U=\\frac{\\overline{p_{1}}-\\overline{p_{2}}}{\\sqrt{\\frac{n_{B}}{n_{2}}\\left(1-\\frac{n_{B}}{n_{2}}\\right)\\left(\\frac{1}{n_{1}}+\\frac{1}{n_{2}}\\right)}},|u|>u_{\\alpha}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210154,
+                            "question_id": 421015,
+                            "is_answer": false,
+                            "choice": "$\\begin{array}{r}{U=\\frac{\\overline{{p_{1}}}-\\overline{{p_{2}}}}{\\sqrt{\\frac{n_{B}}{n_{2}}\\left(1-\\frac{n_{A}}{n_{1}}\\right)\\left(\\frac{1}{n_{1}}+\\frac{1}{n_{2}}\\right)}},|t|>t_{\\alpha}(n_{1}+n_{2}-1)}\\end{array}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        }
+                    ],
+                    "accuracy_rate": null,
+                    "difficulty_score": null,
+                    "avg_time_spent": null,
+                    "ai_tags": "PDF OCR",
+                    "tags": "PDF OCR"
+                },
+                {
+                    "id": 421016,
+                    "subject_id": 3,
+                    "chapter_id": 421,
+                    "question_id": "pdf-ocr-421-016",
+                    "difficulty": "OCR",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某地区主管工业的负责人收到一份报告,该报告中说他主管的工厂中执行环境保护条例的厂家不足60%,这位负责人认为应不低\n于60%,于是他在该地区众多的工厂中随机抽查了60个厂家,结果发现有33家执行了环境条例,那么由他本人的调查结果能\n否证明那份报告中的说法有问题(α=0.05)？().",
+                    "analysis": "(1)建立检验假设H_0：p≥0.6,H_₁:p<0.6.\n(2)选择统计量 $\\begin{array}{r}{U=\\frac{\\bar{X}-p_{0}}{\\sqrt{p_{0}(1-p_{0})/n}}}\\end{array}$ ∼ N(0, 1).\n(3)给定显著性水平α,确定k,使\n$P\\Bigg\\{\\frac{\\bar{X}-p_{0}}{\\sqrt{p_{0}(1-p_{0})/n}}<k\\Bigg\\}\\approx\\alpha.$\n查标准正态分布表得 $k=-u_{\\alpha}=-u_{0.05}=-1.645$ 所以拒绝域为 $\\pmb{u}<-\\pmb{1.645}$\n(4)由于 $\\bar{x}=33/60=0.55,p_0=0.6$ 所以 iathe\n$u=\\frac{\\bar{x}-p_{0}}{\\sqrt{p_{0}(1-p_{0})/n}}\\approx-0.79>-1.645$\n故接受 $\\mathbf{H_{0}}$ 即认为执行环保条例厂家不低于60%.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1766137662
+                    },
+                    "question_json": "pdf-ocr/421/016",
+                    "updated_at": {
+                        "seconds": 1766137662
+                    },
+                    "version": 1,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 4210161,
+                            "question_id": 421016,
+                            "is_answer": true,
+                            "choice": "能证明那份报告中的说法有问题 U",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210162,
+                            "question_id": 421016,
+                            "is_answer": false,
+                            "choice": "不能证明那份报告中的说法有问题",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210163,
+                            "question_id": 421016,
+                            "is_answer": false,
+                            "choice": "不能确定",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210164,
+                            "question_id": 421016,
+                            "is_answer": false,
+                            "choice": "其它几个结论均不正确",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        }
+                    ],
+                    "accuracy_rate": null,
+                    "difficulty_score": null,
+                    "avg_time_spent": null,
+                    "ai_tags": "PDF OCR",
+                    "tags": "PDF OCR"
+                },
+                {
+                    "id": 421017,
+                    "subject_id": 3,
+                    "chapter_id": 421,
+                    "question_id": "pdf-ocr-421-017",
+                    "difficulty": "OCR",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "在A县调查 $n_{1}=1500$ 个农户,其中有中小型农业机械的农户 $\\mu_{n_{1}}=\\mathbf{300}$ 户；在B县调查 $n_{2}=1800$ 户,其中有中小型农业\n机械的农户 $\\mu_{n_{2}}=320$ 户,试在显著性水平 $\\alpha=0.05$ 下检验两个县有中小型农户的比率有无差异？()",
+                    "analysis": "由于 $n_{1}=1500,n_{2}=1800$ 这是大样本情形下两个0-1总体的概率检验问题.假设\n$H_{0}:p_{1}=p_{2},\\quad H_{1}:p_{1}\\neq p_{2}$\n由于 $n_{1}=1500,n_{2}=1800,\\mu_{n_{1}}=300,\\mu_{n_{2}}=320$ 经计算得\n$$\\begin{aligned}\\overline{p}_{1}=\\frac{\\mu_{n_{1}}}{n_{1}}=0.200,\\quad\\overline{p}_{2}=\\frac{\\mu_{n_{2}}}{n_{2}}=0.178,\\quad\\overline{p}&=\\frac{\\mu_{n_{1}}+\\mu_{n_{2}}}{n_{1}+n_{2}}=0.188,\\\\u=\\frac{\\overline{p}_{1}-\\overline{p}_{2}}{\\sqrt{\\overline{p}(1-\\overline{p})(1/n_{1}+1/n_{2})}}&=1.61\\end{aligned}$$\n由 $\\alpha=0.05$ 可知 $u_{\\alpha/2}=1.96$,由于 $|u|<u_{\\alpha/2}$ 故在显著性水平 $\\alpha=0.05$ 下接受 $\\mathbf{H_{0}}.$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1766137662
+                    },
+                    "question_json": "pdf-ocr/421/017",
+                    "updated_at": {
+                        "seconds": 1766137662
+                    },
+                    "version": 1,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 4210171,
+                            "question_id": 421017,
+                            "is_answer": true,
+                            "choice": "没有",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210172,
+                            "question_id": 421017,
+                            "is_answer": false,
+                            "choice": "有",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210173,
+                            "question_id": 421017,
+                            "is_answer": false,
+                            "choice": "无法确定",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        },
+                        {
+                            "id": 4210174,
+                            "question_id": 421017,
+                            "is_answer": false,
+                            "choice": "其他结论均不正确",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1766137662
+                            },
+                            "updated_at": {
+                                "seconds": 1766137662
+                            }
+                        }
+                    ],
+                    "accuracy_rate": null,
+                    "difficulty_score": null,
+                    "avg_time_spent": null,
+                    "ai_tags": "PDF OCR",
+                    "tags": "PDF OCR"
+                }
+            ]
         }
-      ]
     }
-  }
 ]

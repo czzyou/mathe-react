@@ -126,6 +126,25 @@ describe("tokenizeMathText", () => {
       },
     ]);
   });
+
+  it("does not strip backslashes from LaTeX commands starting with n, r, or t at formula boundaries", () => {
+    expect(tokenizeMathText("$\\theta_1$")).toEqual([
+      {
+        type: "math",
+        value: "\\theta_1",
+        displayMode: false,
+        sourceKind: "single-dollar",
+      },
+    ]);
+    expect(tokenizeMathText("$\\tau$")).toEqual([
+      {
+        type: "math",
+        value: "\\tau",
+        displayMode: false,
+        sourceKind: "single-dollar",
+      },
+    ]);
+  });
 });
 
 describe("renderMathHtml", () => {

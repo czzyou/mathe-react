@@ -116,8 +116,8 @@ function parseBeginEnvironment(
 
 function normalizeMathValue(value: string, sourceKind: string): string {
   let result = value
-    .replace(/^(?:\s|\\[nrt])+/, "")
-    .replace(/(?:\s|\\[nrt])+$/, "");
+    .replace(/^(?:\s|\\[nrt](?![a-zA-Z]))+/, "")
+    .replace(/(?:\s|\\[nrt](?![a-zA-Z]))+$/, "");
 
   if (sourceKind === "tabular") {
     result = result
