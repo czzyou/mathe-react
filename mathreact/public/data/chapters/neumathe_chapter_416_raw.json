@@ -116,7 +116,7 @@
               "id": 4160021,
               "question_id": 416002,
               "is_answer": true,
-              "choice": "检验假设H_{0:μ=190,H_{1}:\\mu\\neq190",
+              "choice": "检验假设为 $H_0: \\mu = 190, H_1: \\mu \\neq 190$",
               "choice_render_type": 1,
               "choice_id": "1",
               "created_at": {
@@ -555,7 +555,7 @@
               "id": 4160072,
               "question_id": 416007,
               "is_answer": false,
-              "choice": "检验假设H_{0:μ=70,H_{₁1:μ≠70",
+              "choice": "检验假设为 $H_0: \\mu = 70, H_1: \\mu \\neq 70$",
               "choice_render_type": 1,
               "choice_id": "2",
               "created_at": {
