@@ -632,7 +632,7 @@ function getLeafChapters(nodes: ChapterNode[]): UiChapter[] {
   return nodes
     .filter((node) => !parentSet.has(node.id))
     .filter((node) => node.count > 0)
-    .filter((node) => node.id >= 256 && node.id <= 400)
+    .filter((node) => node.id >= 256 && node.id <= 422)
     .sort(compareChapterNodes)
     .map((node) => ({
       id: node.id,

@@ -1,0 +1,691 @@
+[
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 8,
+      "questions": [
+        {
+          "id": 405001,
+          "subject_id": 3,
+          "chapter_id": 405,
+          "question_id": "pdf-ocr-405-001",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设来自正态总体X的容量为10的简单随机样本的样本方差为11,则X的方差置信度为0.95的置信区间为\n$$\\left(\\chi_{0.025}^{2}(10)=20.483,\\chi_{0.975}^{2}(10)=3.247,\\chi_{0.025}^{2}(9)=19.023,\\chi_{0.975}^{2}(9)=2.700\\right)$$",
+          "analysis": "在正态总体期望μ未知的情形下,方差σ置信度为 $1-\\alpha$ 的置信区间为 $\\left(\\frac{(n-1)S^{2}}{\\chi_{\\alpha/2}^{2}(n-1)},\\frac{(n-1)S^{2}}{\\chi_{1-\\alpha/2}^{2}(n-1)}\\right)$ 由\n$n=10,s^{2}=11,\\alpha=0.05,\\chi_{0.025}^{2}(9)=19.023,\\chi_{0.975}^{2}(9)=2.700$ 计算得\neuMath $\\left(\\frac{(n-1)S^{2}}{\\chi^{2}_{\\alpha/2}(n-1)},\\frac{(n-1)S^{2}}{\\chi^{2}_{1-\\alpha/2}(n-1)}\\right)=(5.204,36.667)$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/405/001",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4050011,
+              "question_id": 405001,
+              "is_answer": true,
+              "choice": "(5.204,36.667)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050012,
+              "question_id": 405001,
+              "is_answer": false,
+              "choice": "(5.004,36.067)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050013,
+              "question_id": 405001,
+              "is_answer": false,
+              "choice": "(6.204,35.667)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050014,
+              "question_id": 405001,
+              "is_answer": false,
+              "choice": "(5.904,35.967)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 405002,
+          "subject_id": 3,
+          "chapter_id": 405,
+          "question_id": "pdf-ocr-405-002",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体X服从正态分布 $N(\\mu,\\sigma^{2})$ 其中 $X_{1},X_{2},\\cdots,X_{n}$ 则σ的置信度为1-α的置信区间为 ( ).",
+          "analysis": "单正态总体 $N(\\mu,\\sigma^{2})$ 均值未知,标准差σ的置信度为 $1-\\alpha$ 的置信区间为\n$\\left(\\sqrt{\\frac{(n-1)S^{2}}{\\chi_{\\alpha/2}^{2}(n-1)}},\\sqrt{\\frac{(n-1)S^{2}}{\\chi_{1-\\alpha/2}^{2}(n-1)}}\\right)$\n其中 $\\begin{array}{r}{\\overline{{S^{2}}}=\\frac{1}{n-1}\\sum_{i=1}^{n}\\left(X_{i}-\\bar{X}\\right)^{2}}\\end{array}$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/405/002",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4050021,
+              "question_id": 405002,
+              "is_answer": true,
+              "choice": "$\\left(\\sqrt{\\frac{(n-1)S^{2}}{\\chi_{\\alpha/2}^{2}(n-1)}},\\sqrt{\\frac{(n-1)S^{2}}{\\chi_{1-\\alpha/2}^{2}(n-1)}}\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050022,
+              "question_id": 405002,
+              "is_answer": false,
+              "choice": "$\\left(\\frac{\\sum_{i=1}^{n}\\left(X_{i}-\\bar{X}\\right)^{2}}{\\chi_{\\alpha/2}^{2}(n-1)},\\frac{\\sum_{i=1}^{n}\\left(X_{i}-\\bar{X}\\right)^{2}}{\\chi_{1-\\alpha/2}^{2}(n-1)}\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050023,
+              "question_id": 405002,
+              "is_answer": false,
+              "choice": "$\\left(\\frac{\\sum_{i=1}^{n}(X_{i}-\\mu)^{2}}{\\chi_{\\alpha/2}^{2}(n)},\\frac{\\sum_{i=1}^{n}(X_{i}-\\mu)^{2}}{\\chi_{1-\\alpha/2}^{2}(n)}\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050024,
+              "question_id": 405002,
+              "is_answer": false,
+              "choice": "$\\left(\\sqrt{\\frac{\\sum_{i=1}^{n}\\left(X_{i}-\\mu\\right)^{2}}{\\chi_{\\alpha/2}^{2}(n)}},\\sqrt{\\frac{\\sum_{i=1}^{n}\\left(X_{i}-\\mu\\right)^{2}}{\\chi_{1-\\alpha/2}^{2}(n)}}\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 405003,
+          "subject_id": 3,
+          "chapter_id": 405,
+          "question_id": "pdf-ocr-405-003",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设电池寿命X服从正态分布 $N\\big(\\mu,\\sigma^{2}\\big),\\mu,\\sigma^{2}$ 未知．随机抽取5个电池,其使用寿命(单位：年)为1.9,2.4,3.0,3.5,4.2,则\n的置信度为0.95的置信区间是(). $\\left(\\chi_{0.025}^{2}(5)=12.833,\\chi_{0.975}^{2}(5)=0.831,\\chi_{0.025}^{2}(4)=11.143,\\chi_{0.975}^{2}(4)=0.484\\right)$",
+          "analysis": "N\n在均值μ未知情形下,正态总体方差 $\\sigma^{2}$ 的置信度为 $\\mathbf{1}-\\pmb{\\alpha}$ 的置信区间为\n$\\left(\\frac{(n-1)S^{2}}{\\chi_{\\alpha/2}^{2}(n-1)},\\frac{(n-1)S^{2}}{\\chi_{1-\\alpha/2}^{2}(n-1)}\\right).$\n由已知数据 $n=5,\\chi^{2}_{0.975}(4)=0.484,\\chi^{2}_{0.025}(4)=11.143.$ 计算得 $4s^{2}=3.26$\n$\\left(\\frac{(n-1)s^{2}}{\\chi_{\\alpha/2}^{2}(n-1)},\\frac{(n-1)s^{2}}{\\chi_{1-\\alpha/2}^{2}(n-1)}\\right)=(0.293,6.736).$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/405/003",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4050031,
+              "question_id": 405003,
+              "is_answer": true,
+              "choice": "(0.293,6.736)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050032,
+              "question_id": 405003,
+              "is_answer": false,
+              "choice": "(0.202,6.706)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050033,
+              "question_id": 405003,
+              "is_answer": false,
+              "choice": "(0.229,6.763)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050034,
+              "question_id": 405003,
+              "is_answer": false,
+              "choice": "(0.122, 7.636)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 405004,
+          "subject_id": 3,
+          "chapter_id": 405,
+          "question_id": "pdf-ocr-405-004",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某次数学测验的分数呈正态分布．随机抽取20名学生,得平均分数 $\\bar{x}=72$ 样本方差 $\\pmb{s}^{2}=\\pmb{16}$ 则总体方差的置信度为\n98%的置信区间是(). $\\chi_{0,01}^{2}(20)=37.566,\\chi_{0,99}^{2}(20)=8.26,\\chi_{0,01}^{2}(19)=36.191,\\chi_{0,99}^{2}(19)=7.633$",
+          "analysis": "在μ未知情形下,正态总体方差的置信区间为 $$\\left(\\frac{(n-1)S^{2}}{\\chi_{n/2}^{2}(n-1)},\\frac{(n-1)S^{2}}{\\chi_{1-n/2}^{2}(n-1)}\\right).\\quad 今 \\quad n=20,s^{2}=16,\\chi_{0.01}^{2}(19)=36.191,\\chi_{0.99}^{2}(19)=7.633,$$\n于是\n$\\left(\\frac{(n-1)S^{2}}{\\chi^{2}_{\\alpha/2}(n-1)},\\frac{(n-1)S^{2}}{\\chi^{2}_{1-\\alpha/2}(n-1)}\\right)=\\left(\\frac{19\\times16}{36.191},\\frac{19\\times16}{7.633}\\right)\\approx(8.400,39.827)$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/405/004",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4050041,
+              "question_id": 405004,
+              "is_answer": true,
+              "choice": "(8.400,39.827)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050042,
+              "question_id": 405004,
+              "is_answer": false,
+              "choice": "(8.300,40.227)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050043,
+              "question_id": 405004,
+              "is_answer": false,
+              "choice": "(8.100,39.998)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050044,
+              "question_id": 405004,
+              "is_answer": false,
+              "choice": "(8.200,39.872)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 405005,
+          "subject_id": 3,
+          "chapter_id": 405,
+          "question_id": "pdf-ocr-405-005",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设某批铝材料比重X服从正态分布 $N(\\mu,\\sigma^{2})$,现测量它的比重16次,算得 $\\bar{x}=2.705,s=0.029$ 则 $\\pmb{\\sigma}^{2}$ 的置信度为0.95的\n置信区间为(). $\\left(\\chi_{0.025}^{2}(15)=27.488,\\chi_{0.975}^{2}(15)=6.262,\\chi_{0.025}^{2}(16)=28.845,\\chi_{0.975}^{2}(16)=6.908\\right)$",
+          "analysis": "置信度为1-α的σ²的置信区间为 x_{2/2}{1) $(n-1)^{} $x{2-a}1)$ $(n-1){^{^} = (0.000459,0.002015.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/405/005",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4050051,
+              "question_id": 405005,
+              "is_answer": true,
+              "choice": "(0.000459,0.002015)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050052,
+              "question_id": 405005,
+              "is_answer": false,
+              "choice": "(0.000359, 0.002015)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050053,
+              "question_id": 405005,
+              "is_answer": false,
+              "choice": "(0.000459,0.001015)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050054,
+              "question_id": 405005,
+              "is_answer": false,
+              "choice": "(0.00459, 0.02015)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 405006,
+          "subject_id": 3,
+          "chapter_id": 405,
+          "question_id": "pdf-ocr-405-006",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "为考察某大学成年男性的胆固醇水平,现抽取了样本容量为25的一样本,其样本均值 $\\bar{x}=186$ 样本标准差 $\\pmb{s}=\\pmb{12}$ 假定所论\n胆固醇水平 $X\\sim N(\\mu,\\sigma^{2})$,其中μ与 $\\sigma^{2}$ 均未知,则σ的置信度为90%的置信区间为().\n$$\\begin{aligned}&\\chi_{0.05}^{2}(25)=37.652,\\chi_{0.05}^{2}(25)=14.611,\\chi_{0.05}^{2}(24)=36.415,\\chi_{0.05}^{2}(24)=13.848,\\sqrt{24}=4.9,\\\\ &\\sqrt{\\chi_{0.05}^{2}(24)}=6.034,\\sqrt{\\chi_{0.05}^{2}(25)}=6.136,\\sqrt{\\chi_{0.05}^{2}(24)}=3.721,\\sqrt{\\chi_{0.05}^{2}(25)}=3.822.\\\\ \\end{aligned}$$",
+          "analysis": "在μ未知情形下,σ的置信度为 $1-\\alpha$ 的置信区间为 $\\left(\\sqrt{\\frac{(n-1)S^{2}}{\\chi_{\\alpha/2}^{2}(n-1)}},\\sqrt{\\frac{(n-1)S^{2}}{\\chi_{1-\\alpha/2}^{2}(n-1)}}\\right)$.已知 $\\alpha=0.1,s=12,n=25$ 计算得\n$$\\left(\\sqrt{\\frac{(n-1)S^{2}}{\\chi_{\\alpha/2}^{2}(n-1)}},\\sqrt{\\frac{(n-1)S^{2}}{\\chi_{1-\\alpha/2}^{2}(n-1)}}\\right)=\\left(\\frac{4.9\\times12}{6.034},\\frac{4.9\\times12}{3.721}\\right)\\approx(9.74,15.80).$$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/405/006",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4050061,
+              "question_id": 405006,
+              "is_answer": true,
+              "choice": "(9.74,15.80)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050062,
+              "question_id": 405006,
+              "is_answer": false,
+              "choice": "(9.78,15.80)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050063,
+              "question_id": 405006,
+              "is_answer": false,
+              "choice": "(8.74,15.86)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050064,
+              "question_id": 405006,
+              "is_answer": false,
+              "choice": "(9.75,25.80)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 405007,
+          "subject_id": 3,
+          "chapter_id": 405,
+          "question_id": "pdf-ocr-405-007",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某车间生产钢丝,设钢丝折断力服从正态分布,现随机抽取10根,检查折断力,得数据(单位：N)如下：\n$\\mathbf{578},\\mathbf{572},\\mathbf{570},\\mathbf{568},\\mathbf{572},\\mathbf{570},\\mathbf{570},\\mathbf{572},\\mathbf{596},\\mathbf{584}.$\n$s^{2}=75.73.$ 则钢丝折断力方差置信度为0.95 的置信区间为().\n$$\\left(\\chi_{0.025}^{2}(10)=20.483,\\chi_{0.975}^{2}(10)=3.247,\\chi_{0.025}^{2}(9)=19.023,\\chi_{0.975}^{2}(9)=2.700\\right)$$",
+          "analysis": "正态总体,期望未知,方差 置信度为 1-α的双侧置信区间为 $\\left(\\frac{(n-1)S^{2}}{x_{\\alpha/2}^{2}(n-1)},\\frac{(n-1)S^{2}}{x_{1-\\alpha/2}^{2}(n-1)}\\right)$ 将\n$s^{2}=75.73,\\chi_{\\alpha/2}^{2}(n-1)=\\chi_{0.025}^{2}(9)=19.023,\\chi_{1-\\alpha/2}^{2}(n-1)=\\chi_{0.975}^{2}(9)=2.700$ 代入上式,得σ置信度为95%的置信区间为\n(35.83,252.43).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/405/007",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4050071,
+              "question_id": 405007,
+              "is_answer": true,
+              "choice": "(35.83,252.43)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050072,
+              "question_id": 405007,
+              "is_answer": false,
+              "choice": "(35.87,152.43)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050073,
+              "question_id": 405007,
+              "is_answer": false,
+              "choice": "(35.83,152.43)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050074,
+              "question_id": 405007,
+              "is_answer": false,
+              "choice": "(35.87,232.43)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 405008,
+          "subject_id": 3,
+          "chapter_id": 405,
+          "question_id": "pdf-ocr-405-008",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "随机地抽取其中炮弹9发做试验,测得炮口速度的样本方差 $s^{2}=11^{2}(\\mathrm{\\mathbf~m/s})^{2}$.设炮口速度服从正态分布 $N(\\mu,\\sigma^{2})$,则此种炮\n弹炮口速度的方差 $\\sigma^{2}$ 的置信度为0.95的置信区间为().\n$\\chi_{0.025}^{2}(9)=19.023,\\chi_{0.975}^{2}(9)=2.700,\\chi_{0.025}^{2}(8)=17.535,\\chi_{0.975}^{2}(8)=2.180$",
+          "analysis": "在μ未知情形下,方差的置信度为1-α的置信区间为 $\\left(\\frac{(n-1)S^{2}}{\\chi_{\\alpha/2}^{2}(n-1)},\\frac{(n-1)S^{2}}{\\chi_{1-\\alpha/2}^{2}(n-1)}\\right)$.依题意 $\\alpha=0.05$\n$x2/2(n-1)=x0.025(8)=17.535,x-a/2(n-1)=x.975(8)=2.180,计算得 $\\left(\\frac{(n-1)S^{2}}{\\chi_{\\alpha/2}^{2}(n-1)},\\frac{(n-1)S^{2}}{\\chi_{1-\\alpha/2}^{2}(n-1)}\\right) ≈(55.204,444.037)",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/405/008",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4050081,
+              "question_id": 405008,
+              "is_answer": true,
+              "choice": "(55.204,444.037)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050082,
+              "question_id": 405008,
+              "is_answer": false,
+              "choice": "(52.19, 413.667)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050083,
+              "question_id": 405008,
+              "is_answer": false,
+              "choice": "(60.19, 393.667)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4050084,
+              "question_id": 405008,
+              "is_answer": false,
+              "choice": "(55.19,440.667)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  }
+]

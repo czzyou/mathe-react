@@ -1,0 +1,1040 @@
+[
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 12,
+      "questions": [
+        {
+          "id": 422001,
+          "subject_id": 3,
+          "chapter_id": 422,
+          "question_id": "pdf-ocr-422-001",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "在一批灯泡中抽取300只作寿命试验,结果如下\n寿命t (小时) $\\pmb{t}<\\pmb{100}$ $100\\leq t<200$ $200\\leq t<300$ $\\pmb{t}\\geq\\pmb{300}$\n灯泡数 121 78 43 58\n试在 $\\alpha=0.05$ 水平下,检验这批灯泡的寿命T是否服从指数分布：\n$H_{0}:T\\sim f(t)=\\left\\{\\begin{matrix}{0.005e^{-0.005t},}&{t\\geq0}\\\\ {0,}&{t<0}\\end{matrix}\\right\\}$",
+          "analysis": "这是分布的拟合检验问题,用 $x^{2}$ 检验法,将整个区间划分为 $(-\\infty,100),[100,200),[200,300),[300,+\\infty)$ 四个区间,计算结果列表如\n下\n区间 f{i npi $f_{i}-n p_{i}$ $(f_{i}-n p_{i})^{2}/n p_{i}$\n$(-\\infty,100)$ 121 118.0 3 0.0763\n[100,200) 78 71.6 6.4 0.572\n[200,300) 43 43.4 -0.4 0.004\n[300,+∞) 58 66.9 -8.9 1.184\n∑ 300 300 1.8631\n其中理论概率\n$\\begin{aligned}p_{i}&=P\\{t_{i}\\leq T<t_{i+1}\\}=\\int_{t_{i}}^{t_{i+1}}f(t)\\mathrm{d}t\\quad(i=1,2,3)\\\\p_{4}&=1-\\sum_{i=1}^{3}p_{i}\\end{aligned}$\n例如\n$$p_{1}=P\\{T<100\\}=\\int_{0}^{100}0.005e^{-0.005t}\\;\\mathrm{d}t=1-e^{-0.5}\\approx0.393.$$\n$k=4$ 未知参数个数 $r=0$ 查表知\n$\\chi_{\\alpha}^{2}(k-r-1)=\\chi_{0.05}^{2}(3)=7.815$\n因 $\\chi^{2}=1.8631<\\chi^{2}_{0.05}(3)=7.815.$ 故接受 $\\mathbf{\\mathit{H}_{0}}$ 即可认为灯泡的寿命服从该指数分布.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/422/001",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4220011,
+              "question_id": 422001,
+              "is_answer": true,
+              "choice": "服从",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220012,
+              "question_id": 422001,
+              "is_answer": false,
+              "choice": "不服从",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220013,
+              "question_id": 422001,
+              "is_answer": false,
+              "choice": "无法判断",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220014,
+              "question_id": 422001,
+              "is_answer": false,
+              "choice": "其它结论均不正确",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 422002,
+          "subject_id": 3,
+          "chapter_id": 422,
+          "question_id": "pdf-ocr-422-002",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "将一颗散子掷120次,所得数据见下表\n点数i 1 2 3 4 5 6\n出现次数 f{ 23 26 21 20 15 15\n问这颗骰子是否均匀、对称(取 $\\alpha=0.05$ )？().",
+          "analysis": "若这颗骰子是均匀、对称的,则1～6点中每点出现的可能性相同,都为1/6.如果用 $A_{i}$ 表示第i点出现( $i=1,2,\\cdots,6$,则待\n检假设\n$H_{0}:P(A_{i})=1/6,\\quad i=1,2,\\cdots,6.$\n在 $\\pmb{H_{0}}$ 成立的条件下,理论概率\n$p_{i}=P(A_{i})=1/6$\n由 $\\pmb{n}=\\pmb{120}$ 得频率 $n p_{i}=20$\n计算结果如下表\n$fi$ pi npi $(f_{i}-n p_{i})^{2}/(n p_{i})$\n1 23 1/6 20 9/20\n2 26 1/6 20 36/20\n3 21 1/6 20 1/20\n20 1/6 20 euMaths 0\n5 15 1/6 20 25/20\n6 15 1/6 20 25/20\n合计 120 4.8\n因此分布不含未知参数,又 $k=6,\\alpha=0.05$\n$\\chi_{\\alpha}^{2}(k-1)=\\chi_{0.05}^{2}(5)=11.071.$\n由上表,知\n$\\chi^{2}=\\sum_{i=1}^{6}\\frac{(f_{i}-n p_{i})^{2}}{n p_{i}}=4.8<11.071$\n故接受 $\\mathbf{H_{0}}$ 认为这颗骰子是均匀对称的.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/422/002",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4220021,
+              "question_id": 422002,
+              "is_answer": true,
+              "choice": "是均匀对称的",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220022,
+              "question_id": 422002,
+              "is_answer": false,
+              "choice": "不是均匀对称的",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220023,
+              "question_id": 422002,
+              "is_answer": false,
+              "choice": "不能确定",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220024,
+              "question_id": 422002,
+              "is_answer": false,
+              "choice": "其它结论均不正确",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 422003,
+          "subject_id": 3,
+          "chapter_id": 422,
+          "question_id": "pdf-ocr-422-003",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "检查了一本书的100页,记录各页中印刷错误的个数,其结果为：\n问能否认为一页的印刷错误个数服从泊松分布(取 $\\alpha=0.05$ ?",
+          "analysis": "检验假设 $\\mathbf{H_{0}};$ 一页的印刷错误个数X服从泊松分布, 即\n$P\\{X=i\\}={\\frac{\\lambda^{i}e^{-\\lambda}}{i!}},\\quad i=0,1,2,\\cdots$\n先估计未知参数入：\n$${\\hat{\\lambda}}={\\bar{\\pmb{x}}}={\\frac{1}{100}}\\left(0\\times36+1\\times40+2\\times19+3\\times2+4\\times0+5\\times2+6\\times1\\right)=1$$\n在 $\\pmb{\\pi_{0}}$ 下,概率估计值为\n$\\widehat{p_{i}}=\\frac{e^{-1}}{i!},\\quad i=0,1,2,\\cdots$\n应用 $x^{2}$ 检验法,统计量为\n$\\chi^{2}=\\sum_{i=1}^{k}\\frac{\\left(f_{i}-n\\widehat{p_{i}}\\right)^{2}}{n\\widehat{p_{i}}}$\n由于要求 $\\begin{array}{r}{\\pmb{n}\\widehat{\\pmb{p}_{i}}\\geq\\pmb{5},}\\end{array}$ 需将 $i\\geq3$ 的项合并.计算如下表 $(n=100)$:\neuMath\n自由度为 $k-r-1=4-1-1=2$ 查表得 $\\chi_{0.05}^{2}(2)=5.991$\n计算 $x^{2}$ 值：\n$\\chi^{2}=0.0170+0.2801+0.0202+1.1423=1.4596$\n因为 $\\chi^{2}=1.4596<5.991$,故在 $\\alpha=0.05$ 水平下接受 $\\pmb{H_{0}}$,即认为一页的印刷错误个数服从泊松分布.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/422/003",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4220031,
+              "question_id": 422003,
+              "is_answer": true,
+              "choice": "服从",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220032,
+              "question_id": 422003,
+              "is_answer": false,
+              "choice": "不服从",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220033,
+              "question_id": 422003,
+              "is_answer": false,
+              "choice": "无法判断",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220034,
+              "question_id": 422003,
+              "is_answer": false,
+              "choice": "其它结论均不正确",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 422004,
+          "subject_id": 3,
+          "chapter_id": 422,
+          "question_id": "pdf-ocr-422-004",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设 $X\\sim N(\\mu,\\sigma^{2})$ 其中u未知．从X抽取容量为10的样本．对于假设检验 $H_{0}:\\sigma^{2}\\leq0.02,H_{1}:\\sigma^{2}>0.02.$ 若显著性水平为\n0.05,则检验的拒绝域为().",
+          "analysis": "正态总体方差的检验统计量为\n$\\chi^{2}=\\frac{n-1}{\\sigma_{0}^{2}}S^{2}\\sim\\chi^{2}(n-1).$\n在检验假设H0 $:\\sigma^{2}\\leq\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2}$ 下,可得拒绝域为\n$\\chi^{2}=\\frac{n-1}{\\sigma_{0}^{2}}s^{2}>\\chi_{\\alpha}^{2}(n-1).$\n把题目具体数据代入得\n$450s^{2}>\\chi_{0.05}^{2}(9)$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/422/004",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4220041,
+              "question_id": 422004,
+              "is_answer": true,
+              "choice": "$450s^{2}>\\chi^{2}_{0.05}(9)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220042,
+              "question_id": 422004,
+              "is_answer": false,
+              "choice": "$500s^{2}>\\chi_{0.05}^{2}(10)$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220043,
+              "question_id": 422004,
+              "is_answer": false,
+              "choice": "$450s^{2}<\\chi_{0.95}^{2}(9)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220044,
+              "question_id": 422004,
+              "is_answer": false,
+              "choice": "$450s^{2}<\\chi_{0.975}^{2}(9)$ 或 $450s^{2}>\\chi_{0.025}^{2}(9)$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 422005,
+          "subject_id": 3,
+          "chapter_id": 422,
+          "question_id": "pdf-ocr-422-005",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "下表记录了2880个婴儿的出生时刻：\n时间区间 [0,1) [1,2) [2,3) [3,4) [4,5) [5,6) [6,7) [7,8) [8,9) [9, 10)\n出生个数 f{127 139 143 138 134 115 129 113 126 122 时间区间 [10,11) [11,12) [12,13) [13,14) [14,15) [15,16) [16,17) 出生个数fi 121 119 130 125 112 97 115 时间区间 [17,18) [18,19) [19,20) [20,21) [21,22) [22,23) [23,24) 出生个数 f{ 94 99 97 100 119 127 139\n试问婴儿的出生时刻是否服从均匀分布U[0,24] (显著性水平 $\\alpha=0.05$ )?",
+          "analysis": "原假设H0:F0(x),由 $F_{0}(x)$ 算得\n$\\begin{aligned}p_{i}&=F_{0}(i)-F_{0}(i-1)=\\frac{1}{24},\\\\np_{i}=2880&\\times\\frac{1}{24}=120\\quad(i=1,2,\\cdots,24),\\\\ 于是 \\quad\\chi^{2}&=\\sum_{i=1}^{24}\\frac{\\left(f_{i}-np_{i}\\right)^{2}}{np_{i}}\\approx40.47,\\end{aligned}$\neu\n对 $\\alpha=0.05$ 自由度 ${\\pmb n}-{\\pmb1}={\\pmb2}{\\pmb3}$ 查 $x^{2}$ 分布表,得\n$\\chi_{\\alpha}^{2}(n-1)=35.17$\n因为 $\\chi^{2}=40.47>35.17$ 所以拒绝 $\\mathbf{H_{0}}$ 即可以认为婴儿出生时刻不服从均匀分布U[0,24].",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/422/005",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4220051,
+              "question_id": 422005,
+              "is_answer": true,
+              "choice": "不服从均匀分布",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220052,
+              "question_id": 422005,
+              "is_answer": false,
+              "choice": "服从均匀分布",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220053,
+              "question_id": 422005,
+              "is_answer": false,
+              "choice": "无法确定",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220054,
+              "question_id": 422005,
+              "is_answer": false,
+              "choice": "其它结论均不正确",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 422006,
+          "subject_id": 3,
+          "chapter_id": 422,
+          "question_id": "pdf-ocr-422-006",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "对于总体分布的假设检验问题H0 $F(x)=F_{0}(x),H_{1}:F(x)\\neq F_{0}(x)$ 下列结论中错误的是().",
+          "analysis": "$x^{2}$ 检验法是在总体X的分布未知时,根据来自总体的样本,检验关于总体分布的假设的一种检验方法.具体进行检验时,先提出原假\n设 $\\mathbf{H_{0}};$ 总体X的分布函数为 $F_{0}(x)$ 引入统计量\n$x^{2}=\\sum_{i=1}^{k}\\frac{(f_{i}-np_{i})^{2}}{np_{i}}$\n(皮尔逊证明了当n充分大 $(n\\geq$ 50)时, $x^{2}$ 近似服从 $\\chi^{2}(k-1)$ 分布).\n拒绝域为 $x^{2}>\\chi_{\\alpha}^{2}(k-1)$\n当总体含有未知参数时,先用极大似然估计估计 $\\mathbf{H_{0}}$ 假设分布 $F(x)$ 的未知参数,再对 $F(x)$ 做拟合检验.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/422/006",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4220061,
+              "question_id": 422006,
+              "is_answer": true,
+              "choice": "$x ^{2}$ 拟合检验法只适用于 $F_{0}(x)$ 为正态分布函数的情形",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220062,
+              "question_id": 422006,
+              "is_answer": false,
+              "choice": "若 $F_{0}({\\pmb x})$ 中含有未知参数,则要先对未知参数做极大似然估计",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220063,
+              "question_id": 422006,
+              "is_answer": false,
+              "choice": "$x^{2}$ 拟合检验法应取形如 $\\left\\{x\\mid x^{2}\\geq x_{a}^{2}\\right\\}$ 的拒绝域",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220064,
+              "question_id": 422006,
+              "is_answer": false,
+              "choice": "$x^{2}$ 拟合检验法的理论依据是所构造的统计量渐近于 $x^{2}$ 分布",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 422007,
+          "subject_id": 3,
+          "chapter_id": 422,
+          "question_id": "pdf-ocr-422-007",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "根据某市公路交通部门某年中前6个月交通事故记录,统计得星期一至星期日发生交通事故的次数如下：\n星期 1 2 3 4 5 6 7 (日)\n次数 36 23 29 31 34 60 25\n问交通事故发生是否与星期几无关 $(\\alpha=0.05)$ ?",
+          "analysis": "设X为一周中各天发生交通事故的总数 如果交通事故的发生与星期几无关,则X应具有分布律\n$P\\{X=i\\}=p_{i}=1/7\\quad(i=1,2,\\cdots,7)$\n于是问题归结为检验假设\n$H_{0}:p_{i}=1/7,H_{1}:p_{i}\\neq1/7\\quad(i=1,2,\\cdots,7)$\n用分布的 $x^{2}$ 拟合检验法判之.把每一天看成一个小区间,计算出相应的 $f_{i},n p_{i}$ 列表如下\n星期 $fi$ npi $f_{i}-n p_{i}$ $(f_{i}-n p_{i})^{2}/n p_{i}$\n1 36 $\\mathbf{238\\times 1/7}$ 2 0.1176\n2 23 $\\mathbf{238\\times 1/7}$ -11 3.5588 uM\n3 29 $\\mathbf{238\\times 1}/7$ -5 0.7353\n4 31 $\\mathbf{238\\times 1}/\\mathbf{7}$ -3 0.2647\n5 34 $\\mathbf{238\\times 1}/\\mathbf{7}$ 0 0\n60 $\\mathbf{238\\times 1}/7$ 26 19.8824\n日 25 $\\mathbf{238\\times 1}/7$ -9 2.3824\n∑ 238 238 $\\chi^{2}=26.941$\n由 $k=7,r=0$ 查表得临界值\neuＭ\n$\\chi_{\\alpha}^{2}(k-r-1)=\\chi_{0.05}(6)=12.592$\n由于 $\\chi^{2}=26.9412>12.592$ 故拒绝 $\\mathbf{H_{0}}$ 即认为交通事故的发生与星期几有关,显然,星期六的交通事故比其它6天多.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/422/007",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4220071,
+              "question_id": 422007,
+              "is_answer": true,
+              "choice": "否",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220072,
+              "question_id": 422007,
+              "is_answer": false,
+              "choice": "是",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220073,
+              "question_id": 422007,
+              "is_answer": false,
+              "choice": "无法确定",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220074,
+              "question_id": 422007,
+              "is_answer": false,
+              "choice": "其它结论均不正确",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 422008,
+          "subject_id": 3,
+          "chapter_id": 422,
+          "question_id": "pdf-ocr-422-008",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "每次检查产品时,都抽取10件产品来检查,统计100次检查结果,得到每10件产品中次数的分布如下表：\n次品数xi 0 1 2 3 4 5 ≥6\n频数fi 32 45 17 4 1 1\n试问 $x^{2}$ 拟合优度检验法检验次品数总体是否服从二项分布 $(\\alpha=0.05)$",
+          "analysis": "检验假设次品数总体 $\\overline{{X}}\\sim B(n,p)$ 由极大似然估计法得 $\\pmb{\\hat{p}}=\\pmb{\\bar{x}}/n$\n经计算\n$$\\hat{p}=\\frac{1}{100\\times10}(45+2\\times17+3\\times4+4\\times1+5\\times1)=\\frac{1}{10}$$\n故检验假设为\n$H_{0}:X\\sim B(10,0.1)$\n即\n$$\\hat{p}_{i}=P\\{X=i\\}=C_{10}^{i}(0.1)^{i}(0.9)^{10-i},\\quad i=0,1,2,\\cdots,10$$\n为了使 $n\\hat{p}_{i}\\geq\\mathbf{5}$ 将 $x_{i}\\geq\\mathbf{3}$ 合并,于是 $\\boldsymbol{k}=4,\\boldsymbol{r}=1$\n计算 $x^{2}$ 的观察值,计算结果如下表：\n次品数 频数f $\\hat{\\mathbf{p}}_{i}$ $n\\hat{p}_{i}$ $\\frac{(f_{i}-n\\hat{p}_{i})^{2}}{n\\hat{p}_{i}}$\n0 32 0.3487 34.87 0.2362\n1 45 0.3874 38.74 1.0116\n2 17 0.1937 19.37 0.2900\n$\\geq3$ 6 0.0702 7.02 0.1482\n∑ 100 1.0000 100.00 1.686\n$\\chi^{2}=\\sum_{i=0}^{3}\\frac{\\left(f_{i}-n\\hat{p}_{i}\\right)^{2}}{n\\hat{p}_{i}}=1.69$\n查表得 $\\chi_{0.05}^{2}(4-1-1)=5.99$ 经比较知\n$\\chi^{2}=1.69<\\chi^{2}_{0.05}(2)=5.99$\n故接受 $\\mathbf{H_{0}}$ 即认为产品的次数服从二项分布B(10,0.1)",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/422/008",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4220081,
+              "question_id": 422008,
+              "is_answer": true,
+              "choice": "服从",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220082,
+              "question_id": 422008,
+              "is_answer": false,
+              "choice": "不服从",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220083,
+              "question_id": 422008,
+              "is_answer": false,
+              "choice": "无法判断",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220084,
+              "question_id": 422008,
+              "is_answer": false,
+              "choice": "其它结论均不正确",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 422009,
+          "subject_id": 3,
+          "chapter_id": 422,
+          "question_id": "pdf-ocr-422-009",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某车床生产滚珠,随机抽取了50个产品,测得它们的直径为(单位：mm)：\n15.0 15.8 15.2 15.1 15.9 14 14.8 15.5\n5 15.3 15.1 15.3 15.0 15.6 15.7 14.8\n14.5 14.2 14.9 14.9 15.2 15.0 15.3 15.6\n15.1 14.9 14.2 14.6 15.8 15.2 15.9 15.2\n15.0 14.9 14.8 14.5 15.1 15.5 15.5 15.1\n15.1 15.0 15.3 14.7 14.5 15.5 15.0 14.7\n14.6 14.2\n经过计算知道,样本均值 $\\bar{x}=\\mathbf{15.1}$ 样本方差 $s^{2}=(0.4325)^{2}$ 问滚珠直径是否服从正态分布N(15.1,0.4325{)？",
+          "analysis": "用X表示滚珠直径,待检验的假设为\n$H_{0}:X\\sim N\\big(15.1,0.4325^{2}\\big).$\n对数据进行分组,分成7组,在数轴上选取6 点：\nü $14.3,14.6,14.9,15.2,15.5,15.8$\n将数轴分成7个区间\n$(-\\infty,14.3],(14.3,14.6],\\cdots,(15.8,+\\infty)$\n设各组的端点分别为 $(a_{i-1},a_{i}],i=1,2,\\cdots,7$ Mathe\n$$\\hat{p}_{i}=F(a_{i})-F(a_{i-1})=\\int_{a_{i-1}}^{a_{i}}\\frac{1}{\\sqrt{2\\pi}\\times0.4325}e^{-\\frac{(x-15.1)^2}{2\\times(0.4325)^2}}dx,\\quad i=1,2,\\cdots,7$$\n当 $\\pmb{H_{0}}$ 成立时,列表如下：\ni 1 2 3 4 5 6 7\npi 0.032 0.092 0.198 0.270 0.231 0.125 0.053\nnpi 1.6 4.6 9.9 13.5 11.55 6.25 2.65\n$fi$ 3 5 10 16 8 6 2\n$(f_{i}-np_{i})^{2}$ 1.96 0.16 0.01 6.25 12.6075 0.0625 0.4225\n$\\frac{(f_{i}-n p_{i})^{2}}{n p_{i}}$ 1.225 0.0348 0.001 0.463 1.0911 0.01 0.1594\n所以\n$\\chi^{2}=\\sum_{i=1}^{7}\\frac{\\left(f_{i}-np_{i}\\right)^{2}}{np_{i}}=2.9843.$\n由于总体分布函数中含有未知参数, 因此应查自由度为4的 $x^{2}$ 分布表,当 $\\alpha=0.05$ 时,临界值\n$\\chi_{0.05}^{2}(4)=9.488.$\n因 $\\chi^{2}=2.9843<9.488$ 故 $\\pmb{\\pi_{0}}$ 相容,即可以认为滚珠直径服从N(15.1,0.43252)",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/422/009",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4220091,
+              "question_id": 422009,
+              "is_answer": true,
+              "choice": "服从",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220092,
+              "question_id": 422009,
+              "is_answer": false,
+              "choice": "不服从",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220093,
+              "question_id": 422009,
+              "is_answer": false,
+              "choice": "无法判断",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220094,
+              "question_id": 422009,
+              "is_answer": false,
+              "choice": "其它结论均不正确",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 422010,
+          "subject_id": 3,
+          "chapter_id": 422,
+          "question_id": "pdf-ocr-422-010",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "根据观察到的数据\ne\n检验整批零件上的疵点数是否服从泊松分布 $(\\alpha=0.05)$ '",
+          "analysis": "设X表示整批零件上的疯点数,则本问题是在 $\\alpha=0.05$ 下检验假设\n$H_{0}:P\\{X=i\\}={\\frac{\\lambda^{i}e^{-\\lambda}}{i!}},\\quad i=0,1,2,\\cdots$\n由于在 $\\pmb{H_{0}}$ 中参数入未具体给出,所以先估计入的值.由极大似然估计法得\n$${\\hat{\\lambda}}={\\bar{x}}={\\frac{1}{100}}{\\big(}0\\times14+1\\times27+2\\times26+3\\times20+4\\times7+5\\times3+6\\times3{\\big)}=2.$$\n所有可能结果分为5个互不相容的事件(其中 $X\\geq4$ 的项合并),当 $\\pmb{\\pi_{0}}$ 成立时, $P\\{X=i\\}$ 的估计值为：\n$\\begin{aligned}&p_{0}=e^{-2}\\approx0.135335,\\quad\\\\ &p_{1}=2e^{-2}\\approx0.27067,\\quad\\\\ &p_{2}=2e^{-2}\\approx0.270671,\\quad\\\\ &p_{3}=\\frac{4}{3}e^{-2}\\approx0.180447,\\quad\\\\ &p_{\\geq4}\\approx1-(p_{0}+p_{1}+p_{2}+p_{3})\\approx0.142877.\\\\ \\end{aligned}$\n列表计算如下：\n当 $\\pmb{H_{0}}$ 为真时,统计量 $\\chi^{2}=\\sum_{n p_{i}}^{}\\frac{(f_{i}-n p_{i})^{2}}{n p_{i}}\\approx0.3206$\n自由度 $d f=k-1-r=5-1-1=3$ (此处 $\\pmb{k}=\\pmb{5}$ 为合并后的组数, $\\pmb{r=1}$ 为估计参数个数).\n查表知 $\\chi_{0.05}^{2}(3)=7.815.$\n因为 $\\chi^{2}=0.3206<7.815$ 故接受 $\\pmb{\\pi_{0}}$ 认为整批零件上的疵点数服从泊松分布.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/422/010",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4220101,
+              "question_id": 422010,
+              "is_answer": true,
+              "choice": "服从",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220102,
+              "question_id": 422010,
+              "is_answer": false,
+              "choice": "不服从",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220103,
+              "question_id": 422010,
+              "is_answer": false,
+              "choice": "无法判断",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220104,
+              "question_id": 422010,
+              "is_answer": false,
+              "choice": "其它结论均不正确",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  },
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 12,
+      "questions": [
+        {
+          "id": 422011,
+          "subject_id": 3,
+          "chapter_id": 422,
+          "question_id": "pdf-ocr-422-011",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体X是有限总体,X的分布列为\nX $a1$ a2 uMath $a_{}$\nP P_{1P{2 P_{\n其中 $\\textstyle\\sum_{i=1}^{r}p_{i}=1$ 检验假设H_{: $P\\{X=a_{i}\\}=p_{i},i=1,2,\\cdots,r$,检验统计量为 $\\begin{array}{r}{\\chi^{2}=\\sum_{i=1}^{r}\\frac{(m_{i}-n p_{i})^{2}}{n p_{i}}}\\end{array}$,其中 $m_{i}$ 是n次独立重\n复实验中 $\\pmb{a}_{i}$ 出现的频数 $(i=1,2,\\cdots,r)$,则检验的拒绝域为()(显著性水平为α)",
+          "analysis": "总体分布函数的拟合优度检验统计量为\n$\\chi^{2}=\\sum_{i=1}^{r}\\frac{(m_{i}-np_{i})^{2}}{np_{i}}$\n拒绝域为\n$x^{2}>\\chi_{\\alpha}^{2}(r-1)$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/422/011",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4220111,
+              "question_id": 422011,
+              "is_answer": true,
+              "choice": "$\\{x^{2}>\\chi_{\\alpha}^{2}(r-1)\\}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220112,
+              "question_id": 422011,
+              "is_answer": false,
+              "choice": "$\\{x^{2}>\\chi_{\\alpha}^{2}(r)\\}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220113,
+              "question_id": 422011,
+              "is_answer": false,
+              "choice": "$\\{\\chi^2<\\chi^2_{1-\\alpha/2}(r) 或 \\chi^2>\\chi^2_{\\alpha/2}(r)\\}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220114,
+              "question_id": 422011,
+              "is_answer": false,
+              "choice": "$\\{\\chi^{2}<\\chi^{2}_{1-\\alpha/2}(r-1) 或 \\chi^{2}>\\chi^{2}_{\\alpha/2}(r-1)\\}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 422012,
+          "subject_id": 3,
+          "chapter_id": 422,
+          "question_id": "pdf-ocr-422-012",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "一个正20面体,每一个面上都标有0,1,2…,9中的某一个数字,并且这10个数字中的每个都标在两个面上．现在抛掷这个正\n20面体800次,标有数字0,1,2…,9的各面朝上的次数如表所示,判断这个正 面体是否由均匀材料制成的 $(\\alpha=0.05)$\n朝上一面的数字x 0 1 2 3 5 6 7 8\n频数 fi 85 93 84 79 78 69 74 71 91 76",
+          "analysis": "判断这个正20面体是否由均匀材料制成,实际上就是判断这个正20面体的每一个面朝上的概率是否相等,设X为抛掷一次朝上的面上\n的数字, 因此本问题是在 $\\alpha=0.05$ 下检验假设\n$H_{0}:P\\{X=i\\}=\\frac{1}{10},i=0,1,2,\\cdots,9$\n将试验的可能结果分为10个互不相容的事件\n$A_{0},A_{1},\\cdots,A_{9}$\n当 $\\pmb{H_{0}}$ 成立时, $P\\{X=i\\}$ 有估计值\n$p_{i}=P\\{X=i\\}=1/10,i=0,1,\\cdots,9$\n列表如表：\n$A_{i}$ 概率 pi npi 频数 fi$ $(f_{i}-n p_{i})^{2}$ $\\frac{(f_{i}-n p_{i})^{2}}{n p_{i}}$\n$A_{0}$ 0 1/10 80 85 25 0.3125\n$A_{1}$ 1 1/10 80 93 169 2.1125\n$A_{2}$ 2 1/10 80 84 16 0.2\n$A_{3}$ 3 1/10 80 79 1 0.0125\n$A_{4}$ 4 1/10 80 78 4 0.05\n1/10 80 69 qMat\n$A_{5}$ 5 121 1.5125\n$A_{\\theta}$ 6 1/10 80 74 36 0.45\n$A_{\\mathbf{T}}$ 7 1/10 80 71 81 1.0125\n$A_{8}$ 8 1/10 80 91 121 1.5125\n$A_{\\theta}$ 9 1/10 80 76 16 0.2\n∑ 1 800 7.375\n由于当 $\\pmb{H_{0}}$ 为真时, Mathe\n$\\chi^{2}=\\sum_{i=0}^{k}\\frac{(f_{i}-n p_{i})^{2}}{n p_{i}}\\sim\\chi^{2}(k-1-r)$\n且此检验问题的拒绝域为 $\\chi^{2}\\geq\\chi_{\\alpha}^{2}(k-1-r)$\n这里 $\\chi^{2}=7.375$ 查表知\n$\\chi_{0.05}^{2}(10-1-0)=\\chi_{0.05}^{2}(9)=16.9$\n显然 $\\chi^{2}=7.375<16.9=\\chi_{0.05}^{2}(9)$ 即 $x^{2}$ 未落在拒绝域中,所以接受 $\\pmb{H_{0}} 即认为这个正20面体是由均匀材料制成的.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/422/012",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4220121,
+              "question_id": 422012,
+              "is_answer": true,
+              "choice": "是",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220122,
+              "question_id": 422012,
+              "is_answer": false,
+              "choice": "不是",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220123,
+              "question_id": 422012,
+              "is_answer": false,
+              "choice": "无法确定",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4220124,
+              "question_id": 422012,
+              "is_answer": false,
+              "choice": "其它结论均不正确",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,2843 @@
+[
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 33,
+      "questions": [
+        {
+          "id": 416001,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-001",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "下面列出的是某工厂随机选取的20只部件的装配时间(min)：\n$$9.8,10.4,10.6,9.6,9.7,9.9,10.9,11.1,9.6,10.2,10.3,9.6,9.9,11.2,10.6,9.8,10.5,10.1,10.5,9.7$$\n样本标准差8≈0.5099.设装配时间的总体服从正态分布 $N(\\mu,\\sigma^{2}),\\mu,\\sigma^{2}$ 均未知,在 $\\alpha=0.05$ 下,检验装配的平均时间μ是\n否超过10(min),则下列说法中不正确的是() $(t_{0.05}(19)=1.729,t_{0.05}(20)=1.7247)$\n$\\begin{array}{r}{\\pmb{T}=\\frac{\\vec{X}-10}{S/\\sqrt{20}}\\sim t(20)}\\end{array}$",
+          "analysis": "检验假设H0：μ≤10,H₁1:μ>10.\n因σ未知,故用t检验法,检验统计量为 $\\begin{array}{r}{\\pmb{T}=\\frac{\\bar{\\pmb{X}}-10}{\\bar{S}/\\sqrt{20}}\\sim t(19).}\\end{array}$\n拒绝域为 $\\begin{array}{r}{\\pmb{W}=\\Big\\{\\frac{\\bar{\\pmb{X}}-10}{\\bar{S}/\\sqrt{20}}>t_{0.05}(19)\\Big\\}.}\\end{array}$\n已知 $\\pmb{n}=20,\\alpha=0.05$ 由数据算得 $\\bar{x}=10.2,s\\approx$ 0.5099.\n计算得 $\\frac{\\bar{x}-10}{s/\\sqrt{20}}=\\frac{10.2-10}{0.5099/\\sqrt{20}}$ ≈1.7541>1.7291,故拒绝 $\\pmb{H_{0}}$,即可以认为装配时间的均值显著地大于10.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/001",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160011,
+              "question_id": 416001,
+              "is_answer": true,
+              "choice": "检验统计量为",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160012,
+              "question_id": 416001,
+              "is_answer": false,
+              "choice": "样本均值为 $\\bar{x}=10.2$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160013,
+              "question_id": 416001,
+              "is_answer": false,
+              "choice": "拒绝域为 $\\begin{array}{r}{\\pmb{W}=\\left\\{\\frac{\\bar{X}-10}{S/\\sqrt{20}}>t_{0.05}(19)\\right\\}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160014,
+              "question_id": 416001,
+              "is_answer": false,
+              "choice": "可认为装配时间的均值显著地大于 10",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416002,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-002",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某装置的平均工作温度据制造厂家称不高于190°C,今从一个由16台装置构成的随机样本测得工作温度的平均值和标准差分别\n为195C和8°C.设 $\\alpha=0.05$,并假设工作温度近似服从正态分布,则下列说法中不正确的是().\n$(t_{0.05}(16)=1.7459,t_{0.05}(15)=1.7531)$",
+          "analysis": "设X为工作温度,则 $X\\sim N(\\mu,\\sigma^{2})$\n(1)待检假设H_0:μ≤190,备择假设H_{₁1:uμ>190;\n(2)在 $\\pmb{H_{0}}$ 成立条件下,选择统计量 $\\begin{array}{r}{\\pmb{T}=\\frac{\\bar{\\pmb{X}}-\\mu_{0}}{\\bar{S}/\\sqrt{n}}\\approx t(n-1)}\\end{array}$\n(3)在显著性水平0.05下,查t分布表,找出临界值 $t_{\\alpha}(n-1)=t_{0.05}(15)=1.7531$,拒绝域为 $[1.7531,+\\infty)$\n(4)计算 $\\begin{array}{r}{t=\\frac{\\bar{X}-\\mu_{0}}{S/\\sqrt{n}}=\\frac{195-190}{8/\\sqrt{16}}=2.5>1.75,}\\end{array}$ 所以否定原假设H0,说明平均工作温度比制造厂所说的要高.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/002",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160021,
+              "question_id": 416002,
+              "is_answer": true,
+              "choice": "检验假设H_{0:μ=190,H_{1}:\\mu\\neq190",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160022,
+              "question_id": 416002,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\begin{array}{r}{T=\\frac{\\bar{X}-\\mu_{0}}{S/\\sqrt{n}}\\sim t(n-1)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160023,
+              "question_id": 416002,
+              "is_answer": false,
+              "choice": "拒绝域为 $\\left[1.7531,+\\infty\\right)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160024,
+              "question_id": 416002,
+              "is_answer": false,
+              "choice": "在 $\\alpha=0.05$,可以认为平均工作温度比制造厂所说的要高",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416003,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-003",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "当正态总体X的方差 $D(X)=\\sigma^{2}$ 未知,检验期望 $E(X)=\\mu_{0}$ 用的统计量是().",
+          "analysis": "正态总体方差未知时均值的检验．若H0为真,检验统 +量为T= s/\\sqr} x- 1μ0 ∼t(n−1),即T= (x-μ0)√n(n-1) ∼ t(n − 1).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/003",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160031,
+              "question_id": 416003,
+              "is_answer": true,
+              "choice": "$\\frac{\\left(\\bar{X}{-}\\mu_{0}\\right)\\sqrt{n(n{-}1)}}{\\left(\\sum_{k=1}^{n}\\left(X_{k}{-}\\bar{X}\\right)^{2}\\right)^{\\frac{1}{2}}}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160032,
+              "question_id": 416003,
+              "is_answer": false,
+              "choice": "$\\frac{\\left(\\bar{X}-\\mu_{0}\\right)n}{\\left(\\sum_{k=1}^{n}\\left(X_{k}-\\bar{X}\\right)^{2}\\right)^{\\frac{1}{2}}}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160033,
+              "question_id": 416003,
+              "is_answer": false,
+              "choice": "$\\frac{\\left(\\bar{X}-\\mu_{0}\\right)\\left(n-1\\right)}{\\left(\\sum_{k=1}^{n}\\left(X_{k}-\\bar{X}\\right)^{2}\\right)^{\\frac{1}{2}}}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160034,
+              "question_id": 416003,
+              "is_answer": false,
+              "choice": "$\\frac{\\left(\\bar{X}-\\mu_{0}\\right)}{\\left(\\sum_{k=1}^{n}\\left(X_{k}-\\bar{X}\\right)^{2}\\right)^{\\frac{1}{2}}}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416004,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-004",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体 $X\\sim N(\\mu,\\sigma^{2})$ 其中 $\\sigma^{2}$ 未知,取得样本 $X_{1},X_{2},\\cdots,X_{n},\\bar{X}$ 为样本均值,S为样本标准差．对假设检验\n$H_{0}:\\mu\\geq\\mu_{0}\\leftrightarrow H_{1}:\\mu<\\mu_{0}.$ 取检验统计量 $\\begin{array}{r}{T=\\frac{\\left(\\bar{\\pmb{X}}-\\mu_{0}\\right)}{S/\\sqrt{n}}}\\end{array}$,则拒绝域W为(),(显著性水平为α)",
+          "analysis": "正态总体方差未知时均值的检验．若H为真,检验统计量为 $\\begin{array}{r}{T=\\frac{\\bar{X}-\\mu_{0}}{S/\\sqrt{n}}\\sim t(n-1).}\\end{array}$\n双侧检验： $H_{0}:\\mu=\\mu_{0},H_{1}:\\mu\\neq\\mu_{0}$ 拒绝域为 $|T|\\geq t_{\\alpha/2}(n-1)$\n右侧检验：H0 $\\mu\\leq\\mu_{0},H_{1}:\\mu>\\mu_{0}$ 拒绝域为 $T\\geq t_{\\alpha}(n-1)$\n左侧检验：H_{0:μ≥μ0,H_₁:μ<μ0,拒绝域为 $\\pmb{T}\\leq-t_{\\alpha}(n-1)$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/004",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160041,
+              "question_id": 416004,
+              "is_answer": true,
+              "choice": "$\\pmb{T}\\leq-\\pmb{t}_{\\alpha}(\\pmb{n}-\\pmb{1})$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160042,
+              "question_id": 416004,
+              "is_answer": false,
+              "choice": "$|T|\\geq t_{\\alpha/2}(n-1)$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160043,
+              "question_id": 416004,
+              "is_answer": false,
+              "choice": "$|T|\\leq t_{\\alpha/2}(n-1)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160044,
+              "question_id": 416004,
+              "is_answer": false,
+              "choice": "$T\\geq t_{\\alpha}(n-1)$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416005,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-005",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体 $X\\sim N(\\mu,\\sigma^{2}),\\quad X_{1},X_{2},\\cdots,X_{n}$ 是总体的一个样本, $\\begin{array}{r}{\\bar{X}=\\frac{1}{n}\\sum_{i=1}^{n}\\bar{X_{i}},S^{2}=\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\bar{X})^{2}}\\end{array}$,若 $\\mu,\\sigma^{2}$ 都未知,则下面\n结论正确的是().",
+          "analysis": "注意本题给的S²不是样本方差,所以检验总体均值(方差未知)的假设检验统计量为T= S/√n-1 X-μ0 ~t(n− 1).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/005",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160051,
+              "question_id": 416005,
+              "is_answer": true,
+              "choice": "若提出假设检验 $H_{0}:\\mu=\\mu_{0}$ 则选用统计量 $\\frac{\\bar{x}-\\mu_{0}}{s/\\sqrt{n-1}}$\n$H_{0}:\\mu=\\mu_{0}$ $\\frac{\\sum-\\mu_{0}}{\\sigma/\\sqrt{n}}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160052,
+              "question_id": 416005,
+              "is_answer": false,
+              "choice": "若提出假设检验 则选用统计量",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160053,
+              "question_id": 416005,
+              "is_answer": false,
+              "choice": "若提出假设检验 $H_{0}:\\mu=\\mu_{0}$ 则选用统计量 $\\frac{\\bar{x}-\\mu_{0}}{\\sigma/\\sqrt{n-1}}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160054,
+              "question_id": 416005,
+              "is_answer": false,
+              "choice": "若提出假设检验 $H_{0}:\\mu=\\mu_{0}$ 则选用统计量 $\\frac{\\sum-\\mu_{0}}{\\frac{S/\\sqrt{n}}{S/\\sqrt{n}}}$ Mathe",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416006,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-006",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体 $X\\sim N(\\mu,\\sigma^{2})$,其中 $\\pmb{\\sigma}^{2}$ 已知. 若提出假设： $H_{0}:\\mu=\\mu_{0}\\quad(\\mu_{0}$ 已知), $H_{1}:\\mathbf{\\mu }\\neq\\mathbf{\\mu _{0}}$,所用检验统计量为 $\\begin{array}{r}{U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma/\\sqrt{n}}}\\end{array}$\n则拒绝域为()",
+          "analysis": "N\n正态总体方差已知时均值的检验．若H0为真,检验统计量为 $\\begin{array}{r}{U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma/\\sqrt{n}}\\sim N(0,1)}\\end{array}$\n双侧检验： $H_{0}:\\mu=\\mu_{0},H_{1}:\\mu\\neq\\mu_{0}$ 拒绝域为 $|\\pmb{U}|\\geq u_{\\alpha/2}.$\n右侧检验： $H_{0}:\\mu\\leq\\mu_{0},H_{1}:\\mu>\\mu_{0}$ 拒绝域为 $U\\geq\\pmb{u}_{\\pmb{\\alpha}}$ the\n左侧检验： H_0：μ≥μ{0,H_{₁}:μ<_0,拒绝域为 $\\pmb{U}\\leq-\\pmb{u}_{\\alpha}.$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/006",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160061,
+              "question_id": 416006,
+              "is_answer": true,
+              "choice": "$|U|\\geq u_{\\alpha/2}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160062,
+              "question_id": 416006,
+              "is_answer": false,
+              "choice": "$U\\geq u_{\\alpha}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160063,
+              "question_id": 416006,
+              "is_answer": false,
+              "choice": "$\\pmb{U}\\leq-\\pmb{u}_{\\pmb{\\alpha}}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160064,
+              "question_id": 416006,
+              "is_answer": false,
+              "choice": "$|U|\\geq\\mathfrak{u}_{\\alpha}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416007,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-007",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设某次考试的考生成绩服从正态分布,从中随机地抽取36位考生的成绩,算得平均成绩为66.5分,样本标准差为15分,在\n显著性水平为0.05下,检验全体考生的平均成绩是否为70,则下列说法中不正确的是 ).\n$(t_{0.025}(36)=2.0281,t_{0.025}(35)=2.0301)$",
+          "analysis": "(1)设这次考试全体考生的平均成绩 $X\\sim N(\\mu,\\sigma^{2})$ 则待检验假设 $H_{0}:\\mu=70$ 备择假设 $H_{1}:\\mu\\neq70;$\n(2)在 $\\pmb{\\pi_{0}}$ 成立条件下选择统计量 $\\begin{array}{r}{T=\\frac{\\bar{X}-\\mu_{0}}{S/\\sqrt{n}}\\sim t(n-1)}\\end{array}$\n(3)在显著性水平0.05下,查t分布表,找出临界值 $t_{\\alpha/2}(n-1)=t_{0.025}(35)=2.0301$ 则拒绝域为\n$(-\\infty,-2.0301)\\cup(2.0301,+\\infty)$\n(4)计算 $\\begin{array}{r}{t=\\frac{|66.5-70|}{15/\\sqrt{36}}=1.4\\in(-2.0301,2.0301)}\\end{array}$ 故接受 $\\mathbf{H_{0}}$ 因此可认为这次考试全体考生的平均成绩为70分,",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/007",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160071,
+              "question_id": 416007,
+              "is_answer": true,
+              "choice": "拒绝域为 $[2.0301,+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160072,
+              "question_id": 416007,
+              "is_answer": false,
+              "choice": "检验假设H_{0:μ=70,H_{₁1:μ≠70",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160073,
+              "question_id": 416007,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\begin{array}{r}{T=\\frac{\\bar{X}-\\mu_{0}}{S/\\sqrt{n}}\\sim t(n-1)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160074,
+              "question_id": 416007,
+              "is_answer": false,
+              "choice": "在 $\\alpha=0.05$ 下,可以认为这次考试全体考生的平均成绩为70分",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416008,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-008",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设 $X_{1},X_{2},\\cdots,X_{n}$ 是来自于正态总体 $N(\\mu,\\sigma^{2})$ 的简单随机样本,X是样本均值,记\n$\\begin{array}{r}{S_{1}^{2}=\\frac{1}{n}\\sum_{i=1}^{n}\\left(X_{i}-\\bar{X}\\right)^{2}}\\end{array}$,$S_{2}=$ $nn1$ 1 ∑=1(x₁-x^{2 $\\begin{array}{r}{S_{3}^{2}=\\frac{1}{n-1}\\sum_{i=1}^{n}\\left(X_{i}-\\mu\\right)^{2}}\\end{array}$ $\\begin{array}{r}{S_{4}^{2}=\\frac{1}{n}\\sum_{i=1}^{n}\\left(X_{i}-\\mu\\right)^{2}}\\end{array}$ $\\mu,\\sigma$ 均未知, 若\n提出检验假设 $H_{0}:\\mu=\\mu_{0}$ 则选用统计量",
+          "analysis": "方差{2未知时,检验假设H_{0：μ=0,_{₁1:μ≠μ0$的检验统计量为T= $s/sr X-110 ∼t(n − 1).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/008",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160081,
+              "question_id": 416008,
+              "is_answer": true,
+              "choice": "$\\begin{array}{r}{T=\\frac{\\bar{X}-\\mu_{0}}{\\frac{\\bar{S}_{2}}{\\sqrt{n}}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160082,
+              "question_id": 416008,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{T=\\frac{\\bar{X}-\\mu_{0}}{\\frac{\\bar{s}_{1}}{\\sqrt{n}}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160083,
+              "question_id": 416008,
+              "is_answer": false,
+              "choice": "$T=\\frac{\\bar{X}-\\mu_{0}}{\\frac{S_{3}}{\\sqrt{n}}}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160084,
+              "question_id": 416008,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{T=\\frac{\\bar{X}-\\mu_{0}}{\\frac{S_{4}}{\\sqrt{n}}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416009,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-009",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体 $X\\sim N(\\mu,\\sigma^{2})$,其中 $\\pmb{\\sigma}^{2}$ 已知．若提出假设： $H_{0}:\\mu\\geq\\mu_{0}\\quad(\\mu_{0}$ 已知), $H_{1}:\\mu<\\mu_{0}$ 所用检验统计量为 $\\begin{array}{r}{U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma/\\sqrt{n}},}\\end{array}$ 则\n拒绝域为 ( ).",
+          "analysis": "正态总体方差已知时均值的检验．若H0为真,检验统计量为 $\\begin{array}{r}{U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma/\\sqrt{n}}\\sim N(0,1)}\\end{array}$\n双侧检验： $H_{0}:\\mu=\\mu_{0},H_{1}:\\mu\\neq\\mu_{0}$ 拒绝域为 $|\\pmb{U}|\\geq u_{\\alpha/2}.$\n右侧检验： $H_{0}:\\mu\\leq\\mu_{0},H_{1}:\\mu>\\mu_{0}$ 拒绝域为 $U\\geq{\\pmb u}_{\\pmb{\\alpha}}.$\n左侧检验： $H_{0}:\\mu\\geq\\mu_{0},H_{1}:\\mu<\\mu_{0}$ 拒绝域为 $U\\leq-u_{\\alpha}.$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/009",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160091,
+              "question_id": 416009,
+              "is_answer": true,
+              "choice": "$U\\leq-u_{\\alpha}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160092,
+              "question_id": 416009,
+              "is_answer": false,
+              "choice": "$|U|\\geq u_{\\alpha/2}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160093,
+              "question_id": 416009,
+              "is_answer": false,
+              "choice": "$U\\geq u_{\\alpha}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160094,
+              "question_id": 416009,
+              "is_answer": false,
+              "choice": "|U| ≥uα",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416010,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-010",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "水泥厂用自动包装机包装水泥,每袋额定重量是50kg.某日开工后随机抽查了9袋,称得重量如下：\n49.6,49.3,50.1,50.0,49.2,49.9,49.8,51.0,50.2, $\\pmb{s}=\\pmb{0.539}$.设每袋重量服从正态分布,在 $\\alpha=0.05$ 下,检验每袋的额定重量是\n否有变化,则下列说法中不正确的是().(已知 $t_{0.025}(8)=2.306,t_{0.025}(9)=2.2622$",
+          "analysis": "(1)建立假设H0 $:\\pmb{\\mu}=\\pmb{50}$ H1:μ≠50.\n(2)选择统计量 $\\begin{array}{r}{T=\\frac{\\bar{X}-\\mu_{0}}{S/\\sqrt{n}}\\sim t(n-1).}\\end{array}$\n(3)对于给定的显著性水平α,确定k,使 $P\\{|T|>k\\}=\\alpha.$ 查t分布表得 $k=t_{\\alpha/2}=t_{0.025}(8)=2.306$,从而拒绝域为 $|T|>2.306$\n(4)由于 $\\bar{x}=49.9,s^{2}=0.29$ (或 $\\pmb{s}=\\pmb{0.539}$,所以 $|t|=0.56<2.306$ 故应接受 $\\mathbf{H_{0}}$ 即认为包装机工作正常.\n综上所述,选项1中拒绝域使用了自由度为9的临界值,是错误的.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/010",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160101,
+              "question_id": 416010,
+              "is_answer": true,
+              "choice": "拒绝域为 $\\big|T\\big|\\geq2.2622$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160102,
+              "question_id": 416010,
+              "is_answer": false,
+              "choice": "假设检验为H_{: $\\pmb{\\mu}=\\pmb{50}$ H_{1}:μ≠50",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160103,
+              "question_id": 416010,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{T=\\frac{\\bar{X}-50}{S/3}}\\end{array}$\n检验统计量为",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160104,
+              "question_id": 416010,
+              "is_answer": false,
+              "choice": "在 $\\alpha=0.05$ 下,可认为包装机工作正常",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  },
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 33,
+      "questions": [
+        {
+          "id": 416011,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-011",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体 $X\\sim N(\\mu,\\sigma^{2})$,其中σ{已知．若对μ作单边检验,提出假设：H_0:μ≤0(0已知), $H_{1}:\\mu>\\mu_{0}$ 所用检验统计量\n为 $\\begin{array}{r}{U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma/\\sqrt{n}}}\\end{array}$ 则拒绝域为().",
+          "analysis": "N\n单正态总体方差已知时均值的检验过程如下：\n(1)检验假设为H0 $:\\pmb{\\mu}=\\pmb{\\mu}_{0};$ H_{1:μ≠μ0. (2)当H0为真时,有\\begin{array}{r}{U=\\frac{\\hat{X}-\\mu_{0}}{\\sigma/\\sqrt{n}}\\sim N(0,1)}\\end{array}$ 记 的样本计算值u,则拒绝域为 $|u|>u_{\\alpha/2}$ 其中 $\\mathbf{u_{\\alpha/2}}$ 为标准正态分布的 α/2 分\n位数.\n另外：\n右侧检验：H0 $\\mu\\leq\\mu_{0};H_{1}:\\mu>\\mu_{0}$ 此时拒绝域为 $u>u_{\\alpha}.$\n左侧检验： $H_{0}:\\mu\\geq\\mu_{0};H_{1}:\\mu<\\mu_{0}.$ 此时拒绝域为 $\\pmb{u}<-\\pmb{u}_{\\pmb{\\alpha}}.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/011",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160111,
+              "question_id": 416011,
+              "is_answer": true,
+              "choice": "$U\\geq u_{\\alpha}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160112,
+              "question_id": 416011,
+              "is_answer": false,
+              "choice": "$|U|\\geq u_{\\alpha/2}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160113,
+              "question_id": 416011,
+              "is_answer": false,
+              "choice": "$U\\leq-u_{\\alpha}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160114,
+              "question_id": 416011,
+              "is_answer": false,
+              "choice": "|U| ≥ua",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416012,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-012",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体 $X\\sim N(\\mu,1)$ $X_{1},X_{2},\\cdots,X_{9}$ 为样本, $\\begin{array}{r}{\\bar{X}=\\frac{1}{9}\\sum_{i=1}^{9}X_{i}.}\\end{array}$ 若取 $\\mu_{0}=0$ 对u作假设检验,则在显著性水平 $\\alpha=0.05$\n下,不是拒绝域的是()．(已知：若 $X\\sim N(0,1)$ 则 $P\\{|X|\\geq1.96\\}=0.05,P\\{X\\geq1.645\\}=0.05)$",
+          "analysis": "设总体 $X\\sim N(\\mu,\\sigma^{2})$ 方差 $\\sigma^{2}$ 已知,X为样本均值,检验统计量为 $\\begin{array}{r}{U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma/\\sqrt{n}}\\sim N(0,1)}\\end{array}$\n(1)双侧检验 $H_{0}:\\mu=\\mu_{0},H_{1}:\\mu\\neq\\mu_{0}$ 拒绝域为 $|\\pmb{U}|\\geq u_{\\alpha/2}.$\n(2)右侧检验 $H_{0}:\\mu\\leq\\mu_{0},H_{1}:\\mu>\\mu_{0}$ 拒绝域为 $U\\geq u_{\\alpha}$\n(3)左侧检验 $H_{0}:\\mu\\geq\\mu_{0},H_{1}:\\mu<\\mu_{0}$ 拒绝域为 $U\\leq-u_{\\alpha}$\n由已知条件P{|X|≥1.96}=0.05,P{X≥1.645}=0.05,知 $u_{0.025}=1.96,u_{0.05}=1.645$\n代入 $n=9,\\mu_{0}=0,\\sigma=1,\\alpha=0.05$ 计算：\n$\\begin{array}{r}{\\frac{\\pmb{\\sigma}}{\\sqrt{n}}=\\frac{\\bf1}{\\bf3}.}\\end{array}$\n双侧检验拒绝域： $\\begin{array}{r}{|\\bar{X}|\\geq\\frac{1}{3}u_{0.025}=\\frac{1.96}{3}\\approx0.653.}\\end{array}$\n右侧检验拒绝域： $\\begin{array}{r}{\\bar{X}\\geq\\frac{1}{3}u_{0.05}=\\frac{1.645}{3}\\approx0.548.}\\end{array}$\n左侧检验拒绝域： $\\begin{array}{r}{\\bar{X}\\leq-\\frac{1}{3}u_{0.05}=-\\frac{1.645}{3}\\approx-0.548.}\\end{array}$\n对比选项, $|\\bar{X}|\\geq0.548$ 不是上述任一拒绝域",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/012",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160121,
+              "question_id": 416012,
+              "is_answer": true,
+              "choice": "$|\\bar{\\bar{X}}|\\geq0.548$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160122,
+              "question_id": 416012,
+              "is_answer": false,
+              "choice": "$|\\bar{\\bar{X}}|\\geq0.653$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160123,
+              "question_id": 416012,
+              "is_answer": false,
+              "choice": "X≥ 0.548",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160124,
+              "question_id": 416012,
+              "is_answer": false,
+              "choice": "X≤-0.548",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416013,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-013",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设 $x_{1},x_{2},\\cdots,x_{16}$ 是来自正态总体 $N(\\mu,\\sigma^{2})$ $(\\mu,\\sigma^{2}$ 未知)的一组样本观测值,若 $\\begin{array}{r}{\\bar{x}=\\frac{1}{16}\\sum_{i=1}^{16}x_{i}=14.75}\\end{array}$\n$\\textstyle\\sum_{i=1}^{16}(x_{i}-{\\bar{x}})^{2}=53.5$ 则检验假设：H0 $:\\pmb{\\mu}=\\pmb{15}$ 的检验统计量的观测值约为(). 53.5/15 ≈ 1.89.",
+          "analysis": "检验假设 $H_{0}:\\mu=\\mu_{0};H_{1}:\\mu\\neq\\mu_{0}$ 当H0为真时,检验统计量为 $\\begin{array}{r}{T=\\frac{\\bar{X}-\\mu_{0}}{S/\\sqrt{n}}\\sim t(n-1)}\\end{array}$ 其中ta/2为t分布的α/2分位数,\n$\\begin{array}{r}{S^{2}=\\frac{1}{n-1}\\sum_{i=1}^{n}(X_{i}-\\bar{X})^{2}}\\end{array}$\n本题中,T的观测值 $\\begin{array}{r}{t=\\frac{\\bar{x}-\\mu_{0}}{S/\\sqrt{n}}=\\frac{14.75-15}{\\sqrt{53.5/15}}\\sqrt{16}\\approx-0.53.}\\end{array}$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/013",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160131,
+              "question_id": 416013,
+              "is_answer": true,
+              "choice": "4 -0.53",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160132,
+              "question_id": 416013,
+              "is_answer": false,
+              "choice": "0.50",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160133,
+              "question_id": 416013,
+              "is_answer": false,
+              "choice": "-0.50",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160134,
+              "question_id": 416013,
+              "is_answer": false,
+              "choice": "0.53",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416014,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-014",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设某大学的男生体重 $X\\sim N(\\mu,5^{2}),\\mu$ 未知,今欲检验假设：H0 $\\mu=68kg,H_1:\\mu>68kg.$ 已知 $\\sigma={\\mathfrak{H}}.$ 取显著性水平\n$\\alpha=0.05$ 若当真正均值为69kg且犯第二类错误的概率不超过 $\\beta=0.05$ 时,所需样本容量为 $\\pmb{n}=0$",
+          "analysis": "由第一类、第二类错误及分位数的定义,易于证明：对于某个给定的δ>0 $(|\\pmb{\\mu}-\\pmb{\\mu}_{0}|\\geq\\delta)$ 样本容量n应满足： $\\begin{array}{r}{n\\geq\\frac{(u_{\\alpha}+u_{\\beta})^{2}\\sigma^{2}}{\\delta^{2}}}\\end{array}$ 因为\n$\\alpha=\\beta=0.05$ 故 $u_{\\alpha}=u_{\\beta}=1.645$ 对其对立假设 $\\mu=69$ 而言,取 $\\pmb{\\delta}=\\mathbf{1}$ 则\n$$n=\\frac{(u_{\\alpha}+u_{\\beta})^{2}\\sigma^{2}}{\\delta^{2}}=\\frac{(1.645+1.645)^{2}\\times25}{1}\\approx270.6$$\n故取 $\\pmb{n}=\\pmb{271}$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/014",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160141,
+              "question_id": 416014,
+              "is_answer": true,
+              "choice": "271",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160142,
+              "question_id": 416014,
+              "is_answer": false,
+              "choice": "221",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160143,
+              "question_id": 416014,
+              "is_answer": false,
+              "choice": "217",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160144,
+              "question_id": 416014,
+              "is_answer": false,
+              "choice": "212",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416015,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-015",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "已知某炼铁厂铁水含碳量服从正态分布N(4.55,0.108．现在测定了9炉铁水,其平均含碳量为4.484．如果方差没有变化,\n那么在 $\\alpha=0.05$ 下,检验总体均值是否有明显变化,则下列说法不正确的是()\n$(u_{0.025}=1.960,u_{0.05}=1.645)$",
+          "analysis": "检验假设H_{0:μ=4.55,H₁1:μ≠4.55.\n由于²=0.108²已知,所以选取检验统计量U= 0.108/√q X-4.55 ∼ N(0,1).\n拒绝域为 $\\begin{array}{r}{|U|=\\left|\\frac{\\bar{X}-4.55}{0.108/\\sqrt{9}}\\right|\\geq u_{\\alpha/2},|u|=\\left|\\frac{4.484-4.55}{0.108/\\sqrt{9}}\\right|}\\end{array}$ ≈1.833<1.96.故接受H0,即认为现在生产的铁水的平均含碳量仍为4.55",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/015",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160151,
+              "question_id": 416015,
+              "is_answer": true,
+              "choice": "拒绝域为 $\\begin{array}{r}{|U|=\\left|\\frac{\\bar{X}-4.55}{0.108/\\sqrt{9}}\\right|\\geq u_{\\alpha}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160152,
+              "question_id": 416015,
+              "is_answer": false,
+              "choice": "应检验假设: $H_{0}:\\mu=4.55,H_{1}:\\mu\\neq4.55$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160153,
+              "question_id": 416015,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\begin{array}{r}{U=\\frac{\\bar{X}-4.55}{0.108/\\sqrt{9}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160154,
+              "question_id": 416015,
+              "is_answer": false,
+              "choice": "在 $\\bar{\\alpha}=0.05$ 下,可以认为现在铁水平均含碳量仍为4.55",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416016,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-016",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "从清凉饮料自动售货机随机抽样36杯,其平均含量为219mL,标准差为14.2 mL.假设每杯的标准含量为222mL,在\n$\\alpha=0.05$ 下,检验每杯的平均含量是否低于222mL,下列说法中不正确的是().\n$t_{0.05}(36)=1.688,\\quad t_{0.05}(35)=1.6896$",
+          "analysis": "设X代表自动售货机售出的清凉饮料含量, $X\\sim N(\\mu,\\sigma^{2})$\n检验假设H_0: $\\mu=\\mu_{0}=222\\mathrm{m L}$ H_{1 $\\mathbf{\\mu}<\\mathbf{222}\\mathbf{m L}$\n由 $\\pmb{\\alpha}=\\pmb{0}$ 05 $\\pmb{n}=\\pmb{36}$ 查表得 $t_{0.05}(36-1)=1.6896$\n检验统计量为 $\\begin{array}{r}{T=\\frac{\\bar{X}-\\mu_{0}}{S/\\sqrt{n}}\\sim t(n-1)}\\end{array}$ 由于是左侧检验,拒绝域为\n$\\frac{\\bar{X}-\\mu_{0}}{S/\\sqrt{n}}\\leq-t_{\\alpha}(n-1)$\n计算t值并判断：\n$t={\\frac{219-222}{14.2/{\\sqrt{36}}}}\\approx-1.2676>-1.6896.$\n故接受 $\\mathbf{H_{0}}$ 即可以认为每杯饮料的平均含量为222mL.\n综上所述,选项2、3、4说法正确.选项1中拒绝域使用了 $t_{\\alpha/2}$ (对应双侧检验),而本题为单侧检验,应使用,故选项1说法 $t_{\\alpha}$\n不正确.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/016",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160161,
+              "question_id": 416016,
+              "is_answer": true,
+              "choice": "拒绝域为 $\\begin{array}{r}{\\frac{\\bar{x}-\\mu_{0}}{s/\\sqrt{n}}<-t_{\\alpha/2}(n-1)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160162,
+              "question_id": 416016,
+              "is_answer": false,
+              "choice": "检验假设H_{0:μ=222,H_{1:μ<222",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160163,
+              "question_id": 416016,
+              "is_answer": false,
+              "choice": "检验统计量的样本值约为-1.27",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160164,
+              "question_id": 416016,
+              "is_answer": false,
+              "choice": "在 $\\alpha=0.05$ 下,可认为每杯饮料平均含量为222mL",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416017,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-017",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "用5个含铁物质的样本做实验,以决定化学分析和X光分析对铁含量大小是否有差异．每个样本分为两个小样本,以两种分析\n方法做对比实验,得到如下数据：\n样本i 1 2 3 4 5\nX光分析xi 2.0 2.0 2.3 2.1 2.4\n化学分析yi 2.2 1.9 2.5 2.3 2.4\n假设两总体均服从正态分布,若在 $\\alpha=0.05$ 的显著性水平下,检验两种分析方法所得的平均值是否相同,则下列说法不正确的\n是(). $(t_{0.025}(4)=2.7764,t_{0.05}(4)=2.5706)$",
+          "analysis": "用同一块样本一分为二,用两种分析方法做对比试验,其数据之差即反映了两种分析方法的\n设差值Z服从正态分布 $Z\\sim N(\\mu_{z},\\sigma_{z}^{2})$ 其取值为 $z_{i}=x_{i}-y_{i}\\colon-0.2,0.1,-0.2,-0.2,0.$\n若两种方法无差异,则 $\\mu_{z}=0.$ 检验假设H0 $\\mu_{z}=0,H_{1}:\\mu_{z}\\neq0.$ 所用检验统计量为 $\\begin{array}{r}{T=\\frac{Z}{S/\\sqrt{n}},}\\end{array}$ 拒绝域为 $|T|>t_{\\alpha/2}(n-1).$\n由 $\\bar{z}=-0.1,s_{z}\\approx0.141,n=5,\\alpha=0.05.$ 得 $\\begin{array}{r}{t=\\frac{\\bar{z}-0}{s_{z}/\\sqrt{n}}=\\frac{-0.1-0}{0.141/\\sqrt{5}}\\approx-1.59.}\\end{array}$\n因为 $<t_{0.025}(4)=2.7764$ 故接受H0 $:\\mu_{z}=0$ 即在 $\\alpha=0.05$ 下,认为两种分析方法所得均值相同.\n选项1中给出的拒绝域 $(t_{0.025}(4),+\\infty)$ 对应单侧检验,而本题为双侧检验,故说法不正确.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/017",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160171,
+              "question_id": 416017,
+              "is_answer": true,
+              "choice": "拒绝域为 $(t_{0.025}(4),+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160172,
+              "question_id": 416017,
+              "is_answer": false,
+              "choice": "检验假设 $H_{0}:\\mu_{z}=0,H_{1}:\\mu_{z}\\neq0$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160173,
+              "question_id": 416017,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\begin{array}{r}{T=\\frac{\\bar{Z}}{S/\\sqrt{n}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160174,
+              "question_id": 416017,
+              "is_answer": false,
+              "choice": "可认为两种分析方法所得的均值结果相同",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416018,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-018",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "18. N\n打包机装糖入包,每包标准重为100kg．每天开工后,要检验所装糖包的总体期望值是否合乎标准(100kg)．某日开工后,测得\n9包糖重,计算得 $\\bar{x}=99.978,s=1.2122$ 已知打包机装糖的包重服从正态分布, $\\alpha=0.05$ 则下列说法中不正确的是().",
+          "analysis": "本问题是在 $\\alpha=0.05$ 下检验假设 $H_{0}:\\mu=100,H_{1}:\\mu\\neq100.$\n由于未知,所以可选取统计量 $\\begin{array}{r}{\\pmb{T}=\\frac{\\pmb{X}-100}{S/\\sqrt{n}}}\\end{array}$ 在H成立的条件下, $T\\sim t(n-1)$ 且此检验问题的拒绝域为\n$\\left|T\\right|=\\left|\\frac{\\bar{X}-100}{S/\\sqrt{n}}\\right|>t_{\\alpha/2}(n-1).$\n这里 t= z-100 8/\\snq$ ≈ 99.978-100 1.2122/√9 ≈-0.0544,查表得 $t_{0.025}(8)=2.306$\n显然 $|t|=0.0544<2.306=t_{0.025}(8)$ 即t未落在拒绝域中,从而接受 $H_{\\mathbf{0}} 即可以认为该天打包工作正常.\n选项1给出的拒绝域为单侧检验的拒绝域,与本题双侧检验不符,故选项1说法不正确.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/018",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160181,
+              "question_id": 416018,
+              "is_answer": true,
+              "choice": "拒绝域为 $(2.306,+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160182,
+              "question_id": 416018,
+              "is_answer": false,
+              "choice": "假设检验为H $\\mu:\\mu=100,H_1:\\mu\\neq100$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160183,
+              "question_id": 416018,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\begin{array}{r}{T=\\frac{\\bar{X}-100}{S/\\sqrt{n}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160184,
+              "question_id": 416018,
+              "is_answer": false,
+              "choice": "可以认为该天打包工作正常",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416019,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-019",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "对于正态分布 $X\\sim N(\\mu,\\sigma^{2})$ 抽取容量为10的样本,算的样本均值 $\\bar{x}=67.4$ 样本方差 $\\pmb{s}^{2}=\\pmb{35.15}$ 给定显著水平 $\\alpha=0.05$,检验假设 $H_{0}:\\mu=72,H_{1}:\\mu\\neq72.$ 则正确的方法和结论是().\n$$\\left(t_{0.025}(9)=2.2622,t_{0.05}(9)=1.8331,u_{0.025}=1.96,u_{0.05}=1.645,\\sqrt{3.515}=1.875\\right)$$",
+          "analysis": "单正态总体均值检验(方差 $\\sigma^{2}$ 未知)的检验统计量\n$T=\\frac{\\bar{X}-\\mu_{0}}{S/\\sqrt{n}}\\sim t(n-1)$\n在检验假设H0： $\\pmb{\\mu}=\\pmb{\\mu}_{0}$ $H_{1}：≠0下,拒绝域为\n$|T|=\\left|\\frac{\\bar{X}-\\mu_{0}}{S/\\sqrt{n}}\\right|>t_{\\alpha/2}(n-1).$\n把本题具体数据代入,得因≈2.4535 $>t_{0.025}(9)=2.2622.$ 故拒绝 $\\mathbf{\\mathit{H}_{0}}.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/019",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160191,
+              "question_id": 416019,
+              "is_answer": true,
+              "choice": "用t检验法,拒绝域为 $|T|\\geq2.2622$ 拒绝 $\\pmb{\\pi_{0}}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160192,
+              "question_id": 416019,
+              "is_answer": false,
+              "choice": "用U检验法,拒绝域为 $\\left|U\\right|\\geq1.96$ 拒绝 $\\pmb{\\pi_{0}}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160193,
+              "question_id": 416019,
+              "is_answer": false,
+              "choice": "用U检验法,拒绝域为 $|U|\\geq1.645$ 拒绝 $\\pmb{H_{0}}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160194,
+              "question_id": 416019,
+              "is_answer": false,
+              "choice": "用t检验法,拒绝域为 $|T|\\geq1.8331$ 拒绝 $\\pmb{H_{0}}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416020,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-020",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设样本 $X_{1},X_{2},\\cdots,X_{n}$ 抽自总体 $X\\sim N(\\mu,\\sigma^{2}),\\mu,\\sigma^{2}$ 均未知.对μ作假设检验H_{0:μ=_,H_{₁}:μ>0.给定显著水平 α,\n则检验的拒绝域为(). a",
+          "analysis": "正态总体方差未知时均值的检验．若H为真,检验统计量为 $\\begin{array}{r}{T=\\frac{\\bar{X}-\\mu_{0}}{S/\\sqrt{n}}\\sim t(n-1)}\\end{array}$\n双侧检验：H0 $\\mu=\\mu_{0},H_{1}:\\mu\\neq\\mu_{0}$ 拒绝域为 $|T|\\geq t_{\\alpha/2}(n-1)$\n右侧检验：H0 $\\mu\\leq\\mu_{0},H_{1}:\\mu>\\mu_{0}$ 拒绝域为 $T\\geq t_{\\alpha}(n-1)$\n左侧检验：H0 $\\mu\\geq\\mu_{0},H_{1}:\\mu<\\mu_{0}$ 拒绝域为 $\\pmb{T}\\leq-t_{\\alpha}(n-1)$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/020",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160201,
+              "question_id": 416020,
+              "is_answer": true,
+              "choice": "$T\\geq t_{\\alpha}(n-1)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160202,
+              "question_id": 416020,
+              "is_answer": false,
+              "choice": "$|T|\\geq t_{\\alpha}(n-1)$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160203,
+              "question_id": 416020,
+              "is_answer": false,
+              "choice": "$|T|\\geq t_{\\alpha/2}(n-1)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160204,
+              "question_id": 416020,
+              "is_answer": false,
+              "choice": "$\\pmb{T}\\leq-t_{\\alpha}(n-1)$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  },
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 33,
+      "questions": [
+        {
+          "id": 416021,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-021",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "有一工厂生产一种灯管,已知灯管的寿命X服从正态分布N(,40000), 根据以往生产经验知道,灯管的平均寿命不会超过\n1500小时．为提高灯管的平均寿命,工厂采用了新工艺．为了弄清楚新工艺是否提高了灯管的平均寿命,测试了新工艺生产的\n25只灯管,寿命平均值为1575小时．可检验样本的平均值是否大 1500小时,下列说法中不正确的是()\n$u_{0.025}=1.96,u_{0.05}=1.645$",
+          "analysis": "可把上述问题归纳为下述假设检验问题：H0：μ≤1500,H:u>1500．从而可利用右侧检验法来检验, 相\n$\\mu_{0}=1500,\\sigma=200,n=25$ 取显著性水平为 $\\alpha=0.05$ 查附表得 $\\mathbf{u_{\\alpha}}=\\mathbf{1.645}.$ 因已测出 $\\bar{\\mathbf{z}}=\\mathbf{1575}$ 从而\n$u=\\frac{\\bar{x}-\\mu_{0}}{\\sigma/\\sqrt{n}}=\\frac{1575-1500}{200}\\cdot\\sqrt{25}=1.875$\n由于 $u=1.875>u_{\\alpha}=1.645$ 从而否定原假设 $\\mathbf{H_{0}}$ 接受备择假设 $\\mathbf{H_{1}}$ 即认为新工艺事实上提高了灯管的平均寿命．故说法“可以认\n为新工艺事实上没有提高灯管的平均寿命”是不正确的.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/021",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160211,
+              "question_id": 416021,
+              "is_answer": true,
+              "choice": "可以认为新工艺事实上没有提高灯管的平均寿命",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160212,
+              "question_id": 416021,
+              "is_answer": false,
+              "choice": "应检验假设：H_0:μ≤1500,H1:μ>1500",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160213,
+              "question_id": 416021,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\begin{array}{r}{U=\\frac{\\bar{X}-1500}{\\sigma/\\sqrt{n}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160214,
+              "question_id": 416021,
+              "is_answer": false,
+              "choice": "检验统计量的观察值 $\\pmb{u}=\\pmb{1.875}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416022,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-022",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "从已知标准差 $\\pmb{\\sigma}=\\pmb{5.2}$ 的正态总体中抽取容量为16的样本,算得样本均值 $\\bar{x}=27.56$,在显著性水平 $\\alpha=0.05$ 下,检验假\n设： $H_{0}:\\mu=26,H_{1}:\\mu\\neq26$,则检验统计量、 拒绝域以及检验结果为() $(u_{0.025}=1.96,u_{0.05}=1.645)$",
+          "analysis": "单正态总体方差已知时均值的检验过程如下：\n(1)检验假设为 $H_{0}:\\mu=\\mu_{0};H_{1}$:μ≠μ0\n(2)当H0为真时,有 $\\begin{array}{r}{U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma/\\sqrt{n}}}\\end{array}$ ∼ N(0, 1), 记U的样本计算值u,则拒绝域为 $|u|>u_{\\alpha/2}$ 其中 $\\mathbf{u_{\\alpha/2}}$ 为标准正态分布的分位数.\n依题数据,可算得 $\\begin{array}{r}{u=\\frac{27.56-26}{5.2/\\sqrt{16}}=1.2<u_{\\alpha/2}=u_{0.025}=1.96,}\\end{array}$ 故接受H0.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/022",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160221,
+              "question_id": 416022,
+              "is_answer": true,
+              "choice": "$\\begin{array}{r}{U=\\frac{\\bar{X}-26}{1.3},|U|\\geq1.96,}\\end{array}$ 接受 $\\pmb{H_{0}}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160222,
+              "question_id": 416022,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{U=\\frac{\\bar{X}-26}{1.3},|U|\\geq1.96,}\\end{array}$ 拒绝H0",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160223,
+              "question_id": 416022,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{U=\\frac{\\bar{X}-26}{0.325},|U|\\geq1.645,}\\end{array}$ 拒绝 H0",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160224,
+              "question_id": 416022,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{U=\\frac{\\bar{X}-26}{0.325},|U|\\geq1.645,}\\end{array}$ 接受 $\\pmb{\\pi_{0}}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416023,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-023",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "随机地选了8个人,分别测量了他们在早晨起床时和晚上就寝时的身高(cm), 得到以下数据：\n序号 1 2 3 4 6 7 8\n早上 (xi) 172 168 180 181 160 163 165 177\n晚上 (yi) 172 167 177 179 159 161 166 175\n设早晚各对数据的差 $z_{j}$ 是来自正态总体 $N(\\mu_{z},\\sigma_{z}^{2})$ 的样本, $\\mu_{z},\\sigma_{z}^{2}$ 均未知, $\\bar{z}=1.25,s=1.282$ 有人认为早晨的身高比晚上\n的身高要高,那么在 $\\alpha=0.05$ 下,下列说法中不正确的是(). $t_{0.05}(8)=1.8595,t_{0.05}(7)=1.8946,\\sqrt{2}=1.414$",
+          "analysis": "早、晚身高差 $Z\\sim N(\\mu_{z},\\sigma_{z}^{2}),\\mu_{z},\\sigma_{z}^{2}$ 均未知.\n检验假设 $H_{0}:\\mu_{z}\\leq0,H_{1}:\\mu_{z}>0$ ),检验统计量 $\\begin{array}{r}{\\pmb{T}=\\frac{\\hat{\\pmb{x}}}{\\hat{s}/\\sqrt{8}}\\sim}\\end{array}$ t(7),拒绝域 $\\pmb{W}=\\{\\pmb{T}\\geq\\pmb{t}_{\\pmb{c}}$ 计算t值, $\\begin{array}{r}{t=\\frac{1.25}{1.282/\\sqrt{8}}=2.755>}\\end{array}$ 1.8946.\n故否定 H0, 认为早晨比晚上身高要高,",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/023",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160231,
+              "question_id": 416023,
+              "is_answer": true,
+              "choice": "拒绝域为 $(t_{0.05}(8),+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160232,
+              "question_id": 416023,
+              "is_answer": false,
+              "choice": "检验假设为 $H_{0}:\\mu_{z}\\leq0,H_{1}:\\mu_{z}>0$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160233,
+              "question_id": 416023,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\begin{array}{r}{\\pmb{T}=\\frac{\\pmb{\\bar{x}}}{S/\\sqrt{8}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160234,
+              "question_id": 416023,
+              "is_answer": false,
+              "choice": "早上的身高比晚上的高",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416024,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-024",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "若 $T_{1}\\sim t(\\mathfrak{g})$ 则 $P\\{T_{1}>1.83\\}=0.05$；若 $\\mathbf{T}\\sim t(8)$,则 $P\\{T>1.86\\}=0.05.$ 现假设 $X\\sim N(\\mu,\\sigma^{2})$ $\\mu,\\sigma^{2}$ 均未知,\n$X_{1},X_{2},\\cdots,X_{9}$ 为样本,X为样本均值 $\\begin{array}{r}{S_{n}^{2}=\\frac{1}{n-1}\\sum_{i=1}^{n}(X_{i}-\\bar{X})^{2}}\\end{array}$ ．对于检验问题： $H_{0}:\\mu=0,H_{1}:\\mu<0.$ 取显著性水平\n$\\alpha=0.05$ 下列对拒绝域的取法正确的是() $(t_{0.05}(9)=1.8331,t_{0.05}(8)=1.8595)$",
+          "analysis": "设总体 $X\\sim N(\\mu,\\sigma^{2})$ 方差 $\\sigma^{2}$ 未知, $X_{1},X_{2},\\cdots,X_{n}$ 是取自X的一个样本,X与分别为样本均值与样本方差. $\\pmb{S^{2}}$ $\\mu$\n对于假设检验 $H_{0}:\\mu\\geq\\mu_{0},H_{1}:\\mu<\\mu_{0}$ 检验统计量为\n$T=\\frac{\\bar{X}-\\mu_{0}}{S/\\sqrt{n}}\\sim t(n-1)$\nuMathe\n$\\frac{\\bar{X}-\\mu_{0}}{S/\\sqrt{n}}<-t_{\\alpha}(n-1).$\n现在 $\\mu_{0}=0,n=9,S=S_{n},\\alpha=0.05$ 所以拒绝域为 $\\begin{array}{r}{\\frac{\\bar{X}}{S_{9}}\\leq-0.6198}\\end{array}$\n即 $\\begin{array}{r}{G=\\Big\\{(x_{1},x_{2},\\cdots,x_{9})\\mid\\frac{x}{s_{9}}\\leq-0.62\\Big\\}.}\\end{array}$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/024",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160241,
+              "question_id": 416024,
+              "is_answer": true,
+              "choice": "$G=\\left\\{(x_1,x_2,\\cdots,x_9)\\mid\\frac{x}{s_9}\\leq-0.62\\right\\}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160242,
+              "question_id": 416024,
+              "is_answer": false,
+              "choice": "$G=\\left\\{(x_1,x_2,\\cdots,x_9)\\mid\\frac{x}{s_9}\\geq0.62\\right\\}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160243,
+              "question_id": 416024,
+              "is_answer": false,
+              "choice": "$G=\\left\\{(x_1,x_2,\\cdots,x_9)\\mid\\frac{x}{s_9}\\leq-0.61\\right\\}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160244,
+              "question_id": 416024,
+              "is_answer": false,
+              "choice": "$G=\\left\\{(x_1,x_2,\\cdots,x_9)\\mid\\frac{x}{s_9}\\geq0.61\\right\\}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416025,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-025",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "要求一种元件平均使用寿命不得低于1000小时,生产者从一批这种元件中随机抽取25件,测得其寿命的平均值为950小时.\n已知该种元件寿命服从标准差为 $\\pmb{\\sigma}=\\pmb{100}$ 小时的正态分布,则下列说法中不正确的\n$(u_{0.05}=1.645,u_{0.025}=1.960)$",
+          "analysis": "检验假设H_{0:μ≥1000H_1:μ<$1000.\n这是单边假设检验问题．由于方差已知 $(\\boldsymbol{\\sigma}=100)$ 故用u检验法．对于显著性水平 $\\alpha=0.05$ 拒绝域为 $\\begin{array}{r}{W=\\left\\{\\frac{\\bar{X}-1000}{\\sigma/\\sqrt{n}}<-u_{\\alpha}\\right\\}.}\\end{array}$\n由 $n=25,\\sigma=100,\\bar{x}=950$ 算出 $\\frac{x-1000}{\\sigma/\\sqrt{n}}=\\frac{950-1000}{100/\\sqrt{25}}=-2.5<-u_{0.05}=-1.645.$\n故在 $\\alpha=0.05 下拒绝H0,认为这批元件不合格.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/025",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160251,
+              "question_id": 416025,
+              "is_answer": true,
+              "choice": "可以认为这批元件合格",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160252,
+              "question_id": 416025,
+              "is_answer": false,
+              "choice": "应检验假设： $H_{0}:\\mu\\geq1000,H_{1}:\\mu<1000$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160253,
+              "question_id": 416025,
+              "is_answer": false,
+              "choice": "拒绝域为 $\\begin{array}{r}{\\pmb{U}=\\frac{\\pmb{X}-1000}{20}\\leq-\\pmb{u}_{\\pmb{\\alpha}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160254,
+              "question_id": 416025,
+              "is_answer": false,
+              "choice": "检验统计量的观测值为 $u=-2.5$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416026,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-026",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "若Y~ N(0,1), 则 $P\\{Y>1.645\\}=0.05$,现假设总体X~N(μ,9}),X_{}X_{2},,X25为样本,X为样本均值．对于检验问题\nH0：μ≥μ0,H_₁:<μ0(0 已知),取显著性水平 $\\alpha=0.05$ 拒绝域正确的是(). $(u_{0.05}=1.645,u_{0.025}=1.96)$",
+          "analysis": "左侧检验,检验假设 $H_{0}:\\mu\\geq\\mu_{0},H_{1}:\\mu<\\mu_{0}$ 其检验统计量为\n$\\mathbf{U}=\\frac{\\bar{X}-\\mu_{0}}{\\sigma/\\sqrt{n}}\\sim N(0,1)$\nU的观测值记为u.可得拒绝域为\neuMath\n$U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma/\\sqrt{n}}<-u_{\\alpha}.$\n把 $n=25,\\sigma=3,\\alpha=0.05$ 代入,得拒绝域为\n$G=\\{(x_{1},x_{2},\\cdots,x_{25})\\mid{\\bar{x}}-\\mu_{0}\\leq-0.987\\}$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/026",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160261,
+              "question_id": 416026,
+              "is_answer": true,
+              "choice": "$\\bar{X}-\\mu_{0}\\leq-0.987$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160262,
+              "question_id": 416026,
+              "is_answer": false,
+              "choice": "X- μ0≥0.987",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160263,
+              "question_id": 416026,
+              "is_answer": false,
+              "choice": "X-μ0≤0.987",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160264,
+              "question_id": 416026,
+              "is_answer": false,
+              "choice": "$\\bar{\\bar{X}}-\\mu_{0}\\geq1.645$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416027,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-027",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "机器包装食盐,假设每袋盐的净重服从正态分布,规定每袋标准含量为500g,标准差不得超过10g.某天开工后,随机抽取9\n袋,测得净重如下(单位：g)：497,507,510,475,515,484,488,524,491.若每袋标准含量不变,在显著性水平 $\\alpha=0.05$ 下检\n验标准差是否超过10g,下列说法中不正确的是().\n$\\left(s=16.031,\\sum_{i=1}^{9}\\left(\\frac{x_{i}-500}{10}\\right)^{2}=20.65,\\chi_{0.05}^{2}(9)=16.919,\\chi_{0.05}^{2}(8)=15.507,t_{0.05}(8)=2.306\\right)$",
+          "analysis": "题目要求选出不正确的说法,逐项分析如下\n1．验证假设：题中要求检验标准差是否超过 $\\mathbf{10g}$ 故原假设H{： $\\pmb{\\sigma}\\leq\\pmb{10}$ 备择假设 $H_{1}:\\sigma>10$,该说法正确.\n2.验证数据：样本均值 $\\bar{x}={\\textstyle{\\frac{1}{9}}}(497+\\cdots+491)=499$ 样本标准差 $\\begin{array}{r}{\\mathfrak{s}=\\sqrt{\\frac{1}{9-1}\\sum(x_{i}-\\bar{x})^{2}}\\approx16.031}\\end{array}$.该说法正确.\n3．验证统计量：由于题目给出“每袋标准含量不变”,即总体均值 $\\mathbf{\\mu}=\\mathbf{500}$ 已知.此时检验方差应使用统计量 $\\begin{array}{r}{\\chi^{2}=\\sum_{i=1}^{n}\\frac{(X_{i}-\\mu)^{2}}{\\sigma_{0}^{2}}}\\end{array}$ 该\n统计量服从自由度为 ${\\pmb n}={\\pmb\\emptyset}$ 的 $x^{2}$ 分布.而选项中给出的 $\\begin{array}{r}{\\chi^{2}=\\frac{8S^{2}}{100}=\\frac{(n-1)S^{2}}{\\sigma_{0}^{2}}}\\end{array}$ 是在u未知时的统计量(服从 $x^{2}(8)$ ),不符合本\n题已知u的设定.故该说法不正确.\n4 验证结论：根据题给数据,正确统计量的值为 $\\chi^{2}=\\sum_{i=1}^{9}\\left(\\frac{x_{i}-500}{10}\\right)^{2}=20.65$.查表得临界值 $\\chi_{0.05}^{2}(9)=16.919$.因为\n20.65>16.919,落入拒绝域,故拒绝 $\\pmb{\\pi_{0}}$ 认为该天每袋盐的标准差超过 $\\mathbf{10g}\\circ$ 该说法正确.\n综上所述,不正确的说法是选项1.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/027",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160271,
+              "question_id": 416027,
+              "is_answer": true,
+              "choice": "检验统计量为 $\\begin{array}{r}{\\chi^{2}=\\frac{8S^{2}}{100}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160272,
+              "question_id": 416027,
+              "is_answer": false,
+              "choice": "应检验假设 $H_{0}:\\sigma\\leq10,H_{1}:\\sigma>10$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160273,
+              "question_id": 416027,
+              "is_answer": false,
+              "choice": "$\\bar{x}=499,s=16.031$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160274,
+              "question_id": 416027,
+              "is_answer": false,
+              "choice": "在 $\\alpha=0.05$ 下,可以认为该天每袋盐的标准差超过10g.",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416028,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-028",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某化学日用品有限责任公司用包装机包装洗衣粉,包装机正常工作时,装包重量(单位：g)X～N(500,2).每天开工后,需先\n检验包装机工作是否正常.某天开工后,在装好的洗衣粉中任取9袋,获得重量数据：505,499,502,506,498,498,497,\n510,503.假设总体标准差σ不变,取 $\\alpha=0.05$,则下列说法不正确的是(",
+          "analysis": "(1)提出假设检验： $H_{0}:\\mu=500,H_{1}:\\mu\\neq500$\n(2)以 $\\pmb{H_{0}}$ 成立为前提,确定检验 $\\pmb{\\pi_{0}}$ 的统计量及其分布 $\\begin{array}{r}{U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma/\\sqrt{n}}=\\frac{\\bar{X}-500}{2/3}\\sim N(0,1)}\\end{array}$\n(3)对给定显著性水平 $\\alpha=0.05$ 确定 $\\pmb{H_{0}}$ 的接受域W或拒绝域W,取临界点为 $u_{\\alpha/2}=1.96$ 使 $P\\{|U|>u_{\\alpha/2}\\}=\\alpha$ 故H_0被接\n受与拒绝的区域分别为W=[-1.96,1.96] $\\pmb{W}=(-\\infty,-1.96)$ U(1.96,+∞0).\n(4)由样本计算统计量U的值 \\begin{array}{r}{u=\\frac{502-500}{2/3}=3\\mathrm{{\\textcent}}}\\end{array}\n(5)对假设 $\\pmb{\\pi_{0}}$ 作出推断,因为u∈W(拒绝域),故认为这天洗衣粉包装机工作不正常.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/028",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160281,
+              "question_id": 416028,
+              "is_answer": true,
+              "choice": "拒绝域为 $\\pmb{U}\\le-\\bf{1.96}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160282,
+              "question_id": 416028,
+              "is_answer": false,
+              "choice": "用U检验法",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160283,
+              "question_id": 416028,
+              "is_answer": false,
+              "choice": "可以认为这天洗衣粉包装机工作不正常",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160284,
+              "question_id": 416028,
+              "is_answer": false,
+              "choice": "应检验假设：H_{0:μ=500,H_{1}:μ≠500",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416029,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-029",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某工厂所生产的某种细纱支数服从正态分布 $N(\\mu_{0},\\sigma_{0}^{2})$,μ0,{为已知．现从某日生产的一批产品中随机抽取16缕进行支数测\n量,求得样本均值与方差分别为A,B．要检验纱的均匀度是否变劣,则正确的假设是",
+          "analysis": "题目要检验均匀度是否变劣,由此可以得出均匀度变劣就是备择假设H₁.\n另外均匀度的度量是方差,所检验检验一定是关于方差的检验．由方差的定义可以知道,方差越大离散程度就越大,故此题中方差变大\n时,就是均匀度变劣的情况.\n综上所述,均匀度是否变劣的假设检验为H0 $\\sigma^{2}\\leq\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2}.$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/029",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160291,
+              "question_id": 416029,
+              "is_answer": true,
+              "choice": "$H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},\\quad H_{1}:\\sigma^{2}>\\sigma_{0}^{2}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160292,
+              "question_id": 416029,
+              "is_answer": false,
+              "choice": "H_0:μ=0,H_{1}:μ≠μ0",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160293,
+              "question_id": 416029,
+              "is_answer": false,
+              "choice": "H{0：μ≤μ_,H_{1：μ>μO",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160294,
+              "question_id": 416029,
+              "is_answer": false,
+              "choice": "$H_{}:$^{2}{} H_{1^{2≠{",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416030,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-030",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某地根据早稻长势估计平均亩产为310kg,收割时,随机抽取了10块,测得每块实际亩产量为 $x_{1},x_{2},\\cdots,x_{10}.$ 并算得\n$\\begin{array}{r}{\\bar{x}=\\frac{1}{10}\\sum_{i=1}^{10}x_{i}=320}\\end{array}$,如果已知早稻亩产量X服从正态分布 $N(\\mu,144)$,那么在 $\\alpha=0.05$ 下,检验亩产是否有明显变化,则\n下列说法不正确的是(). $(u_{0.05}=1.645,u_{0.025}=1.960)$",
+          "analysis": "应提出假设： $H_{0}:\\mu=310,H_{1}:\\mu\\neq310$\n当H0为真时,取检验统计量 $\\begin{array}{r}{U=\\frac{\\bar{X}-310}{12/\\sqrt{10}}\\sim N(0,1)}\\end{array}$ 从而有 $P\\{|U|>1.96\\}=0.05$ 拒绝域为(-∞,-1.96]∪[1.96,+∞)\n计算 $\\begin{array}{r}{U_{0}=\\frac{|320-310|}{12/\\sqrt{10}}}\\end{array}$ ≈2.635>1.96,因此拒绝 $\\mathbf{H_{0}}$ 即在 $\\alpha=0.05$ 下可以认为平均亩产为310kg不正确.\n综上所述,选项1中的统计量分母应为 $12/{\\sqrt{10}}\\approx3.79$ 而非1.2,故说法不正确的是选项1.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/030",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160301,
+              "question_id": 416030,
+              "is_answer": true,
+              "choice": "检验统计量为 $\\begin{array}{r}{U=\\frac{\\bar{X}-310}{1.2}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160302,
+              "question_id": 416030,
+              "is_answer": false,
+              "choice": "应检验假设：H0: $\\pmb{\\mu}=\\pmb{310}$ H_{1}:μ≠310",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160303,
+              "question_id": 416030,
+              "is_answer": false,
+              "choice": "拒绝域为 $(-\\infty,-1.96]\\cup[1.96,+\\infty)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160304,
+              "question_id": 416030,
+              "is_answer": false,
+              "choice": "在 $\\alpha=0.05$ 下,可以认为估产310kg不正确",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  },
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 33,
+      "questions": [
+        {
+          "id": 416031,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-031",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某天开工时,需检验自动包装工作是否正常．根据以往经验,其装包的质量 (单位：g)在正常情况下服从正态分布 $N\\big(100,1.5^{2}\\big)$.现抽测了9包,测得质量为99.3,98.7,100.5,101.2,98.3,99.7,99.5,102.0,100.5,x $\\alpha=0.05$ 则下列说法不正确\n的是(). $(u_{0.025}=1.96,u_{0.05}=1.645)$",
+          "analysis": "(1)提出假设检验问题 $H_{0}:\\mu=100,H_{1}:\\mu\\neq1$.00;\n(2)选取检验统计量 $\\begin{array}{r}{U=\\frac{\\bar{X}-100}{1.5}\\sqrt{9}\\sim}\\end{array}$ N(0,1);\n(3) $\\alpha=0.05,u_{\\alpha/2}=1.96$ 拒绝域 $W=\\{|U|>1.96\\}$\n(4) $\\bar{x}=99.97,|u|=0.06$ 因 $|u|<u_{\\alpha/2}=1.96$ 故接受 $\\mathbf{H_{0}}$ 认为包装机工作正常.\n故说法“可以认为包装机工作不正常”是不正确的.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/031",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160311,
+              "question_id": 416031,
+              "is_answer": true,
+              "choice": "可以认为包装机工作不正常 U",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160312,
+              "question_id": 416031,
+              "is_answer": false,
+              "choice": "应检验假设： $H_{0}:\\mu=100.$ H1 ≠i00",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160313,
+              "question_id": 416031,
+              "is_answer": false,
+              "choice": "拒绝域为 $|U|>1.96$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160314,
+              "question_id": 416031,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\begin{array}{r}{U=\\frac{\\bar{X}-100}{1.5/\\sqrt{9}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416032,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-032",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "测定某溶液中的水分,由它的9个测定值,算出样本均值及样本标准差分别 $\\bar{x}=0.452\\%,s=0.037\\%$,总体服从正态分布,下\n面提出的检验假设被接受 $(H_{0}$ 被接受)的是()\n$$t_{0.025}(8)=2.306,\\chi^{2}_{0.025}(8)=17.535,\\chi^{2}_{0.075}(8)=2.180,\\chi^{2}_{0.125}(8)=11.79,\\chi^{2}_{0.875}(8)=4.280$$",
+          "analysis": "对于正态总体均值检验(方差 $\\sigma^{2}$ 未知),检验假设1 $I_{0}:\\mu=\\mu_{0},H_{1}:\\mu\\neq\\mu_{0}$,所用检验统计量为 $\\begin{array}{r}{T=\\frac{\\bar{X}-\\mu_{0}}{S/\\sqrt{n}}\\sim t(n-1)}\\end{array}$ 拒绝域为\n|T $\\geq t_{\\alpha/2}(n-1)$\n把 $n=9,\\mu_{0}=0.5\\%,\\bar{x}=0.452\\%,s=0.037\\%$ 代入,得 $|\\approx|-3.892|>t_{0.025}(8)=2.306>t_{0.125}(8)$\n所以不论是在 $\\alpha=0.05$ 还是在 $\\alpha=0.25$ 下,都拒绝 $H_{0}:\\mu=0.5\\%$\n对于正态总体方差检验(均值μ未知),检验假设 $H_{0}:\\sigma^{2}=\\sigma_{0}^{2},H_{1}:\\sigma^{2}\\neq\\sigma_{0}^{2}$ 所用检验统计量为 $\\begin{array}{r}{\\chi^{2}=\\frac{n-1}{\\sigma_{0}^{2}}S^{2}\\sim\\chi^{2}(n-1)}\\end{array}$ 拒绝域\n为 $\\chi^{2}\\leq\\chi_{1-\\alpha/2}^{2}(n-1) 或 \\chi^{2}\\geq\\chi_{\\alpha/2}^{2}(n-1).$\n把n=9,σ0=0.03%,=0.037%代入,得 $\\chi^{2}\\approx12.1689$\n因为 $\\chi_{0.975}^{2}(8)=2.180<12.1689<\\chi_{0.025}^{2}(8)=17.535$ 所以在 $\\alpha=0.05$ 下接受假设 $H_{0}:\\sigma=0.03\\%$\n因为 $12.1689>\\chi^{2}_{0.125}(8)\\approx11.79$ 所以在 $\\alpha=0.25$ 下拒绝假设 $H_{0}:\\sigma=0.03\\%$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/032",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160321,
+              "question_id": 416032,
+              "is_answer": true,
+              "choice": "在 $\\alpha=0.05$ 之下,检验假设H0: $\\sigma=0.03\\%$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160322,
+              "question_id": 416032,
+              "is_answer": false,
+              "choice": "在 $\\alpha=0.05$ 之下,检验假设H{0 $\\bar{\\mu}=0.5\\%$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160323,
+              "question_id": 416032,
+              "is_answer": false,
+              "choice": "在 $\\alpha=0.25$ 之下,检验假设H0 $\\mu=0.5\\%$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160324,
+              "question_id": 416032,
+              "is_answer": false,
+              "choice": "在 $\\alpha=0.25$ 之下,检验假设H0 $\\sigma=0.03\\%$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 416033,
+          "subject_id": 3,
+          "chapter_id": 416,
+          "question_id": "pdf-ocr-416-033",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "某车间生产钢丝,用X表示钢丝的折断力,由经验判断X～N(570,8^2}) 今换了一批材料,从性能上看,估计折断力的方差\nσ不会有什么变化,即仍有 $\\sigma^{2}=8^{2}$,但不知折断力的均值u和原先有无差别,现抽得一个样本,测得折断力为\n578,572,570,568,572,570,570,572,596,584 $\\bar{x}=575.20$ 取 $\\alpha=0.05$ 则 下列说法不正确的是\n$\\left(u_{0.025}=1.96,u_{0.05}=1.645,\\sqrt{10}=3.162\\right)$",
+          "analysis": "1.建立假设H_{0μ=μ0=570,H_₁:μ≠570.\n(2)选择统计量 $\\begin{array}{r}{U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma/\\sqrt{n}}}\\end{array}$ ∼ N(0, 1).\n(3)对于给定的显著性水平α,拒绝域为 $|u|>u_{0.025}=1.96.$\n(4)由于 $\\begin{array}{r}{\\bar{x}=\\frac{1}{10}\\sum_{i=1}^{10}x_{i}=575.20,\\bar{\\sigma}^{2}=64,}\\end{array}$ 所以 $\\begin{array}{r}{|\\pmb{u}|=\\left|\\frac{\\pmb{x}-\\mu_{0}}{\\sigma/\\sqrt{n}}\\right|}\\end{array}$ ≈2.055>1.96,故拒绝H0,即认为折断力的均值发生了变化.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/416/033",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4160331,
+              "question_id": 416033,
+              "is_answer": true,
+              "choice": "可以认为折断力的均值没有发生变化",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160332,
+              "question_id": 416033,
+              "is_answer": false,
+              "choice": "应检验假设： $H_{0}:\\mu=\\mu_{0}=570,H_{1}:\\mu\\neq570$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160333,
+              "question_id": 416033,
+              "is_answer": false,
+              "choice": "检验统计量为 $\\begin{array}{r}{U=\\frac{\\bar{X}-570}{\\sigma/\\sqrt{n}}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4160334,
+              "question_id": 416033,
+              "is_answer": false,
+              "choice": "拒绝域为 $\\left|U\\right|\\geq1.96$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  }
+]

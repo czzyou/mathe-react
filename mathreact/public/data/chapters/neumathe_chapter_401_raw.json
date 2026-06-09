@@ -1,0 +1,1125 @@
+[
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 13,
+      "questions": [
+        {
+          "id": 401001,
+          "subject_id": 3,
+          "chapter_id": 401,
+          "question_id": "pdf-ocr-401-001",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "$X_{1},X_{2},X_{3},X_{4}$ 为总体X的一个样本, 且 $E(X)=\\mu$ 下列$\\mu$的最小方差无偏估计量是().",
+          "analysis": "由题可知, $E(\\widehat{\\mu_{1}})=2\\mu,E(\\widehat{\\mu_{2}})=E(\\widehat{\\mu_{3}})=\\mu,E(\\widehat{\\mu_{4}})=1.6\\mu$\n故只有选项是无偏估计,接下来分别求它们的方差,方差小的就是最有效的.\n由于 $X_{i}(i=1,2,3,4)$ 之间相互独立,故\nath ${\\begin{array}{r l}&{D{\\big(}{\\widehat{\\mu_{2}}}{\\big)}={\\bigg(}{\\cfrac{1}{16}}+{\\cfrac{1}{16}}+{\\cfrac{1}{16}}+{\\cfrac{1}{16}}{\\bigg)}D(X)={\\cfrac{1}{4}}D(X)=0.25D(X)}\\\\ &{D{\\big(}{\\widehat{\\mu_{3}}}{\\big)}={\\bigg(}{\\cfrac{1}{16}}+{\\cfrac{1}{64}}+{\\cfrac{1}{16^{2}}}+{\\cfrac{81}{16^{2}}}{\\bigg)}D(X)={\\cfrac{3\\times17}{8\\times16}}D(X)=0.398D(X)}\\end{array}}$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/401/001",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4010011,
+              "question_id": 401001,
+              "is_answer": true,
+              "choice": "$\\widehat{\\mu_{2}}=\\frac{1}{4}X_{1}+\\frac{1}{4}X_{2}+\\frac{1}{4}X_{3}+\\frac{1}{4}X_{4}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010012,
+              "question_id": 401001,
+              "is_answer": false,
+              "choice": "$\\widehat{\\mu_{1}}=\\frac{1}{4}X_{1}+\\frac{2}{4}X_{2}+\\frac{3}{4}X_{3}+\\frac{4}{4}X_{4}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010013,
+              "question_id": 401001,
+              "is_answer": false,
+              "choice": "$\\widehat{\\mu_{3}}=\\frac{1}{4}X_{1}+\\frac{1}{8}X_{2}+\\frac{1}{16}X_{3}+\\frac{9}{16}X_{4}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010014,
+              "question_id": 401001,
+              "is_answer": false,
+              "choice": "$\\widehat{\\mu_{4}}=\\frac{2}{5}X_{1}+\\frac{2}{5}X_{2}+\\frac{1}{5}X_{3}+\\frac{3}{5}X_{4}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 401002,
+          "subject_id": 3,
+          "chapter_id": 401,
+          "question_id": "pdf-ocr-401-002",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设 $\\hat{\\theta}_{1},\\hat{\\theta}_{2}$ 是参数0样本容量相同的两个估计量, 下面结论正确的是()",
+          "analysis": "要比较两个估计量的有效性,前提是它们必须是容量相同的样本的无偏估计量,方差小的无偏估计量更有效",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/401/002",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4010021,
+              "question_id": 401002,
+              "is_answer": true,
+              "choice": "若 $\\hat{\\theta}_{1},\\hat{\\theta}_{2}$ 都是参数0的无偏估计,且 $D(\\hat{\\theta}_{1})<D(\\hat{\\theta}_{2})$ 则 $\\hat{\\theta}_{1}$ 是比 $\\hat{\\theta}_{2}$ 有效的估计量",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010022,
+              "question_id": 401002,
+              "is_answer": false,
+              "choice": "若 $D(\\hat{\\theta}_{1})<D(\\hat{\\theta}_{2})$ 则 $\\hat{\\pmb{\\theta}}_{1}$ 是比 $\\hat{\\theta}_{2}$ 有效的估计量",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010023,
+              "question_id": 401002,
+              "is_answer": false,
+              "choice": "若 $D(\\hat{\\theta}_{1})>D(\\hat{\\theta}_{2})$ 则称 $\\hat{\\theta}_{1}$ 是比 $\\hat{\\theta}_{2}$ 有效的估计量",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010024,
+              "question_id": 401002,
+              "is_answer": false,
+              "choice": "若 $\\hat{\\theta}_{1},\\hat{\\theta}_{2}$ 是参数θ的两个无偏估计量,且 $D(\\hat{\\theta}_{1})>D(\\hat{\\theta}_{2})$ 则称 $\\hat{\\theta}_{1}$ 是比 $\\hat{\\theta}_{2}$ 有效的估计量",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 401003,
+          "subject_id": 3,
+          "chapter_id": 401,
+          "question_id": "pdf-ocr-401-003",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设X_₁,X是来自正态总体 $N(\\mu,1)$ 的样本,则对统计量 $\\widehat{\\mu_{1}}=\\frac{2}{3}X_{1}+\\frac{1}{3}X_{2},\\widehat{\\mu_{2}}=\\frac{1}{4}X_{1}+\\frac{3}{4}X_{2},\\widehat{\\mu_{3}}=\\frac{1}{2}X_{1}+\\frac{1}{2}X_{2}$ 下列结论中错\n误的是 ( ).",
+          "analysis": "N\n依题可得, $E\\left(\\widehat{\\mu_{1}}\\right)=E\\left(\\widehat{\\mu_{2}}\\right)=E\\left(\\widehat{\\mu_{3}}\\right)=\\mu$\n$\\begin{aligned}{}&{{}D\\big(\\widehat{\\mu_{1}}\\big)=\\frac{5}{9}D(X)\\approx0.556D(X),}\\\\ {}&{{}D\\big(\\widehat{\\mu_{2}}\\big)=\\frac{10}{16}D(X)=0.625D(X),}\\\\ {}&{{}D\\big(\\widehat{\\mu_{3}}\\big)=\\frac{2}{4}D(X)=0.5D(X)}\\\\ {}&{{}D\\bigg[\\frac{\\widehat{\\mu_{1}}+\\widehat{\\mu_{2}}}{2}\\bigg]=\\frac{290}{576}D(X)\\approx0.503D(X).}\\\\ \\end{aligned}$\n由于样本容量已经固定, _{}_},的估计与n无关,故不存在相合性评价. e",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/401/003",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4010031,
+              "question_id": 401003,
+              "is_answer": true,
+              "choice": "$_{},${_{}{}_{3}都是$的$致估计量",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010032,
+              "question_id": 401003,
+              "is_answer": false,
+              "choice": "_{_}{}_{_},}_都是u的无偏估计量",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010033,
+              "question_id": 401003,
+              "is_answer": false,
+              "choice": "比_{}_{2更有效",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010034,
+              "question_id": 401003,
+              "is_answer": false,
+              "choice": "$_比 $\\frac{\\widehat{\\mu_{1}}+\\widehat{\\mu_{2}}}{2} 更有效 the",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 401004,
+          "subject_id": 3,
+          "chapter_id": 401,
+          "question_id": "pdf-ocr-401-004",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设 $X_{1},X_{2},X_{3},X_{4}$ 是来自均值为0的指数分布总体的样本,其中0未知．设有估计量 $T_{1}=\\frac{1}{6}(X_{1}+X_{2})+\\frac{1}{3}(X_{3}+X_{4})$\n$T_{2}=\\frac{X_{1}+2X_{2}+3X_{3}+4X_{4}}{5},T_{3}=\\frac{X_{1}+X_{2}+X_{3}+X_{4}}{4}$,下列说法正确的是().",
+          "analysis": "(1)\n$$\\begin{aligned}&\\theta=E(X),E(X_{i})=E(X)=\\theta,D(X)=\\theta^{2}=D(X_{i}),i=1,2,3,4\\\\&E(T_{1})=E\\bigg(\\frac{1}{6}(X_{1}+X_{2})+\\frac{1}{3}(X_{3}+X_{4})\\bigg)=\\bigg(\\frac{2}{6}+\\frac{2}{3}\\bigg)\\theta=\\theta,\\\\&E(T_{2})=\\frac{1}{5}E(X_{1}+2X_{2}+3X_{3}+4X_{4})=\\frac{1}{5}(1+2+3+4)\\theta=2\\theta,\\\\ \\end{aligned}$$\n$\\begin{array}{r}{E(T_{3})=\\frac{1}{4}E(X_{1}+X_{2}+X_{3}+X_{4})=\\theta,}\\end{array}$ 因此,T₁,T₃是θ的无偏估计量.\n(2) $\\begin{array}{r}{D(T_{1})=\\frac{2}{36}\\theta^{2}+\\frac{2}{9}\\theta^{2}=\\frac{10}{36}\\theta^{2},\\quad D(T_{3})=\\frac{1}{16}\\cdot4\\theta^{2}=\\frac{1}{4}\\theta^{2}=\\frac{9}{36}\\theta^{2},}\\end{array}$\n所以D(T₃)<D(T₁),作为θ的无偏估计量,T₃更为有效.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/401/004",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4010041,
+              "question_id": 401004,
+              "is_answer": true,
+              "choice": "θ的无偏估计中T₃较为有效",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010042,
+              "question_id": 401004,
+              "is_answer": false,
+              "choice": "$T_{1},T_{2}$ 是θ的无偏估计量",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010043,
+              "question_id": 401004,
+              "is_answer": false,
+              "choice": "T_{{}_{3}是θ的无偏估计量",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010044,
+              "question_id": 401004,
+              "is_answer": false,
+              "choice": "θ的无偏估计中T{较为有效",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 401005,
+          "subject_id": 3,
+          "chapter_id": 401,
+          "question_id": "pdf-ocr-401-005",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设有k台仪器．已知用第i台仪器测量时,测定值总体的标准差为 $\\sigma_{i}(i=1,2,\\cdots,k)$ 用这些仪器独立地对某一物理量0各观\n察一次,分别得到 $X_{1},X_{2},\\cdots,X_{k}.$ 设仪器都没有系统误差,即 $E(X_{i})=\\theta(i=1,2,\\cdots,k)$ 若使 $\\begin{array}{r}{\\hat{\\pmb{\\theta}}=\\sum_{i=1}^{k}a_{i}X_{i}}\\end{array}$ 估计θ时,\n是无偏的,并且 $D({\\hat{\\theta}})$ 最小,则 $a_{1},a_{2},\\cdots,a_{k}$ 应取的值是().",
+          "analysis": "因为 $E(X_{i})=\\theta(i=1,2,\\cdots,k)$ 故 $\\begin{array}{r}{E(\\hat{\\theta})=E\\Big(\\sum_{i=1}^{k}a_{i}X_{i}\\Big)=\\sum_{i=1}^{k}a_{i}E(X_{i})=\\theta\\sum_{i=1}^{k}a_{i},}\\end{array}$ 欲使 $E({\\hat{\\pmb\\theta}})={\\pmb\\theta}$ 则要 $\\textstyle\\sum_{i=1}^{k}a_{i}=\\mathbf{1}$\n因此,当 $\\textstyle\\sum_{i=1}^{k}a_{i}=\\mathbf{1}$ 时, $\\begin{array}{r}{\\hat{\\pmb{\\theta}}=\\sum_{i=1}^{k}a_{i}X_{i}}\\end{array}$ 为θ的无偏估计, $\\begin{array}{r}{D(\\hat{\\boldsymbol{\\theta}})=\\sum_{i=1}^{k}a_{i}^{2}\\sigma_{i}^{2}}\\end{array}$,要在 $\\textstyle\\sum_{i=1}^{k}a_{i}=\\mathbf{1}$ 的条件下 $D(\\hat{\\theta})$ 最小, 采用拉\n格朗日乘数法.\n$$\\begin{aligned}&1令 L(a_{1},a_{2},\\cdots,a_{k})=D(\\hat{\\theta})+\\lambda\\left(1-\\sum_{i=1}^{k}a_{i}\\right)=\\sum_{i=1}^{k}a_{i}^{2}\\sigma_{i}^{2}+\\lambda\\left(1-\\sum_{i=1}^{k}a_{i}\\right),\\\\ &\\begin{cases}\\frac{\\partial L}{\\partial a_{i}}=0,i=1,2,\\cdots,k\\\\\\sum_{i=1}^{k}a_{i}=1,\\end{cases} 即 2a_{i}\\sigma_{i}^{2}-\\lambda=0,a_{i}=\\frac{\\lambda}{2\\sigma_{i}^{2}};\\\\ \\end{aligned}$$\n又因 $\\sum_{i=1}^{k}a_{i}=1$ 所以 $\\begin{array}{r}{\\lambda\\sum_{i=1}^{k}\\frac{1}{2\\sigma_{i}^{2}}=1,}\\end{array}$ 记 $\\textstyle\\sum_{i=1}^{k}{\\frac{1}{\\sigma_{i}^{2}}}={\\frac{1}{\\sigma_{0}^{2}}}$ 所以 $\\lambda=2\\sigma_{0}^{2}$ 于是 $\\begin{array}{r}{a_{i}=\\frac{\\sigma_{0}^{2}}{\\sigma_{i}^{2}}(i=1,2,\\cdots,k),}\\end{array}$ 故当\n$a_{i}=\\frac{\\sigma_{0}^{2}}{\\sigma_{i}^{2}}(i=1,2,\\cdots,k)$ 时, $\\begin{array}{r}{\\hat{\\pmb{\\theta}}=\\sum_{i=1}^{k}a_{i}X_{i}}\\end{array}$ 是0的无偏估计,且方差最小.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/401/005",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4010051,
+              "question_id": 401005,
+              "is_answer": true,
+              "choice": "$a_{i}=\\frac{\\sigma_{0}^{2}}{\\sigma_{i}^{2}}(i=1,2,\\cdots,k)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010052,
+              "question_id": 401005,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{a_{i}=\\frac{\\sigma_{0}}{\\sigma_{i}}(i=1,2,\\cdots,k)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010053,
+              "question_id": 401005,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{a_{i}=\\frac{\\sigma_{1}^{2}}{\\sigma_{i}^{2}}(i=1,2,\\cdots,k)}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010054,
+              "question_id": 401005,
+              "is_answer": false,
+              "choice": "$a_{i}=\\frac{\\sigma_{0}^{2}}{\\sigma_{i}}(i=1,2,\\cdots,k)$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 401006,
+          "subject_id": 3,
+          "chapter_id": 401,
+          "question_id": "pdf-ocr-401-006",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设 $\\mathbf{X_{1}},\\mathbf{X_{2}}$ 是取自正态总体 $X\\sim N(\\mu,1)$ 的一个容量为2 的样本, $\\hat{\\mu}=\\alpha X_{1}+\\beta X_{2}$ (其中 $\\alpha+\\beta=1$ )则当 NeaMath $\\alpha=$ 是\nμ 的最小方差估计量.",
+          "analysis": "根据有效性的定义有\n$D(\\hat{\\mu})=\\alpha^{2}+\\beta^{2}=\\alpha^{2}+(1-\\alpha)^{2}\\triangleq d(\\alpha)$\n要使方差最小,即求方差函数d(α)的最小值,求 $d(\\alpha)$ 关于α求导数,并令其为零,有\n$2\\alpha-2(1-\\alpha)=0\\Rightarrow\\alpha=\\frac{1}{2}.$\n$\\left.\\frac{d^{2}(\\alpha)}{d\\alpha^{2}}\\right|_{\\alpha=\\frac{1}{2}}=4>0$ 故 $\\alpha={\\frac{1}{2}}$ 是d(α)的最小值,此时 $d(\\alpha)=\\left(\\frac{1}{2}\\right)^2+\\left(1-\\frac{1}{2}\\right)^2=\\frac{1}{2}$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/401/006",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4010061,
+              "question_id": 401006,
+              "is_answer": true,
+              "choice": "12",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010062,
+              "question_id": 401006,
+              "is_answer": false,
+              "choice": "13",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010063,
+              "question_id": 401006,
+              "is_answer": false,
+              "choice": "1/4",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010064,
+              "question_id": 401006,
+              "is_answer": false,
+              "choice": "1",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 401007,
+          "subject_id": 3,
+          "chapter_id": 401,
+          "question_id": "pdf-ocr-401-007",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设总体X服从正态分布N(m,1),X_{₁,X_2是总体X的子样, 试验证 $\\begin{array}{r}{\\widehat{m_{1}}=\\frac{2}{3}X_{1}+\\frac{1}{3}X_{2},\\widehat{m_{2}}=\\frac{1}{4}X_{1}+\\frac{3}{4}X_{2},}\\end{array}$",
+          "analysis": "因为X服从N(m,1),有 $E(X_{i})=m,D(X_{i})=1(i=1,2)$ 得 $E(\\widehat{m_1})=E(\\frac{2}{3}X_1+\\frac{1}{3}X_2)=\\frac{2}{3}E(X_1)+\\frac{1}{3}E(X_2)=\\frac{2}{3}m+\\frac{1}{3}m=m$\n$$D(\\widehat{m_1})=D\\left(\\frac{2}{3}X_1+\\frac{1}{3}X_2\\right)=\\frac{4}{9}D(X_1)+\\frac{1}{9}D(X_2)=\\frac{4}{9}+\\frac{1}{9}=\\frac{5}{9}$$\n同理可得：1 $\\vec{v}(\\widehat{m_2})=m,D(\\widehat{m_2})=\\frac{5}{8},E(\\widehat{m_3})=m,D(\\widehat{m_3})=\\frac{1}{2}$\n所以,m_{₁},m_₂}m_₃都是m的无偏估计量,并且在m_{₁},m_,m_₃中,以m_₃的方差为最小.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/401/007",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4010071,
+              "question_id": 401007,
+              "is_answer": true,
+              "choice": "$\\widehat{m_3}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010072,
+              "question_id": 401007,
+              "is_answer": false,
+              "choice": "$\\widehat{m_1}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010073,
+              "question_id": 401007,
+              "is_answer": false,
+              "choice": "$\\widehat{m_2}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010074,
+              "question_id": 401007,
+              "is_answer": false,
+              "choice": "一样大",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 401008,
+          "subject_id": 3,
+          "chapter_id": 401,
+          "question_id": "pdf-ocr-401-008",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "从总体X中抽得样本 $(X_{1},X_{2},X_{3})$,下面4个统计量都是均值 $E(X)=\\mu$ 的无偏估计量,其中最有效的估计量是().",
+          "analysis": "由题可知这四个估计量都是无偏估计量,而要求出有效估计量,得对它们的方差大小进行 比较,\n$\\begin{aligned}{D(\\mu_{1})}&{{}=\\frac{14}{36}D(X)\\approx0.389D(X),}\\\\ {D(\\mu_{2})}&{{}=\\frac{6}{16}D(X)=0.375D(X),}\\\\ {D(\\mu_{3})}&{{}=\\frac{1}{3}D(X)\\approx0.333D(X),}\\\\ {D(\\mu_{4})}&{{}=D(X).}\\\\ \\end{aligned}$\n故3最有效. TeuMath",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/401/008",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4010081,
+              "question_id": 401008,
+              "is_answer": true,
+              "choice": "$\\mu_{3}={\\frac{1}{3}}X_{1}+{\\frac{1}{3}}X_{2}+{\\frac{1}{3}}X_{3}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010082,
+              "question_id": 401008,
+              "is_answer": false,
+              "choice": "$\\mu_{1}={\\frac{1}{2}}X_{1}+{\\frac{1}{3}}X_{2}+{\\frac{1}{6}}X_{3}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010083,
+              "question_id": 401008,
+              "is_answer": false,
+              "choice": "$\\mu_{2}={\\textstyle{\\frac{1}{2}}}X_{1}+{\\textstyle{\\frac{1}{4}}}X_{2}+{\\textstyle{\\frac{1}{4}}}X_{3}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010084,
+              "question_id": 401008,
+              "is_answer": false,
+              "choice": "$\\mu_{4}={\\frac{2}{3}}X_{1}-{\\frac{1}{3}}X_{2}+{\\frac{2}{3}}X_{3}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 401009,
+          "subject_id": 3,
+          "chapter_id": 401,
+          "question_id": "pdf-ocr-401-009",
+          "difficulty": "OCR",
+          "answer": "4",
+          "question_type": 1,
+          "question": "设 $X_{1},X_{2},\\cdots,X_{n}$ 是来自总体X的随机样本,则下面说法正确的是().",
+          "analysis": "依题设可得\n$\\begin{aligned}E(\\bar{X})&=\\frac{1}{n}\\sum_{i=1}^{n}E(X_i)=\\frac{1}{n}\\times nE(X)=E(X)\\\\E(Y)&=\\sum_{i=1}^{n}C_i E(X_i)=E(X)\\sum_{i=1}^{n}C_i=E(X)\\end{aligned}$\n从而 $\\pmb{X},\\pmb{Y}$ 均为 $E(X)$ 的无偏估计量,由于\n$$\\begin{align*}D(\\bar{X})=\\frac{1}{n^2}\\sum_{i=1}^n D(X_i)=\\frac{1}{n}D(X)\\quad&\\\\D(Y)=D\\left(\\sum_{i=1}^n C_i X_i\\right)=\\sum_{i=1}^n C_i^2D(X_i)=D(X)\\sum_{i=1}^n C_i^2.\\end{align*}$$\n应用柯西-施瓦茨不等式可知\n$$1=\\left(\\sum_{i=1}^{n}C_{i}\\right)^{2}\\leq\\left(\\sum_{i=1}^{n}C_{i}^{2}\\right)\\left(\\sum_{i=1}^{n}1^{2}\\right)=n\\sum_{i=1}^{n}C_{i}^{2},\\quad\\frac{1}{n}\\leq\\sum_{i=1}^{n}C_{i}^{2}$$\n所以 $D(Y)\\geq D({\\bar{X}})$ 故X比Y有效",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/401/009",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4010091,
+              "question_id": 401009,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\bar{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}}\\end{array}$ 和 $\\begin{array}{r}{Y=\\sum_{i=1}^{n}}\\end{array}$ C_{_{} $(C_{i}\\geq0$ 为常数, $\\textstyle\\sum_{i=1}^{n}C_{i}=1)$ 都不是总体期望 $E(X)$ 的无偏估计",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010092,
+              "question_id": 401009,
+              "is_answer": false,
+              "choice": "Y比X有效",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010093,
+              "question_id": 401009,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\bar{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}}\\end{array}$ 是总体期望 $E(X)$ 的无偏估计, $\\begin{array}{r}{Y=\\sum_{i=1}^{n}C_{i}X_{i}\\quad(C_{i}\\geq0)}\\end{array}$ 为常数, $\\textstyle\\sum_{i=1}^{n}C_{i}=1)$ 不是总体期望 $E(X)$ 的\n无偏估计",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010094,
+              "question_id": 401009,
+              "is_answer": true,
+              "choice": "$\\begin{array}{r}{\\bar{\\pmb X}=\\frac{1}{n}\\sum_{i=1}^{n}}\\end{array}$ $X_{}和 $\\begin{array}{r}{Y=\\sum_{i=1}^{n}}\\end{array}$ $C_{X{}$ $\\left(C_{i}\\geq0\\right.$ 为常数, $\\textstyle\\sum_{i=1}^{n}C_{i}=1) 都是总体期望E(X)的无偏估计",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 401010,
+          "subject_id": 3,
+          "chapter_id": 401,
+          "question_id": "pdf-ocr-401-010",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设从均值为、方差为 $\\sigma^{2}(\\sigma>0)$ 的总体中,分别抽取容量为 $\\pmb{n_{1}},\\pmb{n_{2}}$ 的两独立样本, $\\bar{X}_{1}$ 和 $\\bar{\\mathbf{X}}_{\\mathbf{Z}}$ 分别是两样本的均值.对于任\n意常数 $a,b(a+b=1),\\quad Y=a\\bar{X}_{1}+b\\bar{X}_{2}$ 都是$\\mu$的无偏估计.确定常数 a,b, 使 $D(Y)$ 达到最小,则下列说法正确的是().",
+          "analysis": "$E(Y)=E(a\\bar{X}_1+b\\bar{X}_2)=aE(\\bar{X}_1)+bE(\\bar{X}_2)=(a+b)\\mu=\\mu.$ 因此,Y都是μ的无偏估计.\n$$D(Y)=a^{2}D(\\bar{X}_{1})+b^{2}D(\\bar{X}_{2})=a^{2}\\frac{\\sigma^{2}}{n_{1}}+b^{2}\\frac{\\sigma^{2}}{n_{2}}=\\sigma^{2}\\left[\\frac{a^{2}}{n_{1}}+\\frac{1}{n_{2}}(1-a)^{2}\\right].$$\n令 dD(y}=0,即 da $2\\sigma^{2}\\Big(\\frac{a}{n_{1}}-\\frac{1-a}{n_{2}}\\Big)=0$ 得 $a=\\frac{n_{1}}{n_{1}+n_{2}},b=\\frac{n_{2}}{n_{1}+n_{2}}$ 是唯一驻点.\n又因为 $\\begin{array}{r}{\\frac{d^{2}D(Y)}{d a^{2}}=2\\sigma^{2}\\left(\\frac{1}{n_{1}}+\\frac{1}{n_{2}}\\right)>0,}\\end{array}$ 故取此a,b二值时,D(Y)达到最小.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/401/010",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4010101,
+              "question_id": 401010,
+              "is_answer": true,
+              "choice": "$a=\\frac{n_{1}}{n_{1}+n_{2}},b=\\frac{n_{2}}{n_{1}+n_{2}}$,D(Y)达到最小",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010102,
+              "question_id": 401010,
+              "is_answer": false,
+              "choice": "$a=\\frac{n_{1}}{n_{1}-n_{2}},b=\\frac{n_{2}}{n_{1}-n_{2}}$,D(Y)达到最小",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010103,
+              "question_id": 401010,
+              "is_answer": false,
+              "choice": "$a=\\frac{n_{1}}{n_{1}-n_{2}},b=\\frac{n_{1}+n_{2}}{n_{1}}$,D(Y)达到最小",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010104,
+              "question_id": 401010,
+              "is_answer": false,
+              "choice": "$a=\\frac{n_{1}}{n_{1}-n_{2}},b=\\frac{n_{1}-n_{2}}{n_{1}}$,D(Y) 达到最小",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  },
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 13,
+      "questions": [
+        {
+          "id": 401011,
+          "subject_id": 3,
+          "chapter_id": 401,
+          "question_id": "pdf-ocr-401-011",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设从均值为u、方差为 $\\sigma^{2}(\\sigma>0)$ 的总体中分别抽取容量为 $\\pmb{n_{1}},\\pmb{n_{2}}$ 的两独立样本, $\\pmb{X_{1}}$ 和 $\\mathbf{X_{2}}$ 分别是两样本的均值,对于任意\n常数 $a,b(a+b=1)$ $Y=a{\\bar{X}}_{1}+b{\\bar{X}}_{2}$ 都是$\\mu$的无偏估计．下列说法不正确的是(",
+          "analysis": "$E(Z)=a E(S_{1}^{2})+b E(S_{2}^{2})=\\sigma^{2}$ 即Z是σ的无偏估计.因 $\\mathcal{S}_{1}^{2},\\mathcal{S}_{2}^{2}$ 相互独立,所以\n$\\begin{aligned}D(Z)&=D(aS_{1}^{2}+bS_{2}^{2})=\\left(\\frac{a^{2}}{n_{1}-1}+\\frac{b^{2}}{n_{2}-1}\\right)\\cdot2\\sigma^{4}=\\left(\\frac{a^{2}}{n_{1}-1}+\\frac{(1-a)^{2}}{n_{2}-1}\\right)\\cdot2\\sigma^{4},\\\\& 令 \\frac{dD(Z)}{da}=2\\sigma^{4}\\left[\\frac{2a}{n_{1}-1}-\\frac{2(1-a)}{n_{2}-1}\\right]=0, 得出 a=\\frac{n_{1}-1}{n_{1}+n_{2}-2}.\\\\& 又 \\frac{d^{2}D(Z)}{da^{2}}=2\\sigma^{4}\\left(\\frac{2}{n_{1}-1}+\\frac{2}{n_{2}-1}\\right)>0, 如部凤妲链, 底出 a=\\frac{n_{1}-1}{n_{1}+n_{2}-2},\\\\b=&\\frac{n_{2}-1}{n_{1}+n_{2}-2} 畦绌握 Z=\\frac{1}{n_{1}+n_{2}-2}\\left[(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}\\right] 其射劳热 \\end{aligned}$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/401/011",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4010111,
+              "question_id": 401011,
+              "is_answer": true,
+              "choice": "$a=\\frac{n_{1}-1}{n_{1}+n_{2}},b=\\frac{n_{2}-1}{n_{1}+n_{2}}$ 时,D(Z)达到最小",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010112,
+              "question_id": 401011,
+              "is_answer": false,
+              "choice": "$Z=a S_{1}^{2}+b S_{2}^{2}$ 是 $\\sigma^{2}$ 的无偏估计",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010113,
+              "question_id": 401011,
+              "is_answer": false,
+              "choice": "$a S_{1}^{2},b S_{2}^{2}$ 至少有一个不是 $\\pmb{\\sigma^{2}}$ 的无偏估计",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010114,
+              "question_id": 401011,
+              "is_answer": false,
+              "choice": "$a=\\frac{n_{1}-1}{n_{1}+n_{2}-2},b=\\frac{n_{2}-1}{n_{1}+n_{2}-2}$ 时,D(Z)达到最小",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 401012,
+          "subject_id": 3,
+          "chapter_id": 401,
+          "question_id": "pdf-ocr-401-012",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设 $X_{1},X_{2},\\cdots,X_{n}$ 是正态总体 $N(\\mu,\\sigma^{2})$ 的样本,μ已知,X是样本均值,则在总体方差{²的下列估计量中,最佳的是().",
+          "analysis": "首先考察各估计量的无偏性：\n由于 $E\\left[\\sum_{i=1}^{n}(X_i-\\bar{X})^2\\right]=(n-1)\\sigma^2,\\quad E\\left[\\sum_{i=1}^{n}(X_i-\\mu)^2\\right]=n\\sigma^2$ 可得：\n$\\begin{array}{r}{E(\\sigma_{1}^{2})=\\frac{n-1}{n}\\sigma^{2}\\neq\\sigma^{2}}\\end{array}$ (有偏)；\n$E(\\sigma_{4}^{2})=\\frac{n}{n-1}\\sigma^{2}\\neq\\sigma^{2}$ (有偏)； lathe\n$E(\\sigma_{2}^{2})=\\sigma^{2},\\quad E(\\sigma_{3}^{2})=\\sigma^{2}$ (无偏).\n在无偏估计量 $$\\pmb{\\sigma_{2}^{2}} 与 \\pmb{\\sigma_{3}^{2}}$$ 中比较其方差(有效性)：\n利用正态总体样本方差的性质及 $x^{2}$ 分布的方差公式：\n$$\\begin{array}{r}{D(\\sigma_{2}^{2})=D\\big[\\frac{1}{n-1}\\sum_{i=1}^{n}(X_{i}-\\bar{X})^{2}\\big]=\\frac{1}{(n-1)^{2}}\\cdot2(n-1)\\sigma^{4}=\\frac{2\\sigma^{4}}{n-1};}\\end{array}$$\n$$D(\\sigma_{3}^{2})=D\\left[\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\mu)^{2}\\right]=\\frac{1}{n^{2}}\\sum_{i=1}^{n}D\\left[(X_{i}-\\mu)^{2}\\right]=\\frac{1}{n^{2}}\\cdot n\\cdot2\\sigma^{4}=\\frac{2\\sigma^{4}}{n}$$\n因为 $\\frac{2\\sigma^{4}}{n}<\\frac{2\\sigma^{4}}{n-1}$ 所以 $\\sigma_{3}^{2}$ 的方差更小,有效性更强. lathe\n综上所述,最佳估计量是 $\\sigma_{\\mathbf{3}}^{2}.$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/401/012",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4010121,
+              "question_id": 401012,
+              "is_answer": true,
+              "choice": "$\\begin{array}{r}{\\sigma_{3}^{2}=\\frac{1}{n}\\sum_{i=1}^{n}\\left(X_{i}-\\mu\\right)^{2}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010122,
+              "question_id": 401012,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\sigma_{1}^{2}=\\frac{1}{n}\\sum_{i=1}^{n}\\left(X_{i}-\\bar{X}\\right)^{2}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010123,
+              "question_id": 401012,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\sigma_{2}^{2}=\\frac{1}{n-1}\\sum_{i=1}^{n}\\left(X_{i}-\\bar{X}\\right)^{2}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010124,
+              "question_id": 401012,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{\\sigma_{4}^{2}=\\frac{1}{n-1}\\sum_{i=1}^{n}\\left(X_{i}-\\mu\\right)^{2}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 401013,
+          "subject_id": 3,
+          "chapter_id": 401,
+          "question_id": "pdf-ocr-401-013",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设 $X_{1},X_{2},\\cdots,X_{n}$ 为来自总体X的样本, $\\bar{X},X_i(i=1,2,\\cdots,n)$ 均为总体均值u的无偏估计量,下列说法正确的是().",
+          "analysis": "由于E(X)=μ,E(X₁)=(i=1,2,,n),所以X,X₁(i=1,2,·,n)为μ的无偏估计量.\n但D(X=D∑1₁)=/1D(X₁) n <D(X₁)=2(i=1,2,,n),故X较X{(i=1,2.,n)更有效.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/401/013",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4010131,
+              "question_id": 401013,
+              "is_answer": true,
+              "choice": "X较 $X_{i}(i=1,2,\\cdots,n)$ 更有效",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010132,
+              "question_id": 401013,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{D(\\bar{X})=\\frac{\\sigma^{2}}{n-1}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010133,
+              "question_id": 401013,
+              "is_answer": false,
+              "choice": "$\\begin{array}{r}{D(\\bar{X})=\\frac{\\sigma^{2}}{n+1}}\\end{array}$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4010134,
+              "question_id": 401013,
+              "is_answer": false,
+              "choice": "X较 $X_{i}(i=1,2,\\cdots,n)$ 更无效 e",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  }
+]

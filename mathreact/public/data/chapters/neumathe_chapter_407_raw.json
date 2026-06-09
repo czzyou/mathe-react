@@ -1,0 +1,521 @@
+[
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 6,
+      "questions": [
+        {
+          "id": 407001,
+          "subject_id": 3,
+          "chapter_id": 407,
+          "question_id": "pdf-ocr-407-001",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "A,B 两个地区种植同一型号的小麦. 现抽取了 19 块面积相同的麦田, 其中 9 块属于地区 A, 另外 10 块属于地区 B, 测得它们的小麦产量(以 kg 计)分别如下:\n地区 A: 100, 105, 110, 125, 110, 98, 105, 116, 112\n地区 B: 101, 100, 105, 115, 111, 107, 106, 121, 102, 92\n设地区 A 的小麦产量 $X\\sim N(\\mu_1,\\sigma^2)$, 地区 B 的小麦产量 $Y\\sim N(\\mu_2,\\sigma^2)$, $\\mu_1,\\mu_2,\\sigma^2$ 均未知, 则这两个地区小麦的平均产量之差 $\\mu_1-\\mu_2$ 的 90% 置信区间为 ( ).",
+          "analysis": "由题意知所求置信区间的两个端点分别为\n$(\\bar{X}-\\bar{Y})\\pm t_{a/2}(n_{1}+n_{2}-2)\\cdot S_{w}\\cdot\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}$\n由 $\\alpha=0.1,n_{1}=9,n_{2}=10$ 查表得 $t_{0.1/2}(17)=1.7396$ 按已知数据计算得\n$\\begin{aligned}&\\bar{x}=109,\\bar{y}=106,s_{1}^{2}=550/8,s_{2}^{2}=606/9,\\\\ &s_{w}^{2}=\\frac{(n_{1}-1)s_{1}^{2}+(n_{2}-1)s_{2}^{2}}{n_{1}+n_{2}-2}=68,\\quad s_{w}=8.246,\\\\ \\end{aligned}$\n于是置信下限为\n$$\\left(109-106\\right)-1.7396\\times8.246\\times\\sqrt{\\frac{1}{9}+\\frac{1}{10}}=-3.59$$\n置信上限为\n$\\left(109-106\\right)+\\underline{1.7396\\times8.246\\times\\sqrt{\\frac{1}{9}+\\frac{1}{10}}}=9.59$\n故均值差 $\\mathbf{\\mu _{1}}-\\mathbf{\\mu _{2}}$ 的90%的置信区间为(-3.59,9.59).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/407/001",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4070011,
+              "question_id": 407001,
+              "is_answer": true,
+              "choice": "(-3.59,9.59)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4070012,
+              "question_id": 407001,
+              "is_answer": false,
+              "choice": "(-3.59,8.59)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4070013,
+              "question_id": 407001,
+              "is_answer": false,
+              "choice": "(3.59,9.59)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4070014,
+              "question_id": 407001,
+              "is_answer": false,
+              "choice": "(4.59,9.59)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 407002,
+          "subject_id": 3,
+          "chapter_id": 407,
+          "question_id": "pdf-ocr-407-002",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "2003年在某地区分行业调查职工平均工资情况：已知体育、卫生、社会福利事业职工工资(单位：元) $X\\sim N(\\mu_{1},218^{2})$；文教、\n艺术、广播事业职工工资 $Y\\sim N(\\mu_{2},227^{2})$,从总体X中调查25人,平均工资1286 元,从总体Y中调查30人,平均工资\n1272 元,则这两大类行业职业平均工资之差的99%的置信区间为().\n$\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}\\approx60.1548,u_{0.005}=2.576$",
+          "analysis": "在方差已知条件下,两正态总体均值差的置信度为 $1-\\alpha$ 的置信区间为\n$\\left(\\bar{X}-\\bar{Y}\\pm u_{\\alpha/2}\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}\\right)$\n现 $n_{1}=25,n_{2}=30,\\sigma_{1}^{2}=218^{3},\\sigma_{2}^{2}=227^{2},\\bar{x}=1286,\\bar{y}=1272,1-\\alpha=0.99,u_{0.05}=2.576,\\sqrt{\\frac{\\sigma_{1}^{4}}{n_{2}}+\\frac{\\sigma_{2}^{4}}{n_{3}}}$ ≈ 60.1548,\n于是该两总体均值差 $\\mathbf{\\mu _{1}}-\\mathbf{\\mu _{2}}$ 的置信度为99%的置信区间为\n$$\\left(1286-1272\\pm2.576\\times60.1548\\right)\\approx\\left(-140.96,168.96\\right)$$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/407/002",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4070021,
+              "question_id": 407002,
+              "is_answer": true,
+              "choice": "$(-140.96,168.96)$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4070022,
+              "question_id": 407002,
+              "is_answer": false,
+              "choice": "$(-140.96,158.96)$",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4070023,
+              "question_id": 407002,
+              "is_answer": false,
+              "choice": "$(-140.96,148.96)$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4070024,
+              "question_id": 407002,
+              "is_answer": false,
+              "choice": "(-130.96,168.96)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 407003,
+          "subject_id": 3,
+          "chapter_id": 407,
+          "question_id": "pdf-ocr-407-003",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "为比较I,II两种型号步枪子弹的枪口速度,随机地取I型子弹10发,得到枪口速度的平均值为 $\\bar{x}_{1}=500(m/s)$,标准差\n$s_{1}=1.10(m/s)$,随机地取II型子弹20发,得到枪口速度的平均值为 $\\bar{x}_{2}=496(\\mathrm{m/s})$,标准差 $s_{2}=1.20(m/s)$.假设两总体\n都可认为近似地服从正态分布,且由生产过程可认为方差相等,则两总体均值 $\\mathbf{\\mu_{1}}-\\mathbf{\\mu_{2}}$ 的一个置信水平为0.95的置信区间为",
+          "analysis": "按实际情况,可认为分别来自两个总体的样本是相互独立的,且两总体的方差相等,但数值未知,由于\n$$\\begin{aligned}&1-\\alpha=0.95,\\alpha/2=0.025,n_1=10,n_2=20,n_1+n_2-2=28,\\\\&\\quad t_{0.025}(28)=2.0484,\\\\&\\quad s_w^2=\\left(9\\times1.10^2+19\\times1.20^2\\right)/28,\\quad s_w=\\sqrt{s_w^2}=1.1688,\\\\ \\end{aligned}$$\n故所求的两总体均值差 $\\mathbf{\\mu _{1}}-\\mathbf{\\mu _{2}}$ 的一个置信水平为0.95的置信区间是\n$$\\left(\\overline{{x_{1}}}-\\overline{{x_{2}}}\\pm s_{w}\\times t_{0.025}(28)\\sqrt{\\frac{1}{10}+\\frac{1}{20}}\\right)=(4\\pm0.93).$$\n即 (3.07, 4.93).",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/407/003",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4070031,
+              "question_id": 407003,
+              "is_answer": true,
+              "choice": "(3.07, 4.93)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4070032,
+              "question_id": 407003,
+              "is_answer": false,
+              "choice": "(2.07,4.93)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4070033,
+              "question_id": 407003,
+              "is_answer": false,
+              "choice": "(3.07,5.93)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4070034,
+              "question_id": 407003,
+              "is_answer": false,
+              "choice": "(1.07, 4.93)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 407004,
+          "subject_id": 3,
+          "chapter_id": 407,
+          "question_id": "pdf-ocr-407-004",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设来自总体 $N(\\mu_{1},16)$ 的一容量为15的样本,其样本均值 $\\overline{{x_{1}}}=14.6$：来自总体 $N(\\mu_{2},\\mathfrak{g})$ 的一容量为20的样本,其样本均值\n$\\overline{{x_{2}}}=\\mathbf{13.2}$ 并且两样本是相互独立的,则 $\\mathbf{\\mu _{1}}-\\mathbf{\\mu _{2}}$ 的90%的置信区间为().",
+          "analysis": "1-α=0.9,α=0.1,由 $\\begin{array}{r}{\\Phi(u_{\\alpha/2})=1-\\frac{\\alpha}{2}=0.95,}\\end{array}$ 查表,得\n$u_{\\alpha/2}=1.645$\n再由n₁}=15,n_2=20,得\n\\begin{gathered} u_{al}s\\a\\sgn}\\sga}n26m1.aro \\overline{x}_1-\\overline{x}_2=14.6-13.2=1.4 \\end{gathered} 所以,,μ1 - μ2的90%的置信区间为 (1.4-2.03,1.4+2.03)=(-0.63,3.43)",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/407/004",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4070041,
+              "question_id": 407004,
+              "is_answer": true,
+              "choice": "(-0.63,3.43)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4070042,
+              "question_id": 407004,
+              "is_answer": false,
+              "choice": "(-0.63,4.43)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4070043,
+              "question_id": 407004,
+              "is_answer": false,
+              "choice": "(-0.63,3.22)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4070044,
+              "question_id": 407004,
+              "is_answer": false,
+              "choice": "(0.63,3.43)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 407005,
+          "subject_id": 3,
+          "chapter_id": 407,
+          "question_id": "pdf-ocr-407-005",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "物理系学生可选择一学期3学分没有实验课,也可选一学期4学分有实验的课.期末考试每一章节都考得一样,若有上实验课\n的12个学生平均考分为84,标准差为4,没上实验课的18个学生平均考分为 77, 标准差为6,假设总体均为正态分布且其\n方差相等,求两种课程平均分数差的置信度为99% 的置信区间为()",
+          "analysis": "设有实验课的考分总体 $X_{1}\\sim N(\\mu_{1},\\sigma^{2})$,无实验课的考分总体 $X_{2}\\sim N(\\mu_{2},\\sigma^{2})$.两方差相等但均未知,求 $\\pmb{\\mu_{1}}-\\pmb{\\mu_{2}}$ 的99%的置信区\n间,应选t分布变量,\n$T=\\frac{\\overline{X}_1-\\overline{X}_2-(\\mu_1-\\mu_2)}{S_W\\sqrt{\\frac{1}{n_1}+\\frac{1}{n_2}}}\\sim t(n_1+n_2-2)$\n其中 $\\begin{array}{r}{S_{W}=\\sqrt{\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}}.}\\end{array}$\n$\\mathbf{\\mu _{1}}-\\mathbf{\\mu _{2}}$ 的1-α的置信区间为 e\n$\\left(\\overline{{X}}_{1}-\\overline{{X}}_{2}\\pm t_{\\alpha/2}(n_{1}+n_{2}-2)S_{W}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}\\right).$\n由已知, $\\overline{{x}}_{1}-\\overline{{x}}_{2}=84-77=7$ 且\n$\\begin{aligned}&s_{W}=\\sqrt{\\frac{(12-1)\\times4^{2}+(18-1)\\times6^{2}}{12+18-2}}\\approx5.305\\\\ &\\sqrt{\\frac{1}{12}+\\frac{1}{18}}\\approx0.373,\\quad1-\\alpha=0.99,\\quad\\frac{\\alpha}{2}=0.005\\\\ \\end{aligned}$\n查t分布表得 $t_{0.005}(28)=2.763$\n于是, $\\pmb{\\mu_{1}}-\\pmb{\\mu_{2}}$ 的0.99的置信区间为 $(7\\pm2.763\\times5.305\\times0.373)$ 即(7±5.467),亦即(1.53,12.47.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/407/005",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4070051,
+              "question_id": 407005,
+              "is_answer": true,
+              "choice": "(1.53,12.47)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4070052,
+              "question_id": 407005,
+              "is_answer": false,
+              "choice": "(1.53,2.47)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4070053,
+              "question_id": 407005,
+              "is_answer": false,
+              "choice": "(11.53,12.47)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4070054,
+              "question_id": 407005,
+              "is_answer": false,
+              "choice": "(1.53,32.47)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 407006,
+          "subject_id": 3,
+          "chapter_id": 407,
+          "question_id": "pdf-ocr-407-006",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "随机地从A批导线中抽取4根,又从B批导线中抽取5根,测得电阻 (欧)\nA批导线 0.143 0.142 0.143 0.137\nB批导线 0.140 0.142 0.136 0.138 0.140\n设测定数据分别来自总体 $N\\big(\\mu_{1},\\sigma^{2}\\big)$ 和 $N\\big(\\mu_{2},\\sigma^{2}\\big)$,且两样本相互独立．又 $\\mu_{1},\\mu_{2},\\sigma^{2}$ 均未知,则 $\\mathbf{\\mu _{1}}-\\mathbf{\\mu _{2}}$ 的置信水平为0.95\n的置信区间为()t0.025(7)=2.3646,x=0.141g=0.139；=8.25×10-, $s_{2}^{2}=5.2\\times10^{-6}$,8w ≈ 0.0026, $\\sqrt{20}=4.4721$",
+          "analysis": "在方差未知但相等条件下,两正态总体均值差的置信度为 $1-\\alpha$ 的置信区间为\n$\\left(\\bar{X}_{1}-\\bar{X}_{2}\\pm t_{\\alpha/2}(n_{1}+n_{2}-2)S_{W}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}\\right)$\n其中 $S_{W}=\\sqrt{\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}}$\n现\n$$n_{1}=4,n_{2}=5,\\bar{x}=0.141,\\bar{y}=0.139;s_{1}^{3}=8.25\\times10^{-4},s_{2}^{3}=5.2\\times10^{-4},s_{W}\\approx0.0026;1-\\alpha=0.95,t_{4400}(7)=2.3646,\\sqrt{\\frac{1}{4}+\\frac{1}{4}}=0.6798$$,故两总体均值差 $\\pmb{\\mu_{1}}-\\pmb{\\mu_{2}}$ 的置信度为0.95的置信区间为\n$$\\left(0.141-0.139\\pm2.3646\\times0.0026\\times0.6708\\right)\\approx\\left(-0.002,0.006\\right)$$",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/407/006",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4070061,
+              "question_id": 407006,
+              "is_answer": true,
+              "choice": "(-0.002,0.006)",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4070062,
+              "question_id": 407006,
+              "is_answer": false,
+              "choice": "(0.002, 0.006)",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4070063,
+              "question_id": 407006,
+              "is_answer": false,
+              "choice": "(-0.004,0.006)",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4070064,
+              "question_id": 407006,
+              "is_answer": false,
+              "choice": "(0.002,0.004)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  }
+]

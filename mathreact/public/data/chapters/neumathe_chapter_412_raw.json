@@ -1,0 +1,776 @@
+[
+  {
+    "code": 200,
+    "message": "OK",
+    "data": {
+      "total": 9,
+      "questions": [
+        {
+          "id": 412001,
+          "subject_id": 3,
+          "chapter_id": 412,
+          "question_id": "pdf-ocr-412-001",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "在统计假设的显著性检验中,取小显著性水平 α的目的在于()",
+          "analysis": "小概率事件发生的概率称为检验的显著性水平, 概率事件发生了,就否定原假设H.换句话说,如果原假设H0为真,则原假设 H0\n应为大概率事件,即不能轻易拒绝原假设,",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/412/001",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4120011,
+              "question_id": 412001,
+              "is_answer": true,
+              "choice": "不轻易拒绝原假设",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120012,
+              "question_id": 412001,
+              "is_answer": false,
+              "choice": "不轻易拒绝备选假设",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120013,
+              "question_id": 412001,
+              "is_answer": false,
+              "choice": "不轻易接受原假设",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120014,
+              "question_id": 412001,
+              "is_answer": false,
+              "choice": "不考虑备选假设",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 412002,
+          "subject_id": 3,
+          "chapter_id": 412,
+          "question_id": "pdf-ocr-412-002",
+          "difficulty": "OCR",
+          "answer": "4",
+          "question_type": 1,
+          "question": "某产品以往废品率不高于5%,今抽取一样本,以检验这批产品废品率是否高于 5% (显著水平：α).此问题的假设与犯第一类\n错误的概率为().",
+          "analysis": "假设为 H{：p≤5%(p为废品率),犯第一类错误的概率为α.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/412/002",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4120021,
+              "question_id": 412002,
+              "is_answer": false,
+              "choice": "H0:p≥5%,β",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120022,
+              "question_id": 412002,
+              "is_answer": false,
+              "choice": "H_{0}:p≥5%,α",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120023,
+              "question_id": 412002,
+              "is_answer": false,
+              "choice": "$H_{0}:p≤5%,β$",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120024,
+              "question_id": 412002,
+              "is_answer": true,
+              "choice": "H_{}:p≤5\\%, α",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 412003,
+          "subject_id": 3,
+          "chapter_id": 412,
+          "question_id": "pdf-ocr-412-003",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设对统计假设H_0构造了一种显著性检验方法,则下列结论错误的是().",
+          "analysis": "在给出显著性水平α和检验统计量U下,拒绝域W由式子P{拒绝H_0|H0为真 $\\mathbf{j}=\\pmb{\\alpha}$ 求得.拒绝域W与U,α,H0有关,与样\n本观测值无关.\n不同检验水平的拒绝域(或接受域)不一定相同\n不同的样本观察值所做的推断结果不一定相同,",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/412/003",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4120031,
+              "question_id": 412003,
+              "is_answer": true,
+              "choice": "对同一个检验水平α,基于不同的观测值所做的推断结果相同",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120032,
+              "question_id": 412003,
+              "is_answer": false,
+              "choice": "对同一个检验水平α,基于不同的观测值所做的推断结果未必相同",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120033,
+              "question_id": 412003,
+              "is_answer": false,
+              "choice": "对不同的检验水平α,拒绝域可能不同",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120034,
+              "question_id": 412003,
+              "is_answer": false,
+              "choice": "对不同的检验水平α,接受域可能不同",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 412004,
+          "subject_id": 3,
+          "chapter_id": 412,
+          "question_id": "pdf-ocr-412-004",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "在统计假设的显著性检验中,下列说法错误的是().",
+          "analysis": "拒绝域W是在给出显著性水平α和检验统计量U下,由式子P{拒绝H_0|H0为真}=α求得.当U,α,H0都已知时,就可以由此得到\n拒绝域,它与样本观测值无关.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/412/004",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4120041,
+              "question_id": 412004,
+              "is_answer": true,
+              "choice": "拒绝域和接受域随样本观测值的不同而改变",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120042,
+              "question_id": 412004,
+              "is_answer": false,
+              "choice": "拒绝域和接受域与检验统计量的分布有关",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120043,
+              "question_id": 412004,
+              "is_answer": false,
+              "choice": "拒绝域和接受域与显著性水平α有关",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120044,
+              "question_id": 412004,
+              "is_answer": false,
+              "choice": "拒绝域和接受域是互不相交的",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 412005,
+          "subject_id": 3,
+          "chapter_id": 412,
+          "question_id": "pdf-ocr-412-005",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "在统计假设的显著性检验中,给定了显著性水平α,下列结论中错误的是().",
+          "analysis": "拒绝域W是在给出显著性水平α和检验统计量U下,由式子P{拒绝H0H0为填}=α确定的U的区域.故拒绝域W与检验统计\n量U、显著性水平α和原假设(或备择假设)有关.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/412/005",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4120051,
+              "question_id": 412005,
+              "is_answer": true,
+              "choice": "拒绝域的选法是唯一的",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120052,
+              "question_id": 412005,
+              "is_answer": false,
+              "choice": "拒绝域的确定与水平α有关",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120053,
+              "question_id": 412005,
+              "is_answer": false,
+              "choice": "拒绝域的确定与检验统计量的分布有关",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120054,
+              "question_id": 412005,
+              "is_answer": false,
+              "choice": "拒绝域的确定与备选假设有关",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 412006,
+          "subject_id": 3,
+          "chapter_id": 412,
+          "question_id": "pdf-ocr-412-006",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "设对统计假设H0构造了显著性检验方法,则下列结论错误的是().",
+          "analysis": "拒绝域W是在给出显著性水平 α和检验统计量U下,由式子P{拒绝H_0|H_0为真}=α求得．当U,α,H_{0都已知时,就可以由此得到\n拒绝域,它与样本观测值无关",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/412/006",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4120061,
+              "question_id": 412006,
+              "is_answer": true,
+              "choice": "对不同的样本观测值,拒绝域不同",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120062,
+              "question_id": 412006,
+              "is_answer": false,
+              "choice": "对不同的样本观测值,所做的统计推理结果可能不同",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120063,
+              "question_id": 412006,
+              "is_answer": false,
+              "choice": "拒绝域的确定与样本观测值无关",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120064,
+              "question_id": 412006,
+              "is_answer": false,
+              "choice": "对一样本观测值,可能因显著性水平的不同 而使推断结果不同",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 412007,
+          "subject_id": 3,
+          "chapter_id": 412,
+          "question_id": "pdf-ocr-412-007",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "关于假设检验,下列说法不正确的是",
+          "analysis": "根据反证法的思想和小概率原理,可将假设检验的步骤归纳如下：\n(1)根据问题的要求,提出原假设 $\\boldsymbol{H_0}$ 和备择假设 $\\pmb{H_{1}}$\n(2)根据检验对象,使当 $\\mathbf{H_{0}}$ 为真时,选择检验统计量 $T(X_{1},X_{2},\\cdots,X_{n}),T$ 有确定的分布.\n(3)由给定的显著水平α,查统计量T所服从的分布表,定出临界值λ,使\n$$P(|T|>\\lambda)=\\alpha, 或 P(T<\\lambda_1)=P(T>\\lambda_2)=\\alpha/2,\\lambda_1<\\lambda_2$$\n从而给出 $\\pmb{\\pi_{0}}$ 的拒绝域： $|T|>\\lambda$ 或 $T<\\lambda_{1},T>\\lambda_{2}.$\n(4)由样本观察值计算统计量T的观察值t.\n(5)作出判断,将t的值与临界值比较大小作出结论：\n当t∈拒绝域时,则拒绝 $\\pmb{H_{0}}$ 否则,不拒绝 $\\mathbf{H_{0}}$ 即认为在显著水平α下, $\\pmb{H_{0}}$ 与实际情况差异不显著.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/412/007",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4120071,
+              "question_id": 412007,
+              "is_answer": true,
+              "choice": "若T为检验统计量,则 $\\pmb{H_{0}}$ 的拒绝域为：T|<λ或 $\\lambda_{1}<T<\\lambda_{2}(\\lambda_{1}<\\lambda_{2})$",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120072,
+              "question_id": 412007,
+              "is_answer": false,
+              "choice": "根据检验对象,当 $\\pmb{\\pi_{0}}$ 为真时,选取检验统计量 $T(X_{1},X_{2},\\cdots,X_{n}),T$ 有确定的分布",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120073,
+              "question_id": 412007,
+              "is_answer": false,
+              "choice": "根据问题的要求,提出原假设 $\\pmb{\\pi_{0}}$ 和备择假设H_1",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120074,
+              "question_id": 412007,
+              "is_answer": false,
+              "choice": "当观测值t∈拒绝域时,则拒绝 $H_{0};$ 否则,不拒绝 $\\pmb{H_{0}}$",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 412008,
+          "subject_id": 3,
+          "chapter_id": 412,
+          "question_id": "pdf-ocr-412-008",
+          "difficulty": "OCR",
+          "answer": "4",
+          "question_type": 1,
+          "question": "在统计假设问题中,下面结论正确的是().",
+          "analysis": "参数假设检验是当总体分布参数未知时,对为推断总体参数而提出的假设进行检验.不论是双边还是单边假设检验,提出的假设一定与参\n数本身有关.\n单边假设检验的定义如下：\n右侧 (边)检验H0:μ≤μ0,H:μ>0,\n左侧 (边)检验H0:μ≥0,H1:μ<μ0.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/412/008",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4120081,
+              "question_id": 412008,
+              "is_answer": false,
+              "choice": "单边检验的定义为“若提出原假设 $H_{0}:\\mu=\\mu_{0}$ 备择假设为 $\\mu<\\mu_{0}$ 则称该检验为单边检验”",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120082,
+              "question_id": 412008,
+              "is_answer": false,
+              "choice": "在假设检验中,单边假设、双边假设是根据需要人为随意设定的, 与被检验的参数本身无关",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120083,
+              "question_id": 412008,
+              "is_answer": false,
+              "choice": "单边检验的定义为 “若拒绝域Ra $\\{\\mathrm{a< x< \\lambda}\\}$,称为单边检验”",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120084,
+              "question_id": 412008,
+              "is_answer": true,
+              "choice": "上述都不对",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        },
+        {
+          "id": 412009,
+          "subject_id": 3,
+          "chapter_id": 412,
+          "question_id": "pdf-ocr-412-009",
+          "difficulty": "OCR",
+          "answer": "1",
+          "question_type": 1,
+          "question": "关于假设检验与区间估计的异同,下列说法不正确的是()",
+          "analysis": "假设检验与区间估计的提法虽不同,但解决问题的途径是相通的．参数θ的置信水平为1－α的置信区间对应于双边假设检验在显著性\n水平α下的接受域：参数θ的置信水平为1－α的单侧置信区对应于单边假设检验在显著性水平α下的接受域.\n在总体的分布已知的条件下,假设检验与区间估计是从不同的角度回答同一个问题. 假设检验是判别原假设H0是否成立,而区间估计解\n决的是“多少”(或范围),前者是定性的,后者是定量的.",
+          "question_render_type": 1,
+          "analysis_render_type": 1,
+          "created_at": {
+            "seconds": 1766137662
+          },
+          "question_json": "pdf-ocr/412/009",
+          "updated_at": {
+            "seconds": 1766137662
+          },
+          "version": 1,
+          "is_active_version": true,
+          "choices": [
+            {
+              "id": 4120091,
+              "question_id": 412009,
+              "is_answer": true,
+              "choice": "前者是定量的,后者是定性的",
+              "choice_render_type": 1,
+              "choice_id": "1",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120092,
+              "question_id": 412009,
+              "is_answer": false,
+              "choice": "参数θ的置信水平为1-α的置信区间对应于双边假设检验在显著性水平α下的接受域",
+              "choice_render_type": 1,
+              "choice_id": "2",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120093,
+              "question_id": 412009,
+              "is_answer": false,
+              "choice": "参数θ的置信水平为1-α的单侧置信区对应于单边假设检验在显著性水平α下的接受域\nath",
+              "choice_render_type": 1,
+              "choice_id": "3",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            },
+            {
+              "id": 4120094,
+              "question_id": 412009,
+              "is_answer": false,
+              "choice": "在总体的分布已知的条件下,前者是判别原假设H0是否成立,而后者解决的是“多少” (或范围)",
+              "choice_render_type": 1,
+              "choice_id": "4",
+              "created_at": {
+                "seconds": 1766137662
+              },
+              "updated_at": {
+                "seconds": 1766137662
+              }
+            }
+          ],
+          "accuracy_rate": null,
+          "difficulty_score": null,
+          "avg_time_spent": null,
+          "ai_tags": "PDF OCR",
+          "tags": "PDF OCR"
+        }
+      ]
+    }
+  }
+]

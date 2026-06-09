@@ -46,7 +46,7 @@ jobs:
 
       - name: Install dependencies
         if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
-        run: npm install
+        run: npm ci
 
       - name: Build
         if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
@@ -64,13 +64,25 @@ jobs:
         if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
         working-directory: .
         run: |
-          echo "Verifying neumathe_chapter_296_raw.json locally..."
-          if grep -Fq '$$' deploy-package/data/chapters/neumathe_chapter_296_raw.json; then
-            echo "Successfully found \$\$ in local dist file."
-          else
-            echo "Error: \$\$ not found in local dist neumathe_chapter_296_raw.json! The build data might be stale."
-            exit 1
-          fi
+          node <<'NODE'
+          const fs = require('fs');
+          const expected = {401:13,404:23,405:8,407:6,408:4,409:11,412:9,413:15,416:33,417:20,419:27,420:11,421:17,422:12};
+          for (const [chapter, total] of Object.entries(expected)) {
+            const file = `deploy-package/data/chapters/neumathe_chapter_${chapter}_raw.json`;
+            const pages = JSON.parse(fs.readFileSync(file, 'utf8'));
+            const questions = pages.flatMap((page) => page.data.questions);
+            if (questions.length !== total) {
+              throw new Error(`${file} expected ${total}, got ${questions.length}`);
+            }
+            for (const question of questions) {
+              const text = [question.question, question.analysis, ...question.choices.map((choice) => choice.choice)].join('\n');
+              if (text.includes('![')) {
+                throw new Error(`${file} contains image markdown in question ${question.id}`);
+              }
+            }
+          }
+          console.log('OCR chapter JSON verified locally.');
+          NODE
 
       - name: Clean remote web directory
         if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
@@ -121,11 +133,14 @@ jobs:
             nginx -t
             systemctl reload nginx || systemctl restart nginx
             
-            echo "Verifying neumathe_chapter_296_raw.json on VPS..."
-            if grep -Fq '$$' /var/www/neumathe/data/chapters/neumathe_chapter_296_raw.json; then
-              echo "VPS data is updated and contains \$\$."
+            echo "Verifying OCR chapter JSON on VPS..."
+            if test -f /var/www/neumathe/data/chapters/neumathe_chapter_422_raw.json \
+              && grep -Fq '"total": 12' /var/www/neumathe/data/chapters/neumathe_chapter_422_raw.json \
+              && grep -Fq 'PDF OCR' /var/www/neumathe/data/chapters/neumathe_chapter_422_raw.json \
+              && ! grep -R -Fq '![' /var/www/neumathe/data/chapters/neumathe_chapter_4*_raw.json; then
+              echo "VPS OCR chapter data verified."
             else
-              echo "Error: VPS data is still old (missing \$\$). Actions deployed but data is stale!"
+              echo "Error: OCR chapter data missing, stale, or contains image markdown."
               exit 1
             fi
             
