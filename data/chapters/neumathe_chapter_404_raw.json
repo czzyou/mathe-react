@@ -10,7 +10,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-001",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "1",
           "question_type": 1,
           "question": "设 $X\\sim N(\\mu,\\sigma^{2})$ 其中 $\\sigma^{2}$ 已知, $X_{1},X_{2},\\cdots,X_{n}$ 为来自总体X的一个样本,则μ的置信度为95%的置信区间为 ( ).",
@@ -85,7 +85,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.35,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -95,7 +95,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-002",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "某旅行社为调查当地旅游者的平均消费额,随机访问了100名旅游者,得知平均消费额 $\\bar{x}=80$ 元．根据经验,已知旅游者消费\n服从正态分布,且标准差 $\\pmb{\\sigma}=\\pmb{12}$ 元,则该地旅游者平均消费额u的置信度为95%的置信区间为().\n$\\Phi(1.645)=0.95,\\Phi(1.96)=0.975)$",
@@ -170,7 +170,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -180,7 +180,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-003",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "某旅行社随机访问了25名旅游者,得知平均消费额 $\\bar{x}=80$ 元,子样标准差 $\\pmb{s}=\\pmb{12}$ 元,已知旅游者消费额服从正态分布,则\n旅游者平均消费额μ的95%的置信区间为().\n$\\left(\\Phi(1.645)=0.95,t_{0.025}(25)=2.0595,t_{0.025}(24)=2.0639\\right)$：",
@@ -255,7 +255,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -265,7 +265,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-004",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "1",
           "question_type": 1,
           "question": "设 $X_{1},X_{2},\\cdots,X_{n}$ 为来自正态总体 $N(\\mu,\\sigma^{2})$ 的一个样本,其中 $\\mu,\\sigma^{2}$ 均未知,则μ的置信度为1-α的双侧置信区间为(\n).",
@@ -340,7 +340,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.35,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -350,7 +350,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-005",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "1",
           "question_type": 1,
           "question": "设X_{1,X_₂,,Xn是来自正态总体N(,0.64)的样本,样本均值X.又知 ${\\pmb n}={\\pmb1}{\\pmb6}$ 及 $u_{\\frac{\\alpha}{2}}=1.96$,则u的置信度为1-α的\n置信区间为().",
@@ -425,7 +425,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.32,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -435,7 +435,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-006",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设 $X_{1},X_{2},\\cdots,X_{n}$ 为来自正态总体 $N(\\mu,\\sigma^{2})$ 的一个样本,其中参数 $\\mu,\\sigma^{2}$ 未知,则关于μ的置信度为 $1-\\alpha(0<\\alpha<1)$ 的置\n信区间长度L平方的数学期望 $E(L^{2})=($ ).",
@@ -510,7 +510,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -520,7 +520,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-007",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "某冶金研究者对铁的熔点做了4次试验,其结果(单位：C)为\n1550,1540,1530,1560.\n$\\boldsymbol{s}=12.910$ 如果铁的熔点服从正态分布,则均值 μ的置信度为0.95 间是 '\n$$\\left(\\Phi(1.96)=0.975,t_{0.025}(4)=2.7764,t_{0.025}(3)=3.1824\\right)$$",
@@ -595,7 +595,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -605,7 +605,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-008",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $X\\sim N(\\mu,1)$,μ为未知,X_{1,X_₂,…,X_16是来自X的样本,若样本均值 $\\bar{x}=\\mathbf{5.20}$,μ的置信水平为95%的置信区间\n为(). $(\\Phi(1.645)=0.95,\\Phi(1.96)=0.975)$",
@@ -680,7 +680,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -690,7 +690,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-009",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "一个随机样本来自正态总体X,总体标准差 $\\pmb{\\sigma}=\\pmb{1.5}$ 抽样前希望有95% 的置信水平使得u的估计的置信区间长度小于1.7,\n则至少应抽取容量为()的一个样本. $(\\Phi(1.645)=0.95,\\Phi(1.96)=0.975,{\\sqrt{50}}\\approx7.071)$",
@@ -765,7 +765,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -775,7 +775,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-010",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "10. N\n设某批铝材料的比重X服从正态分布 $N(\\mu,\\sigma^{2})$ 现测量它的比重16次,得 $\\bar{x}=2.705,s=0.029$,则u的置信度为0.95的\n置信区间为() $\\cdot\\left(\\Phi(1.645)=0.95,t_{0.025}(15)=2.1315,t_{0.025}(16)=2.1199\\right)$",
@@ -850,7 +850,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -869,7 +869,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-011",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "11. ｅul\n有一大批袋装糖果．现从中随机地取16袋,称得重量(以克计)如下：\n$$\\mathbf{506,508,499,503,504,510,497,512,514,505,493,496,506,502,509,496}$$\n$\\bar{x}=503.75,s=6.2022$ 设袋装糖果的重量近似地服从正态分布,则总体均值 的置信水平为0.95的置信区间().\n$$\\Phi(1.96)=0.975,t_{0.025}(16)=2.1199,t_{0.025}(15)=2.1315)$$",
@@ -944,7 +944,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -954,7 +954,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-012",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $X\\sim N(\\mu,\\sigma_{0}^{2})$ 其中 $\\sigma_{0}^{2}$ 已知,样本 $X_{1},X_{2},\\cdots,X_{n}.$ 若μ的置信度为0.95的置信区间长度不大于 $\\mathbf{0.5}\\sigma_{\\mathbf{0}}$ 则n 应\n不小于() $(\\Phi(1.96)=0.975,\\Phi(1.645)=0.95)$",
@@ -1029,7 +1029,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1039,7 +1039,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-013",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "现有来自正态总体X容量为 ${\\pmb n}={\\pmb2}{\\pmb5}$ 的一个样本,且已知 $D(X)=4,{\\bar{x}}=2$ 则均值μ的置信度为0.95的置信区间为().\n$$(\\Phi(1.654)=0.95,\\Phi(1.96)=0.975,\\Phi(1.282)=0.90)$$",
@@ -1114,7 +1114,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1124,7 +1124,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-014",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "人的身高服从正态分布,从初一女生中随机抽取6名,测其身高(单位：cm)如下：\n149 158.5 152.5 165 157 142\n$\\mathfrak{s}=8.0187$ 则初一女生平均身高的置信区间为()(α=0.05).\n(Φ(1.96)=0.975,t0.025(6)=2.4469,t0.025(5)=2.5706,√6=2.45)",
@@ -1199,7 +1199,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1209,7 +1209,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-015",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "已知灯泡寿命的标准差 $\\pmb{\\sigma}=\\pmb{50}$ 小时,抽出25个灯泡检验,得平均寿命 $\\bar{x}=500$ 小时,试以95%的可靠性对灯泡的平均寿命\n进行区间估计(假设灯泡寿命服从正态分布)为() $\\Phi(1.645)=0.95,\\Phi(1.96)=0.975)$",
@@ -1284,7 +1284,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1294,7 +1294,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-016",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设 $X_{1},X_{2},\\cdots,X_{n}$ 为正态总体 $N(\\mu,4)$ 的一个样本,X表示样本均值,则 μ的置信度为 $1-\\alpha$ 的置信区间为()",
@@ -1369,7 +1369,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1379,7 +1379,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-017",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "为研究某种汽车轮胎的磨损特性,随机地选择16只轮胎,每只轮胎行驶到磨坏为止.记录所行驶的路程(以千米计)如下：\n41250 40187 43175 41010 39265 41872 42654 41287\n38970 40200 42550 41095 40680 43500 39775 40440\n$\\bar{x}=41119.38,s=1345.46$.假设这些数据来自正态总体 $N(\\mu,\\sigma^{2})$,其中 $\\mu,\\sigma^{2}$ 未知,则μ的置信水平为0.95的单侧\n为() $\\left(\\Phi(1.645)=0.95,t_{0.05}(16)=1.7459,t_{0.05}(15)=1.7531\\right)$",
@@ -1454,7 +1454,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1464,7 +1464,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-018",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "1",
           "question_type": 1,
           "question": "某公司欲估计自己生产的电池寿命．现从其产品中随机抽取50只电池做寿命试验,这些电池的寿命的平均值 $\\bar{x}=2.266$ (单位：\n100小时), $\\pmb{s}=\\pmb{1.935}$ 设电池寿命服从正态分布 $N(\\mu,\\sigma^{2})$,则该公司生产的电池平均寿命的置信度为95%的置信区间为().\n(Φ(1.645)= 0.95,Φ(1.96)= 0.975,√50 ≈7.071)",
@@ -1539,7 +1539,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.28,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1549,7 +1549,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-019",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "从一批灯泡中随机地抽取5只作寿命试验,其寿命如下(单位：h)\n1050 1100 1120 1250 1280\n$s=99.75$ 已知这批灯泡寿命 $X\\sim N(\\mu,\\sigma^{2})$ 平均寿命μ的置信度为 95% 的单侧置信下限为(). '\n$$\\left(t_{0.05}(5)=2.0150,t_{0.05}(4)=2.1318,\\Phi(1.645)=0.95,\\sqrt{5}=2.236\\right)$$",
@@ -1624,7 +1624,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1634,7 +1634,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-020",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "1",
           "question_type": 1,
           "question": "设 $X_{1},X_{2},\\cdots,X_{n}$ 为来自正态总体 $N(\\mu,\\sigma^{2})$ 的一个样本,其中 $\\mu,\\sigma^{2}$ 未知,则μ的置信度为 $1-\\alpha(0<\\alpha<1)$ 的置信区间长\n度 $\\pmb{L}=(\\quad)$",
@@ -1709,7 +1709,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.32,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1728,7 +1728,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-021",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设 $X_{1},X_{2},\\cdots,X_{n}$ 是来自正态总体 $N(\\mu,\\sigma^{2})$ 的简单随机样本, $\\sigma^{2}$ 未知,X是样本均值. $\\begin{array}{r}{S^{2}=\\frac{1}{n-1}\\sum_{i=1}^{n}(X_{i}-\\bar{X})^{2}}\\end{array}$,若用\n$\\left(\\bar{X}-k\\frac{S}{\\sqrt{n}},\\bar{X}+k\\frac{S}{\\sqrt{n}}\\right)$ 作为μ的 $\\mathbf{1}-\\pmb{a}$ 置信区间,则k应取的分位数为().",
@@ -1803,7 +1803,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1813,7 +1813,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-022",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设由来自正态总体 $N(\\mu,1)$ 容量为16的简单随机样本算出的样本均值为 ${\\mathfrak{L}}={\\mathfrak{H}}$,则未知参数μ的置信度为0.95的置信区间\n是().(Φ(1.645)=0.95,Φ(1.96)=0.975)",
@@ -1888,7 +1888,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1898,7 +1898,7 @@
           "subject_id": 3,
           "chapter_id": 404,
           "question_id": "pdf-ocr-404-023",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $X\\sim(\\mu,\\sigma^{2})$ σ已知．为使总体均值u的置信度为1-α的置信区间的长度不大于L,则样本容量至少应取().",
@@ -1973,7 +1973,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"

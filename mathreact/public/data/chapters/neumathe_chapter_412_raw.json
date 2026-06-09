@@ -10,7 +10,7 @@
           "subject_id": 3,
           "chapter_id": 412,
           "question_id": "pdf-ocr-412-001",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "1",
           "question_type": 1,
           "question": "在统计假设的显著性检验中,取小显著性水平 α的目的在于()",
@@ -85,7 +85,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.28,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -95,7 +95,7 @@
           "subject_id": 3,
           "chapter_id": 412,
           "question_id": "pdf-ocr-412-002",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "4",
           "question_type": 1,
           "question": "某产品以往废品率不高于5%,今抽取一样本,以检验这批产品废品率是否高于 5% (显著水平：α).此问题的假设与犯第一类\n错误的概率为().",
@@ -170,7 +170,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.35,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -180,7 +180,7 @@
           "subject_id": 3,
           "chapter_id": 412,
           "question_id": "pdf-ocr-412-003",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设对统计假设H_0构造了一种显著性检验方法,则下列结论错误的是().",
@@ -255,7 +255,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -265,7 +265,7 @@
           "subject_id": 3,
           "chapter_id": 412,
           "question_id": "pdf-ocr-412-004",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "在统计假设的显著性检验中,下列说法错误的是().",
@@ -340,7 +340,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -350,7 +350,7 @@
           "subject_id": 3,
           "chapter_id": 412,
           "question_id": "pdf-ocr-412-005",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "1",
           "question_type": 1,
           "question": "在统计假设的显著性检验中,给定了显著性水平α,下列结论中错误的是().",
@@ -425,7 +425,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.35,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -435,7 +435,7 @@
           "subject_id": 3,
           "chapter_id": 412,
           "question_id": "pdf-ocr-412-006",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设对统计假设H0构造了显著性检验方法,则下列结论错误的是().",
@@ -510,7 +510,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -520,7 +520,7 @@
           "subject_id": 3,
           "chapter_id": 412,
           "question_id": "pdf-ocr-412-007",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "关于假设检验,下列说法不正确的是",
@@ -595,7 +595,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -605,7 +605,7 @@
           "subject_id": 3,
           "chapter_id": 412,
           "question_id": "pdf-ocr-412-008",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "4",
           "question_type": 1,
           "question": "在统计假设问题中,下面结论正确的是().",
@@ -680,7 +680,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.35,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -690,7 +690,7 @@
           "subject_id": 3,
           "chapter_id": 412,
           "question_id": "pdf-ocr-412-009",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "关于假设检验与区间估计的异同,下列说法不正确的是()",
@@ -765,7 +765,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"

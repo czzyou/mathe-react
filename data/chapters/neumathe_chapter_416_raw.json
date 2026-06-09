@@ -10,7 +10,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-001",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "下面列出的是某工厂随机选取的20只部件的装配时间(min)：\n$$9.8,10.4,10.6,9.6,9.7,9.9,10.9,11.1,9.6,10.2,10.3,9.6,9.9,11.2,10.6,9.8,10.5,10.1,10.5,9.7$$\n样本标准差8≈0.5099.设装配时间的总体服从正态分布 $N(\\mu,\\sigma^{2}),\\mu,\\sigma^{2}$ 均未知,在 $\\alpha=0.05$ 下,检验装配的平均时间μ是\n否超过10(min),则下列说法中不正确的是() $(t_{0.05}(19)=1.729,t_{0.05}(20)=1.7247)$\n$\\begin{array}{r}{\\pmb{T}=\\frac{\\vec{X}-10}{S/\\sqrt{20}}\\sim t(20)}\\end{array}$",
@@ -85,7 +85,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -95,7 +95,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-002",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "某装置的平均工作温度据制造厂家称不高于190°C,今从一个由16台装置构成的随机样本测得工作温度的平均值和标准差分别\n为195C和8°C.设 $\\alpha=0.05$,并假设工作温度近似服从正态分布,则下列说法中不正确的是().\n$(t_{0.05}(16)=1.7459,t_{0.05}(15)=1.7531)$",
@@ -170,7 +170,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -180,7 +180,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-003",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "1",
           "question_type": 1,
           "question": "当正态总体X的方差 $D(X)=\\sigma^{2}$ 未知,检验期望 $E(X)=\\mu_{0}$ 用的统计量是().",
@@ -255,7 +255,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.28,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -265,7 +265,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-004",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $X\\sim N(\\mu,\\sigma^{2})$ 其中 $\\sigma^{2}$ 未知,取得样本 $X_{1},X_{2},\\cdots,X_{n},\\bar{X}$ 为样本均值,S为样本标准差．对假设检验\n$H_{0}:\\mu\\geq\\mu_{0}\\leftrightarrow H_{1}:\\mu<\\mu_{0}.$ 取检验统计量 $\\begin{array}{r}{T=\\frac{\\left(\\bar{\\pmb{X}}-\\mu_{0}\\right)}{S/\\sqrt{n}}}\\end{array}$,则拒绝域W为(),(显著性水平为α)",
@@ -340,7 +340,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -350,7 +350,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-005",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $X\\sim N(\\mu,\\sigma^{2}),\\quad X_{1},X_{2},\\cdots,X_{n}$ 是总体的一个样本, $\\begin{array}{r}{\\bar{X}=\\frac{1}{n}\\sum_{i=1}^{n}\\bar{X_{i}},S^{2}=\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\bar{X})^{2}}\\end{array}$,若 $\\mu,\\sigma^{2}$ 都未知,则下面\n结论正确的是().",
@@ -425,7 +425,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -435,7 +435,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-006",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $X\\sim N(\\mu,\\sigma^{2})$,其中 $\\pmb{\\sigma}^{2}$ 已知. 若提出假设： $H_{0}:\\mu=\\mu_{0}\\quad(\\mu_{0}$ 已知), $H_{1}:\\mathbf{\\mu }\\neq\\mathbf{\\mu _{0}}$,所用检验统计量为 $\\begin{array}{r}{U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma/\\sqrt{n}}}\\end{array}$\n则拒绝域为()",
@@ -510,7 +510,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -520,7 +520,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-007",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设某次考试的考生成绩服从正态分布,从中随机地抽取36位考生的成绩,算得平均成绩为66.5分,样本标准差为15分,在\n显著性水平为0.05下,检验全体考生的平均成绩是否为70,则下列说法中不正确的是 ).\n$(t_{0.025}(36)=2.0281,t_{0.025}(35)=2.0301)$",
@@ -595,7 +595,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -605,7 +605,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-008",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设 $X_{1},X_{2},\\cdots,X_{n}$ 是来自于正态总体 $N(\\mu,\\sigma^{2})$ 的简单随机样本,X是样本均值,记\n$\\begin{array}{r}{S_{1}^{2}=\\frac{1}{n}\\sum_{i=1}^{n}\\left(X_{i}-\\bar{X}\\right)^{2}}\\end{array}$,$S_{2}=$ $nn1$ 1 ∑=1(x₁-x^{2 $\\begin{array}{r}{S_{3}^{2}=\\frac{1}{n-1}\\sum_{i=1}^{n}\\left(X_{i}-\\mu\\right)^{2}}\\end{array}$ $\\begin{array}{r}{S_{4}^{2}=\\frac{1}{n}\\sum_{i=1}^{n}\\left(X_{i}-\\mu\\right)^{2}}\\end{array}$ $\\mu,\\sigma$ 均未知, 若\n提出检验假设 $H_{0}:\\mu=\\mu_{0}$ 则选用统计量",
@@ -680,7 +680,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -690,7 +690,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-009",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $X\\sim N(\\mu,\\sigma^{2})$,其中 $\\pmb{\\sigma}^{2}$ 已知．若提出假设： $H_{0}:\\mu\\geq\\mu_{0}\\quad(\\mu_{0}$ 已知), $H_{1}:\\mu<\\mu_{0}$ 所用检验统计量为 $\\begin{array}{r}{U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma/\\sqrt{n}},}\\end{array}$ 则\n拒绝域为 ( ).",
@@ -765,7 +765,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -775,7 +775,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-010",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "水泥厂用自动包装机包装水泥,每袋额定重量是50kg.某日开工后随机抽查了9袋,称得重量如下：\n49.6,49.3,50.1,50.0,49.2,49.9,49.8,51.0,50.2, $\\pmb{s}=\\pmb{0.539}$.设每袋重量服从正态分布,在 $\\alpha=0.05$ 下,检验每袋的额定重量是\n否有变化,则下列说法中不正确的是().(已知 $t_{0.025}(8)=2.306,t_{0.025}(9)=2.2622$",
@@ -850,7 +850,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -869,7 +869,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-011",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $X\\sim N(\\mu,\\sigma^{2})$,其中σ{已知．若对μ作单边检验,提出假设：H_0:μ≤0(0已知), $H_{1}:\\mu>\\mu_{0}$ 所用检验统计量\n为 $\\begin{array}{r}{U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma/\\sqrt{n}}}\\end{array}$ 则拒绝域为().",
@@ -944,7 +944,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -954,7 +954,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-012",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $X\\sim N(\\mu,1)$ $X_{1},X_{2},\\cdots,X_{9}$ 为样本, $\\begin{array}{r}{\\bar{X}=\\frac{1}{9}\\sum_{i=1}^{9}X_{i}.}\\end{array}$ 若取 $\\mu_{0}=0$ 对u作假设检验,则在显著性水平 $\\alpha=0.05$\n下,不是拒绝域的是()．(已知：若 $X\\sim N(0,1)$ 则 $P\\{|X|\\geq1.96\\}=0.05,P\\{X\\geq1.645\\}=0.05)$",
@@ -1029,7 +1029,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1039,7 +1039,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-013",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设 $x_{1},x_{2},\\cdots,x_{16}$ 是来自正态总体 $N(\\mu,\\sigma^{2})$ $(\\mu,\\sigma^{2}$ 未知)的一组样本观测值,若 $\\begin{array}{r}{\\bar{x}=\\frac{1}{16}\\sum_{i=1}^{16}x_{i}=14.75}\\end{array}$\n$\\textstyle\\sum_{i=1}^{16}(x_{i}-{\\bar{x}})^{2}=53.5$ 则检验假设：H0 $:\\pmb{\\mu}=\\pmb{15}$ 的检验统计量的观测值约为(). 53.5/15 ≈ 1.89.",
@@ -1114,7 +1114,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1124,7 +1124,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-014",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设某大学的男生体重 $X\\sim N(\\mu,5^{2}),\\mu$ 未知,今欲检验假设：H0 $\\mu=68kg,H_1:\\mu>68kg.$ 已知 $\\sigma={\\mathfrak{H}}.$ 取显著性水平\n$\\alpha=0.05$ 若当真正均值为69kg且犯第二类错误的概率不超过 $\\beta=0.05$ 时,所需样本容量为 $\\pmb{n}=0$",
@@ -1199,7 +1199,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1209,7 +1209,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-015",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "已知某炼铁厂铁水含碳量服从正态分布N(4.55,0.108．现在测定了9炉铁水,其平均含碳量为4.484．如果方差没有变化,\n那么在 $\\alpha=0.05$ 下,检验总体均值是否有明显变化,则下列说法不正确的是()\n$(u_{0.025}=1.960,u_{0.05}=1.645)$",
@@ -1284,7 +1284,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1294,7 +1294,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-016",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "从清凉饮料自动售货机随机抽样36杯,其平均含量为219mL,标准差为14.2 mL.假设每杯的标准含量为222mL,在\n$\\alpha=0.05$ 下,检验每杯的平均含量是否低于222mL,下列说法中不正确的是().\n$t_{0.05}(36)=1.688,\\quad t_{0.05}(35)=1.6896$",
@@ -1369,7 +1369,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1379,7 +1379,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-017",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "用5个含铁物质的样本做实验,以决定化学分析和X光分析对铁含量大小是否有差异．每个样本分为两个小样本,以两种分析\n方法做对比实验,得到如下数据：\n样本i 1 2 3 4 5\nX光分析xi 2.0 2.0 2.3 2.1 2.4\n化学分析yi 2.2 1.9 2.5 2.3 2.4\n假设两总体均服从正态分布,若在 $\\alpha=0.05$ 的显著性水平下,检验两种分析方法所得的平均值是否相同,则下列说法不正确的\n是(). $(t_{0.025}(4)=2.7764,t_{0.05}(4)=2.5706)$",
@@ -1454,7 +1454,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1464,7 +1464,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-018",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "18. N\n打包机装糖入包,每包标准重为100kg．每天开工后,要检验所装糖包的总体期望值是否合乎标准(100kg)．某日开工后,测得\n9包糖重,计算得 $\\bar{x}=99.978,s=1.2122$ 已知打包机装糖的包重服从正态分布, $\\alpha=0.05$ 则下列说法中不正确的是().",
@@ -1539,7 +1539,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1549,7 +1549,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-019",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "对于正态分布 $X\\sim N(\\mu,\\sigma^{2})$ 抽取容量为10的样本,算的样本均值 $\\bar{x}=67.4$ 样本方差 $\\pmb{s}^{2}=\\pmb{35.15}$ 给定显著水平 $\\alpha=0.05$,检验假设 $H_{0}:\\mu=72,H_{1}:\\mu\\neq72.$ 则正确的方法和结论是().\n$$\\left(t_{0.025}(9)=2.2622,t_{0.05}(9)=1.8331,u_{0.025}=1.96,u_{0.05}=1.645,\\sqrt{3.515}=1.875\\right)$$",
@@ -1624,7 +1624,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1634,7 +1634,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-020",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设样本 $X_{1},X_{2},\\cdots,X_{n}$ 抽自总体 $X\\sim N(\\mu,\\sigma^{2}),\\mu,\\sigma^{2}$ 均未知.对μ作假设检验H_0: μ=_,H_1}:μ>0.给定显著水平 α,\n则检验的拒绝域为(). a",
@@ -1709,7 +1709,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1728,7 +1728,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-021",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "有一工厂生产一种灯管,已知灯管的寿命X服从正态分布N(,40000), 根据以往生产经验知道,灯管的平均寿命不会超过\n1500小时．为提高灯管的平均寿命,工厂采用了新工艺．为了弄清楚新工艺是否提高了灯管的平均寿命,测试了新工艺生产的\n25只灯管,寿命平均值为1575小时．可检验样本的平均值是否大 1500小时,下列说法中不正确的是()\n$u_{0.025}=1.96,u_{0.05}=1.645$",
@@ -1803,7 +1803,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1813,7 +1813,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-022",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "从已知标准差 $\\pmb{\\sigma}=\\pmb{5.2}$ 的正态总体中抽取容量为16的样本,算得样本均值 $\\bar{x}=27.56$,在显著性水平 $\\alpha=0.05$ 下,检验假\n设： $H_{0}:\\mu=26,H_{1}:\\mu\\neq26$,则检验统计量、 拒绝域以及检验结果为() $(u_{0.025}=1.96,u_{0.05}=1.645)$",
@@ -1888,7 +1888,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1898,7 +1898,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-023",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "随机地选了8个人,分别测量了他们在早晨起床时和晚上就寝时的身高(cm), 得到以下数据：\n序号 1 2 3 4 6 7 8\n早上 (xi) 172 168 180 181 160 163 165 177\n晚上 (yi) 172 167 177 179 159 161 166 175\n设早晚各对数据的差 $z_{j}$ 是来自正态总体 $N(\\mu_{z},\\sigma_{z}^{2})$ 的样本, $\\mu_{z},\\sigma_{z}^{2}$ 均未知, $\\bar{z}=1.25,s=1.282$ 有人认为早晨的身高比晚上\n的身高要高,那么在 $\\alpha=0.05$ 下,下列说法中不正确的是(). $t_{0.05}(8)=1.8595,t_{0.05}(7)=1.8946,\\sqrt{2}=1.414$",
@@ -1973,7 +1973,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1983,7 +1983,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-024",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "若 $T_{1}\\sim t(\\mathfrak{g})$ 则 $P\\{T_{1}>1.83\\}=0.05$；若 $\\mathbf{T}\\sim t(8)$,则 $P\\{T>1.86\\}=0.05.$ 现假设 $X\\sim N(\\mu,\\sigma^{2})$ $\\mu,\\sigma^{2}$ 均未知,\n$X_{1},X_{2},\\cdots,X_{9}$ 为样本,X为样本均值 $\\begin{array}{r}{S_{n}^{2}=\\frac{1}{n-1}\\sum_{i=1}^{n}(X_{i}-\\bar{X})^{2}}\\end{array}$ ．对于检验问题： $H_{0}:\\mu=0,H_{1}:\\mu<0.$ 取显著性水平\n$\\alpha=0.05$ 下列对拒绝域的取法正确的是() $(t_{0.05}(9)=1.8331,t_{0.05}(8)=1.8595)$",
@@ -2058,7 +2058,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -2068,7 +2068,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-025",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "要求一种元件平均使用寿命不得低于1000小时,生产者从一批这种元件中随机抽取25件,测得其寿命的平均值为950小时.\n已知该种元件寿命服从标准差为 $\\pmb{\\sigma}=\\pmb{100}$ 小时的正态分布,则下列说法中不正确的\n$(u_{0.05}=1.645,u_{0.025}=1.960)$",
@@ -2143,7 +2143,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -2153,7 +2153,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-026",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "若Y~ N(0,1), 则 $P\\{Y>1.645\\}=0.05$,现假设总体X~N(μ,9}),X_{}X_{2},,X25为样本,X为样本均值．对于检验问题\nH0：μ≥μ0,H_₁:<μ0(0 已知),取显著性水平 $\\alpha=0.05$ 拒绝域正确的是(). $(u_{0.05}=1.645,u_{0.025}=1.96)$",
@@ -2228,7 +2228,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -2238,7 +2238,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-027",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "机器包装食盐,假设每袋盐的净重服从正态分布,规定每袋标准含量为500g,标准差不得超过10g.某天开工后,随机抽取9\n袋,测得净重如下(单位：g)：497,507,510,475,515,484,488,524,491.若每袋标准含量不变,在显著性水平 $\\alpha=0.05$ 下检\n验标准差是否超过10g,下列说法中不正确的是().\n$\\left(s=16.031,\\sum_{i=1}^{9}\\left(\\frac{x_{i}-500}{10}\\right)^{2}=20.65,\\chi_{0.05}^{2}(9)=16.919,\\chi_{0.05}^{2}(8)=15.507,t_{0.05}(8)=2.306\\right)$",
@@ -2313,7 +2313,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -2323,7 +2323,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-028",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "某化学日用品有限责任公司用包装机包装洗衣粉,包装机正常工作时,装包重量(单位：g)X～N(500,2).每天开工后,需先\n检验包装机工作是否正常.某天开工后,在装好的洗衣粉中任取9袋,获得重量数据：505,499,502,506,498,498,497,\n510,503.假设总体标准差σ不变,取 $\\alpha=0.05$,则下列说法不正确的是(",
@@ -2398,7 +2398,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -2408,7 +2408,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-029",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "某工厂所生产的某种细纱支数服从正态分布 $N(\\mu_{0},\\sigma_{0}^{2})$,μ0,{为已知．现从某日生产的一批产品中随机抽取16缕进行支数测\n量,求得样本均值与方差分别为A,B．要检验纱的均匀度是否变劣,则正确的假设是",
@@ -2483,7 +2483,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -2493,7 +2493,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-030",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "某地根据早稻长势估计平均亩产为310kg,收割时,随机抽取了10块,测得每块实际亩产量为 $x_{1},x_{2},\\cdots,x_{10}.$ 并算得\n$\\begin{array}{r}{\\bar{x}=\\frac{1}{10}\\sum_{i=1}^{10}x_{i}=320}\\end{array}$,如果已知早稻亩产量X服从正态分布 $N(\\mu,144)$,那么在 $\\alpha=0.05$ 下,检验亩产是否有明显变化,则\n下列说法不正确的是(). $(u_{0.05}=1.645,u_{0.025}=1.960)$",
@@ -2568,7 +2568,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -2587,7 +2587,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-031",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "某天开工时,需检验自动包装工作是否正常．根据以往经验,其装包的质量 (单位：g)在正常情况下服从正态分布 $N\\big(100,1.5^{2}\\big)$.现抽测了9包,测得质量为99.3,98.7,100.5,101.2,98.3,99.7,99.5,102.0,100.5,x $\\alpha=0.05$ 则下列说法不正确\n的是(). $(u_{0.025}=1.96,u_{0.05}=1.645)$",
@@ -2662,7 +2662,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -2672,7 +2672,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-032",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "测定某溶液中的水分,由它的9个测定值,算出样本均值及样本标准差分别 $\\bar{x}=0.452\\%,s=0.037\\%$,总体服从正态分布,下\n面提出的检验假设被接受 $(H_{0}$ 被接受)的是()\n$$t_{0.025}(8)=2.306,\\chi^{2}_{0.025}(8)=17.535,\\chi^{2}_{0.075}(8)=2.180,\\chi^{2}_{0.125}(8)=11.79,\\chi^{2}_{0.875}(8)=4.280$$",
@@ -2747,7 +2747,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -2757,7 +2757,7 @@
           "subject_id": 3,
           "chapter_id": 416,
           "question_id": "pdf-ocr-416-033",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "某车间生产钢丝,用X表示钢丝的折断力,由经验判断X～N(570,8^2}) 今换了一批材料,从性能上看,估计折断力的方差\nσ不会有什么变化,即仍有 $\\sigma^{2}=8^{2}$,但不知折断力的均值u和原先有无差别,现抽得一个样本,测得折断力为\n578,572,570,568,572,570,570,572,596,584 $\\bar{x}=575.20$ 取 $\\alpha=0.05$ 则 下列说法不正确的是\n$\\left(u_{0.025}=1.96,u_{0.05}=1.645,\\sqrt{10}=3.162\\right)$",
@@ -2832,7 +2832,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"

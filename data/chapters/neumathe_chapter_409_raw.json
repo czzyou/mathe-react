@@ -10,7 +10,7 @@
           "subject_id": 3,
           "chapter_id": 409,
           "question_id": "pdf-ocr-409-001",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "公共汽车站在一单位时间内 (如半小时或一天等)到达乘客数服从泊松分布P(λ),对不同的车站,所不同的仅仅是参数入的取\n值不同．现对一城市某一公共汽车站进行了100个单位时间的调查,这里单位时间是20分钟,计算得到每20分钟内来到该车\n站的乘客数平均值 $\\bar{x}=15.2$ 人,则参数入的置信度为95%的置信区间为(). $u_{0.025}=1.96$",
@@ -85,7 +85,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -95,7 +95,7 @@
           "subject_id": 3,
           "chapter_id": 409,
           "question_id": "pdf-ocr-409-002",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "已知正态总体X容量为25的一个样本, $\\bar{x}=2,D(X)=4$ 则在置信水平 $\\alpha=0.05$ 下,期望μ的置信度为1-α的置信区\n间为(). $u_{0.025}=1.96$",
@@ -170,7 +170,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -180,7 +180,7 @@
           "subject_id": 3,
           "chapter_id": 409,
           "question_id": "pdf-ocr-409-003",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设总体的期望μ和方差 $\\sigma^{2}$ 均存在,则u的置信度为 $1-\\alpha$ 的置信区间为()",
@@ -255,7 +255,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -265,7 +265,7 @@
           "subject_id": 3,
           "chapter_id": 409,
           "question_id": "pdf-ocr-409-004",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设总体X的方差为1,取容量为100的样本,得样本均值 ${\\bar{x}}={\\bf5}.$ 则总体均值μ的置信度为0.95的置信区间是().\n$u_{0.025}=1.96.$",
@@ -340,7 +340,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -350,7 +350,7 @@
           "subject_id": 3,
           "chapter_id": 409,
           "question_id": "pdf-ocr-409-005",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "某城镇抽样调查的500名应就业的人中,有13名待业者,则该城镇的待业率p的置信度为0.95置信区间为().",
@@ -425,7 +425,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -435,7 +435,7 @@
           "subject_id": 3,
           "chapter_id": 409,
           "question_id": "pdf-ocr-409-006",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "某火箭发射系统进行火箭发射,在40次发射中有34次成功,则发射成功率p的置信度为0.95的置信区间为(),\n$u_{0.025}=1.96.$",
@@ -510,7 +510,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -520,7 +520,7 @@
           "subject_id": 3,
           "chapter_id": 409,
           "question_id": "pdf-ocr-409-007",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "在一批货物的容量为100的样本中,经检验发现有16只次品,则这批货物次品率的置信度为0.95的置信区间为().(\n$u_{0.025}=1.96)$",
@@ -595,7 +595,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -605,7 +605,7 @@
           "subject_id": 3,
           "chapter_id": 409,
           "question_id": "pdf-ocr-409-008",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设抽自一大批产品的100件样品中有 一级品 60个,则这批产品的一级品率p的置信水平为0.95的置信区间为\n$u_{0.025}=1.96.$",
@@ -680,7 +680,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -690,7 +690,7 @@
           "subject_id": 3,
           "chapter_id": 409,
           "question_id": "pdf-ocr-409-009",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "某印染厂在配制一种染料时,在40次试验中成功了34次,则配制成功的概率p的置信度为0.95的置信区间为()\n$u_{0.025}=1.96$",
@@ -765,7 +765,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -775,7 +775,7 @@
           "subject_id": 3,
           "chapter_id": 409,
           "question_id": "pdf-ocr-409-010",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "某面粉厂接到许多顾客的订货,厂内采用自动流水线灌装面粉,按每袋25千克出售．现从中随机地抽取50袋,其结果如下：\n25.8, 24.7, 25.0, 24.9, 25.1, 25.0, 25.2, 24.8, 25.4, 25.3,\n25.4, 24.9, 25.0, 24.6, 25.0, 25.1, 25.3, 24.9,\n24.6, 21.1, 25.4, 24. 24.8, 25.3, 25.0, 25.1, 24.7, 25.0,\n24.7, 25.3, 25.2, 24.8, 25.1, 25.1, 24.7, 25.0, 25.3, 24.9,\n25.0, 25.3, 25.0, 25. 24.7, 25.3, 25.1, 24.9, 25.2, 25.1,\n则该厂自动流水线灌装袋重X的期望置信度为0.95的置信区间为(), $\\bar{x}=24.92,s=0.6615,u_{0.025}=1.96$",
@@ -850,7 +850,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -869,7 +869,7 @@
           "subject_id": 3,
           "chapter_id": 409,
           "question_id": "pdf-ocr-409-011",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "某总体的标准差 $\\mathbf{\\sigma}=\\mathbf{3}\\;\\mathbf{c m}$ 从中抽取40个个体,其样本平均数 $\\bar{x}=642cm$ 试给出总体期望值μ的95%的置信上、下限分\n别为(). $u_{0.025}=1.96.$",
@@ -944,7 +944,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"

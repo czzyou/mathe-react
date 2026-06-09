@@ -10,7 +10,7 @@
           "subject_id": 3,
           "chapter_id": 413,
           "question_id": "pdf-ocr-413-001",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "1",
           "question_type": 1,
           "question": "样本容量n确定后,在一个假设检验中,给定显著水平为α,设此第二类错误的概率为β,则必有().",
@@ -85,7 +85,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.35,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -95,7 +95,7 @@
           "subject_id": 3,
           "chapter_id": 413,
           "question_id": "pdf-ocr-413-002",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "关于正态总体 $X\\sim N(\\mu,1)$ 的数学期望μ有如下二者必居其一的假设, $H_{0}:\\mu=0,H_{1}:\\mu=1$ 考虑检验规则：当 $\\bar{X}\\geq0.98$\n时否定假设 $H_0$ 接受 $\\mathbf{H_{1}}$ 其中 $\\bar{X}=(X_1+\\cdots+X_4)/4,X_1,\\cdots,X_4$ 是来自总体X的简单随机样本．则下列说法正确的是(\n). $(\\Phi(0.04)=0.5160,\\Phi(0.98)=0.8365,\\Phi(1.96)=0.975)$",
@@ -170,7 +170,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -180,7 +180,7 @@
           "subject_id": 3,
           "chapter_id": 413,
           "question_id": "pdf-ocr-413-003",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "在假设检验中,显著性水平α是指()",
@@ -255,7 +255,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -265,7 +265,7 @@
           "subject_id": 3,
           "chapter_id": 413,
           "question_id": "pdf-ocr-413-004",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "在假设检验问题中,检验水平α等于",
@@ -340,7 +340,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -350,7 +350,7 @@
           "subject_id": 3,
           "chapter_id": 413,
           "question_id": "pdf-ocr-413-005",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "假设检验中,显著性水平α表示().",
@@ -425,7 +425,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -435,7 +435,7 @@
           "subject_id": 3,
           "chapter_id": 413,
           "question_id": "pdf-ocr-413-006",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "在假设检验中,记H1为备择假设,称()为犯第一类错误",
@@ -510,7 +510,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -520,7 +520,7 @@
           "subject_id": 3,
           "chapter_id": 413,
           "question_id": "pdf-ocr-413-007",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "1",
           "question_type": 1,
           "question": "关于犯第一类错误的概率α与犯第二类错误的概率β之间的关系,下列说法不正确的是()",
@@ -595,7 +595,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.35,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -605,7 +605,7 @@
           "subject_id": 3,
           "chapter_id": 413,
           "question_id": "pdf-ocr-413-008",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "1",
           "question_type": 1,
           "question": "在统计假设的显著性检验中,下列结论错误的是().",
@@ -680,7 +680,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.32,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -690,7 +690,7 @@
           "subject_id": 3,
           "chapter_id": 413,
           "question_id": "pdf-ocr-413-009",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "某厂生产的一种螺钉,标准要求长度是68mm.实际生产的产品,其长度服从正态分布 $N(\\mathbf{\\mu},\\mathbf{3.6}^{2})$,样本容量为n,考虑假设检\n验问题 $H_{0}:\\mu=68\\leftrightarrow H_{1}:\\mu\\neq68$,设X为样本均值,建立假设检验：当 $|\\bar{X}-68|>1$ 时,拒绝假设 $\\mathbf{\\mathit{H}_{0}};$ 当 $|\\bar{\\pmb{X}}-\\pmb{68}|\\leq1$\n时,接受假设 $\\mathbf{H_{0}}.$ 则下列说法中正确的是(). $(\\Phi(1.67)=0.9525,\\Phi(2.22)=0.9868)$",
@@ -765,7 +765,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -775,7 +775,7 @@
           "subject_id": 3,
           "chapter_id": 413,
           "question_id": "pdf-ocr-413-010",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "在假设检验中,设H为备择假设,犯第一类错误的情况为().",
@@ -850,7 +850,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -869,7 +869,7 @@
           "subject_id": 3,
           "chapter_id": 413,
           "question_id": "pdf-ocr-413-011",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "关于假设检验中的两类错误,下列说法正确的是",
@@ -944,7 +944,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -954,7 +954,7 @@
           "subject_id": 3,
           "chapter_id": 413,
           "question_id": "pdf-ocr-413-012",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $X\\sim N(\\mu,1),X_1,X_2,\\cdots,X_n$ 是取自X的样本．对于假设检验：H0:μ=0,H_₁:μ≠0,取显著水平α,拒绝域\n$\\pmb{W}=\\left\\{|\\pmb{U}|>u_{\\alpha/2}\\right\\}$ 其中 $U={\\sqrt{n}}{\\bar{X}}$,则下列说法正确的是().",
@@ -1029,7 +1029,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1039,7 +1039,7 @@
           "subject_id": 3,
           "chapter_id": 413,
           "question_id": "pdf-ocr-413-013",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "2",
           "question_type": 1,
           "question": "在统计假设的显著性检验中,实际上是()",
@@ -1114,7 +1114,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.35,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1124,7 +1124,7 @@
           "subject_id": 3,
           "chapter_id": 413,
           "question_id": "pdf-ocr-413-014",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设显著水平为α,当原假设H0正确时,由于样本的随机性,作出了“拒绝接受原假设”的决策,因而犯了错误,称为犯了\n错误．犯该错误的概率为,().",
@@ -1199,7 +1199,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1209,7 +1209,7 @@
           "subject_id": 3,
           "chapter_id": 413,
           "question_id": "pdf-ocr-413-015",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "考察某城市购买A公司牛奶的比例,作假设H_0：p=0.6,H_₁1:p<0.6,随机抽取50个家庭,设X为其中购买A公司牛奶\n的家庭数,拒绝域 $\\pmb{W}=\\{\\pmb{X}\\leq2\\pmb{4}\\}$,则下列说法中正确的是() $(\\Phi(0.28)=0.6130,\\Phi(1.15)=0.8749,\\Phi(1.73)=0.9582)$",
@@ -1284,7 +1284,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"

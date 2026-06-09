@@ -10,7 +10,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-001",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设甲、乙两厂生产同样的灯泡,其寿命 $X,Y$ 分别服从正态分布 $N(\\mu_{1},\\sigma_{1}^{2}),N(\\mu_{2},\\sigma_{2}^{2})$,已知它们寿命的标准差分别为84h和\n96h,现从两厂生产的灯泡中各取60只,测得平均寿命甲厂为1295h,乙厂为1230h,设 $\\alpha=0.05$ 关于两厂生产的灯泡\n寿命是否有显著差异的说法,下列说法不正确的是(). $(u_{0.05}=1.645,u_{0.025}=1.96)$",
@@ -85,7 +85,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -95,7 +95,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-002",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $X\\sim N(\\mu_{1},\\sigma^{2})$ 总体 $Y\\sim N(\\mu_{2},\\sigma^{2})$ 其中 $\\pmb{\\sigma}^{2}$ 未知,从总体 $X,Y$ 各取容量为10的样本,两样本独立．对于假设检\n验H0 $\\mu_{1}-\\mu_{2}=4,H_{1}:\\mu_{1}-\\mu_{2}\\neq4$ 若显著性水平为 $\\alpha=0.10$,则检验的拒绝域为",
@@ -170,7 +170,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -180,7 +180,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-003",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "某校从经常参加体育锻炼的男生中随机地选出50名,测得平均身高174.34厘米：从不经常参加体育锻炼的男生中随机地选50\n名,测得平均身高172.42厘米．统计资料表明两种男生的身高都服从正态分布,其标准差分别为5.35厘米和6.11厘米．若\n检验该校经常参加锻炼的男生是否比不常参加锻炼的男生平均身高要高些 $(\\alpha=0.05)$ 下列说法不正确的是().",
@@ -255,7 +255,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -265,7 +265,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-004",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "某灯泡厂采用一项新工艺的前后,分别抽取10个灯泡进行寿命试验．计算得到：采用新工艺前灯泡寿命的样本均值为2460小\n时,样本标准差为56小时；采用新工艺后灯泡寿命的样本均值为2550小时,样本标准差为48小时．设灯泡的寿命服从正态\n分布,有人认为采用新工艺后灯泡的平均寿命有显著提高,设 $\\alpha=0.01$ 则下列说法中正确的是().",
@@ -340,7 +340,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -350,7 +350,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-005",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设二正态总体 $N(\\mu_{1},\\sigma_{1}^{2})$ 和 $N(\\mu_{2},\\sigma_{2}^{2})$ 有两组相互独立样本,容量分别为n₁,n_2,均值分别为 $\\bar{\\mathbf{X}}_{1},\\bar{\\mathbf{X}}_{2}$ 且和为已知. $\\sigma_{1}^{2}$ $\\sigma_{2}^{2}$\n要对 $\\mu_{1}-\\mu_{2}$ 作假设检验,统计假设为 $H_{0}:\\mu_{1}-\\mu_{2}=0,H_{1}:\\mu_{1}-\\mu_{2}<0$ 给定显著水平α,则检验的拒绝区间为().",
@@ -425,7 +425,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -435,7 +435,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-006",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设二正态总体 $N(\\mu_{1},\\sigma_{1}^{2})$ 和 $N\\big(\\mu_{2},\\sigma_{2}^{2}\\big)$ 有两组相互独立样本,容量分别为 $\\pmb{n_{1}},\\pmb{n_{2}}$ 均值分别为 $\\bar{\\mathbf{X_{1}}},\\bar{\\mathbf{X_{2}}}$ 且和 $\\sigma_{1}^{2}$ $\\sigma_{2}^{2}$ 为已知,\n要对 $\\mathbf{\\mu _{1}}-\\mathbf{\\mu _{2}}$ 作假设检验,统计假设为\n$H_{0}:\\mu_{1}-\\mu_{2}=0,\\quad H_{1}:\\mu_{1}-\\mu_{2}\\neq0;$.atl\n给定显著水平α,则检验的拒绝区间为",
@@ -510,7 +510,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -520,7 +520,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-007",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "有9名学生到英语培训班学习, 培训前后各进行了一次水平测验, 成绩如下表：\n$$\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{学生编号 } i & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\\\ \\hline\n\\text{入学前成绩 } X_i & 76 & 74 & 70 & 57 & 49 & 69 & 65 & 26 & 59 \\\\ \\hline\n\\text{入学后成绩 } Y_i & 81 & 85 & 70 & 52 & 52 & 63 & 83 & 33 & 62 \\\\ \\hline\nZ_i = X_i - Y_i & -5 & -14 & 0 & 5 & -3 & 6 & -18 & -7 & -3 \\\\ \\hline\n\\end{array}$$\n假设测验成绩服从正态分布, 显著性水平 $\\alpha=0.05$. 若检验学生的培训效果是否显著, 则下列说法中不正确的是().",
@@ -595,7 +595,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -605,7 +605,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-008",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "某灯泡厂采用一项新工艺的前后,分别抽取10个灯泡进行寿命试验.计算得到：采用新工艺前灯泡寿命的样本均值为2460小\n时,样本标准差为56小时；采用新工艺后灯泡寿命的样本均值为2550小时,样本标准差为48小时.设灯泡的寿命服从正态\n分布,有人认为采用新工艺后灯泡的平均寿命有显著提高 $(\\alpha=0.01)$,则下列说法中不正确的是().",
@@ -680,7 +680,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -690,7 +690,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-009",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设样本 $X_{1},X_{2},\\cdots,X_{n}$ 和 $Y_{1},Y_{2},\\cdots,Y_{n}$ 分别取自总体 $\\xi\\sim N(\\mu_{1},\\sigma_{1}^{2})$ 和 $\\eta\\sim N(\\mu_{2},\\sigma_{2}^{2})$。在进行假设检验时，若（　　）时，检验 $H_0: \\mu_{1}=\\mu_{2}$ 采用统计量 $\\begin{array}{r}{T=\\frac{\\bar{X}-\\bar{Y}}{\\sqrt{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}}\\sqrt{\\frac{n_{1}n_{2}(n_{1}+n_{2}-2)}{n_{1}+n_{2}}}.}\\end{array}$",
@@ -765,7 +765,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -775,7 +775,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-010",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "两个正态总体X与Y的方差 $$\\pmb{\\sigma_{1}^{2}} 与 \\pmb{\\sigma_{2}^{2}}$$ 未知,则检验假设H_0: {1<_2 要求 $$\\pmb{\\sigma_{1}^{2}} 与 \\pmb{\\sigma_{2}^{2}}$$ 应满足的条件是().",
@@ -850,7 +850,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -869,7 +869,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-011",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设从正态总体 $N(\\mu_{1},\\sigma^{2})$ 和 $N(\\mu_{2},\\sigma^{2})$ (σ未知)取得两相互独立的样本,容量分别为 $\\pmb{n_{1}},\\pmb{n_{2}}$,均值为 $\\pmb{X},\\pmb{Y}$,样本方差为 $\\pmb{S_{1}^{2}}$\n和 $\\mathcal{S}_{2}^{2}$,要对 $\\mathbf{\\mu _{1}}-\\mathbf{\\mu _{2}}$ 作假设检验,统计假设为 $H_{0}:\\mu_{1}-\\mu_{2}=0\\leftrightarrow H_{1}:\\mu_{1}-\\mu_{2}\\neq0$ 则要用的检验统计量和在给定的显著水平\nα下检验的拒绝域为().",
@@ -944,7 +944,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -954,7 +954,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-012",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "制造厂家宣称,线A的平均张力比线B至少强120N．为证实其说法,在同样情况下测试两种线各50条．线A的平均张力\n$\\bar{x}=867\\mathrm{N}$ 标准差为 $\\mathbf{\\sigma}_{1}=62.8\\;\\mathrm{N}$ 线B的平均张力为 $\\bar{\\pmb y}=\\mathbf{778}\\mathbf{N}$ 标准差为 $\\sigma_{2}=56.1\\mathrm{N}.$ 在显著性水平 $\\alpha=0.05$ 下,下列\n说法中不正确的是() $(u_{0.025}=1.960,u_{0.05}=1.645)$",
@@ -1029,7 +1029,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1039,7 +1039,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-013",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "两个正态总体X与Y的方差 $$\\pmb{\\sigma_{1}^{2}} 与 \\pmb{\\sigma_{2}^{2}}$$ 未知,则检验假设H_0: {1<_2 要求 $$\\pmb{\\sigma_{1}^{2}} 与 \\pmb{\\sigma_{2}^{2}}$$ 应满足的条件是().",
@@ -1114,7 +1114,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1124,7 +1124,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-014",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "某铁矿有10个样本, 每一样本用两种方法各化验一次, 测得铁的质量分数 (%) 如下表：\n$$\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{样本号} & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\\\ \\hline\n\\text{方法 A} & 28.22 & 33.95 & 38.25 & 42.52 & 37.62 & 37.84 & 36.12 & 35.11 & 34.45 & 32.83 \\\\ \\hline\n\\text{方法 B} & 28.77 & 33.99 & 38.20 & 42.42 & 37.64 & 37.85 & 36.21 & 35.20 & 34.40 & 32.86 \\\\ \\hline\n\\end{array}$$\n设两组数据来自正态分布的总体, 两总体方差相等 $\\sigma_{A}^{2}=\\sigma_{B}^{2}$, 要检查这两种方法有无显著差异 $(\\alpha=0.05)$. 提出假设 $H_{0}: (\\quad)$",
@@ -1199,7 +1199,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1209,7 +1209,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-015",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "在漂白工艺中要改变温度对针织品断裂强力的影响, 在两种不同温度下分别作了8次试验, 测得断裂强力的数据如下表(单位：kg)：\n$$\\begin{array}{c|cccccccc}\n70^\\circ\\text{C} & 20.8 & 18.8 & 19.8 & 20.9 & 21.5 & 19.5 & 21.0 & 21.2 \\\\\n80^\\circ\\text{C} & 17.7 & 20.3 & 20.0 & 18.8 & 19.0 & 20.1 & 20.2 & 19.1\n\\end{array}$$\n若判断两种温度下的强力有无差别 (断裂强力可认为服从正态分布, $\\alpha=0.05$), 则下列说法中不正确的是().",
@@ -1284,7 +1284,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1294,7 +1294,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-016",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设样本 $X_{1},X_{2},\\cdots,X_{n_{1}}$ 和 $Y_{1},Y_{2},\\cdots,Y_{n_{2}}$ 分别取自总体 $\\xi\\sim N(\\mu_{1},\\sigma_{1}^{2})$ 和 $\\eta\\sim N(\\mu_{2},\\sigma_{2}^{2})$。在进行假设检验时，若（　　）时，检验 $H_0: \\mu_{1}=\\mu_{2}$ 采用统计量 $\\begin{array}{r}{T=\\frac{\\bar{X}-\\bar{Y}}{\\sqrt{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}}\\sqrt{\\frac{n_{1}n_{2}(n_{1}+n_{2}-2)}{n_{1}+n_{2}}}.}\\end{array}$",
@@ -1369,7 +1369,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1379,7 +1379,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-017",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "为比较甲、乙两种安眠药的疗效, 将20名患者分成两组, 每组10人, 如服药后延长的睡眠时间分别服从正态分布, 其数据为 (单位：小时)：\n甲： 5.5, 4.6, 4.4, 3.4, 1.9, 1.6, 1.1, 0.8, 0.1, -0.1\n乙： 3.7, 3.4, 2.0, 2.0, 0.8, 0.7, 0, -0.1, -0.2, -1.6\n若在显著性水平 $\\alpha=0.05$ 下检验两种药的疗效有无显著差别, 则下列说法中不正确的是().",
@@ -1454,7 +1454,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1464,7 +1464,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-018",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "18. ｅul\n设二正态总体 $N(\\mu_{1},\\sigma_{1}^{2})$ 和 $N(\\mu_{2},\\sigma_{2}^{2})$ 有两组相互独立样本,容量分别为 $\\pmb{n_{1}},\\pmb{n_{2}}$,均值分别为 $\\pmb{X},\\pmb{Y}$,且和为已知.要 $\\sigma_{1}^{2}$ $\\sigma_{z}^{2}$\n对 $\\mathbf{\\mu _{1}}-\\mathbf{\\mu _{2}}$ 作假设检验,统计假设为\n$H_{0}:\\mu_{1}-\\mu_{2}=0,\\quad H_{1}:\\mu_{1}-\\mu_{2}>0$.ath\n则要用检验统计量为().",
@@ -1539,7 +1539,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1549,7 +1549,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-019",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "一出租车公司欲检验装配哪一种轮胎省油, 以12部装有I型轮胎 of 车辆进行预定的测试. 在不变换驾驶员的情况下, 将这12部车辆换装Ⅱ型轮胎并重复测试, 其汽油耗量如下表所示 (单位：km/L)：\n$$\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{汽车编号 } i & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 \\\\\n\\hline\n\\text{Ⅰ 型胎 } (x_i) & 4.2 & 4.7 & 6.6 & 7.0 & 6.7 & 4.5 & 5.7 & 6.0 & 7.4 & 4.9 & 6.1 & 5.2 \\\\\n\\hline\n\\text{Ⅱ 型胎 } (y_i) & 4.1 & 4.9 & 6.2 & 6.9 & 6.8 & 4.4 & 5.7 & 5.8 & 6.9 & 4.7 & 6.0 & 4.9 \\\\\n\\hline\n\\end{array}$$\n假定两总体均服从正态分布, 显著性水平 $\\alpha=0.025$. 若检验安装Ⅰ型轮胎是否要比安装 Ⅱ型轮胎省油, 则下列说法不正确的是().",
@@ -1624,7 +1624,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1634,7 +1634,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-020",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "在20世纪70年代后期人们发现,酿造啤酒时,在麦芽干燥过程中形成致癌物质亚硝基二甲胺(NDMA)．到了20世纪80年代\n初期,人们开发了一种新的麦芽干燥过程,下面给出了分别在新、老两种过程中形成的 NDMA含量(以10亿份中的份数计)：\n老过程：6, 4, 5, 5, 6, 5, 5, 6, 4, 6, 7, 4\n新过程：2, 1, 2, 2, 1, 0, 3, 2, 1, 0, 1, 3\n设两样本分别来自正态总体,且两总体的方差相等,但参数均未知．两样本独立．分别以 $\\mathbf{\\mu _{1}},\\mathbf{\\mu _{2}}$ 记对应于老、新过程的总体的均\n值,有人认为新、老过程中形成的NDMA平均含量差大于2．设 $\\alpha=0.05$ 则下列说法中不正确的是().",
@@ -1709,7 +1709,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1728,7 +1728,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-021",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $X\\sim N(\\mu_{1},\\sigma^{2})$ ．总体 $Y\\sim N(\\mu_{2},\\sigma^{2})$,其中 $\\sigma^{2}$ 未知,从总体 $x,Y$ 各取容量为10的样本,两样本独立．对于假设检\n验H0 $\\mu_{1}-\\mu_{2}=4,H_{1}:\\mu_{1}-\\mu_{2}\\neq4$ 若显著性水平为 $\\alpha=0.10$,则检验的拒绝域为",
@@ -1803,7 +1803,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1813,7 +1813,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-022",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "某地某年高考后随机抽得15名男生、12名女生的物理考试成绩如下：\n男生：49, 48, 47, 53, 51, 43, 39, 57, 56, 46, 42, 44, 55, 44, 40\n女生：40, 47, 51, 43, 36, 43, 38, 48, 54, 48, 34, 46\n有人认为这27名学生的成绩能说明这个地区男女生的物理考试成绩不相上下, 设显著性水平 $\\alpha=0.05$, 则下列说法中不正确的是().",
@@ -1888,7 +1888,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1898,7 +1898,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-023",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "2",
           "question_type": 1,
           "question": "一药厂生产一种新的止痛片,厂方希望验证服用新药片后至开始起作用的时间间隔较原有止痛片至少缩短一半,设1,2分别是\n服用原有止痛片和服用新止痛片后至起作用的时间间隔的总体的均值.设两总体均为正态总体,且方差分别为已知值 $\\sigma_{1}^{2},\\sigma_{2}^{2}$ 现\n分别在两总体中取样 $X_{1},X_{2},\\cdots,X_{n_{1}}$ 和 $Y_{1},Y_{2},\\cdots,Y_{n_{2}}$ 设两个样本独立, 取显著性水平为α,则下列说法中不正确的是",
@@ -1973,7 +1973,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1983,7 +1983,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-024",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $X\\sim N(\\mu_{1},\\sigma_{1}^{2})$,总体 $Y\\sim N(\\mu_{2},\\sigma_{2}^{2}),\\sigma_{1}^{2},\\sigma_{2}^{2}$ 未知但相等. $X_{1},X_{2},\\cdots,X_{n_{1}}$ 与 $Y_{1},Y_{2},\\cdots,Y_{n_{2}}$ 分别是来自 $X,Y$ 的样\n本,两样本独立,,对 $H_{0}:\\mu_{1}-\\mu_{2}=\\pmb{\\delta}$ (δ为已知数) $\\leftrightarrow H_{1}:\\mu_{1}-\\mu_{2}\\neq\\delta$ 其检验统计量 $T=$,其拒绝域 $W=$",
@@ -2058,7 +2058,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -2068,7 +2068,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-025",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "据现在的推测,矮个子的人比高个子的人寿命要长一些．下面给出美国31个自然死亡的总统的寿命,将他们分为矮个子与高个\n子2类,数据如下：\n矮个子总统：85,79,67,90,80；\n高个子总统：68, 53, 63, 70, 88, 74, 64, 66, 60, 60, 78, 71, 67, 90, 73, 71, 77, 72, 57, 78, 67, 56, 63, 64, 83, 65.\n假设2个寿命总体均服从正态分布且方差相等, $\\alpha=0.05$ 则下列说法中不正确的是().\n$(\\bar{x}=80.2,s_{1}\\approx8.585,\\bar{y}\\approx69.15,s_{2}\\approx9.315)$",
@@ -2143,7 +2143,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -2153,7 +2153,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-026",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "某铁矿有10个样本, 每一样本用两种方法各化验一次, 测得铁的质量分数 (%) 如下表：\n$$\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{样本号} & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\\\ \\hline\n\\text{方法 A} & 28.22 & 33.95 & 38.25 & 42.52 & 37.62 & 37.84 & 36.12 & 35.11 & 34.45 & 32.83 \\\\ \\hline\n\\text{方法 B} & 28.77 & 33.99 & 38.20 & 42.42 & 37.64 & 37.85 & 36.21 & 35.20 & 34.40 & 32.86 \\\\ \\hline\n\\end{array}$$\n设两组数据来自正态分布的总体, 两总体方差相等 $\\sigma_{A}^{2}=\\sigma_{B}^{2}$, 要检查这两种方法有无显著差异 $(\\alpha=0.05)$. 提出假设 $H_{0}:\\mu_{A}=\\mu_{B}$, 利用统计量对 $H_0$ 做检验, 检验结果是 $H_0$ ( ).",
@@ -2228,7 +2228,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -2238,7 +2238,7 @@
           "subject_id": 3,
           "chapter_id": 419,
           "question_id": "pdf-ocr-419-027",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "4",
           "question_type": 1,
           "question": "在漂白工艺中要改变温度对针织品断裂强力的影响, 在两种不同温度下分别作了8次试验, 测得断裂强力的数据如下表(单位：kg)：\n$$\\begin{array}{c|cccccccc}\n70^\\circ\\text{C} & 20.8 & 18.8 & 19.8 & 20.9 & 21.5 & 19.5 & 21.0 & 21.2 \\\\\n80^\\circ\\text{C} & 17.7 & 20.3 & 20.0 & 18.8 & 19.0 & 20.1 & 20.2 & 19.1\n\\end{array}$$\n若判断两种温度下的强力有无差别 (断裂强力服从正态分布, $\\alpha=0.05$), 则下列说法中不正确的是().",
@@ -2313,7 +2313,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"

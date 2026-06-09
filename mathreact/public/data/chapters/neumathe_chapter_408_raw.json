@@ -10,7 +10,7 @@
           "subject_id": 3,
           "chapter_id": 408,
           "question_id": "pdf-ocr-408-001",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设两位化验员AB独立地对某种聚合物含氯量用相同的方法各作10次测定,其测定值的样本方差依次为\n$s_{A}^{2}=0.5419,s_{B}^{2}=0.6065$ 设 $\\sigma_{A}^{2},\\sigma_{B}^{2}$ 分别为AB所测定的测定值的总体方差,又设总体均为正态的,两样本独立,则方差比\n$\\sigma_{A}^{2}/\\sigma_{B}^{2}$ 的置信水平为0.95的置信区间为( $F_{0.025}(9,9)=4.03,s_{A}^{2}/s_{B}^{2}=0.8935.$",
@@ -85,7 +85,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -95,7 +95,7 @@
           "subject_id": 3,
           "chapter_id": 408,
           "question_id": "pdf-ocr-408-002",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "1",
           "question_type": 1,
           "question": "设总体X与Y分别服从正态分布 $N\\big(\\mu_{1},\\sigma_{1}^{2}\\big)$ 与 $N(\\mu_{2},\\sigma_{2}^{2})$,其中 $\\mu_{1},\\mu_{2},\\sigma_{1}^{2},\\sigma_{2}^{2}$ 未知,X_{1,$X_₂· $\\mathbf{X}_{n}$ 与 $Y_{1},Y_{2},\\cdots,Y_{m}$ 分别\n是总体X与Y的简单随机样本,S,S分别是两个样本的方差,则 $\\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}} 的1-α 置信区间为().",
@@ -170,7 +170,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.28,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -180,7 +180,7 @@
           "subject_id": 3,
           "chapter_id": 408,
           "question_id": "pdf-ocr-408-003",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "1",
           "question_type": 1,
           "question": "设正态总体X服从正态分布 $N(\\mu_{1},\\sigma_{1}^{2})$ 正态总体Y服从正态分布 $N(\\mu_{2},\\sigma_{2}^{2})$,其中 $\\mu_{1},\\mu_{2},\\sigma_{1}^{2},\\sigma_{2}^{2}$ 皆未知．设 $X_{1},X_{2},\\cdots,X_{8}$\n是来自总体X的样本, $Y_{1},Y_{2},\\cdots,Y_{12}$ 是来自总体Y的样本,两样本独立, $\\mathcal{S}_{1}^{2},\\mathcal{S}_{2}^{2}$ 分别为两样本的样本方差．则两总体方差之\n比 $\\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}}$ 的置信度为90%的置信区间是(). -",
@@ -255,7 +255,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.35,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -265,7 +265,7 @@
           "subject_id": 3,
           "chapter_id": 408,
           "question_id": "pdf-ocr-408-004",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "两家电影公司出品的影片放映时间如表所示,假设放映时间均服正态分布,则电影公司的影片放映时间方差比的置信度为90%\n的置信区间为()",
@@ -340,7 +340,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"

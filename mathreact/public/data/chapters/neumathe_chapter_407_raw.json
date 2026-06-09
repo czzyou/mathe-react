@@ -10,7 +10,7 @@
           "subject_id": 3,
           "chapter_id": 407,
           "question_id": "pdf-ocr-407-001",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "A,B 两个地区种植同一型号的小麦. 现抽取了 19 块面积相同的麦田, 其中 9 块属于地区 A, 另外 10 块属于地区 B, 测得它们的小麦产量(以 kg 计)分别如下:\n地区 A: 100, 105, 110, 125, 110, 98, 105, 116, 112\n地区 B: 101, 100, 105, 115, 111, 107, 106, 121, 102, 92\n设地区 A 的小麦产量 $X\\sim N(\\mu_1,\\sigma^2)$, 地区 B 的小麦产量 $Y\\sim N(\\mu_2,\\sigma^2)$, $\\mu_1,\\mu_2,\\sigma^2$ 均未知, 则这两个地区小麦的平均产量之差 $\\mu_1-\\mu_2$ 的 90% 置信区间为 ( ).",
@@ -85,7 +85,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -95,7 +95,7 @@
           "subject_id": 3,
           "chapter_id": 407,
           "question_id": "pdf-ocr-407-002",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "2003年在某地区分行业调查职工平均工资情况：已知体育、卫生、社会福利事业职工工资(单位：元) $X\\sim N(\\mu_{1},218^{2})$；文教、\n艺术、广播事业职工工资 $Y\\sim N(\\mu_{2},227^{2})$,从总体X中调查25人,平均工资1286 元,从总体Y中调查30人,平均工资\n1272 元,则这两大类行业职业平均工资之差的99%的置信区间为().\n$\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}\\approx60.1548,u_{0.005}=2.576$",
@@ -170,7 +170,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -180,7 +180,7 @@
           "subject_id": 3,
           "chapter_id": 407,
           "question_id": "pdf-ocr-407-003",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "为比较I,II两种型号步枪子弹的枪口速度,随机地取I型子弹10发,得到枪口速度的平均值为 $\\bar{x}_{1}=500(m/s)$,标准差\n$s_{1}=1.10(m/s)$,随机地取II型子弹20发,得到枪口速度的平均值为 $\\bar{x}_{2}=496(\\mathrm{m/s})$,标准差 $s_{2}=1.20(m/s)$.假设两总体\n都可认为近似地服从正态分布,且由生产过程可认为方差相等,则两总体均值 $\\mathbf{\\mu_{1}}-\\mathbf{\\mu_{2}}$ 的一个置信水平为0.95的置信区间为",
@@ -255,7 +255,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -265,7 +265,7 @@
           "subject_id": 3,
           "chapter_id": 407,
           "question_id": "pdf-ocr-407-004",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设来自总体 $N(\\mu_{1},16)$ 的一容量为15的样本,其样本均值 $\\overline{{x_{1}}}=14.6$：来自总体 $N(\\mu_{2},\\mathfrak{g})$ 的一容量为20的样本,其样本均值\n$\\overline{{x_{2}}}=\\mathbf{13.2}$ 并且两样本是相互独立的,则 $\\mathbf{\\mu _{1}}-\\mathbf{\\mu _{2}}$ 的90%的置信区间为().",
@@ -340,7 +340,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -350,7 +350,7 @@
           "subject_id": 3,
           "chapter_id": 407,
           "question_id": "pdf-ocr-407-005",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "物理系学生可选择一学期3学分没有实验课,也可选一学期4学分有实验的课.期末考试每一章节都考得一样,若有上实验课\n的12个学生平均考分为84,标准差为4,没上实验课的18个学生平均考分为 77, 标准差为6,假设总体均为正态分布且其\n方差相等,求两种课程平均分数差的置信度为99% 的置信区间为()",
@@ -425,7 +425,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -435,7 +435,7 @@
           "subject_id": 3,
           "chapter_id": 407,
           "question_id": "pdf-ocr-407-006",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "随机地从A批导线中抽取4根,又从B批导线中抽取5根,测得电阻 (欧)\nA批导线 0.143 0.142 0.143 0.137\nB批导线 0.140 0.142 0.136 0.138 0.140\n设测定数据分别来自总体 $N\\big(\\mu_{1},\\sigma^{2}\\big)$ 和 $N\\big(\\mu_{2},\\sigma^{2}\\big)$,且两样本相互独立．又 $\\mu_{1},\\mu_{2},\\sigma^{2}$ 均未知,则 $\\mathbf{\\mu _{1}}-\\mathbf{\\mu _{2}}$ 的置信水平为0.95\n的置信区间为()t0.025(7)=2.3646,x=0.141g=0.139；=8.25×10-, $s_{2}^{2}=5.2\\times10^{-6}$,8w ≈ 0.0026, $\\sqrt{20}=4.4721$",
@@ -510,7 +510,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"

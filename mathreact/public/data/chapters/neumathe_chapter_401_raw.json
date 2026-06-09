@@ -10,7 +10,7 @@
           "subject_id": 3,
           "chapter_id": 401,
           "question_id": "pdf-ocr-401-001",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "$X_{1},X_{2},X_{3},X_{4}$ 为总体X的一个样本, 且 $E(X)=\\mu$ 下列$\\mu$的最小方差无偏估计量是().",
@@ -85,7 +85,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -95,7 +95,7 @@
           "subject_id": 3,
           "chapter_id": 401,
           "question_id": "pdf-ocr-401-002",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "1",
           "question_type": 1,
           "question": "设 $\\hat{\\theta}_{1},\\hat{\\theta}_{2}$ 是参数0样本容量相同的两个估计量, 下面结论正确的是()",
@@ -170,7 +170,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.32,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -180,7 +180,7 @@
           "subject_id": 3,
           "chapter_id": 401,
           "question_id": "pdf-ocr-401-003",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设 $X_1, X_2$ 是来自正态总体 $N(\\mu, 1)$ 的样本，则对统计量 $\\widehat{\\mu_1} = \\frac{2}{3}X_1 + \\frac{1}{3}X_2$, $\\widehat{\\mu_2} = \\frac{1}{4}X_1 + \\frac{3}{4}X_2$, $\\widehat{\\mu_3} = \\frac{1}{2}X_1 + \\frac{1}{2}X_2$，下列结论中错误的是（　　）.",
@@ -255,7 +255,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -265,7 +265,7 @@
           "subject_id": 3,
           "chapter_id": 401,
           "question_id": "pdf-ocr-401-004",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设 $X_{1},X_{2},X_{3},X_{4}$ 是来自均值为0的指数分布总体的样本,其中0未知．设有估计量 $T_{1}=\\frac{1}{6}(X_{1}+X_{2})+\\frac{1}{3}(X_{3}+X_{4})$\n$T_{2}=\\frac{X_{1}+2X_{2}+3X_{3}+4X_{4}}{5},T_{3}=\\frac{X_{1}+X_{2}+X_{3}+X_{4}}{4}$,下列说法正确的是().",
@@ -340,7 +340,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -350,7 +350,7 @@
           "subject_id": 3,
           "chapter_id": 401,
           "question_id": "pdf-ocr-401-005",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设有k台仪器．已知用第i台仪器测量时,测定值总体的标准差为 $\\sigma_{i}(i=1,2,\\cdots,k)$ 用这些仪器独立地对某一物理量0各观\n察一次,分别得到 $X_{1},X_{2},\\cdots,X_{k}.$ 设仪器都没有系统误差,即 $E(X_{i})=\\theta(i=1,2,\\cdots,k)$ 若使 $\\begin{array}{r}{\\hat{\\pmb{\\theta}}=\\sum_{i=1}^{k}a_{i}X_{i}}\\end{array}$ 估计θ时,\n是无偏的,并且 $D({\\hat{\\theta}})$ 最小,则 $a_{1},a_{2},\\cdots,a_{k}$ 应取的值是().",
@@ -425,7 +425,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -435,7 +435,7 @@
           "subject_id": 3,
           "chapter_id": 401,
           "question_id": "pdf-ocr-401-006",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设 $X_{1}, X_{2}$ 是取自正态总体 $X\\sim N(\\mu,1)$ 的一个容量为2的样本，$\\hat{\\mu}=\\alpha X_{1}+\\beta X_{2}$（其中 $\\alpha+\\beta=1$），则当 $\\alpha=()$ 时，$\\hat{\\mu}$ 是 $\\mu$ 的最小方差无偏估计量.",
@@ -510,7 +510,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -520,7 +520,7 @@
           "subject_id": 3,
           "chapter_id": 401,
           "question_id": "pdf-ocr-401-007",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $X\\sim N(m,1)$， $X_1, X_2$ 是来自总体 $X$ 的样本，现有三个估计量 $\\widehat{m_1}=\\frac{2}{3}X_1+\\frac{1}{3}X_2$, $\\widehat{m_2}=\\frac{1}{4}X_1+\\frac{3}{4}X_2$, $\\widehat{m_3}=\\frac{1}{2}X_1+\\frac{1}{2}X_2$，则在这三个无偏估计量中，方差最小的是（　　）.",
@@ -595,7 +595,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -605,7 +605,7 @@
           "subject_id": 3,
           "chapter_id": 401,
           "question_id": "pdf-ocr-401-008",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "从总体X中抽得样本 $(X_{1},X_{2},X_{3})$,下面4个统计量都是均值 $E(X)=\\mu$ 的无偏估计量,其中最有效的估计量是().",
@@ -680,7 +680,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -690,7 +690,7 @@
           "subject_id": 3,
           "chapter_id": 401,
           "question_id": "pdf-ocr-401-009",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "4",
           "question_type": 1,
           "question": "设 $X_{1},X_{2},\\cdots,X_{n}$ 是来自总体X的随机样本,则下面说法正确的是().",
@@ -765,7 +765,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -775,7 +775,7 @@
           "subject_id": 3,
           "chapter_id": 401,
           "question_id": "pdf-ocr-401-010",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设从均值为、方差为 $\\sigma^{2}(\\sigma>0)$ 的总体中,分别抽取容量为 $\\pmb{n_{1}},\\pmb{n_{2}}$ 的两独立样本, $\\bar{X}_{1}$ 和 $\\bar{\\mathbf{X}}_{\\mathbf{Z}}$ 分别是两样本的均值.对于任\n意常数 $a,b(a+b=1),\\quad Y=a\\bar{X}_{1}+b\\bar{X}_{2}$ 都是$\\mu$的无偏估计.确定常数 a,b, 使 $D(Y)$ 达到最小,则下列说法正确的是().",
@@ -850,7 +850,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -869,7 +869,7 @@
           "subject_id": 3,
           "chapter_id": 401,
           "question_id": "pdf-ocr-401-011",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设从均值为u、方差为 $\\sigma^{2}(\\sigma>0)$ 的总体中分别抽取容量为 $\\pmb{n_{1}},\\pmb{n_{2}}$ 的两独立样本, $\\pmb{X_{1}}$ 和 $\\mathbf{X_{2}}$ 分别是两样本的均值,对于任意\n常数 $a,b(a+b=1)$ $Y=a{\\bar{X}}_{1}+b{\\bar{X}}_{2}$ 都是$\\mu$的无偏估计．下列说法不正确的是（　　）.",
@@ -944,7 +944,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -954,7 +954,7 @@
           "subject_id": 3,
           "chapter_id": 401,
           "question_id": "pdf-ocr-401-012",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设 $X_{1},X_{2},\\cdots,X_{n}$ 是正态总体 $N(\\mu,\\sigma^{2})$ 的样本,μ已知,X是样本均值,则在总体方差{²的下列估计量中,最佳的是().",
@@ -1029,7 +1029,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1039,7 +1039,7 @@
           "subject_id": 3,
           "chapter_id": 401,
           "question_id": "pdf-ocr-401-013",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "1",
           "question_type": 1,
           "question": "设 $X_{1},X_{2},\\cdots,X_{n}$ 为来自总体X的样本, $\\bar{X},X_i(i=1,2,\\cdots,n)$ 均为总体均值u的无偏估计量,下列说法正确的是().",
@@ -1114,7 +1114,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.35,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"

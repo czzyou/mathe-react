@@ -10,7 +10,7 @@
           "subject_id": 3,
           "chapter_id": 420,
           "question_id": "pdf-ocr-420-001",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "1",
           "question_type": 1,
           "question": "总体 $X\\sim N(\\mu_1,\\sigma_1^2)$, 总体 $Y\\sim N(\\mu_2,\\sigma_2^2)$, 其中 $\\mu_1,\\mu_2$ 未知. $X_1,X_2,\\cdots,X_{n_1}$ 与 $Y_1,Y_2,\\cdots,Y_{n_2}$ 分别是来自总体 $X,Y$ 的样本, 两样本独立. 设两样本的样本方差分别为 $S_1^2,S_2^2$, 对 $H_0:\\frac{\\sigma_1^2}{\\sigma_2^2}=\\lambda(\\lambda>0)$, $H_1:\\frac{\\sigma_1^2}{\\sigma_2^2}\\ne\\lambda$, 其检验统计量 $F=(\\quad)$",
@@ -85,7 +85,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.32,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -95,7 +95,7 @@
           "subject_id": 3,
           "chapter_id": 420,
           "question_id": "pdf-ocr-420-002",
-          "difficulty": "OCR",
+          "difficulty": "Easy",
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $X\\sim N(\\mu_{1},\\sigma_{1}^{2})$,总体 $Y\\sim N(\\mu_{2},\\sigma_{2}^{2})$,其中 $\\mu_1, \\mu_2$ 未知．从总体X抽取容量为8的样本,从总体Y抽取容量为10\n的样本,两样本独立．对于假设检验 $H_{0}:\\sigma_{1}=\\sigma_{2}\\leftrightarrow H_{1}:\\sigma_{1}<\\sigma_{2}$ 在显著水平为 $\\alpha=0.05$ 下,检验的拒绝域为().",
@@ -170,7 +170,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.28,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -180,7 +180,7 @@
           "subject_id": 3,
           "chapter_id": 420,
           "question_id": "pdf-ocr-420-003",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设两正态总体 $N(\\mu_{1},\\sigma_{1}^{2})$ 和 $N(\\mu_{2},\\sigma_{2}^{2})$ 有两组相互独立的样本, 容量分别为 $n_1, n_2$, 均值分别为 $\\bar{X}_1$ 及 $\\bar{X}_2$, (无偏)样本方差分别为 $S_1^2, S_2^2$, $\\mu_1$ 及 $\\mu_2$ 未知. 要对 $\\sigma_1^2 = \\sigma_2^2$ 作假设检验, 统计假设为 $H_0: \\sigma_1^2 = \\sigma_2^2, H_1: \\sigma_1^2 < \\sigma_2^2$. 给定显著水平 $\\alpha$, 则检验的拒绝域为( ).",
@@ -255,7 +255,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -265,7 +265,7 @@
           "subject_id": 3,
           "chapter_id": 420,
           "question_id": "pdf-ocr-420-004",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "甲 乙两厂生产同一种电阻,现从甲乙两厂的产品中分别随机抽取12个和10个样品,测得它们的电阻值后,计算出样本方差\n分别为 $s_{1}^{2}=1.40,s_{2}^{2}=4.38$.假设电阻值服从正态分布,在显著性水平 $\\alpha=0.10$ 下,两厂生产的电阻值的方差是否相等的说\n法,不正确的是().",
@@ -340,7 +340,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -350,7 +350,7 @@
           "subject_id": 3,
           "chapter_id": 420,
           "question_id": "pdf-ocr-420-005",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设两正态总体 $N(\\mu_{1},\\sigma_{1}^{2})$ 和 $N(\\mu_{2},\\sigma_{2}^{2})$ 有两组相互独立的样本, 容量分别为 $n_1, n_2$, 均值分别为 $\\bar{X}_1$ 及 $\\bar{X}_2$, (无偏)样本方差分别为 $S_1^2, S_2^2$, $\\mu_1$ 及 $\\mu_2$ 未知. 要对 $\\sigma_1^2 = \\sigma_2^2$ 作假设检验, 统计假设为 $H_0: \\sigma_1^2 = \\sigma_2^2, H_1: \\sigma_1^2 \\neq \\sigma_2^2$. 给定显著水平 $\\alpha$, 则检验的拒绝域为( ).",
@@ -425,7 +425,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -435,7 +435,7 @@
           "subject_id": 3,
           "chapter_id": 420,
           "question_id": "pdf-ocr-420-006",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "两台机床加工同种零件,分别从两台车床加工的零件中抽取6个和9个测量其直径,并计算得： $s_{1}^{2}=0.345,\\quad s_{2}^{2}=0.375$.假定\n零件直径服从正态分布,若比较两台车床加工精度有无显著差异 $(\\alpha=0.10)$,则下列说法中不正确的是().",
@@ -510,7 +510,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -520,7 +520,7 @@
           "subject_id": 3,
           "chapter_id": 420,
           "question_id": "pdf-ocr-420-007",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $X\\sim N(\\mu_{1},\\sigma_{1}^{2})$,总体 $Y\\sim N(\\mu_{2},\\sigma_{2}^{2})$,其中 $\\mu_1, \\mu_2$ 未知．从总体X抽取容量为11的样本,从总体Y抽取容量为13\n的样本,两样本独立．对于假设检验 $H_{0}:\\sigma_{1}=2\\sigma_{2}\\leftrightarrow H_{1}:\\sigma_{1}>2\\sigma_{2}$ 设显著水平为 0.05,则检验的拒绝域为().",
@@ -595,7 +595,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -605,7 +605,7 @@
           "subject_id": 3,
           "chapter_id": 420,
           "question_id": "pdf-ocr-420-008",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "有两台车床生产同一种型号的滚珠．根据过去的经验, 可以认为这两台车床生产的滚珠的直径都服从正态分布．现要比较两台车床所生产滚珠的直径的方差, 分别抽出8个和9个样品, 测得滚珠的直径如下(单位：mm)：\n$$\\begin{array}{l}\n\\text{甲车床 } x：15.0, 14.5, 15.2, 15.5, 14.8, 15.1, 15.2, 14.8 \\\\\n\\text{乙车床 } y：15.2, 15.0, 14.8, 15.2, 15.0, 15.0, 14.8, 15.1, 14.8\n\\end{array}$$\n若要检验乙车床产品的方差是否比甲车床的小 $(\\alpha=0.05)$, 则下列说法中不正确的是().",
@@ -680,7 +680,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -690,7 +690,7 @@
           "subject_id": 3,
           "chapter_id": 420,
           "question_id": "pdf-ocr-420-009",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设两正态总体 $N(\\mu_{1},\\sigma_{1}^{2})$ 和 $N(\\mu_{2},\\sigma_{2}^{2})$ 有两组相互独立的样本, 容量分别为 $n_1, n_2$, 均值分别为 $\\bar{X}$ 及 $\\bar{Y}$, (无偏)样本方差分别为 $S_1^2, S_2^2$, $\\mu_1$ 及 $\\mu_2$ 未知. 要对 $\\sigma_1^2 = \\sigma_2^2$ 作假设检验, 统计假设为 $H_0: \\sigma_1^2 = \\sigma_2^2, H_1: \\sigma_1^2 < \\sigma_2^2$. 则要用检验统计量为( ).",
@@ -765,7 +765,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -775,7 +775,7 @@
           "subject_id": 3,
           "chapter_id": 420,
           "question_id": "pdf-ocr-420-010",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "有两台机器生产金属部件,分别在两台机器所生产的部件中各取一容量 $n_{1}=60,n_{2}=40$ 的样本,测得部件重量(以kg计)的\n样本方差分别为 $s_{1}^{2}=15.46,s_{2}^{2}=9.66$.设两样本相互独立,两总体分别服从分布 $N(\\mu_{1},\\sigma_{1}^{2}),N(\\mu_{2},\\sigma_{2}^{2}),\\quad\\mu_{i},\\sigma_{i}^{2}(i=1,2)$ 均未\n知.若在 $\\alpha=0.05$ 水平下检验假设$H_0: \\sigma_1^2 \\leq \\sigma_2^2, H_1: \\sigma_1^2 > \\sigma_2^2$ 则下列说法中不正确的是().",
@@ -850,7 +850,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -869,7 +869,7 @@
           "subject_id": 3,
           "chapter_id": 420,
           "question_id": "pdf-ocr-420-011",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "总体 $X\\sim N(\\mu_{1},\\sigma_{1}^{2})$，总体 $Y\\sim N(\\mu_{2},\\sigma_{2}^{2})$，其中 $\\mu_1, \\mu_2$ 未知. $X_{1},X_{2},\\cdots,X_{n_{1}}$ 与 $Y_{1},Y_{2},\\cdots,Y_{n_{2}}$ 分别是来自总体 $X,Y$ 的样本, 两样本独立. 设两样本的样本方差分别为 $S_{1}^{2},S_{2}^{2}$，对 $H_{0}:\\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}}=\\lambda(\\lambda>0\\text{ 已知})\\leftrightarrow H_{1}: \\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}}\\neq\\lambda$，其检验统计量 $F=$, 其拒绝域 $W=$ ( ).",
@@ -944,7 +944,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"

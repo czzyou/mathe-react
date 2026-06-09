@@ -10,7 +10,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-001",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "测定某种溶液中的水分,它的10个测定值给出 $s=0.037\\%$,设测定值总体服从正态分布,但总体期望μ与总体方差 $\\sigma^{2}$ 均未\n知．若在显著性水平 $\\alpha=0.05$ 下,检验假设：H_0:σ≥0.04%,H_1:σ<0.04%,则下列说法正确的是 ).\n$\\left(\\chi^{2}_{0.95}(9)=3.325,\\chi^{2}_{0.05}(9)=16.919\\right)$",
@@ -85,7 +85,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -95,7 +95,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-002",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设样本 $X_{1},X_{2},\\cdots,X_{n}$ 来自总体 $X\\sim N(\\mu,\\sigma^{2})$ 其中μ已知.对 $\\sigma^{2}$ 作假设检验,提出假设：H0 $:\\sigma^{2}\\leq\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2}$ 给\n定显著水平α,检验的拒绝域为(.",
@@ -170,7 +170,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -180,7 +180,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-003",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设样本 $X_{1},X_{2},\\cdots,X_{n}$ 来自总体 $X\\sim N(\\mu,\\sigma^{2})$,其中μ已知．对 $\\pmb{\\sigma}^{2}$ 作假设检验,提出假设：H0 $\\mathbf{\\sigma}^{2}=\\mathbf{\\sigma}_{0}^{2},H_{1}:\\mathbf{\\sigma}^{2}<\\mathbf{\\sigma}_{0}^{2}$ 给\n定显著水平α,检验的拒绝域为().",
@@ -255,7 +255,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -265,7 +265,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-004",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设有来自正态总体 $N(\\mu,\\sigma^{2})$ 容量为100的样本,其中 $\\mu,\\sigma^{2}$ 未知,下列说法正确的是\n若检验假设",
@@ -340,7 +340,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -350,7 +350,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-005",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "5\n设 $X_{1},X_{2},\\cdots,X_{n}$ 是来自总体 $X\\sim N(\\mu,\\sigma^{2})$ 的样本,其中μ已知．对 $\\sigma^{2}$ 作假设检验,提出假设： $H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2}$\n$H_{1}:\\sigma^{2}>\\sigma_{0}^{2}$ 检验统计量为Q.",
@@ -425,7 +425,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -435,7 +435,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-006",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设 $X\\sim N(\\mu,\\sigma^{2})$,其中μ未知,从X中抽取容量为10的样本．对于假设： $H_{0}:\\sigma^{2}\\leq0.02,H_{1}:\\sigma^{2}>0.02$ 在显著性水平\n0.05下,检验的拒绝域为()",
@@ -510,7 +510,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -520,7 +520,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-007",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设样本 $X_{1},X_{2},\\cdots,X_{n}$ 来自总体 $X\\sim N(\\mu,\\sigma^{2})$,其中μ已知．对 $\\pmb{\\sigma}^{2}$ 作假设检验,提出假设：H0 $\\sigma^{2}=\\sigma_{0}^{2},H_{1}:\\sigma^{2}\\neq\\sigma_{0}^{2}$ 给\n定显著水平α,检验的拒绝域为().",
@@ -595,7 +595,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -605,7 +605,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-008",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "机器包装食盐,假设每袋盐的净重服从正态分布,规定每袋标准含量为500g,标准差不得超过10g.某天开工后,随机抽取9\n袋,测得净重如下(单位：g)：497,507,510,475,515,484,488,524,491, $\\pmb{s}=\\pmb{16.031}$ $\\begin{array}{r}{\\sum_{i=1}^{9}\\left(\\frac{x_{i}-500}{10}\\right)^{2}=20.6}\\end{array}$ 5.若每\n袋标准含量不变,在显著性水平 $\\alpha=0.05$ 下检验标准差是否超过10g,下列说法中不正确的是().\n$$\\chi_{0.05}^{2}(9)=16.919,\\chi_{0.05}^{2}(8)=15.507,\\chi_{0.95}^{2}(9)=3.325,\\chi_{0.95}^{2}(8)=2.733$$",
@@ -680,7 +680,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -690,7 +690,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-009",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $X\\sim N(\\mu,\\sigma^{2})$,其中u未知, $X_{1},X_{2},\\cdots,X_{11}$ 是一组样本,提出假设：H_0 $\\sigma^{2}=\\sigma_{0}^{2},H_{1}:\\sigma^{2}\\neq\\sigma_{0}^{2}\\quad(\\sigma_{0}^{2}$ 已知),那么在\n显著性水平 $\\alpha=0.05$ 下,拒绝域是().\nleuM",
@@ -765,7 +765,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.58,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -775,7 +775,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-010",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "过去经验显示,高三学生完成标准考试的时间为一正态变量,其标准差为6min．若随机样本为20位学生,样本标准差为\n$\\pmb{s}=\\pmb{4.51}$,那么在显著性水平 $\\alpha=0.05$ 下 怀疑总体标准差变小所进行的假设检验,下面说法不正确的是().\n$\\left(\\chi^{2}_{0.05}(19)=30.144,\\chi^{2}_{0.95}(19)=10.117\\right)$",
@@ -850,7 +850,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -869,7 +869,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-011",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "长期以来,某厂生产的某种型号的电池,其寿命服从方差 $\\sigma^{2}=5000h^{2}$ 的正态分布．现有一批这种电池,从它的生产情况来看,\n寿命的波动性有所改变．现随机取了26只电池,测得其寿命的样本方差 $s^{2}=9200h^{2}$ 根据这一数据推断这批电池的寿命的波\n动性较以往有无显著变化( $\\alpha=0.02$ ),应提出假设： ( ).",
@@ -944,7 +944,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -954,7 +954,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-012",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "电工器材厂生产一批保险丝,抽取10根试验其熔断时间,结果为42,65,75,7871,59,57,68,54,55, $S^{2}=121.8.$ 假设熔断时间\n服从正态分布 $N(\\mu,\\sigma^{2})$ $\\mu,\\sigma^{2}$ 未知.若取 $\\sigma_{0}^{2}=80,\\alpha=0.05$,那么怀疑整批保险丝熔断时间的方差变大进行的检验,下面说法\n不正确的是(). $\\chi^{2}_{0.05}(9)=16.919,\\chi^{2}_{0.95}(9)=3.325)$",
@@ -1029,7 +1029,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1039,7 +1039,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-013",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "设有来自正态总体 $N(\\mu,\\sigma^{2})$ 容量为100的样本,其中 $\\mu,\\sigma^{2}$ 均未知,样本均值 $\\bar{x}=2.7$,样本标准差 $\\pmb{s}=\\pmb{1.508}$\n$\\textstyle\\sum_{i=1}^{100}(x_{i}-{\\bar{x}})^{2}=225$.在 $\\alpha=0.05$ 水平下,下列说法不正确的是().20.025 −1.960,2.025(99)≈127.71,.975(99)≈72.286",
@@ -1114,7 +1114,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.55,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1124,7 +1124,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-014",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "某工厂生产金属丝,产品指标为折断力.折断力的方差被用作工厂生产精度的表征,方差越小,表明精度越高.以往工厂一直把\n该方差保持在 $\\mathbf{64}(\\mathbf{k g}^{2})$ 及以下.最近从一批产品中抽取10根作折断力试验,测得的结果(单位：千克)如下：\n578,572,570,568,572,570,572,596,584,570, $S^{2}=75.74$.如果金属丝折断力的方差变大,则表明生产精度不如以前,厂方就需\n对生产流程作检验,以发现生产环节中存在的问题.现在厂方有怀疑,在显著性水平为 $\\alpha=0.05$ 下,下列说法不正确的是(\n). $(\\chi_{0.05}^{2}(9)=16.919,\\chi_{0.95}^{2}(9)=3.325)$",
@@ -1199,7 +1199,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1209,7 +1209,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-015",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "某厂生产的铜丝,要求其折断力的方差不超过16N2.今从某日生产的铜丝中随机抽取容量为9的样本,测得其折断力(单位：\nN)如下：289,286,285,286,284,285,286,298,292, $\\pmb{S^{2}}=\\pmb{20.36}$.假设折断力服从正态分布,检验该日生产的铜线折断力的方差\n是否超过标准 $(\\alpha=0.05)$,下列说法中不正确的是 ( $\\chi^{2}_{0.05}(8)=15.507,\\chi^{2}_{0.95}(8)=2.733)$",
@@ -1284,7 +1284,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1294,7 +1294,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-016",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "某种导线的电阻服从正态分布N(μ,0.0052).今从新生产的一批导线中抽取9根,测其电阻得样本标准差为 $\\pmb{s}=0.008\\Omega.$ 对于\n$\\alpha=0.05$,若想检验这批导线电阻的标准差是否仍为0.005,则下列说法不正确的是 $(\\chi_{0.975}^{2}(8)=2.18,\\chi_{0.025}^{2}(8)=17.5)$",
@@ -1369,7 +1369,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1379,7 +1379,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-017",
-          "difficulty": "OCR",
+          "difficulty": "Hard",
           "answer": "1",
           "question_type": 1,
           "question": "总体 $X\\sim N(\\mu,\\sigma^{2})$ 其中u未知, $X_{1},X_{2},\\cdots,X_{n}$ 为来自X的一个样本,样本方差为S．在显著性水平α下,检验假设：\n$H_{0}:\\sigma^{2}\\geq16,H_{1}:\\sigma^{2}<16$ 所用检验统计量与拒绝域为().",
@@ -1454,7 +1454,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.52,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1464,7 +1464,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-018",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $X\\sim N(\\mu,\\sigma^{2})$,其中 $\\mu,\\sigma^{2}$ 未知, $X_{1},X_{2},\\cdots,X_{9}$ 为样本,记 $\\begin{array}{r}{X=\\frac{1}{9}\\sum_{i=1}^{9}X_{i},\\quad S^{2}=\\frac{1}{8}\\sum_{i=1}^{9}(X_{i}-X)^{2}}\\end{array}$ $x_{\\alpha}^{2}(n)$ 为分位\n点, $P\\{\\chi^{2}>\\chi_{\\alpha}^{2}(n)\\}=\\alpha$.对检验问题 $H_{0}:\\sigma^{2}=\\sigma_{0}^{2},H_{1}:\\sigma^{2}>\\sigma_{0}^{2}(\\sigma_{0}^{2}$ 已知)进行 $x^{2}$ 检验,取显著性水平 $\\alpha=0.05$,正确的拒\n绝域是()\n",
@@ -1539,7 +1539,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.43,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1549,7 +1549,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-019",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "某厂生产的某种型号的电池,其寿命(以小时计)长期以来服从方差 $\\sigma^{2}=5000$ 的正态分布,现有一批这种电池,从它的生产情\n况来看,寿命的波动性有所改变．现随机取26只电池,测出其寿命的样本方差 $s^{2}=9200$ 根据这一数据推断这批电池的寿命的\n波动性是否较以往有显著变化(取 $\\alpha=0.02$ 下列说法不正确的是 ( ).\\left(\\chi_{0.01}^2(25)=44.314,\n\\chi_{0.99}^2(25)=11.524\\right)",
@@ -1624,7 +1624,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.4,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
@@ -1634,7 +1634,7 @@
           "subject_id": 3,
           "chapter_id": 417,
           "question_id": "pdf-ocr-417-020",
-          "difficulty": "OCR",
+          "difficulty": "Medium",
           "answer": "1",
           "question_type": 1,
           "question": "设总体 $X\\sim N(\\mu,\\sigma^{2})$ 其中 $\\mu,\\sigma^{2}$ 未知,取得样本 $X_{1},X_{2},\\ldots,X_{n}$ 记 $[\\bar{X},\\bar{S}^{2}$ 为样本均值与样本方差,检验假设：\nH_0σ≥2,H_1:σ<2,应取检验统计量为().",
@@ -1709,7 +1709,7 @@
             }
           ],
           "accuracy_rate": null,
-          "difficulty_score": null,
+          "difficulty_score": 0.38,
           "avg_time_spent": null,
           "ai_tags": "PDF OCR",
           "tags": "PDF OCR"
